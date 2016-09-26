@@ -1,0 +1,213 @@
+2015-07-15 11:11:46,711   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Fortify runtime federation controller is running on: 10234
+2015-07-15 11:12:05,059   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-07-15 11:12:05,043   [FATAL] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-07-20 09:48:59,128   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-07-20 09:48:59,152   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-07-20 09:49:01,448   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2015-07-20 09:49:01,472   [DEBUG] com.fortify.systemspec - 
+Version:4.30.0086
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Tomcat\apache-tomcat-7.0.61\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=Sourabh
+com.fortify.SCAExecutablePath=
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Tomcat\apache-tomcat-7.0.61
+catalina.home=C:\Tomcat\apache-tomcat-7.0.61
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Tomcat\apache-tomcat-7.0.61\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Tomcat\apache-tomcat-7.0.61\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+com.sun.management.jmxremote=
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Tomcat\apache-tomcat-7.0.61\bin\bootstrap.jar;C:\Tomcat\apache-tomcat-7.0.61\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Tomcat\apache-tomcat-7.0.61\endorsed
+java.ext.dirs=C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jdk1.7.0_51\jre
+java.io.tmpdir=C:\Tomcat\apache-tomcat-7.0.61\temp
+java.library.path=C:\Program Files\Java\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;\Tomcat\apache-tomcat-7.0.61\bin;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_51-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Tomcat\apache-tomcat-7.0.61\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_51
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.51-b03
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar
+os.arch=amd64
+os.name=Windows 8
+os.version=6.2
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes
+sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_51\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=org.apache.catalina.startup.Bootstrap start
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar
+user.country=US
+user.dir=C:\Tomcat\apache-tomcat-7.0.61\bin
+user.home=C:\Users\Sourabh
+user.language=en
+user.name=Sourabh
+user.script=
+user.timezone=America/Los_Angeles
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows 8
+  Arch: amd64
+  AvailableProcessors: 8
+  CommittedVirtualMemorySize: 1903976448
+  FreePhysicalMemorySize: 4783325184
+  FreeSwapSpaceSize: 3601195008
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 42078125000
+  SystemCpuLoad: -1.0
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 12867305472
+  TotalSwapSpaceSize: 15283224576
+  Version: 6.2
+RuntimeMXBean: 15976@Sourabh
+  BootClassPath: C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Tomcat\apache-tomcat-7.0.61\bin\bootstrap.jar;C:\Tomcat\apache-tomcat-7.0.61\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Java\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;\Tomcat\apache-tomcat-7.0.61\bin;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1437410910813
+  Uptime: 30659
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.51-b03
+-----------------------------------------------------------------------------
+2015-07-20 09:49:09,473   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Tomcat\apache-tomcat-7.0.61\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-07-20 09:49:09,473   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Tomcat\apache-tomcat-7.0.61\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-07-20 09:49:09,473   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2015-07-20 09:49:32,673   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2015-07-20 09:49:33,257   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Fortify runtime federation controller is running on: 10234
+2015-07-20 09:52:53,342   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-07-20 09:52:53,350   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-07-20 10:44:48,261   [WARN] com.fortify.manager.web.security.auth.FMLdapAuthenticationProvider - LDAP Integration disabled
+2015-07-20 10:44:48,289   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationFailureBadCredentialsEvent: admin; exception: Bad credentials
+2015-07-20 10:44:52,318   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-07-20 10:44:52,318   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-07-20 17:12:57,779   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:12:57,780   [FATAL] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:12:57,853   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:12:59,870   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:12:59,870   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:12:59,870   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:01,871   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:01,871   [FATAL] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:01,871   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:03,868   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:03,868   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:03,868   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:05,873   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:05,874   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:05,874   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:07,868   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:07,868   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:07,868   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:09,873   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:09,873   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:09,873   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:11,878   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:11,878   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:11,878   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection
+2015-07-20 17:13:13,883   [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+2015-07-20 17:13:13,883   [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-07-20 17:13:13,883   [ERROR] com.fortify.manager.service.scheduler.SchedulerManagerImpl - Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Could not open connection

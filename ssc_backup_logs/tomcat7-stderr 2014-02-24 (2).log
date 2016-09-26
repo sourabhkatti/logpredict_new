@@ -1,0 +1,52 @@
+
+2014-02-24 11:40:37 Commons Daemon procrun stderr initialized
+Feb 24, 2014 11:40:38 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.29 using APR version 1.4.8.
+Feb 24, 2014 11:40:38 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Feb 24, 2014 11:40:39 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1e 11 Feb 2013)
+Feb 24, 2014 11:40:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Feb 24, 2014 11:40:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Feb 24, 2014 11:40:39 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1373 ms
+Feb 24, 2014 11:40:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 24, 2014 11:40:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.50
+Feb 24, 2014 11:40:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc.war
+Feb 24, 2014 11:40:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Feb 24, 2014 11:40:50 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ssc] startup failed due to previous errors
+Feb 24, 2014 11:40:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+Feb 24, 2014 11:40:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\examples
+Feb 24, 2014 11:40:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\host-manager
+Feb 24, 2014 11:40:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+Feb 24, 2014 11:40:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+Feb 24, 2014 11:40:51 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Feb 24, 2014 11:40:51 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Feb 24, 2014 11:40:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11794 ms
+Feb 24, 2014 11:48:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Feb 24, 2014 11:48:03 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ssc] startup failed due to previous errors
+Feb 24, 2014 11:56:35 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Feb 24, 2014 11:56:35 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ssc] startup failed due to previous errors
+Feb 25, 2014 3:46:08 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Feb 25, 2014 3:46:08 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/ssc] startup failed due to previous errors

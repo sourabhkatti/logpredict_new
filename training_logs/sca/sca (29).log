@@ -1,0 +1,1568 @@
+[2015-03-26 06:54:45.200 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:54:45.200 Thread-13 Master INFO]
+Args:
+["-b", "Dev", "-clean"]
+[2015-03-26 06:54:45.200 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:54:50.192 Thread-13 Master INFO 1460]
+Deleted intermediate files for Build ID Dev
+[2015-03-26 06:54:57.961 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:54:57.961 Thread-13 Master INFO]
+Args:
+["-b", "Dev", "C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\IDE\\devenv.exe", "C:\\Tom\\Projects\\SDBR\\Dev\\SDBR.sln", "/REBUILD", "Debug"]
+[2015-03-26 06:54:57.961 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:55:15.214 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:55:15.214 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2015-03-26 06:55:15.214 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:55:33.529 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:55:33.529 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "Dev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\obj\\Debug\\SDBR.Test.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\packages.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\Resources\\uncDr.xml", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\program files (x86)\\microsoft visual studio 11.0\\common7\\ide\\referenceassemblies\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\moq.4.2.1402.2112\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.webpages.2.0.30506.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.mvc.4.0.40804.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.razor.2.0.30506.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\bin;c:\\tom\\projects\\sdbr\\dev\\tests\\sdbr.domain.test\\bin\\debug"]
+[2015-03-26 06:55:33.544 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:55:34.293 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 06:55:45.213 Thread-13 Master INFO]
+Loading SDBR.Domain.dll into cache.
+[2015-03-26 06:55:48.645 Thread-13 Master INFO]
+Loading SDBR.EF.dll into cache.
+[2015-03-26 06:55:52.483 Thread-13 Master INFO]
+Loading SDBR.MVC.dll into cache.
+[2015-03-26 06:55:57.896 Thread-13 Master INFO]
+Loading SDBR.Domain.Test.dll into cache.
+[2015-03-26 06:56:28.998 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 06:56:35.987 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:56:35.987 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "Dev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\obj\\Debug\\SDBR.Domain.Test.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\app.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\packages.config", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\microsoft visual studio 11.0\\common7\\ide\\referenceassemblies\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\moq.4.2.1402.2112\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug"]
+[2015-03-26 06:56:35.987 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:56:36.533 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 06:56:59.964 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 06:57:01.384 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:57:01.399 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "Dev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\obj\\Debug\\SDBR.Domain.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\Resources\\testDr.xml", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\Resources\\uncDr.xml", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0"]
+[2015-03-26 06:57:01.399 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:57:01.992 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 06:57:34.768 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 06:57:36.437 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:57:36.437 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "Dev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\obj\\Debug\\SDBR.EF.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Debug.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Dev.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Release.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Test.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\packages.config", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug"]
+[2015-03-26 06:57:36.437 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:57:37.123 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 06:58:14.236 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 06:58:15.718 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 06:58:15.718 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "Dev", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\obj\\Debug\\SDBR.MVC.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\fullcalendar.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\fullcalendar.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\gcal.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lang-all.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\jquery-ui.custom.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\jquery.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\moment.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\ExcelUtilities\\Default.htm", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\packages.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\AppStyling.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\bootstrap.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\bootstrap.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\calendarSetup.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\common.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\d3.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\DatePickerReady.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\excanvas.compiled.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\bootstrap-popover.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\bootstrap-tooltip.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataDays.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataDaysEnh.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataHours.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-1.7.2.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-1.7.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-ui-1.10.2.custom.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.cookie.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.fn.gantt.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.fn.gantt.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\mootools-core-1.4.5-full-nocompat-yc.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\IndexColumnResizer.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\InputChangeTriggers.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.intellisense.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-migrate-1.0.0.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui-timepicker-addon.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui.min-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.multiselect.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.qtip-1.0.0-rc3.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.qtip-1.0.0-rc3.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.selectBox.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.ui.datepicker.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.ui.datepicker.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.unobtrusive-ajax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.unobtrusive-ajax.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate-vsdoc.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.unobtrusive.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.unobtrusive.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\json2.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftAjax.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftAjax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcAjax.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcAjax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcValidation.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcValidation.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\modernizr-2.8.3.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\overlay.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\report.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\respond.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\spin.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\time.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\workflowCanvas.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Views\\Web.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Debug.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Dev.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Release.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Test.config", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\*.vshost.exe", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\entityframework.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40\\entityframework.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\pagedlist.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\pagedlist.1.17.0.0\\lib\\net40\\pagedlist.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\linqtocsv.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\linqtocsv.1.5.0.0\\lib\\net35\\linqtocsv.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.mvc.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.mvc.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.webpages.deployment.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.deployment.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\entityframework.sqlserver.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40\\entityframework.sqlserver.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.razor.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.razor.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.helpers.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.helpers.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.webpages.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\sdbr.ef.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug\\sdbr.ef.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\system.web.webpages.razor.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.razor.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\sdbr.domain.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug\\sdbr.domain.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\pagedlist.1.17.0.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies;c:\\tom\\projects\\sdbr\\dev\\packages\\linqtocsv.1.5.0.0\\lib\\net35;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\Microsoft.Web.Infrastructure.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Helpers.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Mvc.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Razor.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.Deployment.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.Razor.dll", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\Dev\\zvualmru.oor\\**\\*.dll", "-dotnetwebroot", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\\\"]
+[2015-03-26 06:58:15.718 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 06:58:16.357 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 06:58:39.757 Thread-13 Master INFO]
+Translating 64 containing javascript
+[2015-03-26 06:58:39.757 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery-ui.custom.min.js
+[2015-03-26 06:58:40.506 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/spin.js
+[2015-03-26 06:58:40.569 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.min.js
+[2015-03-26 06:58:40.740 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/mootools-core-1.4.5-full-nocompat-yc.js
+[2015-03-26 06:58:41.957 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.js
+[2015-03-26 06:58:42.019 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.debug.js
+[2015-03-26 06:58:43.049 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.js
+[2015-03-26 06:58:43.205 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.debug.js
+[2015-03-26 06:58:43.252 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataHours.js
+[2015-03-26 06:58:43.267 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.js
+[2015-03-26 06:58:43.486 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 06:58:45.639 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/gcal.js
+[2015-03-26 06:58:45.654 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.min.js
+[2015-03-26 06:58:45.763 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/IndexColumnResizer.js
+[2015-03-26 06:58:45.763 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.cookie.js
+[2015-03-26 06:58:45.779 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.min.js
+[2015-03-26 06:58:45.857 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/InputChangeTriggers.js
+[2015-03-26 06:58:45.873 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.min.js
+[2015-03-26 06:58:46.278 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.js
+[2015-03-26 06:58:46.419 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/modernizr-2.8.3.js
+[2015-03-26 06:58:46.465 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/workflowCanvas.js
+[2015-03-26 06:58:46.575 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.js
+[2015-03-26 06:58:46.590 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.selectBox.js
+[2015-03-26 06:58:46.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.intellisense.js
+[2015-03-26 06:58:46.918 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 06:58:48.337 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.js
+[2015-03-26 06:58:48.805 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.min.js
+[2015-03-26 06:58:49.242 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery.min.js
+[2015-03-26 06:58:49.851 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.multiselect.js
+[2015-03-26 06:58:49.897 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.js
+[2015-03-26 06:58:50.053 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/report.js
+[2015-03-26 06:58:50.053 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.js
+[2015-03-26 06:58:50.412 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 06:58:50.443 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.debug.js
+[2015-03-26 06:58:50.490 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-popover.js
+[2015-03-26 06:58:50.490 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 06:58:50.521 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.min.js
+[2015-03-26 06:58:50.615 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-ui-1.10.2.custom.js
+[2015-03-26 06:58:52.284 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDays.js
+[2015-03-26 06:58:52.284 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/d3.min.js
+[2015-03-26 06:58:53.766 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lang-all.js
+[2015-03-26 06:58:54.016 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.js
+[2015-03-26 06:58:54.047 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/DatePickerReady.js
+[2015-03-26 06:58:54.063 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/AppStyling.js
+[2015-03-26 06:58:54.063 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/moment.min.js
+[2015-03-26 06:58:54.234 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-timepicker-addon.js
+[2015-03-26 06:58:54.359 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.js
+[2015-03-26 06:58:54.952 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/calendarSetup.js
+[2015-03-26 06:58:54.967 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-tooltip.js
+[2015-03-26 06:58:54.999 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/overlay.js
+[2015-03-26 06:58:55.014 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 06:58:55.092 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDaysEnh.js
+[2015-03-26 06:58:55.467 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.js
+[2015-03-26 06:58:55.576 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.min.js
+[2015-03-26 06:58:55.685 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.min.js
+[2015-03-26 06:58:58.961 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/time.js
+[2015-03-26 06:58:58.977 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/json2.js
+[2015-03-26 06:58:58.992 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.min.js
+[2015-03-26 06:58:59.023 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-migrate-1.0.0.js
+[2015-03-26 06:58:59.055 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/respond.min.js
+[2015-03-26 06:58:59.086 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.2.min.js
+[2015-03-26 06:58:59.538 Thread-13 Master INFO 1450]
+Processing C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/js-lib1898987579504985696/lib.js
+[2015-03-26 06:58:59.585 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/common.js
+[2015-03-26 06:58:59.601 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/excanvas.compiled.js
+[2015-03-26 06:59:36.495 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 06:59:38.398 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:00:05.963 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:00:05.963 Thread-13 Master INFO]
+Args:
+["-b", "Dev", "-Dcom.fortify.sca.fileextensions.sql=TSQL", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.exe", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.dll", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.mod", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.mdl", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.aspx", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.master", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.exe", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.dll", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.mod", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.mdl", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.aspx", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.master", "C:\\Tom\\Projects\\SDBR\\Dev", "C:\\Tom\\Projects\\SDBR\\database"]
+[2015-03-26 07:00:05.963 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:00:06.166 Thread-13 Master INFO]
+Translating 28 T-SQL files
+[2015-03-26 07:00:06.166 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/RisSDBRQueryImportInterface.sql
+[2015-03-26 07:00:06.447 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobTemplateWorkflowSummary.sql
+[2015-03-26 07:00:06.509 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup.sql
+[2015-03-26 07:00:06.525 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TWDInDM2.sql
+[2015-03-26 07:00:06.571 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_RecentJobs.sql
+[2015-03-26 07:00:06.571 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Ris2300QueryImportInterface.sql
+[2015-03-26 07:00:06.618 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_interface_exec.sql
+[2015-03-26 07:00:06.618 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleRanges.sql
+[2015-03-26 07:00:06.634 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDBR_log_sp.sql
+[2015-03-26 07:00:06.649 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDSKDataLoad.sql
+[2015-03-26 07:00:06.681 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobsInAimXP.sql
+[2015-03-26 07:00:06.743 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobWorkflowSummary.sql
+[2015-03-26 07:00:06.774 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleLatest.sql
+[2015-03-26 07:00:06.790 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobSummariesInDM2.sql
+[2015-03-26 07:00:06.837 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/ApplyDefaultWorkflow.sql
+[2015-03-26 07:00:06.883 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateDocSchedImportTable.sql
+[2015-03-26 07:00:06.899 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/DocSchedDataLoad.sql
+[2015-03-26 07:00:06.930 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TgiJobsInAim.sql
+[2015-03-26 07:00:06.961 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_Log.sql
+[2015-03-26 07:00:06.961 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Create2312CATSTable.sql
+[2015-03-26 07:00:06.977 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/FIFOInDM2.sql
+[2015-03-26 07:00:06.993 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/MatHistJobsInAim.sql
+[2015-03-26 07:00:07.024 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATSImportInterface.sql
+[2015-03-26 07:00:07.039 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_job_counts.sql
+[2015-03-26 07:00:07.055 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/ActivitySummary.sql
+[2015-03-26 07:00:07.055 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATS2312ImportInterface.sql
+[2015-03-26 07:00:07.071 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup_targeted.sql
+[2015-03-26 07:00:07.086 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateRISImportTable.sql
+[2015-03-26 07:00:07.117 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/RisSDBRQueryImportInterface.sql
+[2015-03-26 07:00:07.133 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobTemplateWorkflowSummary.sql
+[2015-03-26 07:00:07.149 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup.sql
+[2015-03-26 07:00:07.164 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TWDInDM2.sql
+[2015-03-26 07:00:07.180 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_RecentJobs.sql
+[2015-03-26 07:00:07.180 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Ris2300QueryImportInterface.sql
+[2015-03-26 07:00:07.195 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_interface_exec.sql
+[2015-03-26 07:00:07.211 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDSKDataLoad.sql
+[2015-03-26 07:00:07.211 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDBR_log_sp.sql
+[2015-03-26 07:00:07.227 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleRanges.sql
+[2015-03-26 07:00:07.242 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobsInAimXP.sql
+[2015-03-26 07:00:07.258 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobWorkflowSummary.sql
+[2015-03-26 07:00:07.273 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleLatest.sql
+[2015-03-26 07:00:07.273 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobSummariesInDM2.sql
+[2015-03-26 07:00:07.289 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/ApplyDefaultWorkflow.sql
+[2015-03-26 07:00:07.305 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateDocSchedImportTable.sql
+[2015-03-26 07:00:07.320 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/DocSchedDataLoad.sql
+[2015-03-26 07:00:07.320 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TgiJobsInAim.sql
+[2015-03-26 07:00:07.336 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_Log.sql
+[2015-03-26 07:00:07.351 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Create2312CATSTable.sql
+[2015-03-26 07:00:07.351 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/FIFOInDM2.sql
+[2015-03-26 07:00:07.367 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/MatHistJobsInAim.sql
+[2015-03-26 07:00:07.383 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATSImportInterface.sql
+[2015-03-26 07:00:07.414 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_job_counts.sql
+[2015-03-26 07:00:07.414 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/ActivitySummary.sql
+[2015-03-26 07:00:07.429 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATS2312ImportInterface.sql
+[2015-03-26 07:00:07.445 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup_targeted.sql
+[2015-03-26 07:00:07.445 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateRISImportTable.sql
+[2015-03-26 07:00:07.461 Thread-13 Master INFO]
+SQL Translation Fidelity: 83.0%
+[2015-03-26 07:00:09.411 Thread-13 Master INFO]
+Translating 76 containing javascript
+[2015-03-26 07:00:09.411 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery-ui.custom.min.js
+[2015-03-26 07:00:10.159 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.min.js
+[2015-03-26 07:00:10.284 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/spin.js
+[2015-03-26 07:00:10.315 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/mootools-core-1.4.5-full-nocompat-yc.js
+[2015-03-26 07:00:11.173 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1.js
+[2015-03-26 07:00:11.875 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.js
+[2015-03-26 07:00:11.907 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.UI.Combined.1.11.1/Content/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 07:00:13.404 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.debug.js
+[2015-03-26 07:00:13.857 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.js
+[2015-03-26 07:00:13.919 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.debug.js
+[2015-03-26 07:00:13.935 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataHours.js
+[2015-03-26 07:00:13.935 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.js
+[2015-03-26 07:00:13.997 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 07:00:15.292 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0/Content/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 07:00:15.307 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/gcal.js
+[2015-03-26 07:00:15.323 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.UI.Combined.1.11.1/Content/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 07:00:16.789 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.min.js
+[2015-03-26 07:00:16.852 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/IndexColumnResizer.js
+[2015-03-26 07:00:16.852 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js
+[2015-03-26 07:00:16.899 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.cookie.js
+[2015-03-26 07:00:16.899 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.min.js
+[2015-03-26 07:00:16.977 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/InputChangeTriggers.js
+[2015-03-26 07:00:16.977 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.min.js
+[2015-03-26 07:00:17.351 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.js
+[2015-03-26 07:00:17.445 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/modernizr-2.8.3.js
+[2015-03-26 07:00:17.476 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.js
+[2015-03-26 07:00:17.476 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/workflowCanvas.js
+[2015-03-26 07:00:17.523 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.selectBox.js
+[2015-03-26 07:00:17.569 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.intellisense.js
+[2015-03-26 07:00:17.616 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1-vsdoc.js
+[2015-03-26 07:00:17.835 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 07:00:19.114 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.js
+[2015-03-26 07:00:19.457 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.min.js
+[2015-03-26 07:00:19.753 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery.min.js
+[2015-03-26 07:00:20.175 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.multiselect.js
+[2015-03-26 07:00:20.206 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.js
+[2015-03-26 07:00:20.268 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/report.js
+[2015-03-26 07:00:20.268 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.js
+[2015-03-26 07:00:20.518 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 07:00:20.533 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-popover.js
+[2015-03-26 07:00:20.549 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.debug.js
+[2015-03-26 07:00:20.580 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 07:00:20.596 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.min.js
+[2015-03-26 07:00:20.689 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-ui-1.10.2.custom.js
+[2015-03-26 07:00:22.062 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDays.js
+[2015-03-26 07:00:22.078 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/d3.min.js
+[2015-03-26 07:00:23.326 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lang-all.js
+[2015-03-26 07:00:23.497 Thread-13 Master INFO 1450]
+Processing C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/js-lib8634875005661211113/lib.js
+[2015-03-26 07:00:23.529 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 07:00:23.607 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.js
+[2015-03-26 07:00:23.622 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0/Content/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 07:00:23.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/DatePickerReady.js
+[2015-03-26 07:00:23.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/AppStyling.js
+[2015-03-26 07:00:23.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/moment.min.js
+[2015-03-26 07:00:23.809 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-timepicker-addon.js
+[2015-03-26 07:00:23.934 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.js
+[2015-03-26 07:00:24.574 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate.js
+[2015-03-26 07:00:24.636 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Tools/jquery-1.11.1.intellisense.js
+[2015-03-26 07:00:24.714 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/calendarSetup.js
+[2015-03-26 07:00:24.714 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-tooltip.js
+[2015-03-26 07:00:24.730 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/overlay.js
+[2015-03-26 07:00:24.745 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 07:00:24.792 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDaysEnh.js
+[2015-03-26 07:00:25.135 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.js
+[2015-03-26 07:00:25.213 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.min.js
+[2015-03-26 07:00:25.291 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.min.js
+[2015-03-26 07:00:25.900 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1.min.js
+[2015-03-26 07:00:26.305 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/time.js
+[2015-03-26 07:00:26.305 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.min.js
+[2015-03-26 07:00:26.321 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/json2.js
+[2015-03-26 07:00:26.321 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-migrate-1.0.0.js
+[2015-03-26 07:00:26.337 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate.min.js
+[2015-03-26 07:00:26.399 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/respond.min.js
+[2015-03-26 07:00:26.399 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.2.min.js
+[2015-03-26 07:00:26.742 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/common.js
+[2015-03-26 07:00:26.758 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/excanvas.compiled.js
+[2015-03-26 07:01:13.963 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:01:15.757 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:01:15.757 Thread-13 Master INFO]
+Args:
+["-b", "Dev", "-show-files"]
+[2015-03-26 07:01:15.757 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2015-03-26 07:01:19.252 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:01:19.252 Thread-13 Master INFO]
+Args:
+["-b", "Dev", "-scan", "-f", "FortifyDev.fpr"]
+[2015-03-26 07:01:19.252 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:01:19.735 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:01:20.749 Thread-13 Master INFO 1451]
+Analyzing 377 source file(s)
+[2015-03-26 07:01:20.999 Thread-13 Master INFO]
+License Metadata:
+  Created On: 2015-02-27 15:00:03.0
+  License Description: SAID 1043 6600 0427
+  License ID: L3710f739-bea9-49ec-aa18-4bb6e9e4336f
+  Subscription ID: Sd2b153c6-e21a-4009-b8f2-74a293fe28af
+  owner: US Navy Bremerton
+[2015-03-26 07:01:21.748 Thread-13 Master INFO]
+Loading nametable with 362 compilation units
+[2015-03-26 07:01:56.208 Thread-16 Master WARNING]
+com.fortify.sca.nst.nodes.NSTLiteralExp$String cannot be cast to com.fortify.sca.nst.nodes.NSTLocation
+java.lang.ClassCastException: com.fortify.sca.nst.nodes.NSTLiteralExp$String cannot be cast to com.fortify.sca.nst.nodes.NSTLocation
+	at com.fortify.sca.nst.reader.parser.NSTParser.Statement(NSTParser.java:3495)
+	at com.fortify.sca.nst.reader.parser.NSTParser.Block(NSTParser.java:3275)
+	at com.fortify.sca.nst.reader.parser.NSTParser.FunDecl(NSTParser.java:2466)
+	at com.fortify.sca.nst.reader.parser.NSTParser.TypeDecl(NSTParser.java:1449)
+	at com.fortify.sca.nst.reader.parser.NSTParser.CompilationUnit(NSTParser.java:1266)
+	at com.fortify.sca.nst.reader.NSTReader.parse(NSTReader.java:118)
+	at com.fortify.sca.nst.reader.NSTReader.parse(NSTReader.java:78)
+	at com.fortify.sca.nst.util.memory.NSTReferenceFactory$CuNSTRef.getNode(NSTReferenceFactory.java:459)
+	at com.fortify.sca.nst.util.memory.NSTReferenceFactory$CuNSTRef.getNode(NSTReferenceFactory.java:437)
+	at com.fortify.sca.backend.BackEnd$3$1.call(BackEnd.java:778)
+	at com.fortify.sca.backend.BackEnd$3$1.call(BackEnd.java:773)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-26 07:01:56.208 Thread-16 Master WARNING]
+analyze() got invalid nst ref
+[2015-03-26 07:02:05.771 Thread-16 Master INFO]
+Loaded nametable with 91 compilation units
+[2015-03-26 07:02:05.787 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_AssignmentType.nst at: 27:2, 41:2, 55:2, 69:2
+[2015-03-26 07:02:05.849 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_AvailabilityType.nst at: 67:2
+[2015-03-26 07:02:06.099 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_InformationHandlingRequirement.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:02:06.099 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_InitiationSelector.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:02:06.270 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_JobDataSource.nst at: 27:2, 41:2, 55:2, 69:2, 83:2, 97:2, 111:2, 125:2, 139:2
+[2015-03-26 07:02:06.286 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_JobStatus.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2, 243:2
+[2015-03-26 07:02:06.333 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_JobType.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2, 243:2, 266:2, 289:2, 312:2, 335:2, 358:2, 381:2, 404:2, 427:2, 450:2, 473:2, 496:2, 519:2, 542:2
+[2015-03-26 07:02:06.364 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_PerformanceIndicator.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:02:06.442 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_Role.nst at: 433:2, 447:2, 461:2, 475:2, 489:2, 503:2, 517:2
+[2015-03-26 07:02:06.442 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_ShipType.nst at: 39:2
+[2015-03-26 07:02:06.879 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_WorkAssignment.nst at: 4271:1, 4304:1, 4341:1, 4407:1, 4453:1, 4486:1, 6230:1, 6256:1, 6282:1, 6308:1, 6334:1, 6360:1
+[2015-03-26 07:02:07.097 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_Domain_WorkAssignmentStatus.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2
+[2015-03-26 07:02:07.487 Thread-16 Master INFO]
+Loaded nametable with 181 compilation units
+[2015-03-26 07:02:08.173 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ActionFilters_AutoRefreshAttribute.nst at: 484:28
+[2015-03-26 07:02:08.220 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ActionFilters_ValidateJsonAntiForgeryTokenAttribute.nst at: 114:28
+[2015-03-26 07:02:09.765 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_Helpers_EnumExtension.nst at: 566:247
+[2015-03-26 07:02:10.217 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ViewModels_EmployeeViewModel.nst at: 2781:1, 2828:1, 2888:1, 2944:1, 3249:1, 3256:8, 3260:8, 3269:8, 3300:1, 3307:8, 3311:8, 3320:8, 3355:1, 3362:8, 3371:8, 3402:1, 3409:8, 3418:8, 3453:1, 3460:8, 3464:8, 3473:8, 3504:1, 3511:8, 3515:8, 3524:8, 3817:1, 3824:8, 3828:8, 3837:8, 3861:1, 3868:8, 3872:8, 3881:8, 3905:1, 3912:8, 3921:8, 3945:1, 3952:8, 3961:8, 3985:1, 3992:8, 3996:8, 4005:8, 4029:1, 4036:8, 4040:8, 4049:8, 4300:1, 4349:1, 4389:1, 4429:1
+[2015-03-26 07:02:10.342 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ViewModels_JobListViewModel.nst at: 2021:2, 2035:2
+[2015-03-26 07:02:10.389 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ViewModels_JobTemplateListViewModel.nst at: 1538:2, 1552:2
+[2015-03-26 07:02:10.560 Thread-16 Master INFO]
+Loaded nametable with 271 compilation units
+[2015-03-26 07:02:10.654 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ViewModels_WorkAssignmentListViewModel.nst at: 2680:2, 2694:2, 2719:2, 2733:2
+[2015-03-26 07:02:10.747 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/Dev/Debug/SDBR_MVC_ViewModels_WorkAssignmentViewModel.nst at: 5339:1, 5372:1, 5409:1, 5442:1, 5479:1, 5512:1, 5549:1, 5582:1, 5619:1, 5652:1, 6823:1, 6849:1, 6875:1, 6901:1, 6927:1, 6953:1, 6979:1, 7005:1, 7031:1, 7057:1
+[2015-03-26 07:02:12.073 Thread-16 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~get_MiddleName~SDBR~MVC~ViewModels~EmployeeViewModel^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:28
+[2015-03-26 07:02:12.807 Thread-16 Master INFO]
+Loaded nametable with 361 compilation units
+[2015-03-26 07:02:13.290 Thread-19 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:02:13.602 Thread-13 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:02:13.602 Thread-13 Master SEVERE 1009]
+Unexpected exception while building call graph (file <unknown>)
+java.lang.NullPointerException
+	at com.fortify.sca.metadata.BackEndNameTableFixups.constructImpliedMethod(BackEndNameTableFixups.java:155)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.addImpliedMethods_1(BackEndNameTableFixups.java:112)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.addImpliedMethods(BackEndNameTableFixups.java:67)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.runFixups(BackEndNameTableFixups.java:35)
+	at com.fortify.sca.backend.BackEnd.doPhaseZero(BackEnd.java:836)
+	at com.fortify.sca.backend.BackEnd.analyze(BackEnd.java:415)
+	at com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer(Main.java:778)
+	at com.fortify.sca.Main$Sourceanalyzer.run(Main.java:489)
+[2015-03-26 07:02:13.618 Thread-13 Master INFO]
+Constant Propagation: starting initialization of 362 compilation units
+[2015-03-26 07:02:19.218 Thread-24 Master WARNING]
+Unable to locate metadata for function ~JS_builtin_new~tmp at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\Content\fullcalendar-2.1.1\lib\moment.min.js:6
+[2015-03-26 07:03:00.215 Thread-22 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:03:09.185 Thread-22 Master INFO]
+Constant Propagation: initialized 91 compilation units
+[2015-03-26 07:03:10.995 Thread-22 Master INFO]
+Constant Propagation: initialized 181 compilation units
+[2015-03-26 07:03:13.803 Thread-21 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_MiddleName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:236
+[2015-03-26 07:03:13.803 Thread-21 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_UserName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:243
+[2015-03-26 07:03:13.803 Thread-21 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_PSNSUserName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:244
+[2015-03-26 07:03:14.317 Thread-22 Master INFO]
+Constant Propagation: initialized 271 compilation units
+[2015-03-26 07:03:14.458 Thread-22 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~WorkAssignmentViewModel~~get_Emergent~SDBR~MVC~ViewModels~WorkAssignmentViewModel^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\WorkAssignmentViewModel.cs:620
+[2015-03-26 07:03:14.520 Thread-22 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~WorkAssignmentViewModel~~set_Emergent~SDBR~MVC~ViewModels~WorkAssignmentViewModel^~boolean~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\WorkAssignmentViewModel.cs:326
+[2015-03-26 07:03:17.188 Thread-24 Master INFO]
+Constant Propagation: initialized 361 compilation units
+[2015-03-26 07:03:17.266 Thread-13 Master INFO]
+Constant Propagation: generating worklist for 30763 functions
+[2015-03-26 07:03:17.297 Thread-13 Master INFO]
+Constant Propagation: initial constants for 30763 functions
+[2015-03-26 07:04:05.220 Thread-13 Master INFO]
+Constant Propagation: propagating constant parameters for 30763 functions
+[2015-03-26 07:04:58.287 Thread-13 Master INFO]
+Constant Propagation: propagating unresolved constants for 30763 functions
+[2015-03-26 07:05:57.473 Thread-13 Master INFO]
+Constant Propagation: completed
+[2015-03-26 07:05:59.485 Thread-13 Master INFO 1455]
+Configuration analysis complete
+[2015-03-26 07:05:59.579 Thread-13 Master INFO 1464]
+Buffer analysis complete
+[2015-03-26 07:05:59.579 Thread-13 Master INFO 1454]
+Semantic analysis complete
+[2015-03-26 07:05:59.641 Thread-13 Master INFO 1452]
+Data Flow analysis complete
+[2015-03-26 07:05:59.657 Thread-13 Master INFO 1453]
+Control Flow analysis complete
+[2015-03-26 07:06:01.404 Thread-13 Master INFO 1462]
+Structural analysis complete
+[2015-03-26 07:06:01.404 Thread-13 Master INFO 1466]
+Null pointer analysis complete
+[2015-03-26 07:06:03.261 Thread-13 Master INFO 1458]
+Rendering 0 results
+[2015-03-26 07:06:07.847 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.Controllers.JavascriptAjaxError
+[2015-03-26 07:06:07.847 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.CheckBoxListViewModel
+[2015-03-26 07:06:07.847 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.CheckListBoxItem
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.FormTemplateUploadViewModel
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.FormTemplateWithCounts
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.FullCalendarItem
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/SDBR.MVC.ViewModels.JsonMessage
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/_PrivateImplementationDetails__59097D42_FE35_48B2_ADF7_A429752D5D25_
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType0@1
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1@2
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType2@2
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType3@2
+[2015-03-26 07:06:07.863 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType4@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType5@1
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType6@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType7@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType8@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType9@1
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypea@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypeb@1
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypec@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType0@7
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType10@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType11@10
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType12@6
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType13@16
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType14@20
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType15@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType16@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType17@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType18@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType19@5
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1a@6
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1b@4
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1c@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1d@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1e@8
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType1f@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType20@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType21@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType2@13
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType3@6
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType4@15
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType5@5
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType6@3
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType7@6
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType8@9
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousType9@4
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypea@7
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypeb@9
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypec@7
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTyped@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypee@2
+[2015-03-26 07:06:07.878 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/__f__AnonymousTypef@2
+[2015-03-26 07:06:07.894 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Windows/System32/_PrivateImplementationDetails__028A636D_9625_4CFC_8B37_F81FD4340E24_
+[2015-03-26 07:06:11.497 Thread-13 Master INFO 1459]
+Analysis completed in 04:41
+[2015-03-26 07:15:38.204 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:15:38.204 Thread-13 Master INFO]
+Args:
+["-b", "SdbrDev", "-clean"]
+[2015-03-26 07:15:38.204 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:15:39.545 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:15:39.545 Thread-13 Master INFO]
+Args:
+["-b", "SdbrDev", "C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\Common7\\IDE\\devenv.exe", "C:\\Tom\\Projects\\SDBR\\Dev\\SDBR.sln", "/REBUILD", "Debug"]
+[2015-03-26 07:15:39.545 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:15:49.061 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:15:49.061 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2015-03-26 07:15:49.061 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:15:59.467 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:15:59.482 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "SdbrDev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\obj\\Debug\\SDBR.Test.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\packages.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.EF.Test\\Resources\\uncDr.xml", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\program files (x86)\\microsoft visual studio 11.0\\common7\\ide\\referenceassemblies\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\moq.4.2.1402.2112\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.webpages.2.0.30506.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.mvc.4.0.40804.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\microsoft.aspnet.razor.2.0.30506.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\bin;c:\\tom\\projects\\sdbr\\dev\\tests\\sdbr.domain.test\\bin\\debug"]
+[2015-03-26 07:15:59.482 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:16:00.169 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 07:16:09.326 Thread-13 Master INFO]
+Loading SDBR.Domain.dll into cache.
+[2015-03-26 07:16:11.931 Thread-13 Master INFO]
+Loading SDBR.EF.dll into cache.
+[2015-03-26 07:16:15.285 Thread-13 Master INFO]
+Loading SDBR.MVC.dll into cache.
+[2015-03-26 07:16:19.871 Thread-13 Master INFO]
+Loading SDBR.Domain.Test.dll into cache.
+[2015-03-26 07:16:42.647 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:16:43.927 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:16:43.927 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "SdbrDev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\obj\\Debug\\SDBR.Domain.Test.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\app.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Tests\\SDBR.Domain.Test\\packages.config", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\microsoft visual studio 11.0\\common7\\ide\\referenceassemblies\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\moq.4.2.1402.2112\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug"]
+[2015-03-26 07:16:43.927 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:16:44.488 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 07:17:14.201 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:17:15.777 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:17:15.777 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "SdbrDev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\obj\\Debug\\SDBR.Domain.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\Resources\\testDr.xml", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.Domain\\Resources\\uncDr.xml", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0"]
+[2015-03-26 07:17:15.777 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:17:16.529 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 07:17:44.667 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:17:45.993 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:17:45.993 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "SdbrDev", "-dotnet-sources", "C:\\Tom\\Projects\\SDBR\\Dev;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\obj\\Debug\\SDBR.EF.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Debug.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Dev.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Release.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\App.Test.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.EF\\packages.config", "-libdirs", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug"]
+[2015-03-26 07:17:45.993 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:17:46.539 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 07:18:16.959 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:18:18.456 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:18:18.456 Thread-13 Master INFO]
+Args:
+["-vsversion", "11.0", "-b", "SdbrDev", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\obj\\Debug\\SDBR.MVC.dll", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\fullcalendar.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\fullcalendar.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\gcal.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lang-all.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\jquery-ui.custom.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\jquery.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Content\\fullcalendar-2.1.1\\lib\\moment.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\ExcelUtilities\\Default.htm", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\packages.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\AppStyling.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\bootstrap.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\bootstrap.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\calendarSetup.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\common.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\d3.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\DatePickerReady.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\excanvas.compiled.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\bootstrap-popover.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\bootstrap-tooltip.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataDays.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataDaysEnh.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\dataHours.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-1.7.2.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-1.7.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery-ui-1.10.2.custom.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.cookie.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.fn.gantt.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\jquery.fn.gantt.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\gantt\\mootools-core-1.4.5-full-nocompat-yc.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\IndexColumnResizer.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\InputChangeTriggers.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.intellisense.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-1.11.1.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-migrate-1.0.0.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui-timepicker-addon.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery-ui.min-1.11.1.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.multiselect.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.qtip-1.0.0-rc3.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.qtip-1.0.0-rc3.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.selectBox.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.ui.datepicker.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.ui.datepicker.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.unobtrusive-ajax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.unobtrusive-ajax.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate-vsdoc.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.unobtrusive.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\jquery.validate.unobtrusive.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\json2.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftAjax.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftAjax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcAjax.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcAjax.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcValidation.debug.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\MicrosoftMvcValidation.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\modernizr-2.8.3.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\overlay.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\report.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\respond.min.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\spin.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\time.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Scripts\\workflowCanvas.js", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Views\\Web.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Debug.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Dev.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Release.config", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\Web.Test.config", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\*.vshost.exe", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\entityframework.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40\\entityframework.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\pagedlist.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\pagedlist.1.17.0.0\\lib\\net40\\pagedlist.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\linqtocsv.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\linqtocsv.1.5.0.0\\lib\\net35\\linqtocsv.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.mvc.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.mvc.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.webpages.deployment.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.deployment.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\entityframework.sqlserver.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40\\entityframework.sqlserver.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.razor.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.razor.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.helpers.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.helpers.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.webpages.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\sdbr.ef.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug\\sdbr.ef.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\system.web.webpages.razor.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies\\system.web.webpages.razor.dll", "-exclude", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\sdbr.domain.dll", "-exclude", "c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug\\sdbr.domain.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\tom\\projects\\sdbr\\dev\\packages\\entityframework.6.1.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\packages\\pagedlist.1.17.0.0\\lib\\net40;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.mvc\\_bin_deployableassemblies;c:\\tom\\projects\\sdbr\\dev\\packages\\linqtocsv.1.5.0.0\\lib\\net35;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.ef\\bin\\debug;c:\\tom\\projects\\sdbr\\dev\\source\\sdbr.domain\\bin\\debug;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\Microsoft.Web.Infrastructure.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Helpers.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Mvc.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.Razor.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.Deployment.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.dll;C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\_bin_deployableAssemblies\\System.Web.WebPages.Razor.dll", "C:\\Users\\ps185841a\\AppData\\Local\\Fortify\\VS2012-4.21\\output\\SdbrDev\\smyiyt3t.yoq\\**\\*.dll", "-dotnetwebroot", "C:\\Tom\\Projects\\SDBR\\Dev\\Source\\SDBR.MVC\\\\"]
+[2015-03-26 07:18:18.456 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:18:19.065 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2015-03-26 07:18:51.637 Thread-13 Master INFO]
+Translating 64 containing javascript
+[2015-03-26 07:18:51.637 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery-ui.custom.min.js
+[2015-03-26 07:18:52.246 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/spin.js
+[2015-03-26 07:18:52.293 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.min.js
+[2015-03-26 07:18:52.495 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/mootools-core-1.4.5-full-nocompat-yc.js
+[2015-03-26 07:18:53.369 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.js
+[2015-03-26 07:18:53.400 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.debug.js
+[2015-03-26 07:18:54.211 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.js
+[2015-03-26 07:18:54.352 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.debug.js
+[2015-03-26 07:18:54.399 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataHours.js
+[2015-03-26 07:18:54.414 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.js
+[2015-03-26 07:18:54.586 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 07:18:56.427 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/gcal.js
+[2015-03-26 07:18:56.442 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.min.js
+[2015-03-26 07:18:56.536 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/IndexColumnResizer.js
+[2015-03-26 07:18:56.536 Thread-13 Master INFO 1450]
+Processing C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/js-lib5244672008734116385/lib.js
+[2015-03-26 07:18:56.583 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.cookie.js
+[2015-03-26 07:18:56.598 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.min.js
+[2015-03-26 07:18:56.692 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/InputChangeTriggers.js
+[2015-03-26 07:18:56.692 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.min.js
+[2015-03-26 07:18:57.113 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.js
+[2015-03-26 07:18:57.269 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/modernizr-2.8.3.js
+[2015-03-26 07:18:57.331 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/workflowCanvas.js
+[2015-03-26 07:18:57.441 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.js
+[2015-03-26 07:18:57.456 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.selectBox.js
+[2015-03-26 07:18:57.534 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.intellisense.js
+[2015-03-26 07:18:57.815 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 07:18:59.157 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.js
+[2015-03-26 07:18:59.469 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.min.js
+[2015-03-26 07:18:59.796 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery.min.js
+[2015-03-26 07:19:00.233 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.multiselect.js
+[2015-03-26 07:19:00.280 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.js
+[2015-03-26 07:19:00.420 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/report.js
+[2015-03-26 07:19:00.436 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.js
+[2015-03-26 07:19:00.748 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 07:19:00.779 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.debug.js
+[2015-03-26 07:19:00.810 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-popover.js
+[2015-03-26 07:19:00.826 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 07:19:00.841 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.min.js
+[2015-03-26 07:19:00.966 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-ui-1.10.2.custom.js
+[2015-03-26 07:19:02.573 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDays.js
+[2015-03-26 07:19:02.573 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/d3.min.js
+[2015-03-26 07:19:03.868 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lang-all.js
+[2015-03-26 07:19:04.055 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.js
+[2015-03-26 07:19:04.086 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/DatePickerReady.js
+[2015-03-26 07:19:04.086 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/AppStyling.js
+[2015-03-26 07:19:04.102 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/moment.min.js
+[2015-03-26 07:19:04.211 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-timepicker-addon.js
+[2015-03-26 07:19:04.273 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.js
+[2015-03-26 07:19:04.679 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/calendarSetup.js
+[2015-03-26 07:19:04.695 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-tooltip.js
+[2015-03-26 07:19:04.710 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/overlay.js
+[2015-03-26 07:19:04.726 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 07:19:04.773 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDaysEnh.js
+[2015-03-26 07:19:05.007 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.js
+[2015-03-26 07:19:05.069 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.min.js
+[2015-03-26 07:19:05.147 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.min.js
+[2015-03-26 07:19:05.553 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/time.js
+[2015-03-26 07:19:05.553 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/json2.js
+[2015-03-26 07:19:07.799 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.min.js
+[2015-03-26 07:19:07.815 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-migrate-1.0.0.js
+[2015-03-26 07:19:07.846 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/respond.min.js
+[2015-03-26 07:19:07.846 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.2.min.js
+[2015-03-26 07:19:08.220 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/common.js
+[2015-03-26 07:19:08.236 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/excanvas.compiled.js
+[2015-03-26 07:19:44.541 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:19:46.381 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:24:00.013 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:24:00.013 Thread-13 Master INFO]
+Args:
+["-b", "SdbrDev", "-Dcom.fortify.sca.fileextensions.sql=TSQL", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.exe", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.dll", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.mod", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.mdl", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.aspx", "-exclude", "C:\\Tom\\Projects\\SDBR\\Dev\\**\\*.master", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.exe", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.dll", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.mod", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.mdl", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.aspx", "-exclude", "C:\\Tom\\Projects\\SDBR\\database\\**\\*.master", "C:\\Tom\\Projects\\SDBR\\Dev", "C:\\Tom\\Projects\\SDBR\\database"]
+[2015-03-26 07:24:00.013 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:24:00.216 Thread-13 Master INFO]
+Translating 28 T-SQL files
+[2015-03-26 07:24:00.216 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/RisSDBRQueryImportInterface.sql
+[2015-03-26 07:24:00.466 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobTemplateWorkflowSummary.sql
+[2015-03-26 07:24:00.528 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup.sql
+[2015-03-26 07:24:00.544 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TWDInDM2.sql
+[2015-03-26 07:24:00.591 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_RecentJobs.sql
+[2015-03-26 07:24:00.591 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Ris2300QueryImportInterface.sql
+[2015-03-26 07:24:00.637 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_interface_exec.sql
+[2015-03-26 07:24:00.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleRanges.sql
+[2015-03-26 07:24:00.653 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDBR_log_sp.sql
+[2015-03-26 07:24:00.669 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDSKDataLoad.sql
+[2015-03-26 07:24:00.715 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobsInAimXP.sql
+[2015-03-26 07:24:00.762 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobWorkflowSummary.sql
+[2015-03-26 07:24:00.778 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleLatest.sql
+[2015-03-26 07:24:00.793 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobSummariesInDM2.sql
+[2015-03-26 07:24:00.856 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/ApplyDefaultWorkflow.sql
+[2015-03-26 07:24:00.903 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateDocSchedImportTable.sql
+[2015-03-26 07:24:00.903 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/DocSchedDataLoad.sql
+[2015-03-26 07:24:00.949 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TgiJobsInAim.sql
+[2015-03-26 07:24:00.981 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_Log.sql
+[2015-03-26 07:24:00.981 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Create2312CATSTable.sql
+[2015-03-26 07:24:00.996 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/FIFOInDM2.sql
+[2015-03-26 07:24:01.012 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/MatHistJobsInAim.sql
+[2015-03-26 07:24:01.043 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATSImportInterface.sql
+[2015-03-26 07:24:01.059 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_job_counts.sql
+[2015-03-26 07:24:01.074 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/ActivitySummary.sql
+[2015-03-26 07:24:01.090 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATS2312ImportInterface.sql
+[2015-03-26 07:24:01.105 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup_targeted.sql
+[2015-03-26 07:24:01.121 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateRISImportTable.sql
+[2015-03-26 07:24:01.152 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/RisSDBRQueryImportInterface.sql
+[2015-03-26 07:24:01.168 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobTemplateWorkflowSummary.sql
+[2015-03-26 07:24:01.183 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup.sql
+[2015-03-26 07:24:01.183 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TWDInDM2.sql
+[2015-03-26 07:24:01.199 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_RecentJobs.sql
+[2015-03-26 07:24:01.215 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Ris2300QueryImportInterface.sql
+[2015-03-26 07:24:01.230 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_interface_exec.sql
+[2015-03-26 07:24:01.230 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDSKDataLoad.sql
+[2015-03-26 07:24:01.246 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/SDBR_log_sp.sql
+[2015-03-26 07:24:01.261 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleRanges.sql
+[2015-03-26 07:24:01.261 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobsInAimXP.sql
+[2015-03-26 07:24:01.293 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/JobWorkflowSummary.sql
+[2015-03-26 07:24:01.308 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/EmployeeScheduleLatest.sql
+[2015-03-26 07:24:01.308 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/JobSummariesInDM2.sql
+[2015-03-26 07:24:01.324 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/ApplyDefaultWorkflow.sql
+[2015-03-26 07:24:01.339 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateDocSchedImportTable.sql
+[2015-03-26 07:24:01.355 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/DocSchedDataLoad.sql
+[2015-03-26 07:24:01.355 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/TgiJobsInAim.sql
+[2015-03-26 07:24:01.371 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_Log.sql
+[2015-03-26 07:24:01.386 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/Create2312CATSTable.sql
+[2015-03-26 07:24:01.386 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/FIFOInDM2.sql
+[2015-03-26 07:24:01.402 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/Oracle/MatHistJobsInAim.sql
+[2015-03-26 07:24:01.417 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATSImportInterface.sql
+[2015-03-26 07:24:01.433 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_job_counts.sql
+[2015-03-26 07:24:01.464 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/ActivitySummary.sql
+[2015-03-26 07:24:01.464 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CATS2312ImportInterface.sql
+[2015-03-26 07:24:01.480 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/support/SDBR_data_cleanup_targeted.sql
+[2015-03-26 07:24:01.495 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/database/StoredProceduresInProcess/CreateRISImportTable.sql
+[2015-03-26 07:24:01.495 Thread-13 Master INFO]
+SQL Translation Fidelity: 83.0%
+[2015-03-26 07:24:03.321 Thread-13 Master INFO]
+Translating 76 containing javascript
+[2015-03-26 07:24:03.321 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery-ui.custom.min.js
+[2015-03-26 07:24:04.023 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.min.js
+[2015-03-26 07:24:04.163 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/spin.js
+[2015-03-26 07:24:04.194 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/mootools-core-1.4.5-full-nocompat-yc.js
+[2015-03-26 07:24:05.083 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1.js
+[2015-03-26 07:24:05.863 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.js
+[2015-03-26 07:24:05.879 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.UI.Combined.1.11.1/Content/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 07:24:07.470 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.debug.js
+[2015-03-26 07:24:07.891 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.js
+[2015-03-26 07:24:07.954 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcAjax.debug.js
+[2015-03-26 07:24:07.969 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataHours.js
+[2015-03-26 07:24:07.985 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.js
+[2015-03-26 07:24:08.047 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui.min-1.11.1.js
+[2015-03-26 07:24:09.280 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0/Content/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 07:24:09.311 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/gcal.js
+[2015-03-26 07:24:09.311 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.UI.Combined.1.11.1/Content/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 07:24:10.575 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.min.js
+[2015-03-26 07:24:10.637 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/IndexColumnResizer.js
+[2015-03-26 07:24:10.637 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js
+[2015-03-26 07:24:10.668 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.cookie.js
+[2015-03-26 07:24:10.684 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery.fn.gantt.min.js
+[2015-03-26 07:24:10.731 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/InputChangeTriggers.js
+[2015-03-26 07:24:10.746 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.min.js
+[2015-03-26 07:24:11.089 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.js
+[2015-03-26 07:24:11.167 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/modernizr-2.8.3.js
+[2015-03-26 07:24:11.199 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.js
+[2015-03-26 07:24:11.199 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/workflowCanvas.js
+[2015-03-26 07:24:11.245 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.selectBox.js
+[2015-03-26 07:24:11.277 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.intellisense.js
+[2015-03-26 07:24:11.323 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1-vsdoc.js
+[2015-03-26 07:24:11.526 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-1.11.1.js
+[2015-03-26 07:24:12.852 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.js
+[2015-03-26 07:24:13.164 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/fullcalendar.min.js
+[2015-03-26 07:24:13.461 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/jquery.min.js
+[2015-03-26 07:24:13.866 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.multiselect.js
+[2015-03-26 07:24:13.897 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.ui.datepicker.js
+[2015-03-26 07:24:13.960 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/report.js
+[2015-03-26 07:24:13.960 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftAjax.js
+[2015-03-26 07:24:14.225 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.js
+[2015-03-26 07:24:14.241 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-popover.js
+[2015-03-26 07:24:14.241 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.debug.js
+[2015-03-26 07:24:14.272 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 07:24:14.287 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.min.js
+[2015-03-26 07:24:14.350 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-ui-1.10.2.custom.js
+[2015-03-26 07:24:15.676 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDays.js
+[2015-03-26 07:24:15.692 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/d3.min.js
+[2015-03-26 07:24:16.955 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lang-all.js
+[2015-03-26 07:24:17.127 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 07:24:17.189 Thread-13 Master INFO 1450]
+Processing C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/js-lib6421605725379690662/lib.js
+[2015-03-26 07:24:17.205 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/MicrosoftMvcValidation.js
+[2015-03-26 07:24:17.252 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/Microsoft.jQuery.Unobtrusive.Validation.2.0.20710.0/Content/Scripts/jquery.validate.unobtrusive.min.js
+[2015-03-26 07:24:17.267 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/DatePickerReady.js
+[2015-03-26 07:24:17.267 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/AppStyling.js
+[2015-03-26 07:24:17.267 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Content/fullcalendar-2.1.1/lib/moment.min.js
+[2015-03-26 07:24:17.392 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-ui-timepicker-addon.js
+[2015-03-26 07:24:17.470 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.js
+[2015-03-26 07:24:18.016 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate.js
+[2015-03-26 07:24:18.094 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Tools/jquery-1.11.1.intellisense.js
+[2015-03-26 07:24:18.188 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/calendarSetup.js
+[2015-03-26 07:24:18.188 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/bootstrap-tooltip.js
+[2015-03-26 07:24:18.203 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/overlay.js
+[2015-03-26 07:24:18.219 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.validate-vsdoc.js
+[2015-03-26 07:24:18.297 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/dataDaysEnh.js
+[2015-03-26 07:24:18.640 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.qtip-1.0.0-rc3.js
+[2015-03-26 07:24:18.702 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/bootstrap.min.js
+[2015-03-26 07:24:18.780 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-1.11.1.min.js
+[2015-03-26 07:24:19.436 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.1.11.1/Content/Scripts/jquery-1.11.1.min.js
+[2015-03-26 07:24:19.857 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/time.js
+[2015-03-26 07:24:19.857 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery.unobtrusive-ajax.min.js
+[2015-03-26 07:24:19.872 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/json2.js
+[2015-03-26 07:24:19.872 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/jquery-migrate-1.0.0.js
+[2015-03-26 07:24:19.888 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/packages/jQuery.Validation.1.13.0/Content/Scripts/jquery.validate.min.js
+[2015-03-26 07:24:19.950 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/respond.min.js
+[2015-03-26 07:24:19.950 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/gantt/jquery-1.7.2.min.js
+[2015-03-26 07:24:20.278 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/common.js
+[2015-03-26 07:24:20.294 Thread-13 Master INFO 1450]
+Processing C:/Tom/Projects/SDBR/Dev/Source/SDBR.MVC/Scripts/excanvas.compiled.js
+[2015-03-26 07:25:09.387 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:25:11.228 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:25:11.228 Thread-13 Master INFO]
+Args:
+["-b", "SdbrDev", "-show-files"]
+[2015-03-26 07:25:11.228 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2015-03-26 07:25:14.691 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.21.0007
+[2015-03-26 07:25:14.691 Thread-13 Master INFO]
+Args:
+["-b", "SdbrDev", "-scan", "-f", "FortifyDev.fpr"]
+[2015-03-26 07:25:14.691 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx7G -Xms600M -Xss24M -server"
+[2015-03-26 07:25:15.175 Thread-13 Master INFO]
+Front End complete
+[2015-03-26 07:25:16.205 Thread-13 Master INFO 1451]
+Analyzing 377 source file(s)
+[2015-03-26 07:25:16.423 Thread-13 Master INFO]
+License Metadata:
+  Created On: 2015-02-27 15:00:03.0
+  License Description: SAID 1043 6600 0427
+  License ID: L3710f739-bea9-49ec-aa18-4bb6e9e4336f
+  Subscription ID: Sd2b153c6-e21a-4009-b8f2-74a293fe28af
+  owner: US Navy Bremerton
+[2015-03-26 07:25:17.094 Thread-13 Master INFO]
+Loading nametable with 362 compilation units
+[2015-03-26 07:25:52.522 Thread-16 Master WARNING]
+com.fortify.sca.nst.nodes.NSTLiteralExp$String cannot be cast to com.fortify.sca.nst.nodes.NSTLocation
+java.lang.ClassCastException: com.fortify.sca.nst.nodes.NSTLiteralExp$String cannot be cast to com.fortify.sca.nst.nodes.NSTLocation
+	at com.fortify.sca.nst.reader.parser.NSTParser.Statement(NSTParser.java:3495)
+	at com.fortify.sca.nst.reader.parser.NSTParser.Block(NSTParser.java:3275)
+	at com.fortify.sca.nst.reader.parser.NSTParser.FunDecl(NSTParser.java:2466)
+	at com.fortify.sca.nst.reader.parser.NSTParser.TypeDecl(NSTParser.java:1449)
+	at com.fortify.sca.nst.reader.parser.NSTParser.CompilationUnit(NSTParser.java:1266)
+	at com.fortify.sca.nst.reader.NSTReader.parse(NSTReader.java:118)
+	at com.fortify.sca.nst.reader.NSTReader.parse(NSTReader.java:78)
+	at com.fortify.sca.nst.util.memory.NSTReferenceFactory$CuNSTRef.getNode(NSTReferenceFactory.java:459)
+	at com.fortify.sca.nst.util.memory.NSTReferenceFactory$CuNSTRef.getNode(NSTReferenceFactory.java:437)
+	at com.fortify.sca.backend.BackEnd$3$1.call(BackEnd.java:778)
+	at com.fortify.sca.backend.BackEnd$3$1.call(BackEnd.java:773)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+[2015-03-26 07:25:52.522 Thread-16 Master WARNING]
+analyze() got invalid nst ref
+[2015-03-26 07:26:02.241 Thread-16 Master INFO]
+Loaded nametable with 91 compilation units
+[2015-03-26 07:26:02.272 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_AssignmentType.nst at: 27:2, 41:2, 55:2, 69:2
+[2015-03-26 07:26:02.350 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_AvailabilityType.nst at: 67:2
+[2015-03-26 07:26:02.646 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_InformationHandlingRequirement.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:26:02.646 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_InitiationSelector.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:26:02.771 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_JobDataSource.nst at: 27:2, 41:2, 55:2, 69:2, 83:2, 97:2, 111:2, 125:2, 139:2
+[2015-03-26 07:26:02.818 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_JobStatus.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2, 243:2
+[2015-03-26 07:26:02.880 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_JobType.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2, 243:2, 266:2, 289:2, 312:2, 335:2, 358:2, 381:2, 404:2, 427:2, 450:2, 473:2, 496:2, 519:2, 542:2
+[2015-03-26 07:26:02.974 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_PerformanceIndicator.nst at: 27:2, 41:2, 55:2
+[2015-03-26 07:26:03.083 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_Role.nst at: 433:2, 447:2, 461:2, 475:2, 489:2, 503:2, 517:2
+[2015-03-26 07:26:03.083 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_ShipType.nst at: 39:2
+[2015-03-26 07:26:03.504 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_WorkAssignment.nst at: 4271:1, 4304:1, 4341:1, 4407:1, 4453:1, 4486:1, 6230:1, 6256:1, 6282:1, 6308:1, 6334:1, 6360:1
+[2015-03-26 07:26:03.645 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_Domain_WorkAssignmentStatus.nst at: 36:2, 59:2, 82:2, 105:2, 128:2, 151:2, 174:2, 197:2, 220:2
+[2015-03-26 07:26:04.394 Thread-16 Master INFO]
+Loaded nametable with 181 compilation units
+[2015-03-26 07:26:05.174 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ActionFilters_AutoRefreshAttribute.nst at: 484:28
+[2015-03-26 07:26:05.236 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ActionFilters_ValidateJsonAntiForgeryTokenAttribute.nst at: 114:28
+[2015-03-26 07:26:06.328 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_Helpers_EnumExtension.nst at: 566:247
+[2015-03-26 07:26:06.640 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ViewModels_EmployeeViewModel.nst at: 2781:1, 2828:1, 2888:1, 2944:1, 3249:1, 3256:8, 3260:8, 3269:8, 3300:1, 3307:8, 3311:8, 3320:8, 3355:1, 3362:8, 3371:8, 3402:1, 3409:8, 3418:8, 3453:1, 3460:8, 3464:8, 3473:8, 3504:1, 3511:8, 3515:8, 3524:8, 3817:1, 3824:8, 3828:8, 3837:8, 3861:1, 3868:8, 3872:8, 3881:8, 3905:1, 3912:8, 3921:8, 3945:1, 3952:8, 3961:8, 3985:1, 3992:8, 3996:8, 4005:8, 4029:1, 4036:8, 4040:8, 4049:8, 4300:1, 4349:1, 4389:1, 4429:1
+[2015-03-26 07:26:06.749 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ViewModels_JobListViewModel.nst at: 2021:2, 2035:2
+[2015-03-26 07:26:06.781 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ViewModels_JobTemplateListViewModel.nst at: 1538:2, 1552:2
+[2015-03-26 07:26:07.030 Thread-16 Master INFO]
+Loaded nametable with 271 compilation units
+[2015-03-26 07:26:07.186 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ViewModels_WorkAssignmentListViewModel.nst at: 2680:2, 2694:2, 2719:2, 2733:2
+[2015-03-26 07:26:07.311 Thread-16 Master WARNING]
+Recovered from NST parsing problems in C:/Users/ps185841a/AppData/Local/Fortify/sca6.2/build/SdbrDev/Debug/SDBR_MVC_ViewModels_WorkAssignmentViewModel.nst at: 5339:1, 5372:1, 5409:1, 5442:1, 5479:1, 5512:1, 5549:1, 5582:1, 5619:1, 5652:1, 6823:1, 6849:1, 6875:1, 6901:1, 6927:1, 6953:1, 6979:1, 7005:1, 7031:1, 7057:1
+[2015-03-26 07:26:09.667 Thread-16 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~get_MiddleName~SDBR~MVC~ViewModels~EmployeeViewModel^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:28
+[2015-03-26 07:26:10.291 Thread-16 Master INFO]
+Loaded nametable with 361 compilation units
+[2015-03-26 07:26:10.790 Thread-20 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:26:11.024 Thread-13 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:26:11.024 Thread-13 Master SEVERE 1009]
+Unexpected exception while building call graph (file <unknown>)
+java.lang.NullPointerException
+	at com.fortify.sca.metadata.BackEndNameTableFixups.constructImpliedMethod(BackEndNameTableFixups.java:155)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.addImpliedMethods_1(BackEndNameTableFixups.java:112)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.addImpliedMethods(BackEndNameTableFixups.java:67)
+	at com.fortify.sca.metadata.BackEndNameTableFixups.runFixups(BackEndNameTableFixups.java:35)
+	at com.fortify.sca.backend.BackEnd.doPhaseZero(BackEnd.java:836)
+	at com.fortify.sca.backend.BackEnd.analyze(BackEnd.java:415)
+	at com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer(Main.java:778)
+	at com.fortify.sca.Main$Sourceanalyzer.run(Main.java:489)
+[2015-03-26 07:26:11.055 Thread-13 Master INFO]
+Constant Propagation: starting initialization of 362 compilation units
+[2015-03-26 07:26:16.780 Thread-27 Master WARNING]
+Unable to locate metadata for function ~JS_builtin_new~tmp at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\Content\fullcalendar-2.1.1\lib\moment.min.js:6
+[2015-03-26 07:26:57.653 Thread-27 Master WARNING]
+
+java.lang.ClassCastException
+[2015-03-26 07:27:06.997 Thread-26 Master INFO]
+Constant Propagation: initialized 91 compilation units
+[2015-03-26 07:27:09.010 Thread-26 Master INFO]
+Constant Propagation: initialized 181 compilation units
+[2015-03-26 07:27:11.927 Thread-26 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_MiddleName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:236
+[2015-03-26 07:27:11.927 Thread-26 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_UserName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:243
+[2015-03-26 07:27:11.927 Thread-26 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~EmployeeViewModel~~set_PSNSUserName~SDBR~MVC~ViewModels~EmployeeViewModel^System~String~~~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\EmployeeViewModel.cs:244
+[2015-03-26 07:27:12.379 Thread-26 Master INFO]
+Constant Propagation: initialized 271 compilation units
+[2015-03-26 07:27:12.567 Thread-25 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~WorkAssignmentViewModel~~get_Emergent~SDBR~MVC~ViewModels~WorkAssignmentViewModel^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\WorkAssignmentViewModel.cs:620
+[2015-03-26 07:27:12.629 Thread-25 Master WARNING]
+Unable to locate metadata for function SDBR~MVC~ViewModels~WorkAssignmentViewModel~~set_Emergent~SDBR~MVC~ViewModels~WorkAssignmentViewModel^~boolean~^ at C:\Tom\Projects\SDBR\Dev\Source\SDBR.MVC\ViewModels\WorkAssignmentViewModel.cs:326
+[2015-03-26 07:27:15.343 Thread-27 Master INFO]
+Constant Propagation: initialized 361 compilation units
+[2015-03-26 07:27:17.137 Thread-13 Master INFO]
+Constant Propagation: generating worklist for 30763 functions
+[2015-03-26 07:27:17.184 Thread-13 Master INFO]
+Constant Propagation: initial constants for 30763 functions
+[2015-03-26 07:28:07.635 Thread-13 Master INFO]
+Constant Propagation: propagating constant parameters for 30763 functions
+[2015-03-26 07:29:07.258 Thread-13 Master INFO]
+Constant Propagation: propagating unresolved constants for 30763 functions
+[2015-03-26 07:30:29.192 Thread-13 Master INFO]
+Constant Propagation: completed
+[2015-03-26 07:30:31.197 Thread-13 Master INFO 1455]
+Configuration analysis complete
+[2015-03-26 07:30:31.302 Thread-13 Master INFO 1464]
+Buffer analysis complete
+[2015-03-26 07:30:31.303 Thread-13 Master INFO 1454]
+Semantic analysis complete
+[2015-03-26 07:30:31.382 Thread-13 Master INFO 1452]
+Data Flow analysis complete
+[2015-03-26 07:30:31.394 Thread-13 Master INFO 1453]
+Control Flow analysis complete
+[2015-03-26 07:30:33.984 Thread-13 Master INFO 1462]
+Structural analysis complete
+[2015-03-26 07:30:33.993 Thread-13 Master INFO 1466]
+Null pointer analysis complete
+[2015-03-26 07:30:36.057 Thread-13 Master INFO 1458]
+Rendering 0 results
+[2015-03-26 07:30:41.147 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.Controllers.JavascriptAjaxError
+[2015-03-26 07:30:41.162 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.CheckBoxListViewModel
+[2015-03-26 07:30:41.162 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.CheckListBoxItem
+[2015-03-26 07:30:41.165 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.FormTemplateUploadViewModel
+[2015-03-26 07:30:41.165 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.FormTemplateWithCounts
+[2015-03-26 07:30:41.166 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.FullCalendarItem
+[2015-03-26 07:30:41.171 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/SDBR.MVC.ViewModels.JsonMessage
+[2015-03-26 07:30:41.176 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/_PrivateImplementationDetails__02654507_3827_4DCA_95A0_F223E217C167_
+[2015-03-26 07:30:41.177 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType0@1
+[2015-03-26 07:30:41.177 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1@2
+[2015-03-26 07:30:41.177 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType2@2
+[2015-03-26 07:30:41.177 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType3@2
+[2015-03-26 07:30:41.177 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType4@2
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType5@1
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType6@2
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType7@2
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType8@2
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType9@1
+[2015-03-26 07:30:41.178 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypea@3
+[2015-03-26 07:30:41.179 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypeb@1
+[2015-03-26 07:30:41.179 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypec@3
+[2015-03-26 07:30:41.184 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType0@7
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType10@2
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType11@10
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType12@6
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType13@16
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType14@20
+[2015-03-26 07:30:41.185 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType15@2
+[2015-03-26 07:30:41.186 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType16@3
+[2015-03-26 07:30:41.186 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType17@3
+[2015-03-26 07:30:41.186 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType18@2
+[2015-03-26 07:30:41.186 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType19@5
+[2015-03-26 07:30:41.186 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1a@6
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1b@4
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1c@2
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1d@2
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1e@8
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType1f@2
+[2015-03-26 07:30:41.187 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType20@3
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType21@2
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType2@13
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType3@6
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType4@15
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType5@5
+[2015-03-26 07:30:41.188 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType6@3
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType7@6
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType8@9
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousType9@4
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypea@7
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypeb@9
+[2015-03-26 07:30:41.189 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypec@7
+[2015-03-26 07:30:41.190 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTyped@2
+[2015-03-26 07:30:41.190 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypee@2
+[2015-03-26 07:30:41.190 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/__f__AnonymousTypef@2
+[2015-03-26 07:30:41.203 Thread-13 Master WARNING]
+Source Archiver cannot read file C:/Tom/Fortify/SDBR/_PrivateImplementationDetails__042D75F6_8F43_4472_AA2C_55BF85F8D4FD_
+[2015-03-26 07:30:44.938 Thread-13 Master INFO 1459]
+Analysis completed in 05:18

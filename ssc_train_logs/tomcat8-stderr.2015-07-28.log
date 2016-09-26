@@ -1,0 +1,510 @@
+
+2015-07-28 13:43:12 Commons Daemon procrun stderr initialized
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2008 R2
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\jdk1.7.0_40\jre
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_40-b43
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 8.0\endorsed
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.0\temp
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.0\conf\logging.properties
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx6000m
+28-Jul-2015 13:43:13.955 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\System Center Operations Manager 2007\;D:\jdk1.7.0_40\bin;;.
+28-Jul-2015 13:43:14.290 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 13:43:14.375 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 13:43:14.375 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 13:43:14.380 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 13:43:14.380 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1328 ms
+28-Jul-2015 13:43:14.445 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Jul-2015 13:43:14.445 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+28-Jul-2015 13:43:14.530 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war
+28-Jul-2015 13:44:11.601 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-Jul-2015 13:44:11.601 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/ssc] startup failed due to previous errors
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ssc] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:11.611 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:11.616 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+ sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+ org.quartz.utils.UpdateChecker.getUpdateProperties(UpdateChecker.java:99)
+ org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:56)
+ org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+ org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+ java.util.TimerThread.mainLoop(Timer.java:555)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 13:44:11.616 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4f05adff]) and a value of type [flex.messaging.io.SerializationContext] (value [flex.messaging.io.SerializationContext@7de268e0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 13:44:11.616 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1b538ab1]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [e910c353-bc5e-4362-8777-a67dacfae74b-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 13:44:11.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war has finished in 57,111 ms
+28-Jul-2015 13:44:11.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs
+28-Jul-2015 13:44:11.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs has finished in 70 ms
+28-Jul-2015 13:44:11.711 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager
+28-Jul-2015 13:44:11.776 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager has finished in 65 ms
+28-Jul-2015 13:44:11.776 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT
+28-Jul-2015 13:44:11.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT has finished in 45 ms
+28-Jul-2015 13:44:11.826 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 13:44:11.836 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 13:44:11.841 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 57457 ms
+28-Jul-2015 13:44:55.432 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-Jul-2015 13:44:55.437 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.startInternal Context [/ssc] startup failed due to previous errors
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ssc] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 13:44:55.447 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+ sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+ org.quartz.utils.UpdateChecker.getUpdateProperties(UpdateChecker.java:99)
+ org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:56)
+ org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+ org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+ java.util.TimerThread.mainLoop(Timer.java:555)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 13:44:55.452 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Thread-41] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ sun.security.ssl.InputRecord.readFully(InputRecord.java:442)
+ sun.security.ssl.InputRecord.read(InputRecord.java:480)
+ sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:884)
+ sun.security.ssl.AppInputStream.read(AppInputStream.java:102)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ com.sun.jndi.ldap.Connection.run(Connection.java:853)
+ java.lang.Thread.run(Thread.java:724)
+28-Jul-2015 13:44:55.452 SEVERE [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@53a78b1e]) and a value of type [flex.messaging.io.SerializationContext] (value [flex.messaging.io.SerializationContext@1c9e897a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 13:44:55.452 SEVERE [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6c53b743]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8c036c88-32ee-453e-a7eb-dbd773eb703f-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 14:00:22.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:01:11.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:17:02.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:17:51.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:33:42.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:34:31.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:50:22.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 14:51:11.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 15:07:02.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 15:07:51.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 15:23:42.979 INFO [Timer-0] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 15:24:31.154 INFO [Timer-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.commons.pool.impl.CursorableLinkedList$Cursor]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1335)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1321)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1164)
+	at org.apache.commons.pool.impl.CursorableLinkedList.cursor(CursorableLinkedList.java:303)
+	at org.apache.commons.pool.impl.GenericObjectPool.evict(GenericObjectPool.java:1187)
+	at org.apache.commons.pool.impl.GenericObjectPool$Evictor.run(GenericObjectPool.java:1341)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+28-Jul-2015 15:27:28.109 INFO [Thread-70] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:27:28.164 INFO [Thread-70] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:27:28.214 INFO [Thread-70] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+28-Jul-2015 15:27:28.234 INFO [Thread-70] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:27:28.239 INFO [Thread-70] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+
+2015-07-28 15:27:53 Commons Daemon procrun stderr initialized
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2008 R2
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\jdk1.7.0_40\jre
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_40-b43
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:27:54.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 8.0\endorsed
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.0\temp
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.0\conf\logging.properties
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx6000m
+28-Jul-2015 15:27:54.054 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\System Center Operations Manager 2007\;D:\jdk1.7.0_40\bin;;.
+28-Jul-2015 15:27:54.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:27:54.294 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 15:27:54.299 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:27:54.304 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 15:27:54.304 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 720 ms
+28-Jul-2015 15:27:54.349 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Jul-2015 15:27:54.349 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+28-Jul-2015 15:27:54.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war
+28-Jul-2015 15:28:49.089 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-Jul-2015 15:28:49.199 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/ssc] startup failed due to previous errors
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ssc] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:28:49.209 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+ sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+ org.quartz.utils.UpdateChecker.getUpdateProperties(UpdateChecker.java:99)
+ org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:56)
+ org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+ org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+ java.util.TimerThread.mainLoop(Timer.java:555)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:28:49.209 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@11d6d5e]) and a value of type [flex.messaging.io.SerializationContext] (value [flex.messaging.io.SerializationContext@32f736e4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 15:28:49.209 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@434cce0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4f2a2cd0-71b0-49f0-9621-e11c298da53e-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 15:28:49.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war has finished in 54,825 ms
+28-Jul-2015 15:28:49.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs
+28-Jul-2015 15:28:49.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs has finished in 85 ms
+28-Jul-2015 15:28:49.299 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager
+28-Jul-2015 15:28:49.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager has finished in 50 ms
+28-Jul-2015 15:28:49.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT
+28-Jul-2015 15:28:49.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT has finished in 40 ms
+28-Jul-2015 15:28:49.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:28:49.404 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:28:49.404 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 55103 ms
+28-Jul-2015 15:35:00.994 INFO [Thread-38] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:35:01.069 INFO [Thread-38] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:35:01.069 INFO [Thread-38] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+28-Jul-2015 15:35:01.109 INFO [Thread-38] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:35:01.109 INFO [Thread-38] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+
+2015-07-28 15:35:32 Commons Daemon procrun stderr initialized
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows Server 2008 R2
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\jdk1.7.0_40\jre
+28-Jul-2015 15:35:32.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_40-b43
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 8.0
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 8.0\endorsed
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 8.0\temp
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 8.0\conf\logging.properties
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx6000m
+28-Jul-2015 15:35:32.879 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Apache Software Foundation\Tomcat 8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\System Center Operations Manager 2007\;D:\jdk1.7.0_40\bin;;.
+28-Jul-2015 15:35:32.989 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:35:33.024 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 15:35:33.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:35:33.029 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jul-2015 15:35:33.029 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 600 ms
+28-Jul-2015 15:35:33.054 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Jul-2015 15:35:33.054 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+28-Jul-2015 15:35:33.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war
+28-Jul-2015 15:36:27.299 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-Jul-2015 15:36:27.299 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/ssc] startup failed due to previous errors
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ssc] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+ sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+ org.quartz.utils.UpdateChecker.getUpdateProperties(UpdateChecker.java:99)
+ org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:56)
+ org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+ org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+ java.util.TimerThread.mainLoop(Timer.java:555)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:36:27.309 WARNING [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Thread-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ sun.security.ssl.InputRecord.readFully(InputRecord.java:442)
+ sun.security.ssl.InputRecord.read(InputRecord.java:480)
+ sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:884)
+ sun.security.ssl.AppInputStream.read(AppInputStream.java:102)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ com.sun.jndi.ldap.Connection.run(Connection.java:853)
+ java.lang.Thread.run(Thread.java:724)
+28-Jul-2015 15:36:27.309 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@773ec929]) and a value of type [flex.messaging.io.SerializationContext] (value [flex.messaging.io.SerializationContext@3b08dfe8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 15:36:27.309 SEVERE [localhost-startStop-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@43a4169f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [eb91af9d-f4c0-4812-80ef-2866b4e6b377-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 15:36:27.314 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ssc.war has finished in 54,235 ms
+28-Jul-2015 15:36:28.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs
+28-Jul-2015 15:36:28.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\docs has finished in 35 ms
+28-Jul-2015 15:36:28.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager
+28-Jul-2015 15:36:28.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\manager has finished in 55 ms
+28-Jul-2015 15:36:28.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT
+28-Jul-2015 15:36:28.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps\ROOT has finished in 55 ms
+28-Jul-2015 15:36:28.619 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2015 15:36:28.629 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Jul-2015 15:36:28.629 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 55599 ms
+28-Jul-2015 15:38:41.174 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+28-Jul-2015 15:38:41.174 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/ssc] startup failed due to previous errors
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ssc] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.util.TimerThread.mainLoop(Timer.java:552)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:687)
+ sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:633)
+ sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1323)
+ org.quartz.utils.UpdateChecker.getUpdateProperties(UpdateChecker.java:99)
+ org.quartz.utils.UpdateChecker.doCheck(UpdateChecker.java:56)
+ org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:47)
+ org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39)
+ java.util.TimerThread.mainLoop(Timer.java:555)
+ java.util.TimerThread.run(Timer.java:505)
+28-Jul-2015 15:38:41.184 WARNING [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ssc] appears to have started a thread named [Thread-41] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.read(SocketInputStream.java:152)
+ java.net.SocketInputStream.read(SocketInputStream.java:122)
+ sun.security.ssl.InputRecord.readFully(InputRecord.java:442)
+ sun.security.ssl.InputRecord.read(InputRecord.java:480)
+ sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+ sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:884)
+ sun.security.ssl.AppInputStream.read(AppInputStream.java:102)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+ java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+ com.sun.jndi.ldap.Connection.run(Connection.java:853)
+ java.lang.Thread.run(Thread.java:724)
+28-Jul-2015 15:38:41.184 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6123ef8a]) and a value of type [flex.messaging.io.SerializationContext] (value [flex.messaging.io.SerializationContext@7e437ed8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+28-Jul-2015 15:38:41.184 SEVERE [http-nio-8080-exec-7] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ssc] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@13cd7ab]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c266e826-1bf4-4dde-abd2-c8006ce3374a-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.

@@ -1,0 +1,240 @@
+
+2014-04-05 13:08:13 Commons Daemon procrun stderr initialized
+Apr 05, 2014 1:08:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Apr 05, 2014 1:08:16 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 05, 2014 1:08:18 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Apr 05, 2014 1:08:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:08:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8443"]
+Apr 05, 2014 1:08:18 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8443"]
+java.lang.Exception: Unable to load certificate key C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\keystore\fortify_bnymellon_net.cer (error:0906D06C:PEM routines:PEM_read_bio:no start line)
+	at org.apache.tomcat.jni.SSLContext.setCertificate(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:590)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Apr 05, 2014 1:08:18 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Unable to load certificate key C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\keystore\fortify_bnymellon_net.cer (error:0906D06C:PEM routines:PEM_read_bio:no start line)
+	at org.apache.tomcat.jni.SSLContext.setCertificate(Native Method)
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:590)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+Apr 05, 2014 1:08:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:08:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4192 ms
+Apr 05, 2014 1:08:19 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 05, 2014 1:08:19 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Apr 05, 2014 1:08:19 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc.war
+Apr 05, 2014 1:10:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+Apr 05, 2014 1:10:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+Apr 05, 2014 1:10:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+Apr 05, 2014 1:10:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:10:52 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:10:52 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 153467 ms
+Apr 05, 2014 1:35:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:35:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Apr 05, 2014 1:35:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:35:06 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/ssc] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:35:06 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:35:06 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+
+2014-04-05 13:51:04 Commons Daemon procrun stderr initialized
+Apr 05, 2014 1:51:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: Loaded APR based Apache Tomcat Native library 1.1.27 using APR version 1.4.6.
+Apr 05, 2014 1:51:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 05, 2014 1:51:09 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1d 5 Feb 2013)
+Apr 05, 2014 1:51:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:51:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8443"]
+Apr 05, 2014 1:51:10 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-apr-8443"]
+java.lang.Exception: Connector attribute SSLCertificateFile must be defined when using SSL with APR
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:507)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+
+Apr 05, 2014 1:51:10 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:455)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.lang.Exception: Connector attribute SSLCertificateFile must be defined when using SSL with APR
+	at org.apache.tomcat.util.net.AprEndpoint.bind(AprEndpoint.java:507)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+Apr 05, 2014 1:51:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:51:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4135 ms
+Apr 05, 2014 1:51:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 05, 2014 1:51:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.37
+Apr 05, 2014 1:51:10 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc.war
+Apr 05, 2014 1:54:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\docs
+Apr 05, 2014 1:54:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\manager
+Apr 05, 2014 1:54:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ROOT
+Apr 05, 2014 1:54:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:54:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:54:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 176544 ms
+Apr 05, 2014 1:57:57 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:57:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8443"]
+Apr 05, 2014 1:57:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 05, 2014 1:57:58 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/ssc] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/ssc] appears to have started a thread named [scheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [/ssc] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@14c96c4f]) and a value of type [org.springframework.security.context.SecurityContextImpl] (value [org.springframework.security.context.SecurityContextImpl@ffffffff: Null authentication]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+Apr 05, 2014 1:57:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Apr 05, 2014 1:58:00 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]

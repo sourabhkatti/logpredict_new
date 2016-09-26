@@ -1,0 +1,154 @@
+[2014-10-27 11:48:23.908 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.20.0098
+[2014-10-27 11:48:23.908 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-10-27 11:48:23.908 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2014-10-27 11:48:25.736 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.20.0098
+[2014-10-27 11:48:25.736 Thread-13 Master INFO]
+Args:
+["-b", "Conwrite", "-clean"]
+[2014-10-27 11:48:25.736 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2014-10-27 11:48:49.345 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.20.0098
+[2014-10-27 11:48:49.345 Thread-13 Master INFO]
+Args:
+["-vsversion", "10.0", "-b", "Conwrite", "-machine-output", "-dotnet-sources", "C:\\ConWrite7\\Build 20\\ConWrite;C:\\ConWrite7\\Build 20\\ConWrite", "C:\\ConWrite7\\Build 20\\ConWrite\\obj\\x86\\Debug\\ConWrite.exe", "C:\\ConWrite7\\Build 20\\ConWrite\\app.config", "C:\\ConWrite7\\Build 20\\ConWrite\\app.config", "C:\\ConWrite7\\Build 20\\ConWrite\\conwrite_UpgradeReport.htm", "C:\\ConWrite7\\Build 20\\ConWrite\\My Project\\Settings.settings", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-libdirs", "c:\\conwrite7\\build 20\\conwrite\\bin;c:\\program files (x86)\\microsoft visual studio 10.0\\visual studio tools for office\\pia\\common;c:\\conwrite7\\build 20\\components\\otherfiles;c:\\program files (x86)\\reference assemblies\\microsoft\\vbpowerpacks\\v10.0;c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0;c:\\windows\\assembly\\gac\\bcl.easypdf6.interop.easypdfprinter\\6.2.0.0__7c05216a90877efb;c:\\windows\\assembly\\gac\\bcl.easypdf6.interop.easypdfprocessor\\6.2.0.0__7c05216a90877efb;c:\\conwrite7\\build 20\\conwrite\\obj\\x86\\debug;c:\\windows\\assembly\\gac\\office\\12.0.0.0__71e9bce111e9429c;c:\\windows\\assembly\\gac\\microsoft.office.interop.excel\\12.0.0.0__71e9bce111e9429c;c:\\windows\\assembly\\gac\\microsoft.office.interop.word\\12.0.0.0__71e9bce111e9429c;c:\\windows\\assembly\\gac\\microsoft.vbe.interop\\12.0.0.0__71e9bce111e9429c;c:\\snapshots\\cwcode\\2_wernerk_cwcode_team\\conwritecode_vob\\components\\otherfiles"]
+[2014-10-27 11:48:49.345 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2014-10-27 11:48:50.564 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2014-10-27 11:48:51.205 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\ABSS.Designer.vb at 50:9. Encountered: "Dim".
+[2014-10-27 11:48:51.580 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\AcrnFix.Designer.vb at 66:9. Encountered: "Dim".
+[2014-10-27 11:48:53.283 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\BPStatus.Designer.vb at 57:9. Encountered: "Dim".
+[2014-10-27 11:48:54.861 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\ClinRep.Designer.vb at 71:9. Encountered: "Dim".
+[2014-10-27 11:48:58.345 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\Modules\ConWriteMain.vb at 303:9. Encountered: "Dim".
+[2014-10-27 11:48:59.970 Thread-13 Master WARNING 10000]
+Parse error in file C:\ConWrite7\Build 20\ConWrite\SearchClause.Designer.vb at 43:9. Encountered: "Dim".
+[2014-10-27 11:54:25.408 Thread-13 Master WARNING]
+java.lang.OutOfMemoryError: Java heap space
+[2014-10-27 11:54:25.408 Thread-13 Master WARNING 1001]
+Unexpected exception while parsing file (?)
+com.fortify.frontend.parser.ParserException: Unexpected exception while parsing file ConWrite_exe.il
+	at com.fortify.frontend.translator.dotnet.CliParser.parseIlFile(CliParser.java:124)
+	at com.fortify.sca.frontend.DotnetFrontEnd.runParseTranslateResolve(DotnetFrontEnd.java:254)
+	at com.fortify.sca.frontend.DotnetFrontEnd.runTranslator(DotnetFrontEnd.java:125)
+	at com.fortify.sca.frontend.FrontEndSession.runSingleFrontEnd(FrontEndSession.java:238)
+	at com.fortify.sca.frontend.FrontEndSession.runFrontEnd(FrontEndSession.java:142)
+	at com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer(Main.java:614)
+	at com.fortify.sca.Main$Sourceanalyzer.run(Main.java:489)
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at com.fortify.frontend.translator.dotnet.SimpleCharStream.GetImage(SimpleCharStream.java:362)
+	at com.fortify.frontend.translator.dotnet.CliParserTokenManager.jjFillToken(CliParserTokenManager.java:4155)
+	at com.fortify.frontend.translator.dotnet.CliParserTokenManager.getNextToken(CliParserTokenManager.java:4248)
+	at com.fortify.frontend.translator.dotnet.CliParser.jj_ntk(CliParser.java:12561)
+	at com.fortify.frontend.translator.dotnet.CliParser.ClassName(CliParser.java:6253)
+	at com.fortify.frontend.translator.dotnet.CliParser.Type(CliParser.java:7011)
+	at com.fortify.frontend.translator.dotnet.CliParser.SigArg(CliParser.java:6083)
+	at com.fortify.frontend.translator.dotnet.CliParser.SigArgs1(CliParser.java:6000)
+	at com.fortify.frontend.translator.dotnet.CliParser.SigArgs0(CliParser.java:5964)
+	at com.fortify.frontend.translator.dotnet.CliParser.INSTR_METHOD(CliParser.java:9488)
+	at com.fortify.frontend.translator.dotnet.CliParser.Instr(CliParser.java:5763)
+	at com.fortify.frontend.translator.dotnet.CliParser.MethodDecl(CliParser.java:3920)
+	at com.fortify.frontend.translator.dotnet.CliParser.MethodDecls(CliParser.java:4907)
+	at com.fortify.frontend.translator.dotnet.CliParser.MethodDeclaration(CliParser.java:724)
+	at com.fortify.frontend.translator.dotnet.CliParser.ClassDecl(CliParser.java:1589)
+	at com.fortify.frontend.translator.dotnet.CliParser.ClassDecls(CliParser.java:1545)
+	at com.fortify.frontend.translator.dotnet.CliParser.ClassDeclaration(CliParser.java:679)
+	at com.fortify.frontend.translator.dotnet.CliParser.Declaration(CliParser.java:444)
+	at com.fortify.frontend.translator.dotnet.CliParser.Decls(CliParser.java:382)
+	at com.fortify.frontend.translator.dotnet.CliParser.CompilationUnit(CliParser.java:311)
+	at com.fortify.frontend.translator.dotnet.CliParser.parseIlFile(CliParser.java:114)
+	... 6 more
+[2014-10-27 11:54:29.001 Thread-13 Master INFO]
+Translating 2 containing javascript
+[2014-10-27 11:54:29.001 Thread-13 Master INFO 1450]
+Processing C:/ConWrite7/Build 20/ConWrite/conwrite_UpgradeReport.htm
+[2014-10-27 11:54:29.080 Thread-13 Master INFO 1450]
+Processing C:/Users/Jake/AppData/Local/Fortify/sca6.2/build/Conwrite/js-lib3161418738788453155/lib.js
+[2014-10-27 11:54:30.861 Thread-13 Master INFO]
+Front End complete
+[2014-10-27 11:54:32.830 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.20.0098
+[2014-10-27 11:54:32.830 Thread-13 Master INFO]
+Args:
+["-scan", "-vsversion", "10.0", "-b", "Conwrite", "-machine-output", "-f", "C:\\Users\\Jake\\AppData\\Local\\Fortify\\VS2010-4.20\\Conwrite\\Scan.fpr", "-format", "fpr"]
+[2014-10-27 11:54:32.830 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"
+[2014-10-27 11:54:33.923 Thread-13 Master INFO]
+Front End complete
+[2014-10-27 11:54:34.220 Thread-13 Master INFO 1451]
+Analyzing 3 source file(s)
+[2014-10-27 11:54:34.533 Thread-13 Master INFO]
+License Metadata:
+  Created On: 2014-06-05 10:30:25.0
+  License Description: SAID 1043 0390 1645
+  License ID: L3f262bda-8a60-4847-bb00-435fc3a4d285
+  Subscription ID: S8da65abd-adfd-4708-92b3-ca770b2e7e6b
+  owner: USAF
+[2014-10-27 11:54:34.970 Thread-13 Master INFO]
+Loading nametable with 1 compilation units
+[2014-10-27 11:54:35.361 Thread-16 Master INFO]
+Loaded nametable with 1 compilation units
+[2014-10-27 11:55:17.158 Thread-13 Master INFO]
+Phase Zero Work: starting 1 tasks
+[2014-10-27 11:55:17.220 Thread-21 Master INFO]
+Phase Zero Work: completed 1 tasks
+[2014-10-27 11:55:17.220 Thread-13 Master INFO]
+Completing call graph
+[2014-10-27 11:55:23.533 Thread-13 Master INFO]
+Constant Propagation: starting initialization of 1 compilation units
+[2014-10-27 11:55:23.564 Thread-24 Master INFO]
+Constant Propagation: initialized 1 compilation units
+[2014-10-27 11:55:23.564 Thread-13 Master INFO]
+Constant Propagation: generating worklist for 3 functions
+[2014-10-27 11:55:23.564 Thread-13 Master INFO]
+Constant Propagation: initial constants for 3 functions
+[2014-10-27 11:55:23.580 Thread-13 Master INFO]
+Constant Propagation: propagating constant parameters for 3 functions
+[2014-10-27 11:55:23.580 Thread-27 Master INFO]
+Constant Propagation: propagated constant parameters for 1 functions
+[2014-10-27 11:55:23.580 Thread-13 Master INFO]
+Constant Propagation: propagating unresolved constants for 3 functions
+[2014-10-27 11:55:23.580 Thread-28 Master INFO]
+Constant Propagation: propagated unresolved constants for 1 functions
+[2014-10-27 11:55:23.580 Thread-13 Master INFO]
+Constant Propagation: completed
+[2014-10-27 11:55:24.595 Thread-13 Master INFO 1455]
+Configuration analysis complete
+[2014-10-27 11:55:35.283 Thread-13 Master INFO 1464]
+Buffer analysis complete
+[2014-10-27 11:55:35.283 Thread-13 Master INFO 1454]
+Semantic analysis complete
+[2014-10-27 11:55:35.298 Thread-13 Master INFO 1452]
+Data Flow analysis complete
+[2014-10-27 11:55:35.298 Thread-13 Master INFO 1453]
+Control Flow analysis complete
+[2014-10-27 11:55:35.376 Thread-13 Master INFO 1462]
+Structural analysis complete
+[2014-10-27 11:55:35.376 Thread-13 Master INFO 1466]
+Null pointer analysis complete
+[2014-10-27 11:55:36.626 Thread-13 Master INFO 1458]
+Rendering 0 results
+[2014-10-27 11:55:39.376 Thread-13 Master INFO 1459]
+Analysis completed in 01:01
+[2014-10-27 11:59:03.944 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.20.0098
+[2014-10-27 11:59:03.944 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\Jake\\AppData\\Local\\Temp\\PID7455435397284192697.tmp", "-show-runtime-properties"]
+[2014-10-27 11:59:03.944 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx1800M -Xms300M -server"

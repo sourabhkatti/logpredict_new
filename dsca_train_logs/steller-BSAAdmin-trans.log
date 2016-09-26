@@ -1,0 +1,816 @@
+[2015-07-20 15:32:30.206 Thread-13 Master FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+WinForms.ExtractEventHandlers=true
+WinForms.TransformChangeNotificationPattern=true
+WinForms.TransformDataBindings=true
+WinForms.TransformMessageLoops=true
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=steller-BSAAdmin
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.BytecodePreview=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,rb,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,settings,properties,dll,exe,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.DisplayProgress=true
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IldasmPath=C:/Program Files (x86)/Microsoft SDKs/Windows/v8.1A/bin/NETFX 4.5.1 Tools/ildasm.exe
+com.fortify.sca.IndirectCallGraphBuilders=WinFormsAdHocFunctionBuilder,VirtualCGBuilder,J2EEIndirectCGBuilder,JNICGBuilder,StoredProcedureResolver,JavaWSCGBuilder,StrutsCGBuilder,DotNetWSCGBuilder,SqlServerSPResolver,ASPCGBuilder,ScriptedCGBuilder,NewJspCustomTagCGBuilder,DotNetCABCGBuilder,StateInjectionCGBuilder,SqlServerSPResolver2,PHPLambdaResolver,JavaWebCGBuilder
+com.fortify.sca.JavaNewBeta=true
+com.fortify.sca.JdkVersion=1.5
+com.fortify.sca.LogFile=steller-BSAAdmin-trans.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.Phase0HigherOrder.Languages=python,ruby
+com.fortify.sca.Phase0HigherOrder.Level=1
+com.fortify.sca.Phase0HigherOrder.Limiter.Values=16
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=U:\Users\mpeters\AppData\Local/Fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=TSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.ThreadCount.PreTransform=1
+com.fortify.sca.TypeInferenceFunctionTimeout=60
+com.fortify.sca.TypeInferenceLanguages=javascript,python,ruby
+com.fortify.sca.TypeInferencePhase0Timeout=300
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.UniversalBlacklist=.*yyparse.*
+com.fortify.sca.WorkaroundJavaSlashProblem=true
+com.fortify.sca.WrapperHeuristic=moderate
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.c89=com.fortify.sca.util.compilers.C89Compiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.cl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.devenv=com.fortify.sca.util.compilers.DevenvNetAdapter
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.link=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.msbuild=com.fortify.sca.util.compilers.MSBuildAdapter
+com.fortify.sca.compilers.msdev=com.fortify.sca.util.compilers.DevenvAdapter
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.nmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xilink=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.cpfe.441.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe441.rfct
+com.fortify.sca.cpfe.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe48.exe
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cs=CSHARP
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.dll=MSIL
+com.fortify.sca.fileextensions.erb=RUBY_ERB
+com.fortify.sca.fileextensions.exe=MSIL
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mdl=MSIL
+com.fortify.sca.fileextensions.mod=MSIL
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.rb=RUBY
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.vb=VB
+com.fortify.sca.fileextensions.vbs=VBSCRIPT
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=U:\Users\mpeters\AppData\Local/Fortify/config/tools
+com.fortify.Core=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core
+com.fortify.InstallationUserName=mpeters
+com.fortify.SCAExecutablePath=C:Program FilesHP_FortifyHP_Fortify_SCA_and_Apps_4.31binsourceanalyzer.exe
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=U:\Users\mpeters\AppData\Local/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+com.fortify.InstallRoot=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31
+com.fortify.TotalPhysicalMemory=8589467648
+com.fortify.sca.JVMArgs=-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx4G -Xss16M -Xms300M -server
+com.fortify.sca.PID=5352
+com.fortify.sca.ProjectRoot=U:\Users\mpeters\AppData\Local/Fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=C:\Code to be reviewed\STeller\BSA;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Citrix\ICAService\;C:\Program Files (x86)\Common Files\Sage SBD\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+com.fortify.sca.env.include=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;
+com.sun.management.jmxremote=true
+dotnet.install.dir=C:\Windows\Microsoft.NET\Framework64
+dotnet.v30.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\endorsed
+java.ext.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre
+java.io.tmpdir=U:\Users\mpeters\AppData\Local\Temp\
+java.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Citrix\ICAService\;C:\Program Files (x86)\Common Files\Sage SBD\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_45-b18
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_45
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.45-b08
+line.separator=
+
+os.arch=amd64
+os.name=Windows 7
+os.version=6.1
+path.separator=;
+stderr.isatty=true
+stdout.isatty=true
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+sun.boot.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar -b steller-BSAAdmin -debug -logfile steller-BSAAdmin-trans.log ./BSAAdmin
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+user.country=US
+user.dir=C:\Code to be reviewed\STeller\BSA
+user.home=\\hutch-fs01\Profiles\_Profile_Redirection\mpeters
+user.language=en
+user.name=mpeters
+user.script=
+user.timezone=America/Denver
+user.variant=
+vs.140.dotnet.clr.version=v4.0.30319
+win32.LocalAppdata=U:\Users\mpeters\AppData\Local
+
+VM Info
+OperatingSystemMXBean: Windows 7
+  Arch: amd64
+  AvailableProcessors: 2
+  CommittedVirtualMemorySize: 521404416
+  FreePhysicalMemorySize: 5644820480
+  FreeSwapSpaceSize: 6051590144
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 2667617100
+  SystemCpuLoad: 1.0
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 8589467648
+  TotalSwapSpaceSize: 9111875584
+  Version: 6.1
+RuntimeMXBean: 6244@VDI-VDesktop021
+  BootClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+  LibraryPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\Virtual Desktop Agent\;C:\Program Files\Citrix\ICAService\;C:\Program Files (x86)\Common Files\Sage SBD\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1437427947055
+  Uptime: 3151
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.45-b08
+-----------------------------------------------------------------------------
+[2015-07-20 15:32:30.440 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.31.0012
+[2015-07-20 15:32:30.455 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Args:
+["-b", "steller-BSAAdmin", "-debug", "-logfile", "steller-BSAAdmin-trans.log", "./BSAAdmin"]
+[2015-07-20 15:32:30.455 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx4G -Xss16M -Xms300M -server"
+[2015-07-20 15:32:30.518 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Data binding
+[2015-07-20 15:32:30.549 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Event loops
+[2015-07-20 15:32:30.549 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling change notification transformer.
+[2015-07-20 15:32:31.844 com.fortify.frontend.translator.dotnet.DotNetRegistryEntries.<clinit>() Thread-13 Master FINE]
+Visual Studio install: null
+CLR version: null
+[2015-07-20 15:32:36.305 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master INFO]
+Translating 49 vb6 files
+[2015-07-20 15:32:36.305 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmNote.frm
+[2015-07-20 15:32:36.976 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFind.frm
+[2015-07-20 15:32:36.976 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:37.273 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmReplacedTINsList.frm
+[2015-07-20 15:32:37.288 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:37.382 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmReplacedTINsList.frm at 1093:37. Encountered: "Row".
+[2015-07-20 15:32:37.585 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmUserDetail.frm
+[2015-07-20 15:32:38.162 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmUserDetail.frm at 2581:29. Encountered: "Select".
+[2015-07-20 15:32:38.177 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmUserDetail.frm at 2617:29. Encountered: "Select".
+[2015-07-20 15:32:38.193 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas
+[2015-07-20 15:32:40.689 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas at 7279:11. Encountered: "
+".
+[2015-07-20 15:32:40.689 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas at 7280:5. Encountered: ".".
+[2015-07-20 15:32:40.876 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas at 8974:36. Encountered: "
+".
+[2015-07-20 15:32:40.876 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas at 8975:9. Encountered: ".".
+[2015-07-20 15:32:40.876 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/BSAGeneral.bas at 8976:5. Encountered: "End".
+[2015-07-20 15:32:40.939 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmMain.frm
+[2015-07-20 15:32:41.017 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmMain.frm at 1016:13. Encountered: "Select".
+[2015-07-20 15:32:41.032 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmMain.frm at 1169:38. Encountered: "Row".
+[2015-07-20 15:32:41.032 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmMain.frm at 1260:29. Encountered: "Select".
+[2015-07-20 15:32:41.032 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmMain.frm at 1296:29. Encountered: "Select".
+[2015-07-20 15:32:41.048 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmBranchList.frm
+[2015-07-20 15:32:41.048 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.297 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCheckList.frm
+[2015-07-20 15:32:41.297 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.422 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm
+[2015-07-20 15:32:41.422 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.469 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2174:176. Encountered: "
+".
+[2015-07-20 15:32:41.469 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2175:25. Encountered: ".".
+[2015-07-20 15:32:41.485 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2179:27. Encountered: "
+".
+[2015-07-20 15:32:41.485 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2180:26. Encountered: "
+".
+[2015-07-20 15:32:41.485 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2181:13. Encountered: "End".
+[2015-07-20 15:32:41.485 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 2182:9. Encountered: "End".
+[2015-07-20 15:32:41.625 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 4431:29. Encountered: "Select".
+[2015-07-20 15:32:41.625 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountDetail.frm at 4467:29. Encountered: "Select".
+[2015-07-20 15:32:41.641 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectDetail.frm
+[2015-07-20 15:32:41.656 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.656 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.656 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:41.719 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.077 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectDetail.frm at 5637:29. Encountered: "Select".
+[2015-07-20 15:32:42.093 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectDetail.frm at 5673:29. Encountered: "Select".
+[2015-07-20 15:32:42.109 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskValuesList.frm
+[2015-07-20 15:32:42.109 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.124 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskValuesList.frm at 1289:37. Encountered: "Row".
+[2015-07-20 15:32:42.140 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskValuesDetail.frm
+[2015-07-20 15:32:42.171 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptDetail.frm
+[2015-07-20 15:32:42.171 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.187 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.311 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptDetail.frm at 4371:29. Encountered: "Select".
+[2015-07-20 15:32:42.389 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptDetail.frm at 4407:29. Encountered: "Select".
+[2015-07-20 15:32:42.405 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSetAlarm.frm
+[2015-07-20 15:32:42.421 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskCategoryList.frm
+[2015-07-20 15:32:42.421 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.452 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskCategoryList.frm at 996:37. Encountered: "Row".
+[2015-07-20 15:32:42.467 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmHelp.frm
+[2015-07-20 15:32:42.483 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCreateCTR.frm
+[2015-07-20 15:32:42.499 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.499 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.499 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.717 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileCTRs.frm
+[2015-07-20 15:32:42.733 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:42.748 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileCTRs.frm at 1538:40. Encountered: "idx".
+[2015-07-20 15:32:43.107 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileCTRs.frm at 6956:20. Encountered: "
+".
+[2015-07-20 15:32:43.107 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileCTRs.frm at 6957:9. Encountered: ".".
+[2015-07-20 15:32:43.107 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileCTRs.frm at 6967:5. Encountered: "End".
+[2015-07-20 15:32:43.107 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmUserList.frm
+[2015-07-20 15:32:43.107 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.123 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmUserList.frm at 1209:51. Encountered: "Row".
+[2015-07-20 15:32:43.154 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSystemControl.frm
+[2015-07-20 15:32:43.185 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.279 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSystemControl.frm at 5342:29. Encountered: "Select".
+[2015-07-20 15:32:43.279 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSystemControl.frm at 5378:29. Encountered: "Select".
+[2015-07-20 15:32:43.294 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm
+[2015-07-20 15:32:43.294 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.294 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.357 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2725:20. Encountered: "
+".
+[2015-07-20 15:32:43.357 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2726:9. Encountered: ".".
+[2015-07-20 15:32:43.357 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2736:5. Encountered: "End".
+[2015-07-20 15:32:43.372 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2890:72. Encountered: "
+".
+[2015-07-20 15:32:43.372 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2891:9. Encountered: ".".
+[2015-07-20 15:32:43.372 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSuspectList.frm at 2901:5. Encountered: "End".
+[2015-07-20 15:32:43.388 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmBranchDetail.frm
+[2015-07-20 15:32:43.513 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmActivityMonitor.frm
+[2015-07-20 15:32:43.513 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.513 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.747 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmActivityMonitor.frm at 3727:20. Encountered: "
+".
+[2015-07-20 15:32:43.747 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmActivityMonitor.frm at 3728:9. Encountered: ".".
+[2015-07-20 15:32:43.747 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmActivityMonitor.frm at 3738:5. Encountered: "End".
+[2015-07-20 15:32:43.762 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmPeopleList.frm
+[2015-07-20 15:32:43.778 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.840 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmPeopleList.frm at 1863:19. Encountered: "Select".
+[2015-07-20 15:32:43.840 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCodeList.frm
+[2015-07-20 15:32:43.856 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:43.887 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCodeList.frm at 1105:37. Encountered: "Row".
+[2015-07-20 15:32:43.903 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmDocPrt.frm
+[2015-07-20 15:32:43.903 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmDocPrt.frm at 54:7. Encountered: "Select".
+[2015-07-20 15:32:43.903 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmInstKey.frm
+[2015-07-20 15:32:43.934 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmRiskCategoryDetail.frm
+[2015-07-20 15:32:43.965 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmReplacedTINsDetail.frm
+[2015-07-20 15:32:44.012 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSignOn.frm
+[2015-07-20 15:32:44.074 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSARList.frm
+[2015-07-20 15:32:44.074 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.137 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSARList.frm at 2141:48. Encountered: "
+".
+[2015-07-20 15:32:44.137 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSARList.frm at 2142:9. Encountered: ".".
+[2015-07-20 15:32:44.137 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSARList.frm at 2152:5. Encountered: "End".
+[2015-07-20 15:32:44.152 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRList.frm
+[2015-07-20 15:32:44.152 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.199 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRList.frm at 2471:20. Encountered: "
+".
+[2015-07-20 15:32:44.199 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRList.frm at 2472:9. Encountered: ".".
+[2015-07-20 15:32:44.199 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRList.frm at 2482:5. Encountered: "End".
+[2015-07-20 15:32:44.215 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmLinkTINsList.frm
+[2015-07-20 15:32:44.230 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.277 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmLinkTINsList.frm at 2207:21. Encountered: "Select".
+[2015-07-20 15:32:44.277 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmLinkTINsList.frm at 2218:21. Encountered: "Select".
+[2015-07-20 15:32:44.293 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAffiliatedDetail.frm
+[2015-07-20 15:32:44.324 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRDetail.frm
+[2015-07-20 15:32:44.324 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.339 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.339 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.339 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.355 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.355 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.542 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRDetail.frm at 7506:29. Encountered: "Select".
+[2015-07-20 15:32:44.542 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCTRDetail.frm at 7542:29. Encountered: "Select".
+[2015-07-20 15:32:44.573 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmSARDetail.frm
+[2015-07-20 15:32:44.745 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmLinkTINsDetail.frm
+[2015-07-20 15:32:44.792 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAffiliatedList.frm
+[2015-07-20 15:32:44.792 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.854 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptList.frm
+[2015-07-20 15:32:44.854 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:44.901 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptList.frm at 1640:53. Encountered: "Row".
+[2015-07-20 15:32:44.917 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptList.frm at 2140:20. Encountered: "
+".
+[2015-07-20 15:32:44.917 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptList.frm at 2141:9. Encountered: ".".
+[2015-07-20 15:32:44.917 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmExemptList.frm at 2151:5. Encountered: "End".
+[2015-07-20 15:32:44.932 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmCodeDetail.frm
+[2015-07-20 15:32:44.963 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmPeopleDetail.frm
+[2015-07-20 15:32:45.057 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmPeopleDetail.frm at 2599:29. Encountered: "Select".
+[2015-07-20 15:32:45.057 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmPeopleDetail.frm at 2635:29. Encountered: "Select".
+[2015-07-20 15:32:45.073 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileSARs.frm
+[2015-07-20 15:32:45.088 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.104 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileSARs.frm at 1719:36. Encountered: "idx".
+[2015-07-20 15:32:45.229 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileSARs.frm at 4704:20. Encountered: "
+".
+[2015-07-20 15:32:45.229 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileSARs.frm at 4705:9. Encountered: ".".
+[2015-07-20 15:32:45.229 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileSARs.frm at 4715:5. Encountered: "End".
+[2015-07-20 15:32:45.244 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmImportTrans.frm
+[2015-07-20 15:32:45.244 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.275 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAccountList.frm
+[2015-07-20 15:32:45.353 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.400 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileExemptions.frm
+[2015-07-20 15:32:45.400 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.525 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileExemptions.frm at 3378:20. Encountered: "
+".
+[2015-07-20 15:32:45.525 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileExemptions.frm at 3379:9. Encountered: ".".
+[2015-07-20 15:32:45.525 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmFileExemptions.frm at 3389:5. Encountered: "End".
+[2015-07-20 15:32:45.541 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmConductorList.frm
+[2015-07-20 15:32:45.541 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.541 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.603 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmConductorList.frm at 2397:20. Encountered: "
+".
+[2015-07-20 15:32:45.603 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmConductorList.frm at 2398:9. Encountered: ".".
+[2015-07-20 15:32:45.603 com.fortify.frontend.parser.Parser.reportParseError() Thread-13 Master WARNING 10000]
+Parse error in file C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmConductorList.frm at 2408:5. Encountered: "End".
+[2015-07-20 15:32:45.619 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: C:/Code to be reviewed/STeller/BSA/BSAAdmin/frmAcknowledgements.frm
+[2015-07-20 15:32:45.619 com.fortify.frontend.parser.vb6.VB6ParserTokenManager.TokenLexicalActions() Thread-13 Master WARNING]
+Skipping unknown character: $
+[2015-07-20 15:32:45.665 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: U:/Users/mpeters/AppData/Local/Fortify/sca6.3/build/steller-BSAAdmin/vb6-lib8896163701946201308/vb-core.vbscript
+[2015-07-20 15:32:45.712 com.fortify.sca.frontend.VB6FrontEnd.runTranslator() Thread-13 Master FINE]
+Starting to parse: U:/Users/mpeters/AppData/Local/Fortify/sca6.3/build/steller-BSAAdmin/vb6-lib8896163701946201308/vb6-core.bas
+[2015-07-20 15:32:45.806 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 1.1
+[2015-07-20 15:32:46.133 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 1.2
+[2015-07-20 15:32:46.180 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 1.3
+[2015-07-20 15:32:46.399 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 2.1
+[2015-07-20 15:32:46.633 com.fortify.frontend.translator.STResolver.resolutionWarning() Thread-13 Master WARNING 1213]
+Unable to resolve field '~internal~.collection.countryname' at (C:\Code to be reviewed\STeller\BSA\BSAAdmin\BSAGeneral.bas:579:26)
+[2015-07-20 15:32:46.664 com.fortify.frontend.translator.STResolver.resolutionWarning() Thread-13 Master WARNING 1213]
+Unable to resolve field '~internal~.collection.countrycode' at (C:\Code to be reviewed\STeller\BSA\BSAAdmin\BSAGeneral.bas:620:58)
+[2015-07-20 15:32:46.664 com.fortify.frontend.translator.STResolver.resolutionWarning() Thread-13 Master WARNING 1213]
+Unable to resolve field '~internal~.collection.statename' at (C:\Code to be reviewed\STeller\BSA\BSAAdmin\BSAGeneral.bas:621:49)
+[2015-07-20 15:32:47.225 com.fortify.frontend.translator.STResolver.resolutionWarning() Thread-13 Master WARNING 1213]
+Unable to resolve field '~internal~.collection.statecode' at (C:\Code to be reviewed\STeller\BSA\BSAAdmin\BSAGeneral.bas:5495:39)
+[2015-07-20 15:32:48.863 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 2.2
+[2015-07-20 15:32:51.765 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 2.3
+[2015-07-20 15:32:51.968 com.fortify.frontend.translator.STResolver.resolutionWarning() Thread-13 Master WARNING 1213]
+Unable to resolve field '~internal~.recordset.value' at (C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmFileCTRs.frm:3820:54)
+[2015-07-20 15:32:52.217 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 3.1
+[2015-07-20 15:32:53.933 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 4.1
+[2015-07-20 15:32:54.105 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmNote.frm:381:1] STCompilationUnit
+[2015-07-20 15:32:54.183 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmFind.frm:620:1] STCompilationUnit
+[2015-07-20 15:32:54.308 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmReplacedTINsList.frm:872:1] STCompilationUnit
+[2015-07-20 15:32:54.339 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmUserDetail.frm:1588:1] STCompilationUnit
+[2015-07-20 15:32:54.401 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\BSAGeneral.bas:1:1] STCompilationUnit
+[2015-07-20 15:32:54.745 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmMain.frm:539:1] STCompilationUnit
+[2015-07-20 15:32:54.760 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmBranchList.frm:963:1] STCompilationUnit
+[2015-07-20 15:32:54.791 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCheckList.frm:1253:1] STCompilationUnit
+[2015-07-20 15:32:54.823 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmAccountDetail.frm:2055:1] STCompilationUnit
+[2015-07-20 15:32:54.901 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSuspectDetail.frm:3081:1] STCompilationUnit
+[2015-07-20 15:32:54.963 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmRiskValuesList.frm:948:1] STCompilationUnit
+[2015-07-20 15:32:54.994 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmRiskValuesDetail.frm:522:1] STCompilationUnit
+[2015-07-20 15:32:55.010 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmExemptDetail.frm:2351:1] STCompilationUnit
+[2015-07-20 15:32:55.244 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSetAlarm.frm:552:1] STCompilationUnit
+[2015-07-20 15:32:55.244 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmRiskCategoryList.frm:804:1] STCompilationUnit
+[2015-07-20 15:32:55.259 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmHelp.frm:216:1] STCompilationUnit
+[2015-07-20 15:32:55.509 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCreateCTR.frm:2596:1] STCompilationUnit
+[2015-07-20 15:32:55.556 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmFileCTRs.frm:1416:1] STCompilationUnit
+[2015-07-20 15:32:55.759 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmUserList.frm:963:1] STCompilationUnit
+[2015-07-20 15:32:55.790 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSystemControl.frm:3677:1] STCompilationUnit
+[2015-07-20 15:32:56.071 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSuspectList.frm:1190:1] STCompilationUnit
+[2015-07-20 15:32:56.102 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmBranchDetail.frm:993:1] STCompilationUnit
+[2015-07-20 15:32:56.117 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmActivityMonitor.frm:1423:1] STCompilationUnit
+[2015-07-20 15:32:56.242 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmPeopleList.frm:964:1] STCompilationUnit
+[2015-07-20 15:32:56.273 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCodeList.frm:845:1] STCompilationUnit
+[2015-07-20 15:32:56.289 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmInstKey.frm:360:1] STCompilationUnit
+[2015-07-20 15:32:56.289 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmRiskCategoryDetail.frm:507:1] STCompilationUnit
+[2015-07-20 15:32:56.305 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmReplacedTINsDetail.frm:507:1] STCompilationUnit
+[2015-07-20 15:32:56.320 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSignOn.frm:757:1] STCompilationUnit
+[2015-07-20 15:32:56.336 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSARList.frm:1219:1] STCompilationUnit
+[2015-07-20 15:32:56.367 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCTRList.frm:1241:1] STCompilationUnit
+[2015-07-20 15:32:56.398 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmLinkTINsList.frm:1233:1] STCompilationUnit
+[2015-07-20 15:32:56.414 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmAffiliatedDetail.frm:707:1] STCompilationUnit
+[2015-07-20 15:32:56.429 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCTRDetail.frm:4060:1] STCompilationUnit
+[2015-07-20 15:32:56.492 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmSARDetail.frm:3377:1] STCompilationUnit
+[2015-07-20 15:32:56.523 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmLinkTINsDetail.frm:742:1] STCompilationUnit
+[2015-07-20 15:32:56.539 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmAffiliatedList.frm:963:1] STCompilationUnit
+[2015-07-20 15:32:56.554 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmExemptList.frm:1225:1] STCompilationUnit
+[2015-07-20 15:32:56.570 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmCodeDetail.frm:555:1] STCompilationUnit
+[2015-07-20 15:32:56.570 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmPeopleDetail.frm:1396:1] STCompilationUnit
+[2015-07-20 15:32:56.601 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmFileSARs.frm:1408:1] STCompilationUnit
+[2015-07-20 15:32:56.648 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmImportTrans.frm:915:1] STCompilationUnit
+[2015-07-20 15:32:56.663 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmAccountList.frm:1006:1] STCompilationUnit
+[2015-07-20 15:32:56.679 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmFileExemptions.frm:1446:1] STCompilationUnit
+[2015-07-20 15:32:56.710 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmConductorList.frm:1015:1] STCompilationUnit
+[2015-07-20 15:32:56.741 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [C:\Code to be reviewed\STeller\BSA\BSAAdmin\frmAcknowledgements.frm:675:1] STCompilationUnit
+[2015-07-20 15:32:56.757 com.fortify.sca.frontend.FrontEndSession.runSingleFrontEnd() Thread-13 Master INFO]
+VB6 Translation Fidelity: 97.0%
+[2015-07-20 15:32:56.788 com.fortify.sca.frontend.FrontEndSession.runFrontEnd() Thread-13 Master INFO]
+Front End complete
+[2015-07-20 15:32:56.788 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Creating XML objects...
+[2015-07-20 15:32:56.819 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Creating XML objects [DONE]
+[2015-07-20 15:32:56.819 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-13 Master FINE]
+Acquiring lock...
+[2015-07-20 15:32:56.819 com.fortify.sca.metadata.BuildSession.acquireLock() Thread-13 Master FINE]
+Acquiring lock [DONE]
+[2015-07-20 15:32:56.819 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Writing to increment session file: "U:\Users\mpeters\AppData\Local\Fortify\sca6.3\build\steller-BSAAdmin.scasession.increment"
+[2015-07-20 15:32:57.615 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Writing to increment session file [DONE]
+[2015-07-20 15:32:57.631 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-13 Master FINE]
+Releasing lock...
+[2015-07-20 15:32:57.631 com.fortify.sca.metadata.BuildSession.releaseLock() Thread-13 Master FINE]
+Releasing lock [DONE]
+[2015-07-20 15:32:57.631 com.fortify.sca.messaging.SCAConsoleReceiver.checkSuppressed() Thread-13 Master WARNING 1445]
+Some errors or warnings were suppressed.  To view all warnings and errors use the -show-build-warnings option:
+ sourceanalyzer -b steller-BSAAdmin -show-build-warnings

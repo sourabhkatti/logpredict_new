@@ -1,0 +1,409 @@
+
+2015-09-08 05:35:17,815   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-09-08 05:35:17,837   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-09-08 05:35:21,452   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2015-09-08 05:35:21,469   [DEBUG] com.fortify.systemspec - 
+Version:4.30.0086
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/webapps/ssc/WEB-INF/Core
+com.fortify.InstallationUserName=scadev
+com.fortify.SCAExecutablePath=
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+ALL_ENVIRONMENT_TYPES=
+CONFIG_MODE=dev-
+ENVIRONMENT_TYPE=
+HOST=dz118c4n1
+JAVA_KRB5CCNAME=/var/spool/tickets/scadev
+LOCATION=VI
+REGION=NA
+SERVER=dz118c4n1.sc.20051
+SYS_CAMPUS=vi
+SYS_COUNTRY=us
+SYS_LOC=dz.ab.na
+SYS_POD=prod.dz
+SYS_REGION=na
+SYS_SUBPOD=vib4
+TCVER=6.0.37-ews
+catalina.base=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051
+catalina.home=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/webapps/ssc/WEB-INF
+com.fortify.LicenseFile=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/webapps/ssc/WEB-INF/classes/fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+com.sun.management.jmxremote=
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+env=dev
+file.encoding=ANSI_X3.4-1968
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=//ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos_jgss.jar://ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos_mit.jar://ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos.jar://ms/dist/msjava/PROJ/tools/3.0/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.4/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.3/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.2/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.1/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.0/lib/msjava_tools_jni.jar:/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/bin/tomcat-juli.jar:/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/bin/bootstrap.jar
+java.class.version=50.0
+java.endorsed.dirs=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/endorsed
+java.ext.dirs=/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre
+java.io.tmpdir=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/temp
+java.library.path=/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/amd64/server:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/amd64:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/../lib/amd64://ms/dist/msjava/PROJ/msnet_jni/7.0//lib://ms/dist/msjava/PROJ/msnet_jni/6.3//lib://ms/dist/msjava/PROJ/msnet_jni/6.2//lib://ms/dist/msjava/PROJ/msnet_jni/6.1//lib://ms/dist/msjava/PROJ/msnet_jni/6.0//lib://ms/dist/msjava/PROJ/msnet_jni/5.0//lib://ms/dist/msjava/PROJ/msnet_jni/4.1//lib://ms/dist/msjava/PROJ/tools_jni/3.0//lib://ms/dist/msjava/PROJ/tools_jni/2.2//lib://ms/dist/msjava/PROJ/tools_jni/2.1//lib://ms/dist/msjava/PROJ/tools_jni/2.0//lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.6.0_45-b06
+java.security.krb5.conf=/etc/krb5.conf
+java.security.manager=
+java.security.policy==/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/conf/catalina.policy
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Sun Microsystems Inc.
+java.specification.version=1.6
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Sun Microsystems Inc.
+java.vendor.url=http://java.sun.com/
+java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+java.version=1.6.0_45
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.specification.version=1.0
+java.vm.vendor=Sun Microsystems Inc.
+java.vm.version=20.45-b01
+javax.security.auth.useSubjectCredsOnly=false
+line.separator=
+
+msjava.disable_absolute_jni_load=true
+msjava.management.jmx.remote.localAccessEnabled=false
+msjava.msnet.directbuffer=never
+msjava.tools.skipKrb5Setup=true
+networkaddress.cache.negative.ttl=5
+networkaddress.cache.ttl=600
+nop=
+os.arch=amd64
+os.name=Linux
+os.version=2.6.18-402.el5
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.,sun.beans.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+path.separator=:
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/resources.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/rt.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/sunrsasign.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/jsse.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/jce.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/charsets.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/modules/jdk.boot.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/classes
+sun.boot.library.path=/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=org.apache.catalina.startup.Bootstrap  start
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=ANSI_X3.4-1968
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.net.inetaddr.negative.ttl=5
+sun.net.inetaddr.ttl=600
+sun.net.maxDatagramSockets=1024
+sun.os.patch.level=unknown
+tomcat.util.buf.StringCache.byte.enabled=true
+user.country=US
+user.dir=/var/tmp/ssc-temp-only/tomcat-ssc-1/20051
+user.home=/ms/dist/environ/PROJ/prodhome/prod1/common
+user.language=en
+user.name=scadev
+user.timezone=US/Eastern
+
+VM Info
+OperatingSystemMXBean: Linux
+  Arch: amd64
+  AvailableProcessors: 32
+  CommittedVirtualMemorySize: 35907530752
+  FreePhysicalMemorySize: 124369985536
+  FreeSwapSpaceSize: 8595406848
+  MaxFileDescriptorCount: 8192
+  OpenFileDescriptorCount: 368
+  ProcessCpuTime: 27800000000
+  SystemLoadAverage: 0.7
+  TotalPhysicalMemorySize: 135096467456
+  TotalSwapSpaceSize: 8595406848
+  Version: 2.6.18-402.el5
+RuntimeMXBean: 5172@dz118c4n1.ms.com
+  BootClassPath: /ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/resources.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/rt.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/sunrsasign.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/jsse.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/jce.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/charsets.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/modules/jdk.boot.jar:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/classes
+  BootClassPathSupported: true
+  ClassPath: //ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos_jgss.jar://ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos_mit.jar://ms/dist/msjava/PROJ/kerberos/1.3/common/lib/msjava_kerberos.jar://ms/dist/msjava/PROJ/tools/3.0/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.4/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.3/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.2/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.1/lib/msjava_tools_jni.jar://ms/dist/msjava/PROJ/tools/2.0/lib/msjava_tools_jni.jar:/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/bin/tomcat-juli.jar:/var/tmp/ssc-temp-only/tomcat-ssc-1/20051/bin/bootstrap.jar
+  LibraryPath: /ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/amd64/server:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/lib/amd64:/ms/dist/msjava/PROJ/sunjdk/1.6.0_45ssl3/.exec/@sys/jre/../lib/amd64://ms/dist/msjava/PROJ/msnet_jni/7.0//lib://ms/dist/msjava/PROJ/msnet_jni/6.3//lib://ms/dist/msjava/PROJ/msnet_jni/6.2//lib://ms/dist/msjava/PROJ/msnet_jni/6.1//lib://ms/dist/msjava/PROJ/msnet_jni/6.0//lib://ms/dist/msjava/PROJ/msnet_jni/5.0//lib://ms/dist/msjava/PROJ/msnet_jni/4.1//lib://ms/dist/msjava/PROJ/tools_jni/3.0//lib://ms/dist/msjava/PROJ/tools_jni/2.2//lib://ms/dist/msjava/PROJ/tools_jni/2.1//lib://ms/dist/msjava/PROJ/tools_jni/2.0//lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Sun Microsystems Inc.
+  SpecVersion: 1.0
+  StartTime: 1441704907767
+  Uptime: 13701
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Sun Microsystems Inc.
+  VmVersion: 20.45-b01
+-----------------------------------------------------------------------------
+2015-09-08 05:35:32,599   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: /var/tmp/ssc-temp-only/tomcat-ssc-1/20051/webapps/ssc/WEB-INF/Core/config/certificates/keystore (No such file or directory)
+2015-09-08 05:35:32,599   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: /var/tmp/ssc-temp-only/tomcat-ssc-1/20051/webapps/ssc/WEB-INF/Core/config/certificates/keystore (No such file or directory)
+2015-09-08 05:35:32,599   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2015-09-08 05:35:57,360   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2015-09-08 05:35:57,361   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2015-09-08 05:36:36,591   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:37,646   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:37,652   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:39,429   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:39,429   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:40,223   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:53,972   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:36:54,695   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:11,265   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:15,386   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:16,499   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:16,514   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:17,709   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:17,715   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:19,541   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:30,008   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:30,507   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-09-08 05:37:30,533   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-09-08 05:37:45,089   [WARN] com.fortify.manager.service.ldap.impl.DirectLdapObjectSource - Unable to lookup LDAP object with DN=msfwid=1029587,ou=people,o=morgan stanley: [LDAP: error code 32 - No Such Object]; nested exception is javax.naming.NameNotFoundException: [LDAP: error code 32 - No Such Object]; remaining name 'msfwid=1029587,ou=people,o=morgan stanley'
+2015-09-08 05:37:46,300   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [java.lang.NullPointerException] thrown by target class [com.fortify.manager.BLL.impl.LdapBLLImpl] and method [public com.fortify.DTO.ListResult com.fortify.manager.BLL.impl.LdapBLLImpl.getRegisteredLdapObjectsBySearch(com.fortify.manager.DTO.ldap.AbstractLdapObject,java.lang.String,com.fortify.manager.DTO.ldap.LdapField,boolean,int,int)]
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:882)
+	at com.fortify.manager.service.ldap.impl.EvictiveLdapCache.putCachedObject(EvictiveLdapCache.java:85)
+	at com.fortify.manager.service.ldap.impl.CachedLdapObjectSource.getLdapObject(CachedLdapObjectSource.java:50)
+	at com.fortify.manager.service.ldap.impl.CachedLdapObjectSource.getLdapObject(CachedLdapObjectSource.java:38)
+	at com.fortify.manager.service.ldap.impl.LdapServiceImpl.getLdapObjectByDn(LdapServiceImpl.java:90)
+	at com.fortify.manager.service.ldap.impl.LdapCompositeServiceImpl.getLdapObjectByDn(LdapCompositeServiceImpl.java:117)
+	at com.fortify.manager.service.ldap.impl.LdapCompositeServiceImpl.convertLdapEntityToDTO(LdapCompositeServiceImpl.java:243)
+	at com.fortify.manager.service.ldap.impl.LdapCompositeServiceImpl.convertLdapEntitiesToDTOs(LdapCompositeServiceImpl.java:230)
+	at com.fortify.manager.service.ldap.impl.LdapCompositeServiceImpl.convertLdapEntitiesToDTOs(LdapCompositeServiceImpl.java:221)
+	at com.fortify.manager.BLL.impl.LdapBLLImpl.getResultList(LdapBLLImpl.java:183)
+	at com.fortify.manager.BLL.impl.LdapBLLImpl.getRegisteredLdapObjectsBySearch(LdapBLLImpl.java:90)
+	at com.fortify.manager.BLL.impl.LdapBLLImpl$$FastClassByCGLIB$$818c73a4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor236.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.LdapBLLImpl$$EnhancerByCGLIB$$58e55da6.getRegisteredLdapObjectsBySearch(<generated>)
+	at com.fortify.manager.BlazeEndpoint.LdapBlazeEndpoint.getRegisteredLdapObjectsBySearch(LdapBlazeEndpoint.java:51)
+	at com.fortify.manager.BlazeEndpoint.LdapBlazeEndpoint$$FastClassByCGLIB$$68b726ce.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:91)
+	at com.fortify.manager.web.BlazeDsAdvisor.advise(BlazeDsAdvisor.java:70)
+	at sun.reflect.GeneratedMethodAccessor291.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BlazeEndpoint.LdapBlazeEndpoint$$EnhancerByCGLIB$$39f537fa.getRegisteredLdapObjectsBySearch(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at flex.messaging.services.remoting.adapters.JavaAdapter.invoke(JavaAdapter.java:418)
+	at flex.messaging.services.RemotingService.serviceMessage(RemotingService.java:183)
+	at flex.messaging.MessageBroker.routeMessageToService(MessageBroker.java:1400)
+	at flex.messaging.endpoints.AbstractEndpoint.serviceMessage(AbstractEndpoint.java:1011)
+	at flex.messaging.endpoints.AbstractEndpoint$$FastClassByCGLIB$$1a3ef066.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.flex.core.MessageInterceptionAdvice.invoke(MessageInterceptionAdvice.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor.invoke(ThrowsAdviceInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$FixedChainStaticTargetInterceptor.intercept(CglibAopProxy.java:582)
+	at flex.messaging.endpoints.SecureAMFEndpoint$$EnhancerByCGLIB$$496ef187.serviceMessage(<generated>)
+	at flex.messaging.endpoints.amf.MessageBrokerFilter.invoke(MessageBrokerFilter.java:103)
+	at flex.messaging.endpoints.amf.LegacyFilter.invoke(LegacyFilter.java:158)
+	at flex.messaging.endpoints.amf.SessionFilter.invoke(SessionFilter.java:44)
+	at flex.messaging.endpoints.amf.BatchProcessFilter.invoke(BatchProcessFilter.java:67)
+	at flex.messaging.endpoints.amf.SerializationFilter.invoke(SerializationFilter.java:166)
+	at flex.messaging.endpoints.BaseHTTPEndpoint.service(BaseHTTPEndpoint.java:291)
+	at flex.messaging.endpoints.SecureAMFEndpoint$$EnhancerByCGLIB$$496ef187.service(<generated>)
+	at org.springframework.flex.servlet.MessageBrokerHandlerAdapter.handle(MessageBrokerHandlerAdapter.java:101)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at sun.reflect.GeneratedMethodAccessor174.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:270)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:268)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:517)
+	at org.apache.catalina.security.SecurityUtil.execute(SecurityUtil.java:302)
+	at org.apache.catalina.security.SecurityUtil.doAsPrivilege(SecurityUtil.java:163)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:283)
+	at org.apache.catalina.core.ApplicationFilterChain.access$000(ApplicationFilterChain.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain$1.run(ApplicationFilterChain.java:189)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:185)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.auth.FmWebUiAuthenticationMethodSettingFilter.doFilter(FmWebUiAuthenticationMethodSettingFilter.java:19)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.filters.ChangePasswordFilter.doFilterInternal(ChangePasswordFilter.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.sso.SsoFilter.doFilter(SsoFilter.java:72)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:125)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at sun.reflect.GeneratedMethodAccessor173.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:270)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:268)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:517)
+	at org.apache.catalina.security.SecurityUtil.execute(SecurityUtil.java:302)
+	at org.apache.catalina.security.SecurityUtil.doAsPrivilege(SecurityUtil.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.access$000(ApplicationFilterChain.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain$1.run(ApplicationFilterChain.java:189)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:185)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:77)
+	at sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:270)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:268)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:517)
+	at org.apache.catalina.security.SecurityUtil.execute(SecurityUtil.java:302)
+	at org.apache.catalina.security.SecurityUtil.doAsPrivilege(SecurityUtil.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.access$000(ApplicationFilterChain.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain$1.run(ApplicationFilterChain.java:189)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:185)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at sun.reflect.GeneratedMethodAccessor163.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:270)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:268)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:517)
+	at org.apache.catalina.security.SecurityUtil.execute(SecurityUtil.java:302)
+	at org.apache.catalina.security.SecurityUtil.doAsPrivilege(SecurityUtil.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.access$000(ApplicationFilterChain.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain$1.run(ApplicationFilterChain.java:189)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:185)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at sun.reflect.GeneratedMethodAccessor163.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:270)
+	at org.apache.catalina.security.SecurityUtil$1.run(SecurityUtil.java:268)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAsPrivileged(Subject.java:517)
+	at org.apache.catalina.security.SecurityUtil.execute(SecurityUtil.java:302)
+	at org.apache.catalina.security.SecurityUtil.doAsPrivilege(SecurityUtil.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.access$000(ApplicationFilterChain.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain$1.run(ApplicationFilterChain.java:189)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at com.ms.intraneteng.ThreadNameValve.invoke(ThreadNameValve.java:45)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:554)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:300)
+	at org.apache.jk.server.JkCoyoteHandler.invoke(JkCoyoteHandler.java:190)
+	at org.apache.jk.common.HandlerRequest.invoke(HandlerRequest.java:291)
+	at org.apache.jk.common.ChannelSocket.invoke(ChannelSocket.java:776)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:705)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:898)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:662)

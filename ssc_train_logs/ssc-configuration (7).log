@@ -1,0 +1,10 @@
+INFO 2014-03-25 10:06:22,905 [com.fortify.server.configuration.ConfigurationMain] - updating war
+
+WARN 2014-03-25 10:25:24,143 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+WARN 2014-03-25 10:25:24,157 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: restApi.properties
+
+WARN 2014-03-25 10:25:24,159 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: wie.properties
+
+INFO 2014-03-25 10:25:51,768 [com.fortify.server.configuration.ConfigurationMain] - updating war
+

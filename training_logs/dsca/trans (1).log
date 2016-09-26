@@ -1,0 +1,604 @@
+[2014-09-22 09:30:50.765 Thread-13 Master FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+WinForms.ExtractEventHandlers=true
+WinForms.TransformChangeNotificationPattern=true
+WinForms.TransformDataBindings=true
+WinForms.TransformMessageLoops=true
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=1234
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\config\customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,settings,properties,dll,exe,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\config\rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.DisplayProgress=true
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IndirectCallGraphBuilders=com.fortify.sca.analyzer.callgraph.WinFormsAdHocFunctionBuilder,com.fortify.sca.analyzer.callgraph.VirtualCGBuilder,com.fortify.sca.analyzer.callgraph.J2EEIndirectCGBuilder,com.fortify.sca.analyzer.callgraph.JNICGBuilder,com.fortify.sca.analyzer.callgraph.StoredProcedureResolver,com.fortify.sca.analyzer.callgraph.JavaWSCGBuilder,com.fortify.sca.analyzer.callgraph.StrutsCGBuilder,com.fortify.sca.analyzer.callgraph.DotNetWSCGBuilder,com.fortify.sca.analyzer.callgraph.SqlServerSPResolver,com.fortify.sca.analyzer.callgraph.ASPCGBuilder,com.fortify.sca.analyzer.callgraph.ScriptedCGBuilder,com.fortify.sca.analyzer.callgraph.NewJspCustomTagCGBuilder,com.fortify.sca.analyzer.callgraph.DotNetCABCGBuilder,com.fortify.sca.analyzer.callgraph.StateInjectionCGBuilder,com.fortify.sca.analyzer.callgraph.SqlServerSPResolver2,com.fortify.sca.analyzer.callgraph.PHPLambdaResolver,com.fortify.sca.analyzer.callgraph.JavaWebCGBuilder
+com.fortify.sca.JdkVersion=1.4
+com.fortify.sca.LogFile=C:\results\trans.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=TSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.WrapperHeuristic=moderate
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.c89=com.fortify.sca.util.compilers.C89Compiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.cl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.devenv=com.fortify.sca.util.compilers.DevenvNetAdapter
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.link=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.msbuild=com.fortify.sca.util.compilers.MSBuildAdapter
+com.fortify.sca.compilers.msdev=com.fortify.sca.util.compilers.DevenvAdapter
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.nmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xilink=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.cpfe.441.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/private-bin/sca/cpfe441
+com.fortify.sca.cpfe.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/private-bin/sca/cpfe441.rfct.exe
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cs=CSHARP
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.dll=MSIL
+com.fortify.sca.fileextensions.exe=MSIL
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mdl=MSIL
+com.fortify.sca.fileextensions.mod=MSIL
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.vb=VB
+com.fortify.sca.fileextensions.vbs=VB6
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+com.fortify.sca.taint.SkipVirtual=true
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=C:\Users\vafscmathag\AppData\Local/Fortify/config/tools
+com.fortify.Core=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core
+com.fortify.InstallationUserName=vafscmathag
+com.fortify.SCAExecutablePath=C:Program FilesHP_FortifyHP_Fortify_SCA_and_Apps_4.10binsourceanalyzer.exe
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+com.fortify.InstallRoot=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10
+com.fortify.TotalPhysicalMemory=8465162240
+com.fortify.sca.JVMArgs=-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx1280M -Xss8M -Xms16M -server
+com.fortify.sca.PID=23968
+com.fortify.sca.ProjectRoot=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\
+com.fortify.sca.env.include=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;
+com.sun.management.jmxremote=true
+dotnet.install.dir=C:\Windows\Microsoft.NET\Framework64
+dotnet.v30.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\endorsed
+java.ext.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+java.home=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64
+java.io.tmpdir=C:\Users\VAFSCM~1\AppData\Local\Temp\1\
+java.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;.
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_21-b11
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_21
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=23.21-b01
+line.separator=
+
+os.arch=amd64
+os.name=Windows 7
+os.version=6.1
+path.separator=;
+stderr.isatty=true
+stdout.isatty=true
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\classes
+sun.boot.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar -b 1234 -debug -logfile C:\results\trans.log devenv C:\Work\FOSInqueries\Branches\20140813\src\FosInquiries\FosInquiries.sln /Rebuild Debug -verbose
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+user.country=US
+user.dir=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC
+user.home=C:\Users\vafscmathag
+user.language=en
+user.name=vafscmathag
+user.script=
+user.timezone=America/Chicago
+user.variant=
+vs.110.dotnet.clr.version=v4.0.30319
+win32.LocalAppdata=C:\Users\vafscmathag\AppData\Local
+
+VM Info
+OperatingSystemMXBean: Windows 7
+  Arch: amd64
+  AvailableProcessors: 8
+  CommittedVirtualMemorySize: 153452544
+  FreePhysicalMemorySize: 4009062400
+  FreeSwapSpaceSize: 12053880832
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 1216807800
+  SystemCpuLoad: 0.07375426245737537
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 8465162240
+  TotalSwapSpaceSize: 16928423936
+  Version: 6.1
+RuntimeMXBean: 24016@FSCEE54670
+  BootClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar
+  LibraryPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1411396249865
+  Uptime: 900
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 23.21-b01
+-----------------------------------------------------------------------------
+[2014-09-22 09:30:50.765 Thread-13 Master FINE]
+Compiler: devenv
+[2014-09-22 09:30:50.805 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-09-22 09:30:50.805 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Args:
+["-b", "1234", "-debug", "-logfile", "C:\\results\\trans.log", "devenv", "C:\\Work\\FOSInqueries\\Branches\\20140813\\src\\FosInquiries\\FosInquiries.sln", "/Rebuild", "Debug", "-verbose"]
+[2014-09-22 09:30:50.805 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx1280M -Xss8M -Xms16M -server"
+[2014-09-22 09:30:50.825 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Data binding
+[2014-09-22 09:30:50.835 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Event loops
+[2014-09-22 09:30:50.835 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling change notification transformer.
+[2014-09-22 09:30:50.965 com.fortify.sca.util.compilers.DevenvNetAdapter.runCompiler() Thread-13 Master FINE]
+Running compiler command: cmd /S /C "devenv C:\Work\FOSInqueries\Branches\20140813\src\FosInquiries\FosInquiries.sln /Rebuild Debug -verbose"
+[2014-09-22 09:30:56.845 com.fortify.frontend.translator.dotnet.DotNetRegistryEntries.<clinit>() Thread-13 Master FINE]
+Visual Studio install: null
+CLR version: null
+[2014-09-22 09:30:56.925 com.fortify.sca.frontend.FrontEndSession.runFrontEnd() Thread-13 Master INFO]
+Front End complete
+[2014-09-22 09:30:56.925 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Nothing to store.
+[2014-09-22 09:31:13.615 Thread-13 Master FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+WinForms.ExtractEventHandlers=true
+WinForms.TransformChangeNotificationPattern=true
+WinForms.TransformDataBindings=true
+WinForms.TransformMessageLoops=true
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=1234
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\config\customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,settings,properties,dll,exe,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\config\rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.DisplayProgress=true
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IndirectCallGraphBuilders=com.fortify.sca.analyzer.callgraph.WinFormsAdHocFunctionBuilder,com.fortify.sca.analyzer.callgraph.VirtualCGBuilder,com.fortify.sca.analyzer.callgraph.J2EEIndirectCGBuilder,com.fortify.sca.analyzer.callgraph.JNICGBuilder,com.fortify.sca.analyzer.callgraph.StoredProcedureResolver,com.fortify.sca.analyzer.callgraph.JavaWSCGBuilder,com.fortify.sca.analyzer.callgraph.StrutsCGBuilder,com.fortify.sca.analyzer.callgraph.DotNetWSCGBuilder,com.fortify.sca.analyzer.callgraph.SqlServerSPResolver,com.fortify.sca.analyzer.callgraph.ASPCGBuilder,com.fortify.sca.analyzer.callgraph.ScriptedCGBuilder,com.fortify.sca.analyzer.callgraph.NewJspCustomTagCGBuilder,com.fortify.sca.analyzer.callgraph.DotNetCABCGBuilder,com.fortify.sca.analyzer.callgraph.StateInjectionCGBuilder,com.fortify.sca.analyzer.callgraph.SqlServerSPResolver2,com.fortify.sca.analyzer.callgraph.PHPLambdaResolver,com.fortify.sca.analyzer.callgraph.JavaWebCGBuilder
+com.fortify.sca.JdkVersion=1.4
+com.fortify.sca.LogFile=C:\results\trans.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=TSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.WrapperHeuristic=moderate
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.c89=com.fortify.sca.util.compilers.C89Compiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.cl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.devenv=com.fortify.sca.util.compilers.DevenvNetAdapter
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.link=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.msbuild=com.fortify.sca.util.compilers.MSBuildAdapter
+com.fortify.sca.compilers.msdev=com.fortify.sca.util.compilers.DevenvAdapter
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.nmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xilink=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.cpfe.441.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/private-bin/sca/cpfe441
+com.fortify.sca.cpfe.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core/private-bin/sca/cpfe441.rfct.exe
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cs=CSHARP
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.dll=MSIL
+com.fortify.sca.fileextensions.exe=MSIL
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mdl=MSIL
+com.fortify.sca.fileextensions.mod=MSIL
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.vb=VB
+com.fortify.sca.fileextensions.vbs=VB6
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+com.fortify.sca.taint.SkipVirtual=true
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=C:\Users\vafscmathag\AppData\Local/Fortify/config/tools
+com.fortify.Core=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core
+com.fortify.InstallationUserName=vafscmathag
+com.fortify.SCAExecutablePath=C:Program FilesHP_FortifyHP_Fortify_SCA_and_Apps_4.10binsourceanalyzer.exe
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+com.fortify.InstallRoot=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10
+com.fortify.TotalPhysicalMemory=8465162240
+com.fortify.sca.JVMArgs=-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx1280M -Xss8M -Xms16M -server
+com.fortify.sca.PID=17936
+com.fortify.sca.ProjectRoot=C:\Users\vafscmathag\AppData\Local/Fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\
+com.fortify.sca.env.include=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;
+com.sun.management.jmxremote=true
+dotnet.install.dir=C:\Windows\Microsoft.NET\Framework64
+dotnet.v30.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\endorsed
+java.ext.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+java.home=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64
+java.io.tmpdir=C:\Users\VAFSCM~1\AppData\Local\Temp\1\
+java.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;.
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_21-b11
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_21
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=23.21-b01
+line.separator=
+
+os.arch=amd64
+os.name=Windows 7
+os.version=6.1
+path.separator=;
+stderr.isatty=true
+stdout.isatty=true
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\classes
+sun.boot.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar -b 1234 -debug -logfile C:\results\trans.log devenv C:\Work\FOSInqueries\Branches\20140813\src\FosInquiries\FosInquiries.sln /Rebuild Debug
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+user.country=US
+user.dir=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC
+user.home=C:\Users\vafscmathag
+user.language=en
+user.name=vafscmathag
+user.script=
+user.timezone=America/Chicago
+user.variant=
+vs.110.dotnet.clr.version=v4.0.30319
+win32.LocalAppdata=C:\Users\vafscmathag\AppData\Local
+
+VM Info
+OperatingSystemMXBean: Windows 7
+  Arch: amd64
+  AvailableProcessors: 8
+  CommittedVirtualMemorySize: 154894336
+  FreePhysicalMemorySize: 4013342720
+  FreeSwapSpaceSize: 12061782016
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 1232407900
+  SystemCpuLoad: -1.0
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 8465162240
+  TotalSwapSpaceSize: 16928423936
+  Version: 6.1
+RuntimeMXBean: 23916@FSCEE54670
+  BootClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\Core\lib\exe\sca-exe.jar
+  LibraryPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\BIN\amd64;c:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319;c:\WINDOWS\Microsoft.NET\Framework64\v3.5;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\VCPackages;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files (x86)\HTML Help Workshop;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Attachmate\Reflection\;C:\Program Files\Tumbleweed\Desktop Validator\;C:\PROGRA~1\CONDUS~1\DISKEE~1\;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files (x86)\ActivIdentity\ActivClient\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft System Center\Service Manager 2010\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1411396272805
+  Uptime: 810
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 23.21-b01
+-----------------------------------------------------------------------------
+[2014-09-22 09:31:13.615 Thread-13 Master FINE]
+Compiler: devenv
+[2014-09-22 09:31:13.655 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-09-22 09:31:13.655 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Args:
+["-b", "1234", "-debug", "-logfile", "C:\\results\\trans.log", "devenv", "C:\\Work\\FOSInqueries\\Branches\\20140813\\src\\FosInquiries\\FosInquiries.sln", "/Rebuild", "Debug"]
+[2014-09-22 09:31:13.655 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xmx1280M -Xss8M -Xms16M -server"
+[2014-09-22 09:31:13.665 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Data binding
+[2014-09-22 09:31:13.675 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Event loops
+[2014-09-22 09:31:13.675 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling change notification transformer.
+[2014-09-22 09:31:13.785 com.fortify.sca.util.compilers.DevenvNetAdapter.runCompiler() Thread-13 Master FINE]
+Running compiler command: cmd /S /C "devenv C:\Work\FOSInqueries\Branches\20140813\src\FosInquiries\FosInquiries.sln /Rebuild Debug"
+[2014-09-22 09:31:30.756 com.fortify.frontend.translator.dotnet.DotNetRegistryEntries.<clinit>() Thread-13 Master FINE]
+Visual Studio install: null
+CLR version: null
+[2014-09-22 09:31:30.856 com.fortify.sca.frontend.FrontEndSession.runFrontEnd() Thread-13 Master INFO]
+Front End complete
+[2014-09-22 09:31:30.856 com.fortify.sca.metadata.BuildSession.storeIncrement() Thread-13 Master FINE]
+Nothing to store.

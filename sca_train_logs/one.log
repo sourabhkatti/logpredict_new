@@ -1,0 +1,1139 @@
+[2014-07-08 16:15:01.420 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:15:01.422 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\u318444\\AppData\\Local\\Temp\\PID6813653859061812711.tmp", "-show-runtime-properties"]
+[2014-07-08 16:15:01.422 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:17:50.055 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:17:50.056 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-08 16:17:50.057 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:17:51.193 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:17:51.194 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-08 16:17:51.194 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:18:29.917 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:18:29.918 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-08 16:18:29.918 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:19:21.325 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:19:21.327 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-08 16:19:21.327 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:21:58.866 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:21:58.868 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-08 16:21:58.868 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:22:00.020 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:22:00.021 Thread-13 Master INFO]
+Args:
+["-b", "MainWebSite", "-clean"]
+[2014-07-08 16:22:00.021 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:22:55.432 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:22:55.433 Thread-13 Master INFO]
+Args:
+["-b", "MainWebSite", "-clean"]
+[2014-07-08 16:22:55.434 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:23:26.131 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:23:26.132 Thread-13 Master INFO]
+Args:
+["-b", "Fortify Test", "-clean"]
+[2014-07-08 16:23:26.132 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:23:31.436 Thread-13 Master WARNING 6001]
+No files were excluded as the file patterns: [C:\Users\u318444\AppData\Local\Fortify\VS2010-4.10\output\Fortify Test\4y3fp2ac.232\**\*.vshost.exe, C:\Users\u318444\AppData\Local\Fortify\VS2010-4.10\output\Fortify Test\4y3fp2ac.232\**\*XmlSerializers.dll, C:\Users\u318444\AppData\Local\Fortify\VS2010-4.10\output\Fortify Test\4y3fp2ac.232\**\Properties.Resources.Designer*dll] specified for -exclude option did not match any files.
+[2014-07-08 16:23:31.497 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:23:31.497 Thread-13 Master INFO]
+Args:
+["-vsversion", "10.0", "-b", "Fortify Test", "-machine-output", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\obj\\Debug\\Fortify Test.dll", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Account\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Scripts\\jquery-1.4.1-vsdoc.js", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Scripts\\jquery-1.4.1.js", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Scripts\\jquery-1.4.1.min.js", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Web.Debug.config", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\Web.Release.config", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2010-4.10\\output\\Fortify Test\\4y3fp2ac.232\\**\\*.vshost.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2010-4.10\\output\\Fortify Test\\4y3fp2ac.232\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2010-4.10\\output\\Fortify Test\\4y3fp2ac.232\\**\\Properties.Resources.Designer*dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.0", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2010-4.10\\output\\Fortify Test\\4y3fp2ac.232\\**\\*.dll", "-dotnetwebroot", "c:\\users\\u318444\\documents\\visual studio 2010\\Projects\\Fortify Test\\Fortify Test\\\\"]
+[2014-07-08 16:23:31.498 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:23:32.116 Thread-13 Master INFO]
+Translating 11 MSIL files
+[2014-07-08 16:23:32.632 Thread-13 Master INFO]
+Loading Accessibility.dll into cache.
+[2014-07-08 16:23:32.887 Thread-13 Master INFO]
+Loading CustomMarshalers.dll into cache.
+[2014-07-08 16:23:33.076 Thread-13 Master INFO]
+Loading ISymWrapper.dll into cache.
+[2014-07-08 16:23:33.296 Thread-13 Master INFO]
+Loading Microsoft.Build.Conversion.v4.0.dll into cache.
+[2014-07-08 16:23:33.417 Thread-13 Master INFO]
+Loading Microsoft.Build.dll into cache.
+[2014-07-08 16:23:35.262 Thread-13 Master INFO]
+Loading Microsoft.Build.Engine.dll into cache.
+[2014-07-08 16:23:36.161 Thread-13 Master INFO]
+Loading Microsoft.Build.Framework.dll into cache.
+[2014-07-08 16:23:36.572 Thread-13 Master INFO]
+Loading Microsoft.Build.Tasks.v4.0.dll into cache.
+[2014-07-08 16:23:37.861 Thread-13 Master INFO]
+Loading Microsoft.Build.Utilities.v4.0.dll into cache.
+[2014-07-08 16:23:38.097 Thread-13 Master INFO]
+Loading Microsoft.CSharp.dll into cache.
+[2014-07-08 16:23:38.195 Thread-13 Master INFO]
+Loading Microsoft.JScript.dll into cache.
+[2014-07-08 16:23:38.689 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.Compatibility.Data.dll into cache.
+[2014-07-08 16:23:38.878 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.Compatibility.dll into cache.
+[2014-07-08 16:23:39.657 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.dll into cache.
+[2014-07-08 16:23:40.027 Thread-13 Master INFO]
+Loading Microsoft.VisualC.Dll into cache.
+[2014-07-08 16:23:40.122 Thread-13 Master INFO]
+Loading Microsoft.VisualC.STLCLR.dll into cache.
+[2014-07-08 16:23:40.692 Thread-13 Master INFO]
+Loading mscorlib.dll into cache.
+[2014-07-08 16:23:46.196 Thread-13 Master INFO]
+Loading PresentationBuildTasks.dll into cache.
+[2014-07-08 16:23:46.319 Thread-13 Master INFO]
+Loading PresentationCore.dll into cache.
+[2014-07-08 16:23:51.465 Thread-13 Master INFO]
+Loading PresentationFramework.Aero.dll into cache.
+[2014-07-08 16:23:51.571 Thread-13 Master INFO]
+Loading PresentationFramework.Classic.dll into cache.
+[2014-07-08 16:23:51.693 Thread-13 Master INFO]
+Loading PresentationFramework.dll into cache.
+[2014-07-08 16:23:58.064 Thread-13 Master INFO]
+Loading PresentationFramework.Luna.dll into cache.
+[2014-07-08 16:23:58.194 Thread-13 Master INFO]
+Loading PresentationFramework.Royale.dll into cache.
+[2014-07-08 16:23:58.294 Thread-13 Master INFO]
+Loading ReachFramework.dll into cache.
+[2014-07-08 16:23:59.279 Thread-13 Master INFO]
+Loading sysglobl.dll into cache.
+[2014-07-08 16:23:59.374 Thread-13 Master INFO]
+Loading System.Activities.Core.Presentation.dll into cache.
+[2014-07-08 16:23:59.702 Thread-13 Master INFO]
+Loading System.Activities.dll into cache.
+[2014-07-08 16:24:01.367 Thread-13 Master INFO]
+Loading System.Activities.DurableInstancing.dll into cache.
+[2014-07-08 16:24:01.457 Thread-13 Master INFO]
+Loading System.Activities.Presentation.dll into cache.
+[2014-07-08 16:24:02.695 Thread-13 Master INFO]
+Loading System.AddIn.Contract.dll into cache.
+[2014-07-08 16:24:02.844 Thread-13 Master INFO]
+Loading System.AddIn.dll into cache.
+[2014-07-08 16:24:02.971 Thread-13 Master INFO]
+Loading System.ComponentModel.Composition.dll into cache.
+[2014-07-08 16:24:03.304 Thread-13 Master INFO]
+Loading System.ComponentModel.DataAnnotations.dll into cache.
+[2014-07-08 16:24:03.444 Thread-13 Master INFO]
+Loading System.configuration.dll into cache.
+[2014-07-08 16:24:03.682 Thread-13 Master INFO]
+Loading System.Configuration.Install.dll into cache.
+[2014-07-08 16:24:03.805 Thread-13 Master INFO]
+Loading System.Core.dll into cache.
+[2014-07-08 16:24:04.488 Thread-13 Master INFO]
+Loading System.Data.DataSetExtensions.dll into cache.
+[2014-07-08 16:24:04.579 Thread-13 Master INFO]
+Loading System.Data.dll into cache.
+[2014-07-08 16:24:06.473 Thread-13 Master INFO]
+Loading System.Data.Entity.Design.dll into cache.
+[2014-07-08 16:24:06.622 Thread-13 Master INFO]
+Loading System.Data.Entity.dll into cache.
+[2014-07-08 16:24:09.600 Thread-13 Master INFO]
+Loading System.Data.Linq.dll into cache.
+[2014-07-08 16:24:10.359 Thread-13 Master INFO]
+Loading System.Data.OracleClient.dll into cache.
+[2014-07-08 16:24:10.554 Thread-13 Master INFO]
+Loading System.Data.Services.Client.dll into cache.
+[2014-07-08 16:24:10.723 Thread-13 Master INFO]
+Loading System.Data.Services.Design.dll into cache.
+[2014-07-08 16:24:10.824 Thread-13 Master INFO]
+Loading System.Data.Services.dll into cache.
+[2014-07-08 16:24:11.097 Thread-13 Master INFO]
+Loading System.Data.SqlXml.dll into cache.
+[2014-07-08 16:24:11.869 Thread-13 Master INFO]
+Loading System.Deployment.dll into cache.
+[2014-07-08 16:24:12.625 Thread-13 Master INFO]
+Loading System.Design.dll into cache.
+[2014-07-08 16:24:14.985 Thread-13 Master INFO]
+Loading System.Device.dll into cache.
+[2014-07-08 16:24:15.100 Thread-13 Master INFO]
+Loading System.DirectoryServices.AccountManagement.dll into cache.
+[2014-07-08 16:24:15.257 Thread-13 Master INFO]
+Loading System.DirectoryServices.dll into cache.
+[2014-07-08 16:24:15.620 Thread-13 Master INFO]
+Loading System.DirectoryServices.Protocols.dll into cache.
+[2014-07-08 16:24:15.859 Thread-13 Master INFO]
+Loading System.dll into cache.
+[2014-07-08 16:24:18.212 Thread-13 Master INFO]
+Loading System.Drawing.Design.dll into cache.
+[2014-07-08 16:24:18.330 Thread-13 Master INFO]
+Loading System.Drawing.dll into cache.
+[2014-07-08 16:24:18.871 Thread-13 Master INFO]
+Loading System.EnterpriseServices.dll into cache.
+[2014-07-08 16:24:19.131 Thread-13 Master INFO]
+Loading System.EnterpriseServices.Thunk.dll into cache.
+[2014-07-08 16:24:19.206 Thread-13 Master INFO]
+Loading System.EnterpriseServices.Wrapper.dll into cache.
+[2014-07-08 16:24:19.441 Thread-13 Master INFO]
+Loading System.IdentityModel.dll into cache.
+[2014-07-08 16:24:19.829 Thread-13 Master INFO]
+Loading System.IdentityModel.Selectors.dll into cache.
+[2014-07-08 16:24:20.009 Thread-13 Master INFO]
+Loading System.IO.Log.dll into cache.
+[2014-07-08 16:24:20.140 Thread-13 Master INFO]
+Loading System.Management.dll into cache.
+[2014-07-08 16:24:20.378 Thread-13 Master INFO]
+Loading System.Management.Instrumentation.dll into cache.
+[2014-07-08 16:24:20.475 Thread-13 Master INFO]
+Loading System.Messaging.dll into cache.
+[2014-07-08 16:24:20.695 Thread-13 Master INFO]
+Loading System.Net.dll into cache.
+[2014-07-08 16:24:20.892 Thread-13 Master INFO]
+Loading System.Numerics.dll into cache.
+[2014-07-08 16:24:21.017 Thread-13 Master INFO]
+Loading System.Printing.dll into cache.
+[2014-07-08 16:24:21.524 Thread-13 Master INFO]
+Loading System.Runtime.Caching.dll into cache.
+[2014-07-08 16:24:21.691 Thread-13 Master INFO]
+Loading System.Runtime.DurableInstancing.dll into cache.
+[2014-07-08 16:24:21.981 Thread-13 Master INFO]
+Loading System.Runtime.Remoting.dll into cache.
+[2014-07-08 16:24:22.218 Thread-13 Master INFO]
+Loading System.Runtime.Serialization.dll into cache.
+[2014-07-08 16:24:22.914 Thread-13 Master INFO]
+Loading System.Runtime.Serialization.Formatters.Soap.dll into cache.
+[2014-07-08 16:24:23.004 Thread-13 Master INFO]
+Loading System.Security.dll into cache.
+[2014-07-08 16:24:23.238 Thread-13 Master INFO]
+Loading System.ServiceModel.Activation.dll into cache.
+[2014-07-08 16:24:23.424 Thread-13 Master INFO]
+Loading System.ServiceModel.Activities.dll into cache.
+[2014-07-08 16:24:23.697 Thread-13 Master INFO]
+Loading System.ServiceModel.Channels.dll into cache.
+[2014-07-08 16:24:23.782 Thread-13 Master INFO]
+Loading System.ServiceModel.Discovery.dll into cache.
+[2014-07-08 16:24:24.364 Thread-13 Master INFO]
+Loading System.ServiceModel.dll into cache.
+[2014-07-08 16:24:30.763 Thread-13 Master INFO]
+Loading System.ServiceModel.Routing.dll into cache.
+[2014-07-08 16:24:30.910 Thread-13 Master INFO]
+Loading System.ServiceModel.Web.dll into cache.
+[2014-07-08 16:24:31.204 Thread-13 Master INFO]
+Loading System.ServiceProcess.dll into cache.
+[2014-07-08 16:24:31.325 Thread-13 Master INFO]
+Loading System.Speech.dll into cache.
+[2014-07-08 16:24:31.672 Thread-13 Master INFO]
+Loading System.Transactions.dll into cache.
+[2014-07-08 16:24:31.812 Thread-13 Master INFO]
+Loading System.Web.Abstractions.dll into cache.
+[2014-07-08 16:24:31.895 Thread-13 Master INFO]
+Loading System.Web.ApplicationServices.dll into cache.
+[2014-07-08 16:24:32.009 Thread-13 Master INFO]
+Loading System.Web.DataVisualization.Design.dll into cache.
+[2014-07-08 16:24:32.124 Thread-13 Master INFO]
+Loading System.Web.DataVisualization.dll into cache.
+[2014-07-08 16:24:33.725 Thread-13 Master INFO]
+Loading System.Web.dll into cache.
+[2014-07-08 16:24:39.695 Thread-13 Master INFO]
+Loading System.Web.DynamicData.Design.dll into cache.
+[2014-07-08 16:24:39.797 Thread-13 Master INFO]
+Loading System.Web.DynamicData.dll into cache.
+[2014-07-08 16:24:40.134 Thread-13 Master INFO]
+Loading System.Web.Entity.Design.dll into cache.
+[2014-07-08 16:24:40.267 Thread-13 Master INFO]
+Loading System.Web.Entity.dll into cache.
+[2014-07-08 16:24:40.377 Thread-13 Master INFO]
+Loading System.Web.Extensions.Design.dll into cache.
+[2014-07-08 16:24:40.738 Thread-13 Master INFO]
+Loading System.Web.Extensions.dll into cache.
+[2014-07-08 16:24:41.605 Thread-13 Master INFO]
+Loading System.Web.Mobile.dll into cache.
+[2014-07-08 16:24:42.369 Thread-13 Master INFO]
+Loading System.Web.RegularExpressions.dll into cache.
+[2014-07-08 16:24:42.540 Thread-13 Master INFO]
+Loading System.Web.Routing.dll into cache.
+[2014-07-08 16:24:42.623 Thread-13 Master INFO]
+Loading System.Web.Services.dll into cache.
+[2014-07-08 16:24:43.041 Thread-13 Master INFO]
+Loading System.Windows.Forms.DataVisualization.Design.dll into cache.
+[2014-07-08 16:24:43.138 Thread-13 Master INFO]
+Loading System.Windows.Forms.DataVisualization.dll into cache.
+[2014-07-08 16:24:44.737 Thread-13 Master INFO]
+Loading System.Windows.Forms.dll into cache.
+[2014-07-08 16:24:48.037 Thread-13 Master INFO]
+Loading System.Windows.Input.Manipulations.dll into cache.
+[2014-07-08 16:24:48.151 Thread-13 Master INFO]
+Loading System.Windows.Presentation.dll into cache.
+[2014-07-08 16:24:48.252 Thread-13 Master INFO]
+Loading System.Workflow.Activities.dll into cache.
+[2014-07-08 16:24:49.239 Thread-13 Master INFO]
+Loading System.Workflow.ComponentModel.dll into cache.
+[2014-07-08 16:24:50.354 Thread-13 Master INFO]
+Loading System.Workflow.Runtime.dll into cache.
+[2014-07-08 16:24:50.794 Thread-13 Master INFO]
+Loading System.WorkflowServices.dll into cache.
+[2014-07-08 16:24:51.197 Thread-13 Master INFO]
+Loading System.Xaml.dll into cache.
+[2014-07-08 16:24:51.509 Thread-13 Master INFO]
+Loading System.XML.dll into cache.
+[2014-07-08 16:24:53.388 Thread-13 Master INFO]
+Loading System.Xml.Linq.dll into cache.
+[2014-07-08 16:24:53.533 Thread-13 Master INFO]
+Loading UIAutomationClient.dll into cache.
+[2014-07-08 16:24:53.695 Thread-13 Master INFO]
+Loading UIAutomationClientsideProviders.dll into cache.
+[2014-07-08 16:24:53.779 Thread-13 Master INFO]
+Loading UIAutomationProvider.dll into cache.
+[2014-07-08 16:24:53.922 Thread-13 Master INFO]
+Loading UIAutomationTypes.dll into cache.
+[2014-07-08 16:24:54.090 Thread-13 Master INFO]
+Loading WindowsBase.dll into cache.
+[2014-07-08 16:24:55.471 Thread-13 Master INFO]
+Loading WindowsFormsIntegration.dll into cache.
+[2014-07-08 16:24:55.594 Thread-13 Master INFO]
+Loading XamlBuildTask.dll into cache.
+[2014-07-08 16:25:00.552 Thread-13 Master WARNING 1364]
+No rules files found
+[2014-07-08 16:25:00.552 Thread-13 Master INFO]
+Translating 3 containing javascript
+[2014-07-08 16:25:00.552 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2010/Projects/Fortify Test/Fortify Test/Scripts/jquery-1.4.1.min.js
+[2014-07-08 16:25:02.126 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2010/Projects/Fortify Test/Fortify Test/Scripts/jquery-1.4.1.js
+[2014-07-08 16:25:03.060 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2010/Projects/Fortify Test/Fortify Test/Scripts/jquery-1.4.1-vsdoc.js
+[2014-07-08 16:25:08.582 Thread-13 Master INFO]
+Front End complete
+[2014-07-08 16:25:09.817 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:25:09.818 Thread-13 Master INFO]
+Args:
+["-scan", "-vsversion", "10.0", "-b", "Fortify Test", "-machine-output", "-f", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2010-4.10\\Fortify Test\\Scan.fpr", "-format", "fpr"]
+[2014-07-08 16:25:09.818 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:25:09.902 Thread-13 Master SEVERE 1364]
+No rules files found
+[2014-07-08 16:25:09.906 Thread-1 Master WARNING]
+exit(1)
+[2014-07-08 16:25:53.015 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:25:53.016 Thread-13 Master INFO]
+Args:
+["-version"]
+[2014-07-08 16:25:53.016 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:25:53.689 Thread-13 Master INFO]
+Front End complete
+[2014-07-08 16:26:31.808 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:26:31.809 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\u318444\\AppData\\Local\\Temp\\PID5354354788817980149.tmp", "-show-runtime-properties"]
+[2014-07-08 16:26:31.810 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:26:54.965 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:26:54.966 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\u318444\\AppData\\Local\\Temp\\PID82780632209260819.tmp", "-show-runtime-properties"]
+[2014-07-08 16:26:54.966 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:31:22.859 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:31:22.860 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-08 16:31:22.860 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:31:24.088 Thread-13 Master SEVERE 265]
+No parameter specified for argument -b
+[2014-07-08 16:31:24.141 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:31:24.141 Thread-13 Master INFO]
+Args:
+["-b", "-clean"]
+[2014-07-08 16:31:24.141 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:31:24.224 Thread-1 Master WARNING]
+exit(1)
+[2014-07-08 16:31:34.354 Thread-13 Master SEVERE 265]
+No parameter specified for argument -b
+[2014-07-08 16:31:34.406 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:31:34.406 Thread-13 Master INFO]
+Args:
+["-b", "-clean"]
+[2014-07-08 16:31:34.406 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:31:34.492 Thread-1 Master WARNING]
+exit(1)
+[2014-07-08 16:31:42.131 Thread-13 Master SEVERE 265]
+No parameter specified for argument -b
+[2014-07-08 16:31:42.183 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:31:42.183 Thread-13 Master INFO]
+Args:
+["-b", "-clean"]
+[2014-07-08 16:31:42.184 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:31:42.265 Thread-1 Master WARNING]
+exit(1)
+[2014-07-08 16:32:22.439 Thread-13 Master SEVERE 265]
+No parameter specified for argument -b
+[2014-07-08 16:32:22.490 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 16:32:22.491 Thread-13 Master INFO]
+Args:
+["-b", "-clean"]
+[2014-07-08 16:32:22.491 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 16:32:22.566 Thread-1 Master WARNING]
+exit(1)
+[2014-07-08 23:17:28.542 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:17:28.542 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-08 23:17:28.542 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 23:17:30.368 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:17:30.368 Thread-13 Master INFO]
+Args:
+["-version"]
+[2014-07-08 23:17:30.368 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 23:17:31.506 Thread-13 Master INFO]
+Front End complete
+[2014-07-08 23:17:47.715 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:17:47.715 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\u318444\\AppData\\Local\\Temp\\PID3320907495822725722.tmp", "-show-runtime-properties"]
+[2014-07-08 23:17:47.715 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 23:18:15.771 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:18:15.771 Thread-13 Master INFO]
+Args:
+["-pid-file", "C:\\Users\\u318444\\AppData\\Local\\Temp\\PID2980177129743408331.tmp", "-show-runtime-properties"]
+[2014-07-08 23:18:15.771 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 23:18:59.445 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:18:59.460 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-08 23:18:59.460 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-08 23:20:10.424 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-08 23:20:10.424 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-08 23:20:10.440 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:13:13.581 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:13:13.586 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-09 06:13:13.586 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:13:14.693 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:13:14.694 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 06:13:14.694 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:13:22.721 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:13:22.725 Thread-13 Master INFO]
+Args:
+["-vsversion", "12.0", "-b", "CabinViewProjects", "-machine-output", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\obj\\Debug\\CabinViewWorksheet.dll", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Bundle.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\packages.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Project_Readme.html", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\_references.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\bootstrap.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\bootstrap.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.intellisense.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\modernizr-2.6.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\respond.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\respond.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\DetailsView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\Focus.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\GridView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\Menu.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MenuStandards.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjax.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxApplicationServices.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxComponentModel.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxCore.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxGlobalization.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxHistory.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxNetwork.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxSerialization.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxTimer.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxWebForms.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxWebServices.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\SmartNav.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\TreeView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebForms.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebParts.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebUIValidation.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Debug.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Release.config", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\*.vshost.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\microsoft.aspnet.friendlyurls.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45\\microsoft.aspnet.friendlyurls.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\microsoft.scriptmanager.webforms.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45\\microsoft.scriptmanager.webforms.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\aspnet.scriptmanager.jquery.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45\\aspnet.scriptmanager.jquery.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\microsoft.scriptmanager.msajax.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45\\microsoft.scriptmanager.msajax.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\newtonsoft.json.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45\\newtonsoft.json.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\system.web.optimization.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40\\system.web.optimization.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\aspnet.scriptmanager.bootstrap.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45\\aspnet.scriptmanager.bootstrap.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.5;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\webgrease.1.5.2\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\antlr.3.4.1.9004\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.webforms.1.1.3\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\3uqx5jt3.hdy\\**\\*.dll", "-dotnetwebroot", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\\\"]
+[2014-07-09 06:13:22.726 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:13:23.325 Thread-13 Master INFO]
+Translating 13 MSIL files
+[2014-07-09 06:13:26.532 Thread-13 Master INFO]
+Loading Accessibility.dll into cache.
+[2014-07-09 06:13:26.652 Thread-13 Master INFO]
+Loading CustomMarshalers.dll into cache.
+[2014-07-09 06:13:26.777 Thread-13 Master INFO]
+Loading ISymWrapper.dll into cache.
+[2014-07-09 06:13:26.939 Thread-13 Master INFO]
+Loading Microsoft.Activities.Build.dll into cache.
+[2014-07-09 06:13:27.040 Thread-13 Master INFO]
+Loading Microsoft.Build.Conversion.v4.0.dll into cache.
+[2014-07-09 06:13:27.143 Thread-13 Master INFO]
+Loading Microsoft.Build.dll into cache.
+[2014-07-09 06:13:28.846 Thread-13 Master INFO]
+Loading Microsoft.Build.Engine.dll into cache.
+[2014-07-09 06:13:29.709 Thread-13 Master INFO]
+Loading Microsoft.Build.Framework.dll into cache.
+[2014-07-09 06:13:30.024 Thread-13 Master INFO]
+Loading Microsoft.Build.Tasks.v4.0.dll into cache.
+[2014-07-09 06:13:31.183 Thread-13 Master INFO]
+Loading Microsoft.Build.Utilities.v4.0.dll into cache.
+[2014-07-09 06:13:31.421 Thread-13 Master INFO]
+Loading Microsoft.CSharp.dll into cache.
+[2014-07-09 06:13:31.538 Thread-13 Master INFO]
+Loading Microsoft.JScript.dll into cache.
+[2014-07-09 06:13:32.090 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.Compatibility.Data.dll into cache.
+[2014-07-09 06:13:32.287 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.Compatibility.dll into cache.
+[2014-07-09 06:13:33.042 Thread-13 Master INFO]
+Loading Microsoft.VisualBasic.dll into cache.
+[2014-07-09 06:13:33.379 Thread-13 Master INFO]
+Loading Microsoft.VisualC.Dll into cache.
+[2014-07-09 06:13:33.478 Thread-13 Master INFO]
+Loading Microsoft.VisualC.STLCLR.dll into cache.
+[2014-07-09 06:13:33.735 Thread-13 Master INFO]
+Loading mscorlib.dll into cache.
+[2014-07-09 06:13:40.479 Thread-13 Master INFO]
+Loading PresentationBuildTasks.dll into cache.
+[2014-07-09 06:13:40.596 Thread-13 Master INFO]
+Loading PresentationCore.dll into cache.
+[2014-07-09 06:13:45.655 Thread-13 Master INFO]
+Loading PresentationFramework.Aero.dll into cache.
+[2014-07-09 06:13:45.764 Thread-13 Master INFO]
+Loading PresentationFramework.Aero2.dll into cache.
+[2014-07-09 06:13:45.886 Thread-13 Master INFO]
+Loading PresentationFramework.AeroLite.dll into cache.
+[2014-07-09 06:13:45.980 Thread-13 Master INFO]
+Loading PresentationFramework.Classic.dll into cache.
+[2014-07-09 06:13:46.072 Thread-13 Master INFO]
+Loading PresentationFramework.dll into cache.
+[2014-07-09 06:13:52.883 Thread-13 Master INFO]
+Loading PresentationFramework.Luna.dll into cache.
+[2014-07-09 06:13:52.990 Thread-13 Master INFO]
+Loading PresentationFramework.Royale.dll into cache.
+[2014-07-09 06:13:53.094 Thread-13 Master INFO]
+Loading ReachFramework.dll into cache.
+[2014-07-09 06:13:54.231 Thread-13 Master INFO]
+Loading sysglobl.dll into cache.
+[2014-07-09 06:13:54.328 Thread-13 Master INFO]
+Loading System.Activities.Core.Presentation.dll into cache.
+[2014-07-09 06:13:54.740 Thread-13 Master INFO]
+Loading System.Activities.dll into cache.
+[2014-07-09 06:13:56.299 Thread-13 Master INFO]
+Loading System.Activities.DurableInstancing.dll into cache.
+[2014-07-09 06:13:56.393 Thread-13 Master INFO]
+Loading System.Activities.Presentation.dll into cache.
+[2014-07-09 06:13:58.158 Thread-13 Master INFO]
+Loading System.AddIn.Contract.dll into cache.
+[2014-07-09 06:13:58.310 Thread-13 Master INFO]
+Loading System.AddIn.dll into cache.
+[2014-07-09 06:13:58.429 Thread-13 Master INFO]
+Loading System.ComponentModel.Composition.dll into cache.
+[2014-07-09 06:13:58.805 Thread-13 Master INFO]
+Loading System.ComponentModel.Composition.Registration.dll into cache.
+[2014-07-09 06:13:58.922 Thread-13 Master INFO]
+Loading System.ComponentModel.DataAnnotations.dll into cache.
+[2014-07-09 06:13:59.097 Thread-13 Master INFO]
+Loading System.Configuration.dll into cache.
+[2014-07-09 06:13:59.359 Thread-13 Master INFO]
+Loading System.Configuration.Install.dll into cache.
+[2014-07-09 06:13:59.480 Thread-13 Master INFO]
+Loading System.Core.dll into cache.
+[2014-07-09 06:14:00.184 Thread-13 Master INFO]
+Loading System.Data.DataSetExtensions.dll into cache.
+[2014-07-09 06:14:00.271 Thread-13 Master INFO]
+Loading System.Data.dll into cache.
+[2014-07-09 06:14:02.287 Thread-13 Master INFO]
+Loading System.Data.Entity.Design.dll into cache.
+[2014-07-09 06:14:02.429 Thread-13 Master INFO]
+Loading System.Data.Entity.dll into cache.
+[2014-07-09 06:14:05.692 Thread-13 Master INFO]
+Loading System.Data.Linq.dll into cache.
+[2014-07-09 06:14:06.481 Thread-13 Master INFO]
+Loading System.Data.OracleClient.dll into cache.
+[2014-07-09 06:14:06.684 Thread-13 Master INFO]
+Loading System.Data.Services.Client.dll into cache.
+[2014-07-09 06:14:06.824 Thread-13 Master INFO]
+Loading System.Data.Services.Design.dll into cache.
+[2014-07-09 06:14:06.924 Thread-13 Master INFO]
+Loading System.Data.Services.dll into cache.
+[2014-07-09 06:14:07.173 Thread-13 Master INFO]
+Loading System.Data.SqlXml.dll into cache.
+[2014-07-09 06:14:07.956 Thread-13 Master INFO]
+Loading System.Deployment.dll into cache.
+[2014-07-09 06:14:08.796 Thread-13 Master INFO]
+Loading System.Design.dll into cache.
+[2014-07-09 06:14:11.075 Thread-13 Master INFO]
+Loading System.Device.dll into cache.
+[2014-07-09 06:14:11.186 Thread-13 Master INFO]
+Loading System.DirectoryServices.AccountManagement.dll into cache.
+[2014-07-09 06:14:11.338 Thread-13 Master INFO]
+Loading System.DirectoryServices.dll into cache.
+[2014-07-09 06:14:11.751 Thread-13 Master INFO]
+Loading System.DirectoryServices.Protocols.dll into cache.
+[2014-07-09 06:14:12.039 Thread-13 Master INFO]
+Loading System.dll into cache.
+[2014-07-09 06:14:16.228 Thread-13 Master INFO]
+Loading System.Drawing.Design.dll into cache.
+[2014-07-09 06:14:16.339 Thread-13 Master INFO]
+Loading System.Drawing.dll into cache.
+[2014-07-09 06:14:16.868 Thread-13 Master INFO]
+Loading System.EnterpriseServices.dll into cache.
+[2014-07-09 06:14:17.114 Thread-13 Master INFO]
+Loading System.EnterpriseServices.Thunk.dll into cache.
+[2014-07-09 06:14:17.198 Thread-13 Master INFO]
+Loading System.EnterpriseServices.Wrapper.dll into cache.
+[2014-07-09 06:14:17.429 Thread-13 Master INFO]
+Loading System.IdentityModel.dll into cache.
+[2014-07-09 06:14:18.729 Thread-13 Master INFO]
+Loading System.IdentityModel.Selectors.dll into cache.
+[2014-07-09 06:14:18.948 Thread-13 Master INFO]
+Loading System.identitymodel.services.dll into cache.
+[2014-07-09 06:14:19.240 Thread-13 Master INFO]
+Loading System.IO.Compression.dll into cache.
+[2014-07-09 06:14:19.336 Thread-13 Master INFO]
+Loading System.IO.Compression.FileSystem.dll into cache.
+[2014-07-09 06:14:19.449 Thread-13 Master INFO]
+Loading System.IO.Log.dll into cache.
+[2014-07-09 06:14:19.594 Thread-13 Master INFO]
+Loading System.Management.dll into cache.
+[2014-07-09 06:14:19.825 Thread-13 Master INFO]
+Loading System.Management.Instrumentation.dll into cache.
+[2014-07-09 06:14:19.929 Thread-13 Master INFO]
+Loading System.Messaging.dll into cache.
+[2014-07-09 06:14:20.394 Thread-13 Master INFO]
+Loading System.Net.dll into cache.
+[2014-07-09 06:14:20.642 Thread-13 Master INFO]
+Loading System.Net.Http.dll into cache.
+[2014-07-09 06:14:20.914 Thread-13 Master INFO]
+Loading System.Net.Http.WebRequest.dll into cache.
+[2014-07-09 06:14:21.005 Thread-13 Master INFO]
+Loading System.Numerics.dll into cache.
+[2014-07-09 06:14:21.091 Thread-13 Master INFO]
+Loading System.Printing.dll into cache.
+[2014-07-09 06:14:21.588 Thread-13 Master INFO]
+Loading System.Reflection.Context.dll into cache.
+[2014-07-09 06:14:21.675 Thread-13 Master INFO]
+Loading System.Runtime.Caching.dll into cache.
+[2014-07-09 06:14:21.809 Thread-13 Master INFO]
+Loading System.Runtime.DurableInstancing.dll into cache.
+[2014-07-09 06:14:22.017 Thread-13 Master INFO]
+Loading System.Runtime.Remoting.dll into cache.
+[2014-07-09 06:14:22.263 Thread-13 Master INFO]
+Loading System.Runtime.Serialization.dll into cache.
+[2014-07-09 06:14:23.080 Thread-13 Master INFO]
+Loading System.Runtime.Serialization.Formatters.Soap.dll into cache.
+[2014-07-09 06:14:23.168 Thread-13 Master INFO]
+Loading System.Security.dll into cache.
+[2014-07-09 06:14:23.406 Thread-13 Master INFO]
+Loading System.ServiceModel.Activation.dll into cache.
+[2014-07-09 06:14:23.610 Thread-13 Master INFO]
+Loading System.ServiceModel.Activities.dll into cache.
+[2014-07-09 06:14:25.103 Thread-13 Master INFO]
+Loading System.ServiceModel.Channels.dll into cache.
+[2014-07-09 06:14:25.486 Thread-13 Master INFO]
+Loading System.ServiceModel.Discovery.dll into cache.
+[2014-07-09 06:14:26.440 Thread-13 Master INFO]
+Loading System.ServiceModel.dll into cache.
+[2014-07-09 06:14:33.789 Thread-13 Master INFO]
+Loading System.ServiceModel.Routing.dll into cache.
+[2014-07-09 06:14:33.972 Thread-13 Master INFO]
+Loading System.ServiceModel.Web.dll into cache.
+[2014-07-09 06:14:34.352 Thread-13 Master INFO]
+Loading System.ServiceProcess.dll into cache.
+[2014-07-09 06:14:34.580 Thread-13 Master INFO]
+Loading System.Speech.dll into cache.
+[2014-07-09 06:14:35.224 Thread-13 Master INFO]
+Loading System.Transactions.dll into cache.
+[2014-07-09 06:14:35.375 Thread-13 Master INFO]
+Loading System.Web.Abstractions.dll into cache.
+[2014-07-09 06:14:35.472 Thread-13 Master INFO]
+Loading System.Web.ApplicationServices.dll into cache.
+[2014-07-09 06:14:35.608 Thread-13 Master INFO]
+Loading System.Web.DataVisualization.Design.dll into cache.
+[2014-07-09 06:14:35.729 Thread-13 Master INFO]
+Loading System.Web.DataVisualization.dll into cache.
+[2014-07-09 06:14:37.666 Thread-13 Master INFO]
+Loading System.Web.dll into cache.
+[2014-07-09 06:14:44.943 Thread-13 Master INFO]
+Loading System.Web.DynamicData.Design.dll into cache.
+[2014-07-09 06:14:45.074 Thread-13 Master INFO]
+Loading System.Web.DynamicData.dll into cache.
+[2014-07-09 06:14:45.403 Thread-13 Master INFO]
+Loading System.Web.Entity.Design.dll into cache.
+[2014-07-09 06:14:45.505 Thread-13 Master INFO]
+Loading System.Web.Entity.dll into cache.
+[2014-07-09 06:14:45.617 Thread-13 Master INFO]
+Loading System.Web.Extensions.Design.dll into cache.
+[2014-07-09 06:14:45.988 Thread-13 Master INFO]
+Loading System.Web.Extensions.dll into cache.
+[2014-07-09 06:14:46.993 Thread-13 Master INFO]
+Loading System.Web.Mobile.dll into cache.
+[2014-07-09 06:14:47.969 Thread-13 Master INFO]
+Loading System.Web.RegularExpressions.dll into cache.
+[2014-07-09 06:14:48.187 Thread-13 Master INFO]
+Loading System.Web.Routing.dll into cache.
+[2014-07-09 06:14:48.278 Thread-13 Master INFO]
+Loading System.Web.Services.dll into cache.
+[2014-07-09 06:14:48.841 Thread-13 Master INFO]
+Loading System.Windows.Controls.Ribbon.dll into cache.
+[2014-07-09 06:14:49.390 Thread-13 Master INFO]
+Loading System.Windows.dll into cache.
+[2014-07-09 06:14:49.474 Thread-13 Master INFO]
+Loading System.Windows.Forms.DataVisualization.Design.dll into cache.
+[2014-07-09 06:14:49.568 Thread-13 Master INFO]
+Loading System.Windows.Forms.DataVisualization.dll into cache.
+[2014-07-09 06:14:51.697 Thread-13 Master INFO]
+Loading System.Windows.Forms.dll into cache.
+[2014-07-09 06:14:54.869 Thread-13 Master INFO]
+Loading System.Windows.Input.Manipulations.dll into cache.
+[2014-07-09 06:14:54.986 Thread-13 Master INFO]
+Loading System.Windows.Presentation.dll into cache.
+[2014-07-09 06:14:55.073 Thread-13 Master INFO]
+Loading System.Workflow.Activities.dll into cache.
+[2014-07-09 06:14:56.324 Thread-13 Master INFO]
+Loading System.Workflow.ComponentModel.dll into cache.
+[2014-07-09 06:14:57.650 Thread-13 Master INFO]
+Loading System.Workflow.Runtime.dll into cache.
+[2014-07-09 06:14:58.166 Thread-13 Master INFO]
+Loading System.WorkflowServices.dll into cache.
+[2014-07-09 06:14:58.557 Thread-13 Master INFO]
+Loading System.Xaml.dll into cache.
+[2014-07-09 06:14:58.853 Thread-13 Master INFO]
+Loading System.XML.dll into cache.
+[2014-07-09 06:15:00.882 Thread-13 Master INFO]
+Loading System.Xml.Linq.dll into cache.
+[2014-07-09 06:15:01.019 Thread-13 Master INFO]
+Loading System.Xml.Serialization.dll into cache.
+[2014-07-09 06:15:01.101 Thread-13 Master INFO]
+Loading UIAutomationClient.dll into cache.
+[2014-07-09 06:15:01.276 Thread-13 Master INFO]
+Loading UIAutomationClientsideProviders.dll into cache.
+[2014-07-09 06:15:01.365 Thread-13 Master INFO]
+Loading UIAutomationProvider.dll into cache.
+[2014-07-09 06:15:01.499 Thread-13 Master INFO]
+Loading UIAutomationTypes.dll into cache.
+[2014-07-09 06:15:01.692 Thread-13 Master INFO]
+Loading WindowsBase.dll into cache.
+[2014-07-09 06:15:02.907 Thread-13 Master INFO]
+Loading WindowsFormsIntegration.dll into cache.
+[2014-07-09 06:15:03.027 Thread-13 Master INFO]
+Loading XamlBuildTask.dll into cache.
+[2014-07-09 06:15:03.149 Thread-13 Master INFO]
+Loading Microsoft.Web.Infrastructure.dll into cache.
+[2014-07-09 06:15:03.320 Thread-13 Master INFO]
+Loading Microsoft.AspNet.FriendlyUrls.dll into cache.
+[2014-07-09 06:15:03.492 Thread-13 Master INFO]
+Loading WebGrease.dll into cache.
+[2014-07-09 06:15:07.043 Thread-13 Master INFO]
+Loading Microsoft.ScriptManager.WebForms.dll into cache.
+[2014-07-09 06:15:07.109 Thread-13 Master INFO]
+Loading Antlr3.Runtime.dll into cache.
+[2014-07-09 06:15:07.975 Thread-13 Master INFO]
+Loading Microsoft.AspNet.Web.Optimization.WebForms.dll into cache.
+[2014-07-09 06:15:08.064 Thread-13 Master INFO]
+Loading AspNet.ScriptManager.jQuery.dll into cache.
+[2014-07-09 06:15:08.141 Thread-13 Master INFO]
+Loading Microsoft.ScriptManager.MSAjax.dll into cache.
+[2014-07-09 06:15:08.217 Thread-13 Master INFO]
+Loading Newtonsoft.Json.dll into cache.
+[2014-07-09 06:15:09.965 Thread-13 Master INFO]
+Loading System.Web.Optimization.dll into cache.
+[2014-07-09 06:15:10.374 Thread-13 Master INFO]
+Loading AspNet.ScriptManager.bootstrap.dll into cache.
+[2014-07-09 06:15:18.450 Thread-13 Master INFO]
+Translating 31 containing javascript
+[2014-07-09 06:15:18.450 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/SmartNav.js
+[2014-07-09 06:15:18.604 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/modernizr-2.6.2.js
+[2014-07-09 06:15:19.355 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/jquery-1.10.2.intellisense.js
+[2014-07-09 06:15:19.607 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/bootstrap.js
+[2014-07-09 06:15:19.949 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/_references.js
+[2014-07-09 06:15:19.955 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/AppData/Local/Fortify/sca6.1/build/CabinViewProjects/js-lib1392309933799373668/lib.js
+[2014-07-09 06:15:20.042 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/respond.min.js
+[2014-07-09 06:15:20.106 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js
+[2014-07-09 06:15:20.181 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/TreeView.js
+[2014-07-09 06:15:20.216 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js
+[2014-07-09 06:15:20.517 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/WebUIValidation.js
+[2014-07-09 06:15:20.636 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/WebForms.js
+[2014-07-09 06:15:20.718 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js
+[2014-07-09 06:15:20.740 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/Focus.js
+[2014-07-09 06:15:20.756 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/bootstrap.min.js
+[2014-07-09 06:15:21.064 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/WebParts.js
+[2014-07-09 06:15:21.179 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js
+[2014-07-09 06:15:21.447 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js
+[2014-07-09 06:15:21.663 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MenuStandards.js
+[2014-07-09 06:15:21.806 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/jquery-1.10.2.js
+[2014-07-09 06:15:22.821 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjax.js
+[2014-07-09 06:15:23.472 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js
+[2014-07-09 06:15:23.514 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js
+[2014-07-09 06:15:23.589 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js
+[2014-07-09 06:15:23.626 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/GridView.js
+[2014-07-09 06:15:23.636 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js
+[2014-07-09 06:15:23.660 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/respond.js
+[2014-07-09 06:15:23.687 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/Menu.js
+[2014-07-09 06:15:23.777 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/DetailsView.js
+[2014-07-09 06:15:23.787 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js
+[2014-07-09 06:15:23.878 Thread-13 Master INFO 1450]
+Processing C:/Users/u318444/Documents/Visual Studio 2013/Projects/CabinViewProjects/CabinViewWorksheet/Scripts/jquery-1.10.2.min.js
+[2014-07-09 06:15:36.112 Thread-13 Master INFO]
+Front End complete
+[2014-07-09 06:15:37.889 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:15:37.891 Thread-13 Master INFO]
+Args:
+["-scan", "-vsversion", "12.0", "-b", "CabinViewProjects", "-machine-output", "-f", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\CabinViewProjects\\Scan.fpr", "-format", "fpr"]
+[2014-07-09 06:15:37.891 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:15:39.045 Thread-13 Master INFO]
+Front End complete
+[2014-07-09 06:15:40.197 Thread-13 Master INFO 1451]
+Analyzing 156 source file(s)
+[2014-07-09 06:15:40.522 Thread-13 Master INFO]
+License Metadata:
+  Created On: 2010-08-10 13:04:00.0
+  License Description: Fortify 360 - FSC16082
+  License ID: Lafd968ea-a2fb-44e3-8568-73cc4001bf5b
+  Subscription ID: S0d30482a-f6c4-49a4-b5f9-01d730b72483
+  owner: Gulfstream Aerospace Corp - FAN22816
+[2014-07-09 06:15:40.883 Thread-13 Master INFO]
+Loading nametable with 144 compilation units
+[2014-07-09 06:15:57.682 Thread-16 Master INFO]
+Loaded nametable with 37 compilation units
+[2014-07-09 06:15:59.089 Thread-16 Master INFO]
+Loaded nametable with 73 compilation units
+[2014-07-09 06:16:00.432 Thread-16 Master INFO]
+Loaded nametable with 109 compilation units
+[2014-07-09 06:16:25.382 Thread-13 Master INFO]
+Phase Zero Work: starting 144 tasks
+[2014-07-09 06:16:28.619 Thread-25 Master WARNING]
+Unable to locate metadata for function ~JS_builtin_new~tmp at C:\Users\u318444\Documents\Visual Studio 2013\Projects\CabinViewProjects\CabinViewWorksheet\Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js:6
+[2014-07-09 06:16:50.632 Thread-32 Master INFO]
+Phase Zero Work: completed 37 tasks
+[2014-07-09 06:16:53.615 Thread-32 Master INFO]
+Phase Zero Work: completed 73 tasks
+[2014-07-09 06:16:54.867 Thread-32 Master INFO]
+Phase Zero Work: completed 109 tasks
+[2014-07-09 06:16:58.589 Thread-13 Master INFO]
+Completing call graph
+[2014-07-09 06:17:19.556 Thread-13 Master INFO]
+Constant Propagation: starting initialization of 144 compilation units
+[2014-07-09 06:17:26.333 Thread-52 Master INFO]
+Constant Propagation: initialized 37 compilation units
+[2014-07-09 06:17:27.166 Thread-52 Master INFO]
+Constant Propagation: initialized 73 compilation units
+[2014-07-09 06:17:28.206 Thread-52 Master INFO]
+Constant Propagation: initialized 109 compilation units
+[2014-07-09 06:17:30.680 Thread-13 Master INFO]
+Constant Propagation: generating worklist for 6093 functions
+[2014-07-09 06:17:30.690 Thread-13 Master INFO]
+Constant Propagation: initial constants for 6093 functions
+[2014-07-09 06:17:40.858 Thread-13 Master INFO]
+Constant Propagation: propagating constant parameters for 6093 functions
+[2014-07-09 06:17:54.489 Thread-13 Master INFO]
+Constant Propagation: propagating unresolved constants for 6093 functions
+[2014-07-09 06:18:05.920 Thread-13 Master INFO]
+Constant Propagation: completed
+[2014-07-09 06:18:36.619 Thread-13 Master INFO 1455]
+Configuration analysis complete
+[2014-07-09 06:22:28.885 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:22:28.886 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 06:22:28.887 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:22:33.292 Thread-13 Master INFO 1460]
+Deleted intermediate files for Build ID CabinViewProjects
+[2014-07-09 06:22:40.376 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:22:40.379 Thread-13 Master INFO]
+Args:
+["-vsversion", "12.0", "-b", "CabinViewProjects", "-machine-output", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\obj\\Debug\\CabinViewWorksheet.dll", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Bundle.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\packages.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Project_Readme.html", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\_references.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\bootstrap.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\bootstrap.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.intellisense.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\jquery-1.10.2.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\modernizr-2.6.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\respond.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\respond.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\DetailsView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\Focus.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\GridView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\Menu.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MenuStandards.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjax.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxApplicationServices.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxComponentModel.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxCore.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxGlobalization.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxHistory.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxNetwork.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxSerialization.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxTimer.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxWebForms.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\MSAjax\\MicrosoftAjaxWebServices.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\SmartNav.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\TreeView.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebForms.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebParts.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Scripts\\WebForms\\WebUIValidation.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Debug.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Release.config", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\*.vshost.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\microsoft.aspnet.friendlyurls.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45\\microsoft.aspnet.friendlyurls.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\microsoft.scriptmanager.webforms.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45\\microsoft.scriptmanager.webforms.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\aspnet.scriptmanager.jquery.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45\\aspnet.scriptmanager.jquery.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\microsoft.scriptmanager.msajax.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45\\microsoft.scriptmanager.msajax.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\newtonsoft.json.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45\\newtonsoft.json.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\system.web.optimization.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40\\system.web.optimization.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\aspnet.scriptmanager.bootstrap.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45\\aspnet.scriptmanager.bootstrap.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.5;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\webgrease.1.5.2\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\antlr.3.4.1.9004\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.webforms.1.1.3\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\nnvhnaix.nt0\\**\\*.dll", "-dotnetwebroot", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\\\"]
+[2014-07-09 06:22:40.380 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:22:40.975 Thread-13 Master INFO]
+Translating 13 MSIL files
+[2014-07-09 06:34:21.540 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:34:21.541 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 06:34:21.541 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:34:45.129 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:34:45.130 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 06:34:45.130 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:34:51.756 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 06:34:51.758 Thread-13 Master INFO]
+Args:
+["-vsversion", "12.0", "-b", "CabinViewProjects", "-machine-output", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\obj\\Debug\\CabinViewWorksheet.dll", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\icons\\POIIcons.xml", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\BuyerPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\hoverIntent.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-1.10.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-ui-1.10.4.custom.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-ui-1.10.4.custom.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery.dropdown.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery.dropdownPlain.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\lightbox-2.6.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\POIPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\VerfiedPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\packages.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Project_Readme.html", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Debug.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Release.config", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\*.vshost.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\microsoft.aspnet.friendlyurls.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45\\microsoft.aspnet.friendlyurls.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\microsoft.scriptmanager.webforms.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45\\microsoft.scriptmanager.webforms.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\aspnet.scriptmanager.jquery.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45\\aspnet.scriptmanager.jquery.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\microsoft.scriptmanager.msajax.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45\\microsoft.scriptmanager.msajax.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\newtonsoft.json.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45\\newtonsoft.json.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\system.web.optimization.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40\\system.web.optimization.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\aspnet.scriptmanager.bootstrap.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45\\aspnet.scriptmanager.bootstrap.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.5;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\webgrease.1.5.2\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\antlr.3.4.1.9004\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.webforms.1.1.3\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\24viioqm.1qa\\**\\*.dll", "-dotnetwebroot", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\\\"]
+[2014-07-09 06:34:51.758 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 06:34:52.374 Thread-13 Master INFO]
+Translating 9 MSIL files
+[2014-07-09 07:02:57.937 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:02:57.938 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:02:57.938 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:03:51.297 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:03:51.298 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:03:51.298 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:05:40.376 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:05:40.378 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:05:40.378 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:06:13.186 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:06:13.187 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:06:13.187 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:06:51.186 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:06:51.188 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:06:51.188 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:08:16.366 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:08:16.367 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:08:16.368 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:08:24.777 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:08:24.779 Thread-13 Master INFO]
+Args:
+["-vsversion", "12.0", "-b", "CabinViewProjects", "-machine-output", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\obj\\Debug\\CabinViewWorksheet.dll", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\icons\\POIIcons.xml", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\BuyerPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\hoverIntent.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-1.10.2.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-ui-1.10.4.custom.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery-ui-1.10.4.custom.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery.dropdown.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\jquery.dropdownPlain.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\lightbox-2.6.min.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\POIPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\js\\VerfiedPanelShowHide.js", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\packages.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Debug.config", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\Web.Release.config", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v8.0A\\bin\\NETFX 4.0 Tools\\ildasm.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\*.vshost.exe", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\microsoft.web.infrastructure.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40\\microsoft.web.infrastructure.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\microsoft.aspnet.friendlyurls.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45\\microsoft.aspnet.friendlyurls.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\microsoft.scriptmanager.webforms.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45\\microsoft.scriptmanager.webforms.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\itextsharp.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\itextsharp.5.5.1\\lib\\itextsharp.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\entityframework.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\entityframework.6.1.0\\lib\\net45\\entityframework.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\entityframework.sqlserver.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\entityframework.6.1.0\\lib\\net45\\entityframework.sqlserver.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\aspnet.scriptmanager.jquery.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45\\aspnet.scriptmanager.jquery.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\microsoft.scriptmanager.msajax.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45\\microsoft.scriptmanager.msajax.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\newtonsoft.json.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45\\newtonsoft.json.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\system.web.optimization.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40\\system.web.optimization.dll", "-exclude", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\aspnet.scriptmanager.bootstrap.dll", "-exclude", "c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45\\aspnet.scriptmanager.bootstrap.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.5;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.web.infrastructure.1.0.0.0\\lib\\net40;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.friendlyurls.core.1.0.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\webgrease.1.5.2\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.webforms.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\antlr.3.4.1.9004\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\itextsharp.5.5.1\\lib;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.webforms.1.1.3\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\entityframework.6.1.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.jquery.1.10.2\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.scriptmanager.msajax.5.0.0\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\newtonsoft.json.5.0.6\\lib\\net45;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\microsoft.aspnet.web.optimization.1.1.3\\lib\\net40;c:\\program files (x86)\\infragistics\\2014.1\\asp.net\\clr4.5\\bin;c:\\users\\u318444\\documents\\visual studio 2013\\projects\\cabinviewprojects\\packages\\aspnet.scriptmanager.bootstrap.3.0.0\\lib\\net45", "C:\\Users\\u318444\\AppData\\Local\\Fortify\\VS2013-4.10\\output\\CabinViewProjects\\4hcvyq0x.qvf\\**\\*.dll", "-dotnetwebroot", "c:\\users\\u318444\\documents\\visual studio 2013\\Projects\\CabinViewProjects\\CabinViewWorksheet\\\\"]
+[2014-07-09 07:08:24.780 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:08:25.395 Thread-13 Master INFO]
+Translating 1 MSIL files
+[2014-07-09 07:08:26.130 Thread-13 Master INFO]
+Loading itextsharp.dll into cache.
+[2014-07-09 07:33:55.778 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:33:55.779 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-09 07:33:55.779 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 07:33:57.063 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 07:33:57.064 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewProjects", "-clean"]
+[2014-07-09 07:33:57.064 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:20:15.415 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:20:15.420 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-09 08:20:15.420 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:20:16.607 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:20:16.608 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-09 08:20:16.608 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:21:14.118 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:21:14.119 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-09 08:21:14.120 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:21:38.772 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:21:38.774 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-09 08:21:38.774 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:22:39.484 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:22:39.485 Thread-13 Master INFO]
+Args:
+["-version"]
+[2014-07-09 08:22:39.485 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-09 08:22:40.175 Thread-13 Master INFO]
+Front End complete
+[2014-07-09 08:23:10.297 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-09 08:23:10.298 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-09 08:23:10.298 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-15 08:51:16.898 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-15 08:51:16.900 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-15 08:51:16.900 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-15 08:51:18.129 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-15 08:51:18.130 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-07-15 08:51:18.131 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-23 08:38:07.031 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-23 08:38:07.033 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-07-23 08:38:07.033 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-07-23 08:38:08.622 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-07-23 08:38:08.624 Thread-13 Master INFO]
+Args:
+["-b", "CabinViewMVC", "-clean"]
+[2014-07-23 08:38:08.624 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-08-05 08:39:18.797 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-08-05 08:39:18.799 Thread-13 Master INFO]
+Args:
+["-show-runtime-properties"]
+[2014-08-05 08:39:18.799 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-08-05 08:39:20.088 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-08-05 08:39:20.089 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-08-05 08:39:20.089 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"
+[2014-08-05 08:44:10.659 Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.10.0120
+[2014-08-05 08:44:10.660 Thread-13 Master INFO]
+Args:
+["-b", "CabinView", "-clean"]
+[2014-08-05 08:44:10.660 Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss1M -Xmx600M -Xms300M -server"

@@ -1,0 +1,570 @@
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=BCAPTSECTEST1$
+com.fortify.SCAExecutablePath=
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 7.0\endorsed
+java.ext.dirs=C:\Program Files\Java\jre8\lib\ext;C:\windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jre8
+java.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+java.library.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_71-b14
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_71
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.71-b01
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar
+os.arch=amd64
+os.name=Windows Server 2008 R2
+os.version=6.1
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jre8\lib\resources.jar;C:\Program Files\Java\jre8\lib\rt.jar;C:\Program Files\Java\jre8\lib\sunrsasign.jar;C:\Program Files\Java\jre8\lib\jsse.jar;C:\Program Files\Java\jre8\lib\jce.jar;C:\Program Files\Java\jre8\lib\charsets.jar;C:\Program Files\Java\jre8\lib\jfr.jar;C:\Program Files\Java\jre8\classes
+sun.boot.library.path=C:\Program Files\Java\jre8\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar
+user.country=US
+user.dir=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+user.home=C:\
+user.language=en
+user.name=BCAPTSECTEST1$
+user.script=
+user.timezone=America/Chicago
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows Server 2008 R2
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 2018988032
+  FreePhysicalMemorySize: 30044008448
+  FreeSwapSpaceSize: 61691899904
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 62906250000
+  SystemCpuLoad: 0.2142857142857143
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 34359271424
+  TotalSwapSpaceSize: 68716634112
+  Version: 6.1
+RuntimeMXBean: 2584@BCAPTSECTEST1
+  BootClassPath: C:\Program Files\Java\jre8\lib\resources.jar;C:\Program Files\Java\jre8\lib\rt.jar;C:\Program Files\Java\jre8\lib\sunrsasign.jar;C:\Program Files\Java\jre8\lib\jsse.jar;C:\Program Files\Java\jre8\lib\jce.jar;C:\Program Files\Java\jre8\lib\charsets.jar;C:\Program Files\Java\jre8\lib\jfr.jar;C:\Program Files\Java\jre8\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Perl\site\bin;C:\Perl\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1414527759640
+  Uptime: 119485
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.71-b01
+-----------------------------------------------------------------------------
+2014-10-28 15:24:51,968   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-10-28 15:24:51,968   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-10-28 15:24:51,968   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2014-10-28 15:25:24,224   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2014-10-28 15:25:24,224   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2014-10-28 15:25:30,096   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2014-10-28 15:25:30,096   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2014-10-28 15:25:30,426   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - 
+org.springframework.ws.soap.axiom.AxiomSoapMessageException: Could not write message to OutputStream: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error; nested exception is javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:291)
+	at com.fortify.manager.web.security.ws.AxiomSaajMessage.writeTo(AxiomSaajMessage.java:43)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:45)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:97)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$52540f9.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:404)
+	at org.apache.axiom.om.impl.MTOMXMLStreamWriter.flush(MTOMXMLStreamWriter.java:168)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.serialize(OMDocumentImpl.java:396)
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:282)
+	... 65 more
+Caused by: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:371)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:333)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:101)
+	at org.springframework.ws.transport.TransportOutputStream.flush(TransportOutputStream.java:54)
+	at com.sun.xml.stream.writers.UTF8OutputStreamWriter.flush(UTF8OutputStreamWriter.java:141)
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:402)
+	... 68 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at org.apache.coyote.http11.InternalOutputBuffer.realWriteBytes(InternalOutputBuffer.java:215)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.coyote.http11.InternalOutputBuffer.flush(InternalOutputBuffer.java:119)
+	at org.apache.coyote.http11.AbstractHttp11Processor.action(AbstractHttp11Processor.java:799)
+	at org.apache.coyote.Response.action(Response.java:174)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:366)
+	... 73 more
+2014-10-28 15:25:30,442   [ERROR] org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/ssc].[fm-ws] - Servlet.service() for servlet [fm-ws] in context with path [/ssc] threw exception [Request processing failed; nested exception is org.springframework.ws.soap.axiom.AxiomSoapMessageException: Could not write message to OutputStream: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error; nested exception is javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error] with root cause
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at org.apache.coyote.http11.InternalOutputBuffer.realWriteBytes(InternalOutputBuffer.java:215)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.coyote.http11.InternalOutputBuffer.flush(InternalOutputBuffer.java:119)
+	at org.apache.coyote.http11.AbstractHttp11Processor.action(AbstractHttp11Processor.java:799)
+	at org.apache.coyote.Response.action(Response.java:174)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:366)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:333)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:101)
+	at org.springframework.ws.transport.TransportOutputStream.flush(TransportOutputStream.java:54)
+	at com.sun.xml.stream.writers.UTF8OutputStreamWriter.flush(UTF8OutputStreamWriter.java:141)
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:402)
+	at org.apache.axiom.om.impl.MTOMXMLStreamWriter.flush(MTOMXMLStreamWriter.java:168)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.serialize(OMDocumentImpl.java:396)
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:282)
+	at com.fortify.manager.web.security.ws.AxiomSaajMessage.writeTo(AxiomSaajMessage.java:43)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:45)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:97)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$52540f9.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2014-10-28 15:25:31,164   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - 
+org.springframework.ws.soap.axiom.AxiomSoapMessageException: Could not write message to OutputStream: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error; nested exception is javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:291)
+	at com.fortify.manager.web.security.ws.AxiomSaajMessage.writeTo(AxiomSaajMessage.java:43)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:45)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:97)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$52540f9.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:404)
+	at org.apache.axiom.om.impl.MTOMXMLStreamWriter.flush(MTOMXMLStreamWriter.java:168)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.serialize(OMDocumentImpl.java:396)
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:282)
+	... 65 more
+Caused by: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:413)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:359)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:333)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:101)
+	at org.springframework.ws.transport.TransportOutputStream.flush(TransportOutputStream.java:54)
+	at com.sun.xml.stream.writers.UTF8OutputStreamWriter.flush(UTF8OutputStreamWriter.java:141)
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:402)
+	... 68 more
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at org.apache.coyote.http11.InternalOutputBuffer.realWriteBytes(InternalOutputBuffer.java:215)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:366)
+	at org.apache.coyote.http11.InternalOutputBuffer$OutputStreamOutputBuffer.doWrite(InternalOutputBuffer.java:240)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:119)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:520)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:408)
+	... 75 more
+2014-10-28 15:25:31,180   [ERROR] org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/ssc].[fm-ws] - Servlet.service() for servlet [fm-ws] in context with path [/ssc] threw exception [Request processing failed; nested exception is org.springframework.ws.soap.axiom.AxiomSoapMessageException: Could not write message to OutputStream: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error; nested exception is javax.xml.stream.XMLStreamException: ClientAbortException:  java.net.SocketException: Software caused connection abort: socket write error] with root cause
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at org.apache.coyote.http11.InternalOutputBuffer.realWriteBytes(InternalOutputBuffer.java:215)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.tomcat.util.buf.ByteChunk.append(ByteChunk.java:366)
+	at org.apache.coyote.http11.InternalOutputBuffer$OutputStreamOutputBuffer.doWrite(InternalOutputBuffer.java:240)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:119)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:192)
+	at org.apache.coyote.Response.doWrite(Response.java:520)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:408)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:480)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:359)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:333)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:101)
+	at org.springframework.ws.transport.TransportOutputStream.flush(TransportOutputStream.java:54)
+	at com.sun.xml.stream.writers.UTF8OutputStreamWriter.flush(UTF8OutputStreamWriter.java:141)
+	at com.sun.xml.stream.writers.XMLStreamWriterImpl.flush(XMLStreamWriterImpl.java:402)
+	at org.apache.axiom.om.impl.MTOMXMLStreamWriter.flush(MTOMXMLStreamWriter.java:168)
+	at org.apache.axiom.om.impl.llom.OMDocumentImpl.serialize(OMDocumentImpl.java:396)
+	at org.springframework.ws.soap.axiom.AxiomSoapMessage.writeTo(AxiomSoapMessage.java:282)
+	at com.fortify.manager.web.security.ws.AxiomSaajMessage.writeTo(AxiomSaajMessage.java:43)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:45)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:97)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$52540f9.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2014-10-28 15:25:34,524   [ERROR] org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/ssc].[jsp] - Servlet.service() for servlet jsp threw exception
+java.lang.IllegalStateException: Cannot create a session after the response has been committed
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:2934)
+	at org.apache.catalina.connector.Request.getSession(Request.java:2310)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:897)
+	at javax.servlet.http.HttpServletRequestWrapper.getSession(HttpServletRequestWrapper.java:229)
+	at org.apache.catalina.core.ApplicationHttpRequest.getSession(ApplicationHttpRequest.java:569)
+	at org.apache.catalina.core.ApplicationHttpRequest.getSession(ApplicationHttpRequest.java:514)
+	at org.apache.jasper.runtime.PageContextImpl._initialize(PageContextImpl.java:147)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:126)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:112)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:65)
+	at org.apache.jsp.error_jsp._jspService(error_jsp.java:77)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:604)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:543)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:461)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:412)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:201)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2014-10-28 15:25:34,524   [ERROR] org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/ssc].[jsp] - Servlet.service() for servlet jsp threw exception
+java.lang.IllegalStateException: Cannot create a session after the response has been committed
+	at org.apache.catalina.connector.Request.doGetSession(Request.java:2934)
+	at org.apache.catalina.connector.Request.getSession(Request.java:2310)
+	at org.apache.catalina.connector.RequestFacade.getSession(RequestFacade.java:897)
+	at javax.servlet.http.HttpServletRequestWrapper.getSession(HttpServletRequestWrapper.java:229)
+	at org.apache.catalina.core.ApplicationHttpRequest.getSession(ApplicationHttpRequest.java:569)
+	at org.apache.catalina.core.ApplicationHttpRequest.getSession(ApplicationHttpRequest.java:514)
+	at org.apache.jasper.runtime.PageContextImpl._initialize(PageContextImpl.java:147)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:126)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:112)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:65)
+	at org.apache.jsp.error_jsp._jspService(error_jsp.java:77)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:604)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:543)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:461)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:412)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:201)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2014-10-28 15:25:37,743   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2014-10-28 15:27:09,315   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2014-10-28 15:28:40,205   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2014-10-28 15:30:11,008   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin

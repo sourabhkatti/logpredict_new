@@ -1,0 +1,260 @@
+WARN 2012-12-18 12:02:32,143 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+INFO 2012-12-18 12:30:58,677 [liquibase] - Successfully acquired change log lock
+
+INFO 2012-12-18 12:30:59,898 [liquibase] - Reading from DATABASECHANGELOG
+
+INFO 2012-12-18 12:30:59,908 [liquibase] - Reading from DATABASECHANGELOG
+
+INFO 2012-12-18 12:31:04,124 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_0::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,134 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_1::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,144 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_2::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,154 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_3::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,154 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_4::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,164 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_5::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,174 [liquibase] - ChangeSet dbF360_3.5.0.xml::f360_3.5.0_6::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,184 [liquibase] - ChangeSet dbF360_3.51.0.xml::f360_3.51.0_0::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,225 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_0::hp ran successfully in 41ms
+
+INFO 2012-12-18 12:31:04,275 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_1::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,295 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_2::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,295 [liquibase] - Marking ChangeSet: dbF360Derby_3.6.0.xml::f360_3.6.0_0::hp::(Checksum: 3:273e3a7f38092542df58e20e53112d64) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected derby, got db2
+
+
+INFO 2012-12-18 12:31:04,305 [liquibase] - ChangeSet dbF360Db2_3.6.0.xml::f360Db2_3.6.0_0::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,315 [liquibase] - ChangeSet dbF360Db2_3.6.0.xml::f360Db2_3.6.0_1::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,325 [liquibase] - Marking ChangeSet: dbF360Mysql_3.6.0.xml::f360Mysql_3.6.0_0::hp::(Checksum: 3:4e2c07554d212d848c9a65de7850048d) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected mysql, got db2
+
+
+INFO 2012-12-18 12:31:04,335 [liquibase] - Marking ChangeSet: dbF360Mssql_3.6.0.xml::f360Mssql_3.6.0_0::hp::(Checksum: 3:ff628336ce7a33e0e9e0e36b7779194c) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected mssql, got db2
+
+
+INFO 2012-12-18 12:31:04,335 [liquibase] - Marking ChangeSet: dbF360Oracle_3.6.0.xml::f360Oracle_3.6.0_0::hp::(Checksum: 3:67b3f4921dc0707679dc37687c5b5cff) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected oracle, got db2
+
+
+INFO 2012-12-18 12:31:04,345 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_4::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,345 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_5::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,355 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_6::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,375 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_7::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,375 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_8::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,385 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_9::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,395 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_10::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,405 [liquibase] - Marking ChangeSet: dbF360_3.6.0.xml::f360_3.6.11.1::hp::(Checksum: 3:910ccae5b4754887893c31298c6676db) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : Not precondition failed
+
+
+INFO 2012-12-18 12:31:04,405 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.11.2::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,415 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_12_fix::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,445 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_12::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,455 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_13::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,465 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_14::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,485 [liquibase] - ChangeSet dbF360_3.6.0.xml::f360_3.6.0_15::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,485 [liquibase] - ChangeSet dbF360_3.6.1.xml::f360_3.6.1_0::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,515 [liquibase] - ChangeSet dbF360_3.7.0.xml::f360_3.7.0_0::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,515 [liquibase] - Marking ChangeSet: dbF360Derby_3.7.0.xml::f360_3.7.0_0::hp::(Checksum: 3:4d8816787bc79723ce2eaa1825717aa5) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected derby, got db2
+
+
+INFO 2012-12-18 12:31:04,525 [liquibase] - ChangeSet dbF360Db2_3.7.0.xml::f360Db2_3.7.0_0::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,535 [liquibase] - Marking ChangeSet: dbF360Mysql_3.7.0.xml::f360Mysql_3.7.0_0::hp::(Checksum: 3:faed68675fc2caef4b175e761b8eeb4a) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected mysql, got db2
+
+
+INFO 2012-12-18 12:31:04,535 [liquibase] - Marking ChangeSet: dbF360Mssql_3.7.0.xml::f360Mssql_3.7.0_0::hp::(Checksum: 3:46d839c1f9ec4c07c0ec3cbf59c1873a) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected mssql, got db2
+
+
+INFO 2012-12-18 12:31:04,545 [liquibase] - Marking ChangeSet: dbF360Oracle_3.7.0.xml::f360Oracle_3.7.0_0::hp::(Checksum: 3:39f97984c72c5f9f9022ebc2419d3338) ran despite precondition failure due to onFail='MARK_RAN': 
+          dbMaster.xml : DBMS Precondition failed: expected oracle, got db2
+
+
+INFO 2012-12-18 12:31:04,545 [liquibase] - ChangeSet dbF360_3.7.0.xml::f360_3.7.0_1::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,545 [liquibase] - ChangeSet dbF360_3.7.0.xml::f360_3.7.0_2::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,555 [liquibase] - ChangeSet dbF360_3.7.0.xml::f360_3.7.0_3::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,575 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_0::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,585 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_1::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,615 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_2::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,625 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_3::hp ran successfully in 0ms
+
+INFO 2012-12-18 12:31:04,635 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_4::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,665 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_5::hp ran successfully in 20ms
+
+INFO 2012-12-18 12:31:04,685 [liquibase] - ChangeSet dbF360_3.8.0.xml::f360_3.8.0_6::hp ran successfully in 10ms
+
+INFO 2012-12-18 12:31:04,695 [liquibase] - Successfully released change log lock
+
+INFO 2012-12-18 12:31:04,695 [liquibase] - Successfully released change log lock
+
+WARN 2012-12-18 12:34:58,782 [com.fortify.systemspec] - ========================== Fortify Context Startup =============================
+
+INFO 2012-12-18 12:35:00,604 [com.fortify.server.configuration.db.DBUtil] - AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@17a35c)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+
+WARN 2012-12-18 12:35:09,647 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:09,647 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:09,647 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:09,647 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:09,647 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:09,988 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as JKS: C:\perforce\internal\QA\testing\SSC\Tools\Config38\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2012-12-18 12:35:09,988 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as PKCS12: C:\perforce\internal\QA\testing\SSC\Tools\Config38\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2012-12-18 12:35:09,988 [com.fortify.manager.service.EmailServiceImpl] - S/MIME messages cannot be sent from this server
+
+WARN 2012-12-18 12:35:12,922 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:12,922 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:12,922 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:12,922 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:12,922 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:13,122 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:13,122 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:13,122 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:13,122 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:13,122 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,374 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,374 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,374 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,374 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,394 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,394 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,394 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:14,394 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2012-12-18 12:35:16,117 [org.springframework.security.intercept.AbstractSecurityInterceptor] - Could not validate configuration attributes as the ObjectDefinitionSource did not return a ConfigAttributeDefinition collection
+
+WARN 2012-12-18 12:35:16,127 [com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration] - Runtime integration disabled
+
+ERROR 2012-12-18 12:35:18,650 [com.fortify.manager.DAL.migration.impl.MigrationManager36Impl] - com.ibm.db2.jcc.am.SqlException: [jcc][10120][11936][4.7.112] Invalid operation: Lob is closed. ERRORCODE=-4470, SQLSTATE=null
+
+ERROR 2012-12-18 12:35:18,650 [com.fortify.manager.service.transaction.TransactionServiceImpl] - Migration of Migrate ProjectTemplate to ProjectTemplateFolder to version 3.6 failed.
+
+com.fortify.manager.exception.FMUserInputException: Unable to parse the file, make sure this is a valid project template.
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl$1.callBack(MigrationManager36Impl.java:75)
+	at com.fortify.manager.BLL.migration.impl.AbstractMigrationManager$3.callBack(AbstractMigrationManager.java:105)
+	at com.fortify.manager.service.transaction.TransactionServiceImpl.runInTransaction(TransactionServiceImpl.java:60)
+	at com.fortify.manager.BLL.migration.impl.AbstractMigrationManager.runOneTimeTask(AbstractMigrationManager.java:99)
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl.migrateProjectTemplate(MigrationManager36Impl.java:48)
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl.preSeedingMigration(MigrationManager36Impl.java:39)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl.batchSeed(SeedManagerImpl.java:148)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl$$FastClassByCGLIB$$7c11a665.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl$$EnhancerByCGLIB$$253b92d0.batchSeed(<generated>)
+	at com.fortify.server.configuration.db.Seed.configureDB(Seed.java:107)
+	at com.fortify.server.configuration.db.Seed.main(Seed.java:66)
+ERROR 2012-12-18 12:35:18,660 [com.fortify.manager.logging.ExceptionInterceptor] - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.SeedManagerImpl] and method [public void com.fortify.manager.BLL.impl.SeedManagerImpl.batchSeed(java.util.List,java.util.List) throws java.lang.Exception]
+
+com.fortify.manager.exception.FMUserInputException: Unable to parse the file, make sure this is a valid project template.
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl$1.callBack(MigrationManager36Impl.java:75)
+	at com.fortify.manager.BLL.migration.impl.AbstractMigrationManager$3.callBack(AbstractMigrationManager.java:105)
+	at com.fortify.manager.service.transaction.TransactionServiceImpl.runInTransaction(TransactionServiceImpl.java:60)
+	at com.fortify.manager.BLL.migration.impl.AbstractMigrationManager.runOneTimeTask(AbstractMigrationManager.java:99)
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl.migrateProjectTemplate(MigrationManager36Impl.java:48)
+	at com.fortify.manager.DAL.migration.impl.MigrationManager36Impl.preSeedingMigration(MigrationManager36Impl.java:39)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl.batchSeed(SeedManagerImpl.java:148)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl$$FastClassByCGLIB$$7c11a665.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.SeedManagerImpl$$EnhancerByCGLIB$$253b92d0.batchSeed(<generated>)
+	at com.fortify.server.configuration.db.Seed.configureDB(Seed.java:107)
+	at com.fortify.server.configuration.db.Seed.main(Seed.java:66)
+INFO 2012-12-18 12:35:18,660 [com.fortify.server.configuration.db.DBUtil] - Unable to parse the file, make sure this is a valid project template.
+
+
+ERROR 2012-12-18 12:35:18,710 [com.fortify.server.configuration.db.DBUtil] - Error seeding db
+
+
+ERROR 2012-12-18 12:35:18,710 [com.fortify.server.configuration.db.DBUtil] - 
+

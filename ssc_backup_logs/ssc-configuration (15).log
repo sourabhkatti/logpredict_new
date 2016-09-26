@@ -1,0 +1,382 @@
+WARN 2014-05-14 14:33:07,757 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+WARN 2014-05-14 14:33:07,788 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: processing-rules.properties
+
+WARN 2014-05-14 14:33:07,788 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: restApi.properties
+
+WARN 2014-05-14 14:33:07,788 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: wie.properties
+
+WARN 2014-05-14 14:35:57,750 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+WARN 2014-05-14 14:35:57,766 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: processing-rules.properties
+
+WARN 2014-05-14 14:35:57,766 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: restApi.properties
+
+WARN 2014-05-14 14:35:57,766 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: wie.properties
+
+WARN 2014-05-14 14:39:14,810 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:39:14,810 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:39:16,416 [com.fortify.systemspec] - ========================== Fortify Context Startup =============================
+
+INFO 2014-05-14 14:39:18,086 [com.fortify.server.configuration.db.DBUtil] - AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@2d0c50bf)
+
+
+INFO 2014-05-14 14:39:18,086 [com.fortify.server.configuration.db.DBUtil] -    LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+
+WARN 2014-05-14 14:39:23,967 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as JKS: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:39:23,967 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as PKCS12: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:39:23,967 [com.fortify.manager.service.EmailServiceImpl] - S/MIME messages cannot be sent from this server
+
+WARN 2014-05-14 14:39:24,107 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:24,107 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:24,107 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:24,107 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:24,107 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,790 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,790 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,790 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,790 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,790 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,915 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,915 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,915 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,915 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:26,915 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,789 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,789 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,789 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,789 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,804 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,804 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,804 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:27,820 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:39:29,380 [com.fortify.manager.security.FmMethodSecurityInteceptor] - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+
+WARN 2014-05-14 14:39:29,380 [com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration] - Runtime integration disabled
+
+INFO 2014-05-14 14:39:32,953 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2236214853560798752zip
+
+
+INFO 2014-05-14 14:39:33,006 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp9150388903256920147zip
+
+
+INFO 2014-05-14 14:39:33,008 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp8182937608824989398zip
+
+INFO 2014-05-14 14:39:33,008 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:39:33,010 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2484486950733036461zip
+
+INFO 2014-05-14 14:39:33,010 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:39:33,012 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2092718570453175320zip
+
+
+INFO 2014-05-14 14:39:33,015 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: HP_Fortify_Process_Seed_Bundle_2014_Q1.zip
+
+INFO 2014-05-14 14:39:33,015 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+WARN 2014-05-14 14:41:18,173 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:41:18,189 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:41:19,796 [com.fortify.systemspec] - ========================== Fortify Context Startup =============================
+
+INFO 2014-05-14 14:41:21,434 [com.fortify.server.configuration.db.DBUtil] - AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@748e1d84)
+
+
+INFO 2014-05-14 14:41:21,434 [com.fortify.server.configuration.db.DBUtil] -    LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+
+WARN 2014-05-14 14:41:25,505 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as JKS: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:41:25,505 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as PKCS12: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:41:25,505 [com.fortify.manager.service.EmailServiceImpl] - S/MIME messages cannot be sent from this server
+
+WARN 2014-05-14 14:41:25,708 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:25,708 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:25,708 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:25,708 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:25,708 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,391 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,391 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,391 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,391 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,391 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,500 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,500 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,500 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,500 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:28,500 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,390 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,390 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,390 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,390 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,405 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,405 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,405 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:29,405 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:30,762 [com.fortify.manager.security.FmMethodSecurityInteceptor] - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+
+WARN 2014-05-14 14:41:30,778 [com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration] - Runtime integration disabled
+
+INFO 2014-05-14 14:41:33,102 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2236214853560798752zip
+
+
+INFO 2014-05-14 14:41:33,118 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp9150388903256920147zip
+
+
+INFO 2014-05-14 14:41:33,118 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp8182937608824989398zip
+
+
+INFO 2014-05-14 14:41:33,118 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2484486950733036461zip
+
+INFO 2014-05-14 14:41:33,118 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:41:33,134 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2092718570453175320zip
+
+INFO 2014-05-14 14:41:33,134 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:41:33,134 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: HP_Fortify_Report_Seed_Bundle_2014_Q1.zip
+
+
+WARN 2014-05-14 14:41:45,785 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:41:45,785 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:41:47,376 [com.fortify.systemspec] - ========================== Fortify Context Startup =============================
+
+INFO 2014-05-14 14:41:49,015 [com.fortify.server.configuration.db.DBUtil] - AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@6c978a)
+
+
+INFO 2014-05-14 14:41:49,015 [com.fortify.server.configuration.db.DBUtil] -    LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+
+WARN 2014-05-14 14:41:53,008 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as JKS: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:41:53,008 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as PKCS12: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:41:53,008 [com.fortify.manager.service.EmailServiceImpl] - S/MIME messages cannot be sent from this server
+
+WARN 2014-05-14 14:41:53,149 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:53,149 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:53,149 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:53,149 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:53,149 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:55,894 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:55,894 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:55,894 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:55,894 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:55,894 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,019 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,019 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,019 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,019 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,019 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,908 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,908 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,908 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,908 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,924 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,924 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,924 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:56,924 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:41:58,312 [com.fortify.manager.security.FmMethodSecurityInteceptor] - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+
+WARN 2014-05-14 14:41:58,328 [com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration] - Runtime integration disabled
+
+INFO 2014-05-14 14:42:00,590 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2236214853560798752zip
+
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp9150388903256920147zip
+
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp8182937608824989398zip
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2484486950733036461zip
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: temp2092718570453175320zip
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - Opening zip file: HP_Fortify_PCI_2.0_Basic_Seed_Bundle_2014_Q1.zip
+
+INFO 2014-05-14 14:42:00,605 [com.fortify.server.configuration.db.DBUtil] - 
+
+
+INFO 2014-05-14 14:42:24,317 [com.fortify.server.configuration.ConfigurationMain] - updating war
+
+WARN 2014-05-14 14:44:00,102 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+WARN 2014-05-14 14:44:00,102 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: processing-rules.properties
+
+WARN 2014-05-14 14:44:00,102 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: restApi.properties
+
+WARN 2014-05-14 14:44:00,102 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: wie.properties
+
+WARN 2014-05-14 14:44:25,483 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:44:25,483 [org.springframework.security.config.http.MatcherType] - 'path-type' is deprecated. Please use 'request-matcher' instead.
+
+WARN 2014-05-14 14:44:27,090 [com.fortify.systemspec] - ========================== Fortify Context Startup =============================
+
+WARN 2014-05-14 14:44:32,908 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as JKS: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:44:32,908 [com.fortify.manager.service.EmailServiceImpl] - Exception loading certificates keystore as PKCS12: Z:\webapps\HP-Fortify-Server-WAR\tempConfigDir\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+
+WARN 2014-05-14 14:44:32,908 [com.fortify.manager.service.EmailServiceImpl] - S/MIME messages cannot be sent from this server
+
+WARN 2014-05-14 14:44:33,142 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:33,142 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:33,142 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:33,142 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:33,142 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,652 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,652 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,652 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,652 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,652 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,808 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,808 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,808 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,808 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:36,808 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,228 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,228 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,228 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,228 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,244 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,244 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,244 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:38,244 [org.springframework.aop.framework.Cglib2AopProxy] - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+
+WARN 2014-05-14 14:44:39,991 [com.fortify.manager.security.FmMethodSecurityInteceptor] - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+
+WARN 2014-05-14 14:44:39,991 [com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration] - Runtime integration disabled
+
+INFO 2014-05-14 14:50:34,299 [com.fortify.server.configuration.ConfigurationMain] - updating war
+
+WARN 2014-05-14 15:01:44,978 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: AMConfig.properties
+
+WARN 2014-05-14 15:01:44,990 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: processing-rules.properties
+
+WARN 2014-05-14 15:01:44,991 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: restApi.properties
+
+WARN 2014-05-14 15:01:44,993 [com.fortify.server.configuration.ConfigurationMain] - Unconfigured property file found: wie.properties
+
+INFO 2014-05-14 15:03:16,502 [com.fortify.server.configuration.ConfigurationMain] - updating war
+

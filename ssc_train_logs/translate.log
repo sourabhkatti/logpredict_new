@@ -1,0 +1,12 @@
+[2014-01-28 11:29:30 Thread-11 Master SEVERE 264]
+Invalid parameter 1.2 for command line argument -source
+[2014-01-28 11:29:30 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-11 Master INFO]
+Fortify Static Code Analyzer 6.02.0014
+[2014-01-28 11:29:30 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-11 Master INFO]
+Args:
+["-version", "-debug", "-verbose", "-quiet", "-b", "commons-digester-1.8.1", "-logfile", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/target/sca-translate.log", "-source", "1.2", "-cp", "/home/ayang/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar:/home/ayang/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/ayang/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar", "-java-build-dir", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/target/classes", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/src/java", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/LICENSE.txt", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/NOTICE.txt", "/home/ayang/COTS/Digester-1.8.1/commons-digester-1.8.1-src/src/java/org/apache/commons/digester/xmlrules/digester-rules.dtd"]
+[2014-01-28 11:29:30 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-11 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=100 -Xss1M -Xmx600M -Xms300M -client"
+[2014-01-28 11:29:30 com.fortify.sca.Main.exit() Thread-1 Master WARNING]
+exit(1)

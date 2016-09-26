@@ -1,0 +1,12 @@
+2014-09-26 10:15:06,262   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.
+2014-09-26 10:15:10,320   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.
+2014-09-26 10:15:11,134   [DEBUG] com.fortify.manager.logging.Log4jMonitorThread - settings last updated: 1410340302000, file last modified: 1410340302000
+2014-09-26 10:15:11,134   [DEBUG] com.fortify.manager.logging.Log4jMonitorThread - Log4j configuration is not modified
+2014-09-26 10:15:14,270   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-amf received request.
+2014-09-26 10:15:14,362   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.
+2014-09-26 10:15:14,644   [DEBUG] com.fortify.manager.util.PathEnforcer - /var/cache/tomcat7/temp/SSC-RAAP-pa01-ssc/c41ea7f115314af1aad1f9692568fe2e.rptdesign is under trusted path /var/cache/tomcat7/temp/SSC-RAAP-pa01-ssc
+2014-09-26 10:15:18,387   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.
+2014-09-26 10:15:21,134   [DEBUG] com.fortify.manager.logging.Log4jMonitorThread - settings last updated: 1410340302000, file last modified: 1410340302000
+2014-09-26 10:15:21,134   [DEBUG] com.fortify.manager.logging.Log4jMonitorThread - Log4j configuration is not modified
+2014-09-26 10:15:22,438   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.
+2014-09-26 10:15:26,472   [INFO] org.springframework.flex.servlet.MessageBrokerHandlerAdapter - Channel endpoint my-secure-polling-amf received request.

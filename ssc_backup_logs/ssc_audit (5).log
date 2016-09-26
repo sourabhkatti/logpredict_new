@@ -1,0 +1,45 @@
+2014-02-11 11:10:12,053   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-11 11:18:07,521   - admin;PROJECT_VERSION_ACCESS_ADDED;[Security Event]Project: Web GoatVersion: 5.0Users: admin
+2014-02-11 11:18:07,679   - admin;PROJECT_VERSION_CREATED;Project: Web GoatVersion: 5.0Description: Project Template: Prioritized High Risk Project TemplateActive: trueOwner: admin
+2014-02-11 11:28:16,592   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-11 11:28:55,485   - admin;PROJECT_VERSION_ACCESS_ADDED;[Security Event]Project: Web GoatVersion: 5.0Users: admin
+2014-02-11 11:28:55,626   - admin;PROJECT_VERSION_CREATED;Project: Web GoatVersion: 5.0Description: Project Template: Prioritized High Risk Project TemplateActive: trueOwner: admin
+2014-02-11 11:28:56,414   - admin;PROJECT_VERSION_CUSTOM_TAG_ASSIGNMENT;Project: Web GoatVersion: 5.0Custom Tags Added: Analysis
+2014-02-11 11:28:56,443   - admin;PROJECT_VERSION_UPDATED;Project: Web GoatVersion: 5.0Description: Project Template: Prioritized High Risk Project TemplateActive: trueOwner: admin
+2014-02-11 11:28:57,026   - System;HISTORICAL_SNAPSHOT_COLLECTION_STARTED;Project: Web GoatVersion: 5.0
+2014-02-11 11:28:57,106   - System;HISTORICAL_SNAPSHOT_COLLECTION_ITERATION_COMPLETED;Project: Web GoatVersion: 5.0
+2014-02-11 11:34:39,205   - admin;ARTIFACT_UPLOAD_REQUESTED;Project: Web GoatVersion: 5.0Filename: WebGoat5.0.fpr
+2014-02-11 11:34:39,438   - admin;ARTIFACT_UPLOAD_STARTED;Project: Web GoatVersion: 5.0Filename: WebGoat5.0.fpr
+2014-02-11 11:38:29,650   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-11 11:38:29,655   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 09:45:33,544   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 09:45:47,099   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 09:45:47,124   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 09:45:55,937   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 10:40:10,187   - admin;WEBUI_LOGIN_FAILED;[Security Event]
+2014-02-12 10:40:18,984   - admin;WEBUI_LOGIN_FAILED;[Security Event]
+2014-02-12 10:40:24,765   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 11:29:04,425   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 11:55:03,405   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 11:59:22,326   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 12:36:10,371   - Marking session '9F0A762282793F06183120A95D1988DC' belonging to user 'admin' as invalid
+path = /messagebroker, isUploading = false, currentTime = 1392226570371, firstTime = 1392223973253, lastTime = 1392224770172, REL_SESSION_TIMEOUT = 1800000, ABS_SESSION_TIMEOUT = 14400000
+2014-02-12 12:36:17,168   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 15:07:07,778   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 15:13:45,777   - admin;LDAP_ENTITY_CREATED;[Security Event]Distinguished Name: cn=!Ron Druzynski,ou=Users,ou=Developer Services,ou=XIM-BUILD,ou=PDSS Supported Customers,dc=sdi,dc=na,dc=xde3,dc=xerox,dc=orgRoles: Administrator
+2014-02-12 15:14:05,277   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 15:14:05,277   - admin;WEBUI_LOGOUT;[Security Event]
+2014-02-12 15:15:55,514   - !rdruzynski;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 15:22:21,694   - !rdruzynski;WEBUI_LOGOUT;[Security Event]
+2014-02-12 15:22:21,694   - !rdruzynski;WEBUI_LOGOUT;[Security Event]
+2014-02-12 15:22:33,351   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 15:22:48,367   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 15:28:49,297   - admin;PROJECT_VERSION_ACCESS_ADDED;[Security Event]Project: CTCVersion: 1.0Users: admin
+2014-02-12 15:28:49,453   - admin;PROJECT_VERSION_CREATED;Project: CTCVersion: 1.0Description: Project Template: Prioritized High Risk Project TemplateActive: trueOwner: admin
+2014-02-12 15:28:50,172   - admin;PROJECT_VERSION_CUSTOM_TAG_ASSIGNMENT;Project: CTCVersion: 1.0Custom Tags Added: Analysis
+2014-02-12 15:28:50,187   - admin;PROJECT_VERSION_UPDATED;Project: CTCVersion: 1.0Description: Project Template: Prioritized High Risk Project TemplateActive: trueOwner: admin
+2014-02-12 15:28:50,844   - System;HISTORICAL_SNAPSHOT_COLLECTION_STARTED;Project: CTCVersion: 1.0
+2014-02-12 15:28:50,937   - System;HISTORICAL_SNAPSHOT_COLLECTION_ITERATION_COMPLETED;Project: CTCVersion: 1.0
+2014-02-12 15:58:11,647   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 16:25:57,555   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]
+2014-02-12 16:32:38,756   - admin;WEBUI_LOGIN_SUCCESS;[Security Event]

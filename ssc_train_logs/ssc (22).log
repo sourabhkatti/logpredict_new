@@ -1,0 +1,323 @@
+2014-03-25 15:09:49,951   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2014-03-25 15:09:49,967   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2014-03-25 15:09:51,651   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2014-03-25 15:09:53,149   [DEBUG] com.fortify.systemspec - 
+Version:4.02.0014
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=selwyn.reynolds
+com.fortify.SCAExecutablePath=
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Apache Tomcat 7
+catalina.home=C:\Apache Tomcat 7
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Apache Tomcat 7\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Apache Tomcat 7\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Apache Tomcat 7\bin\bootstrap.jar;C:\Apache Tomcat 7\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Apache Tomcat 7\endorsed
+java.ext.dirs=C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jdk1.7.0_25\jre
+java.io.tmpdir=C:\Apache Tomcat 7\temp
+java.library.path=C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\csvn\bin\;C:\csvn\Python25\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_25-b17
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Apache Tomcat 7\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_25
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=23.25-b01
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=
+os.arch=amd64
+os.name=Windows Server 2008 R2
+os.version=6.1
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_25\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=org.apache.catalina.startup.Bootstrap start
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,ant-launcher.jar
+user.country=US
+user.dir=C:\Apache Tomcat 7\bin
+user.home=C:\Users\selwyn.reynolds
+user.language=en
+user.name=selwyn.reynolds
+user.script=
+user.timezone=America/Chicago
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows Server 2008 R2
+  Arch: amd64
+  AvailableProcessors: 12
+  CommittedVirtualMemorySize: 1952808960
+  FreePhysicalMemorySize: 266592256
+  FreeSwapSpaceSize: 13477339136
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 84256140100
+  SystemCpuLoad: 0.08332692307692312
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 17166327808
+  TotalSwapSpaceSize: 34330750976
+  Version: 6.1
+RuntimeMXBean: 7120@DevServer
+  BootClassPath: C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Apache Tomcat 7\bin\bootstrap.jar;C:\Apache Tomcat 7\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\csvn\bin\;C:\csvn\Python25\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1395778124946
+  Uptime: 68203
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 23.25-b01
+-----------------------------------------------------------------------------
+2014-03-25 15:10:04,022   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-03-25 15:10:04,022   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-03-25 15:10:04,022   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2014-03-25 15:10:05,208   [WARN] com.fortify.manager.security.FmMethodSecurityInteceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2014-03-25 15:10:07,205   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:07,205   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:07,205   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:07,205   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:07,205   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,365   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,365   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,365   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,380   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,380   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,661   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,661   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,661   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,661   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:24,661   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,361   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,361   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,361   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,361   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,393   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,393   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,393   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:26,393   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:10:29,138   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2014-03-25 15:10:29,138   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2014-03-25 15:12:10,957   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated class file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.class] 
+2014-03-25 15:12:10,959   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 
+2014-03-25 15:12:14,631   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 
+2014-03-25 15:46:41,316   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2014-03-25 15:46:41,332   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2014-03-25 15:46:43,391   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2014-03-25 15:46:44,701   [DEBUG] com.fortify.systemspec - 
+Version:4.02.0014
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=selwyn.reynolds
+com.fortify.SCAExecutablePath=
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Apache Tomcat 7
+catalina.home=C:\Apache Tomcat 7
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Apache Tomcat 7\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Apache Tomcat 7\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Apache Tomcat 7\bin\bootstrap.jar;C:\Apache Tomcat 7\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Apache Tomcat 7\endorsed
+java.ext.dirs=C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jdk1.7.0_25\jre
+java.io.tmpdir=C:\Apache Tomcat 7\temp
+java.library.path=C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\csvn\bin\;C:\csvn\Python25\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_25-b17
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Apache Tomcat 7\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_25
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=23.25-b01
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=
+os.arch=amd64
+os.name=Windows Server 2008 R2
+os.version=6.1
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_25\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=org.apache.catalina.startup.Bootstrap start
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=Service Pack 1
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,ant-launcher.jar
+user.country=US
+user.dir=C:\Apache Tomcat 7\bin
+user.home=C:\Users\selwyn.reynolds
+user.language=en
+user.name=selwyn.reynolds
+user.script=
+user.timezone=America/Chicago
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows Server 2008 R2
+  Arch: amd64
+  AvailableProcessors: 12
+  CommittedVirtualMemorySize: 1938640896
+  FreePhysicalMemorySize: 685899776
+  FreeSwapSpaceSize: 13498200064
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 80090913400
+  SystemCpuLoad: 0.08332692307692312
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 17166327808
+  TotalSwapSpaceSize: 34330750976
+  Version: 6.1
+RuntimeMXBean: 6972@DevServer
+  BootClassPath: C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Apache Tomcat 7\bin\bootstrap.jar;C:\Apache Tomcat 7\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\csvn\bin\;C:\csvn\Python25\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1395780340726
+  Uptime: 63975
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 23.25-b01
+-----------------------------------------------------------------------------
+2014-03-25 15:46:54,561   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-03-25 15:46:54,561   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Apache Tomcat 7\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2014-03-25 15:46:54,561   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2014-03-25 15:46:55,372   [WARN] com.fortify.manager.security.FmMethodSecurityInteceptor - Could not validate configuration attributes as the SecurityMetadataSource did not return any attributes from getAllConfigAttributes()
+2014-03-25 15:46:56,152   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:46:56,152   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:46:56,152   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:46:56,152   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:46:56,152   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:08,835   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:08,835   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:08,835   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:08,835   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:08,835   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:09,053   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:09,053   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:09,053   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:09,053   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:09,053   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,051   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,051   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,051   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,051   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,067   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setMarshaller(org.springframework.oxm.Marshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,067   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.setUnmarshaller(org.springframework.oxm.Unmarshaller)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,067   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final void org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(org.springframework.ws.context.MessageContext,java.lang.Object) throws java.lang.Exception] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:10,067   [WARN] org.springframework.aop.framework.Cglib2AopProxy - Unable to proxy method [public final boolean org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.supports(java.lang.Object)] because it is final: All calls to this method via a proxy will be routed directly to the proxy.
+2014-03-25 15:47:11,752   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2014-03-25 15:47:11,752   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2014-03-25 15:48:34,393   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated class file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.class] 
+2014-03-25 15:48:34,395   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 
+2014-03-25 15:48:35,241   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 
+2014-03-25 15:49:30,864   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated class file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.class] 
+2014-03-25 15:49:30,866   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 
+2014-03-25 15:49:30,917   [WARN] org.apache.jasper.compiler.Compiler - Failed to delete generated Java file [C:\Apache Tomcat 7\work\Catalina\localhost\ssc\org\apache\jsp\login_jsp.java] 

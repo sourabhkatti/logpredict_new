@@ -1,0 +1,1059 @@
+
+2014-02-12 09:44:01 Commons Daemon procrun stdout initialized
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@6ecb1789)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+2014-02-12 10:27:58 Commons Daemon procrun stdout initialized
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000005be871de, pid=1264, tid=1560
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_51-b13) (build 1.7.0_51-b13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# V  [jvm.dll+0x1c71de]
+#
+# Core dump written. Default location: C:\Program Files\Apache Software Foundation\Tomcat 7.0\hs_err_pid1264.mdmp
+#
+# An error report file with more information is saved as:
+# C:\Program Files\Apache Software Foundation\Tomcat 7.0\hs_err_pid1264.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+2014-02-12 11:26:01 Commons Daemon procrun stdout initialized
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@222d6912)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+2014-02-12 11:51:14 Commons Daemon procrun stdout initialized
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@8ba05ec)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+2014-02-12 15:03:15 Commons Daemon procrun stdout initialized
+2014-02-12 15:38:02
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode):
+
+"http-bio-8443-exec-17" daemon prio=6 tid=0x0000000015956800 nid=0xef4 waiting on condition [0x000000001f3df000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-16" daemon prio=6 tid=0x000000001595a000 nid=0x674 waiting on condition [0x0000000000c2f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-14" daemon prio=6 tid=0x0000000015964000 nid=0xe2c waiting on condition [0x0000000020c8f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-13" daemon prio=6 tid=0x000000001595d000 nid=0x404 waiting on condition [0x0000000020b8f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-11" daemon prio=6 tid=0x000000001595e000 nid=0x5a4 waiting on condition [0x000000002098f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-10" daemon prio=6 tid=0x000000001595c800 nid=0xc10 waiting on condition [0x000000002078f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-7" daemon prio=6 tid=0x000000001595b800 nid=0x850 runnable [0x000000002048e000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.String.valueOf(Unknown Source)
+	at org.springframework.web.filter.OncePerRequestFilter.getAlreadyFilteredAttributeName(OncePerRequestFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:409)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1044)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	- locked <0x000000068a951558> (a org.apache.tomcat.util.net.SocketWrapper)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-6" daemon prio=6 tid=0x000000001595b000 nid=0x8fc runnable [0x000000002038e000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.misc.Unsafe.putInt(Native Method)
+	at sun.security.provider.ByteArrayAccess.i2bLittle(Unknown Source)
+	at sun.security.provider.MD5.implDigest(Unknown Source)
+	at sun.security.provider.DigestBase.engineDigest(Unknown Source)
+	at java.security.MessageDigest$Delegate.engineDigest(Unknown Source)
+	at java.security.MessageDigest.digest(Unknown Source)
+	at com.sun.crypto.provider.TlsPrfGenerator.expand(TlsPrfGenerator.java:307)
+	at com.sun.crypto.provider.TlsPrfGenerator.doTLS10PRF(TlsPrfGenerator.java:247)
+	at com.sun.crypto.provider.TlsKeyMaterialGenerator.engineGenerateKey0(TlsKeyMaterialGenerator.java:135)
+	at com.sun.crypto.provider.TlsKeyMaterialGenerator.engineGenerateKey(TlsKeyMaterialGenerator.java:89)
+	at javax.crypto.KeyGenerator.generateKey(KeyGenerator.java:530)
+	at sun.security.ssl.Handshaker.calculateConnectionKeys(Unknown Source)
+	at sun.security.ssl.ServerHandshaker.clientHello(Unknown Source)
+	at sun.security.ssl.ServerHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	- locked <0x000000068a9516b0> (a sun.security.ssl.SSLSocketImpl)
+	- locked <0x000000068a951978> (a java.lang.Object)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	- locked <0x000000068a9519b0> (a java.lang.Object)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.getSession(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.handshake(JSSESocketFactory.java:215)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:301)
+	- locked <0x000000068a961688> (a org.apache.tomcat.util.net.SocketWrapper)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-5" daemon prio=6 tid=0x0000000015958800 nid=0x708 waiting on condition [0x000000002028f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681eb6d88> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-4" daemon prio=6 tid=0x0000000015959800 nid=0x50c waiting on condition [0x000000002018c000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.util.resources.OpenListResourceBundle.loadLookup(Unknown Source)
+	- locked <0x000000068a9406c8> (a sun.util.resources.TimeZoneNames)
+	at sun.util.resources.OpenListResourceBundle.loadLookupTablesIfNecessary(Unknown Source)
+	at sun.util.resources.OpenListResourceBundle.handleGetObject(Unknown Source)
+	at sun.util.resources.TimeZoneNamesBundle.handleGetObject(Unknown Source)
+	at java.util.ResourceBundle.getObject(Unknown Source)
+	at java.util.ResourceBundle.getObject(Unknown Source)
+	at java.util.ResourceBundle.getStringArray(Unknown Source)
+	at sun.util.TimeZoneNameUtility.retrieveDisplayNames(Unknown Source)
+	at sun.util.TimeZoneNameUtility.retrieveDisplayNames(Unknown Source)
+	at java.util.TimeZone.getDisplayNames(Unknown Source)
+	at java.util.TimeZone.getDisplayName(Unknown Source)
+	at java.text.SimpleDateFormat.subFormat(Unknown Source)
+	at java.text.SimpleDateFormat.format(Unknown Source)
+	at java.text.SimpleDateFormat.format(Unknown Source)
+	at java.text.DateFormat.format(Unknown Source)
+	at org.apache.tomcat.util.http.FastHttpDateFormat.getCurrentDate(FastHttpDateFormat.java:114)
+	- locked <0x0000000681021d98> (a java.text.SimpleDateFormat)
+	at org.apache.coyote.http11.AbstractHttp11Processor.prepareResponse(AbstractHttp11Processor.java:1505)
+	at org.apache.coyote.http11.AbstractHttp11Processor.action(AbstractHttp11Processor.java:779)
+	at org.apache.coyote.Response.action(Response.java:174)
+	at org.apache.coyote.Response.sendHeaders(Response.java:365)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:352)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:333)
+	at org.apache.catalina.connector.Response.flushBuffer(Response.java:570)
+	at org.apache.catalina.connector.ResponseFacade.flushBuffer(ResponseFacade.java:307)
+	at javax.servlet.ServletResponseWrapper.flushBuffer(ServletResponseWrapper.java:161)
+	at javax.servlet.ServletResponseWrapper.flushBuffer(ServletResponseWrapper.java:161)
+	at org.springframework.security.web.context.SaveContextOnUpdateOrErrorResponseWrapper.flushBuffer(SaveContextOnUpdateOrErrorResponseWrapper.java:119)
+	at flex.messaging.endpoints.BaseHTTPEndpoint.service(BaseHTTPEndpoint.java:312)
+	at flex.messaging.endpoints.SecureAMFEndpoint$$EnhancerByCGLIB$$fcf34e0.service(<generated>)
+	at org.springframework.flex.servlet.MessageBrokerHandlerAdapter.handle(MessageBrokerHandlerAdapter.java:101)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.auth.FmWebUiAuthenticationMethodSettingFilter.doFilter(FmWebUiAuthenticationMethodSettingFilter.java:19)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.filters.ChangePasswordFilter.doFilterInternal(ChangePasswordFilter.java:131)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.sso.SsoFilter.doFilter(SsoFilter.java:68)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:125)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:409)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1044)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	- locked <0x000000068a940af0> (a org.apache.tomcat.util.net.SocketWrapper)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-exec-2" daemon prio=6 tid=0x0000000015957000 nid=0xb20 waiting on condition [0x000000001efef000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000683e5e0e0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"ajp-bio-8009-AsyncTimeout" daemon prio=6 tid=0x0000000014c48800 nid=0xcd4 waiting on condition [0x000000001ff8f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"ajp-bio-8009-Acceptor-0" daemon prio=6 tid=0x0000000014c47800 nid=0x928 runnable [0x000000001fe8f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000681f71788> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:60)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-AsyncTimeout" daemon prio=6 tid=0x0000000014c49000 nid=0xe38 waiting on condition [0x000000001fd8f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-Acceptor-0" daemon prio=6 tid=0x0000000014c47000 nid=0x150 runnable [0x000000001fc8f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000683442b20> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at sun.security.ssl.SSLServerSocketImpl.accept(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.acceptSocket(JSSESocketFactory.java:205)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-exec-1" daemon prio=6 tid=0x0000000014c44000 nid=0x5c0 waiting on condition [0x000000001fb8f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000683e5e0e0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-AsyncTimeout" daemon prio=6 tid=0x0000000014c43000 nid=0x724 waiting on condition [0x000000001fa8f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-Acceptor-0" daemon prio=6 tid=0x0000000014c46000 nid=0x524 runnable [0x000000001f98f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000683e88388> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:60)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"ContainerBackgroundProcessor[StandardEngine[Catalina]]" daemon prio=6 tid=0x0000000014c42800 nid=0x124 runnable [0x000000001f69f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+	at java.io.File.isDirectory(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1124)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1636)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:329)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+
+"Thread-6" daemon prio=6 tid=0x0000000014c45800 nid=0xc50 runnable [0x000000001f59f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.WinNTFileSystem.getLastModifiedTime(Native Method)
+	at java.io.File.lastModified(Unknown Source)
+	at com.fortify.manager.logging.Log4jMonitorThread.monitor(Log4jMonitorThread.java:53)
+	at com.fortify.manager.logging.Log4jMonitorThread.run(Log4jMonitorThread.java:44)
+	at java.lang.Thread.run(Unknown Source)
+
+"threadPoolScheduler-2" prio=6 tid=0x0000000014c44800 nid=0xa00 runnable [0x000000001f2df000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006836fdbe8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"threadPoolScheduler-1" prio=6 tid=0x00000000145eb800 nid=0x76c runnable [0x000000001f1df000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.Thread.currentThread(Native Method)
+	at java.lang.Thread.interrupted(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireInterruptibly(Unknown Source)
+	at java.util.concurrent.locks.ReentrantLock.lockInterruptibly(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"QuartzScheduler_scheduler-NON_CLUSTERED_MisfireHandler" prio=6 tid=0x00000000145ea000 nid=0x100 waiting on condition [0x000000001f88f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:3988)
+
+"Timer-1" daemon prio=6 tid=0x00000000145e7000 nid=0x9cc in Object.wait() [0x0000000019e0f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cfab48> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	- locked <0x0000000682cfab48> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Unknown Source)
+
+"scheduler_QuartzSchedulerThread" prio=6 tid=0x00000000145e9800 nid=0x344 in Object.wait() [0x0000000019d0f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cfa138> (a java.lang.Object)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:437)
+	- locked <0x0000000682cfa138> (a java.lang.Object)
+
+"scheduler_Worker-4" prio=6 tid=0x00000000145e6800 nid=0x75c in Object.wait() [0x0000000019c0f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cf84e8> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x0000000682cf84e8> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-3" prio=6 tid=0x00000000145e5800 nid=0xfa8 in Object.wait() [0x0000000019b0f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cf8320> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x0000000682cf8320> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-2" prio=6 tid=0x00000000145e8800 nid=0xcbc in Object.wait() [0x000000001990f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cf8158> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x0000000682cf8158> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-1" prio=6 tid=0x00000000145e5000 nid=0xc44 in Object.wait() [0x000000001980f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682cf6268> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x0000000682cf6268> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"Timer-0" daemon prio=6 tid=0x0000000015f3c800 nid=0xde4 in Object.wait() [0x000000001970f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000683ed3f48> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	- locked <0x0000000683ed3f48> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Unknown Source)
+
+"Thread-2" daemon prio=6 tid=0x0000000016e98000 nid=0xe0c runnable [0x0000000019a0f000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.Iocp.getQueuedCompletionStatus(Native Method)
+	at sun.nio.ch.Iocp.access$300(Unknown Source)
+	at sun.nio.ch.Iocp$EventHandlerTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"GC Daemon" daemon prio=2 tid=0x00000000146fe800 nid=0xf88 in Object.wait() [0x000000001606f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000683ed6030> (a sun.misc.GC$LatencyLock)
+	at sun.misc.GC$Daemon.run(Unknown Source)
+	- locked <0x0000000683ed6030> (a sun.misc.GC$LatencyLock)
+
+"Service Thread" daemon prio=6 tid=0x0000000012a3b000 nid=0xdbc runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" daemon prio=10 tid=0x0000000012a34000 nid=0x9b4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" daemon prio=10 tid=0x0000000012a32800 nid=0xe28 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" daemon prio=10 tid=0x0000000012a31800 nid=0x5c4 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" daemon prio=10 tid=0x0000000012a2e000 nid=0xe74 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" daemon prio=8 tid=0x00000000129fc000 nid=0x648 in Object.wait() [0x0000000013d9f000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681bdc6b0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	- locked <0x0000000681bdc6b0> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+"Reference Handler" daemon prio=10 tid=0x00000000129f3000 nid=0x730 in Object.wait() [0x0000000013c9f000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681bdc1f8> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+	- locked <0x0000000681bdc1f8> (a java.lang.ref.Reference$Lock)
+
+"main" prio=6 tid=0x0000000000f7d800 nid=0x780 runnable [0x0000000000f2e000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000681f635a8> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:452)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:778)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:724)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+"VM Thread" prio=10 tid=0x00000000129ef000 nid=0x4d0 runnable 
+
+"GC task thread#0 (ParallelGC)" prio=6 tid=0x0000000000f96800 nid=0xd84 runnable 
+
+"GC task thread#1 (ParallelGC)" prio=6 tid=0x0000000000f98000 nid=0xe68 runnable 
+
+"GC task thread#2 (ParallelGC)" prio=6 tid=0x0000000000f9a000 nid=0xe20 runnable 
+
+"GC task thread#3 (ParallelGC)" prio=6 tid=0x0000000000f9b800 nid=0xe50 runnable 
+
+"VM Periodic Task Thread" prio=10 tid=0x0000000012a5c800 nid=0x9ac waiting on condition 
+
+JNI global references: 316
+
+Heap
+ PSYoungGen      total 2096640K, used 16349K [0x0000000780000000, 0x0000000800000000, 0x0000000800000000)
+  eden space 2096128K, 0% used [0x0000000780000000,0x0000000780ff77e8,0x00000007fff00000)
+  from space 512K, 0% used [0x00000007fff80000,0x00000007fff80000,0x0000000800000000)
+  to   space 512K, 0% used [0x00000007fff00000,0x00000007fff00000,0x00000007fff80000)
+ ParOldGen       total 4194304K, used 173521K [0x0000000680000000, 0x0000000780000000, 0x0000000780000000)
+  object space 4194304K, 4% used [0x0000000680000000,0x000000068a9745c0,0x0000000780000000)
+ PSPermGen       total 83968K, used 83967K [0x000000067ae00000, 0x0000000680000000, 0x0000000680000000)
+  object space 83968K, 99% used [0x000000067ae00000,0x000000067fffff78,0x0000000680000000)
+
+
+2014-02-12 15:57:10 Commons Daemon procrun stdout initialized
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@5a0d11f)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+2014-02-12 16:24:28 Commons Daemon procrun stdout initialized
+AbandonedObjectPool is used (org.apache.commons.dbcp.AbandonedObjectPool@1a6303ef)
+   LogAbandoned: true
+   RemoveAbandoned: true
+   RemoveAbandonedTimeout: 3000
+
+2014-02-12 16:31:22 Commons Daemon procrun stdout initialized
+2014-02-12 16:36:24
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (23.21-b01 mixed mode):
+
+"http-bio-8443-exec-13" daemon prio=6 tid=0x0000000022342000 nid=0x814 waiting on condition [0x0000000023daf000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-12" daemon prio=6 tid=0x0000000022343000 nid=0xc34 waiting on condition [0x0000000000c3f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-11" daemon prio=6 tid=0x0000000022341800 nid=0x500 waiting on condition [0x000000001876f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-7" daemon prio=6 tid=0x000000002233d800 nid=0xde8 runnable [0x0000000023fdf000]
+   java.lang.Thread.State: RUNNABLE
+	at org.apache.catalina.connector.CoyoteAdapter.normalize(CoyoteAdapter.java:1098)
+	at org.apache.catalina.connector.CoyoteAdapter.postParseRequest(CoyoteAdapter.java:594)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:404)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1044)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	- locked <0x000000068269ab10> (a org.apache.tomcat.util.net.SocketWrapper)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-6" daemon prio=6 tid=0x000000002233c800 nid=0xff0 waiting on condition [0x0000000023edf000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-5" daemon prio=6 tid=0x0000000022340000 nid=0xc0c waiting on condition [0x0000000023caf000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-4" daemon prio=6 tid=0x000000002233e000 nid=0x87c waiting on condition [0x0000000023baf000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-3" daemon prio=6 tid=0x000000002233f000 nid=0x894 waiting on condition [0x0000000023aaf000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-2" daemon prio=6 tid=0x000000002233a800 nid=0x3c0 waiting on condition [0x00000000239af000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-exec-1" daemon prio=6 tid=0x000000002233b000 nid=0xdac waiting on condition [0x00000000238af000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680bf91a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:104)
+	at org.apache.tomcat.util.threads.TaskQueue.take(TaskQueue.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"ajp-bio-8009-AsyncTimeout" daemon prio=6 tid=0x000000002233c000 nid=0xa9c waiting on condition [0x000000002360f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"ajp-bio-8009-Acceptor-0" daemon prio=6 tid=0x0000000022338000 nid=0xb7c runnable [0x00000000237af000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x000000068223f358> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:60)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-AsyncTimeout" daemon prio=6 tid=0x0000000022336800 nid=0xcd8 waiting on condition [0x000000002350f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8443-Acceptor-0" daemon prio=6 tid=0x0000000022339800 nid=0xa34 runnable [0x000000002340f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000681f4c238> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at sun.security.ssl.SSLServerSocketImpl.accept(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.acceptSocket(JSSESocketFactory.java:205)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-AsyncTimeout" daemon prio=6 tid=0x0000000022336000 nid=0x1d0 runnable [0x000000002330f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.tomcat.util.net.JIoEndpoint$AsyncTimeout.run(JIoEndpoint.java:151)
+	at java.lang.Thread.run(Unknown Source)
+
+"http-bio-8080-Acceptor-0" daemon prio=6 tid=0x0000000022337800 nid=0x5ac runnable [0x0000000022f3f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x0000000682256270> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.acceptSocket(DefaultServerSocketFactory.java:60)
+	at org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(JIoEndpoint.java:219)
+	at java.lang.Thread.run(Unknown Source)
+
+"ContainerBackgroundProcessor[StandardEngine[Catalina]]" daemon prio=6 tid=0x0000000022335000 nid=0xec0 runnable [0x000000002320f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+	at java.io.File.exists(Unknown Source)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1365)
+	- locked <0x0000000683ff4020> (a org.apache.catalina.startup.HostConfig)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1627)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:329)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Unknown Source)
+
+"Thread-7" daemon prio=6 tid=0x0000000018e3c800 nid=0xc5c waiting on condition [0x000000002310f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.fortify.manager.logging.Log4jMonitorThread.monitor(Log4jMonitorThread.java:65)
+	at com.fortify.manager.logging.Log4jMonitorThread.run(Log4jMonitorThread.java:44)
+	at java.lang.Thread.run(Unknown Source)
+
+"threadPoolScheduler-2" prio=6 tid=0x0000000018e3d000 nid=0x9f8 waiting on condition [0x0000000022e3f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000682ec32d8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"threadPoolScheduler-1" prio=6 tid=0x0000000018e39000 nid=0x2b4 waiting on condition [0x0000000022d3f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000682ec32d8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"QuartzScheduler_scheduler-NON_CLUSTERED_MisfireHandler" prio=6 tid=0x0000000018e3b800 nid=0x3b8 runnable [0x0000000022c3f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at java.lang.reflect.Proxy.getProxyClass0(Unknown Source)
+	at java.lang.reflect.Proxy.newProxyInstance(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.getAttributeRestoringConnection(JobStoreSupport.java:755)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:186)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doRecoverMisfires(JobStoreSupport.java:3169)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.manage(JobStoreSupport.java:3947)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:3968)
+
+"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#7d6777c3-4" prio=6 tid=0x0000000018e3a000 nid=0x708 waiting on condition [0x0000000022b3f000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068227a2f8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#7d6777c3-3" prio=6 tid=0x0000000018e3a800 nid=0x59c waiting on condition [0x000000001d2af000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068227a2f8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#7d6777c3-2" prio=6 tid=0x0000000018e36000 nid=0x9a4 waiting on condition [0x000000001d1af000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068227a2f8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor#7d6777c3-1" prio=6 tid=0x0000000018e38800 nid=0xc64 waiting on condition [0x000000001d0af000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068227a2f8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"Timer-1" daemon prio=6 tid=0x0000000018e37800 nid=0x8a0 in Object.wait() [0x000000002293f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006825abcf8> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	- locked <0x00000006825abcf8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Unknown Source)
+
+"scheduler_QuartzSchedulerThread" prio=6 tid=0x0000000019aff000 nid=0x664 runnable [0x000000002283e000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.DataOutputStream.write(Unknown Source)
+	- locked <0x0000000680e40a20> (a java.io.DataOutputStream)
+	at net.sourceforge.jtds.jdbc.SharedSocket.sendNetPacket(SharedSocket.java:686)
+	- locked <0x0000000680e40c08> (a java.util.concurrent.ConcurrentHashMap)
+	at net.sourceforge.jtds.jdbc.RequestStream.putPacket(RequestStream.java:570)
+	at net.sourceforge.jtds.jdbc.RequestStream.flush(RequestStream.java:518)
+	at net.sourceforge.jtds.jdbc.TdsCore.executeSQL(TdsCore.java:1080)
+	- locked <0x0000000680e6ba98> (a net.sourceforge.jtds.jdbc.TdsCore)
+	at net.sourceforge.jtds.jdbc.JtdsStatement.executeSQLQuery(JtdsStatement.java:493)
+	at net.sourceforge.jtds.jdbc.JtdsPreparedStatement.executeQuery(JtdsPreparedStatement.java:1029)
+	- locked <0x0000000680e405a8> (a net.sourceforge.jtds.jdbc.JtdsConnection)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:93)
+	at org.quartz.impl.jdbcjobstore.StdRowLockSemaphore.executeSQL(StdRowLockSemaphore.java:91)
+	at org.quartz.impl.jdbcjobstore.DBSemaphore.obtainLock(DBSemaphore.java:115)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3804)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2742)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+
+"scheduler_Worker-4" prio=6 tid=0x00000000179ec000 nid=0xe9c in Object.wait() [0x000000002174f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006825a9e40> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x00000006825a9e40> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-3" prio=6 tid=0x0000000016976000 nid=0xc94 in Object.wait() [0x000000002164f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006825a9c78> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x00000006825a9c78> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-2" prio=6 tid=0x00000000188f2800 nid=0x208 in Object.wait() [0x000000002154f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006825a9ab0> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x00000006825a9ab0> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"scheduler_Worker-1" prio=6 tid=0x0000000018d05000 nid=0x89c in Object.wait() [0x000000001d45f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006825a8928> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:552)
+	- locked <0x00000006825a8928> (a org.quartz.simpl.SimpleThreadPool$WorkerThread)
+
+"Timer-0" daemon prio=6 tid=0x0000000017c85000 nid=0x54 in Object.wait() [0x000000001ad5f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682f6fbe0> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	- locked <0x0000000682f6fbe0> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Unknown Source)
+
+"Thread-2" daemon prio=6 tid=0x00000000182da000 nid=0x6c4 runnable [0x000000001bedf000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.Iocp.getQueuedCompletionStatus(Native Method)
+	at sun.nio.ch.Iocp.access$300(Unknown Source)
+	at sun.nio.ch.Iocp$EventHandlerTask.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+"GC Daemon" daemon prio=2 tid=0x0000000016fbf000 nid=0xb88 in Object.wait() [0x000000001847f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682f71ba0> (a sun.misc.GC$LatencyLock)
+	at sun.misc.GC$Daemon.run(Unknown Source)
+	- locked <0x0000000682f71ba0> (a sun.misc.GC$LatencyLock)
+
+"Service Thread" daemon prio=6 tid=0x0000000014de3800 nid=0x5b8 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" daemon prio=10 tid=0x0000000014dda800 nid=0xda4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" daemon prio=10 tid=0x0000000014dd5000 nid=0xfe4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" daemon prio=10 tid=0x0000000014dd4000 nid=0xe20 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" daemon prio=10 tid=0x0000000014dd1000 nid=0x510 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" daemon prio=8 tid=0x0000000014d76800 nid=0x3e0 in Object.wait() [0x00000000161af000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000680940100> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	- locked <0x0000000680940100> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+"Reference Handler" daemon prio=10 tid=0x0000000014d6d800 nid=0xe88 in Object.wait() [0x00000000160af000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000068093fe78> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+	- locked <0x000000068093fe78> (a java.lang.ref.Reference$Lock)
+
+"main" prio=6 tid=0x000000000102e000 nid=0xab4 runnable [0x0000000000f3e000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	- locked <0x000000068223e3c0> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:452)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:778)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:724)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:456)
+
+"VM Thread" prio=10 tid=0x0000000014d63000 nid=0xed4 runnable 
+
+"GC task thread#0 (ParallelGC)" prio=6 tid=0x000000000103c800 nid=0x81c runnable 
+
+"GC task thread#1 (ParallelGC)" prio=6 tid=0x000000000103e800 nid=0x338 runnable 
+
+"GC task thread#2 (ParallelGC)" prio=6 tid=0x0000000001040800 nid=0xe5c runnable 
+
+"GC task thread#3 (ParallelGC)" prio=6 tid=0x0000000001042000 nid=0x764 runnable 
+
+"VM Periodic Task Thread" prio=10 tid=0x0000000014df7000 nid=0x494 waiting on condition 
+
+JNI global references: 381
+
+Heap
+ PSYoungGen      total 2096960K, used 7146K [0x0000000780000000, 0x00000007ffff0000, 0x0000000800000000)
+  eden space 2096896K, 0% used [0x0000000780000000,0x00000007806faa00,0x00000007fffc0000)
+  from space 64K, 0% used [0x00000007fffe0000,0x00000007fffe0000,0x00000007ffff0000)
+  to   space 64K, 0% used [0x00000007fffd0000,0x00000007fffd0000,0x00000007fffe0000)
+ ParOldGen       total 4194304K, used 167139K [0x0000000680000000, 0x0000000780000000, 0x0000000780000000)
+  object space 4194304K, 3% used [0x0000000680000000,0x000000068a338eb8,0x0000000780000000)
+ PSPermGen       total 83968K, used 83967K [0x000000067ae00000, 0x0000000680000000, 0x0000000680000000)
+  object space 83968K, 99% used [0x000000067ae00000,0x000000067fffff40,0x0000000680000000)
+

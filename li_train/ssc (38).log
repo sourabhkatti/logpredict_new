@@ -1,0 +1,1561 @@
+2015-04-14 12:56:41,395   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-04-14 12:56:41,418   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-04-14 12:56:45,219   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2015-04-14 12:56:45,425   [DEBUG] com.fortify.systemspec - 
+Version:4.20.0098
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=WIN-FTP4HSIOGCK$
+com.fortify.SCAExecutablePath=
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 7.0\endorsed
+java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jre7
+java.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+java.library.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_76-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_76
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.76-b04
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar
+os.arch=amd64
+os.name=Windows Server 2012
+os.version=6.2
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes
+sun.boot.library.path=C:\Program Files\Java\jre7\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar
+user.country=US
+user.dir=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+user.home=C:\
+user.language=en
+user.name=WIN-FTP4HSIOGCK$
+user.script=
+user.timezone=America/New_York
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows Server 2012
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 5781876736
+  FreePhysicalMemorySize: 5328920576
+  FreeSwapSpaceSize: 2742071296
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 72468750000
+  SystemCpuLoad: 0.1316356926907345
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 12876103680
+  TotalSwapSpaceSize: 15426240512
+  Version: 6.2
+RuntimeMXBean: 4528@WIN-FTP4HSIOGCK
+  BootClassPath: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1428940243636
+  Uptime: 90361789
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.76-b04
+-----------------------------------------------------------------------------
+2015-04-14 12:56:58,623   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-04-14 12:56:58,623   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-04-14 12:56:58,623   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2015-04-14 12:57:35,158   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2015-04-14 12:57:35,158   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2015-04-14 12:59:13,184   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationFailureCredentialsExpiredEvent: admin; exception: User credentials have expired
+2015-04-14 13:00:13,274   [WARN] com.fortify.manager.web.security.auth.FMLdapAuthenticationProvider - LDAP Integration disabled
+2015-04-14 13:00:13,352   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationFailureBadCredentialsEvent: admin; exception: Bad credentials
+2015-04-14 13:00:25,469   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:00:25,472   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-04-14 13:05:00,212   [WARN] com.fortify.manager.logging.EscalatingLog4jReceiver - LocalExecutorService is using 1 of 4 possible threads for processing.
+2015-04-14 13:05:01,032   [WARN] com.fortify.manager.BLL.impl.FPRBLLImpl - Artifact requires authorization: com.fortify.manager.service.parser.checker.ScanProcessAuthorizationException
+Processing Messages:
+  REQUIRE_AUTHORIZATION: The version of the external metadata file "ExternalMetadata/externalmetadata.xml" is more recent in the scan than on the server.  The external metadata file in the scan will be ignored.
+2015-04-14 13:15:46,242   [WARN] com.fortify.birtReport - the logger can't be the child of org.eclipse.birt
+2015-04-14 13:16:12,218   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /5.77151  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:12,786   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.74987  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:12,845   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75601  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:12,859   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75602  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:13,008   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75608  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:13,016   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75609  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:16,991   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.18971  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,037   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.19008  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,111   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75636  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,120   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75637  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,140   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75639  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,824   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75650  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,869   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77283  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:17,883   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,146   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,221   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,235   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,241   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,281   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,287   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,293   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,300   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,306   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,312   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,317   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,323   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,328   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,331   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,337   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,342   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,348   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,354   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,361   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,367   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,370   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,374   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,377   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,380   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,384   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,387   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,391   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,394   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,398   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,404   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,410   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,415   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,421   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,427   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,430   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,433   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,436   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,440   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,444   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,447   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,451   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,454   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,457   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,461   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,464   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,467   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,471   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,502   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,541   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,584   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,587   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,627   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,632   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,679   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,685   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,689   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,696   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,700   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,704   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,710   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,715   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,763   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,768   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,772   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,777   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,783   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,788   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,793   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,798   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,804   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,807   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,810   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,813   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,816   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,819   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,822   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,824   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,827   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,830   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,833   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,871   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,892   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:18,980   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,012   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,017   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,022   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,062   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,081   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,198   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,227   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,230   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,233   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,237   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,240   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,243   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,247   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,253   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,257   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,264   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,268   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,270   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,273   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,276   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,279   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,282   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,285   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,288   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,291   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,294   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,297   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,300   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,303   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,305   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,309   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,313   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,316   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,319   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,322   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,325   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,328   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,331   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,333   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,336   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,339   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,342   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,345   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,348   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,379   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,382   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,385   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,389   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,393   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,396   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,399   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,402   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,405   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,409   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,413   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,416   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,421   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,424   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,428   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,431   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,434   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,437   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,440   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,443   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,446   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,449   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,452   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,455   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,459   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,462   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,465   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,468   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,471   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,474   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,477   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,480   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,483   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,486   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,489   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,492   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,495   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,498   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,502   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,505   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,509   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,515   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,520   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,525   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,529   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,532   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,535   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,538   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,541   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,544   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,547   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,551   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,554   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,557   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,560   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,563   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,567   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,570   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,573   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,576   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,579   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,581   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,584   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,587   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,590   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,593   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,597   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,600   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,603   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,633   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,647   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,704   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,736   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,739   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,742   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,746   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,749   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,781   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,785   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,788   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,792   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,795   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,798   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,801   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,804   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,807   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,850   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,882   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,885   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,888   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,892   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,894   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,897   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,901   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,905   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,909   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,913   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,916   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,919   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,921   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,924   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,927   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,930   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,933   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,936   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,939   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,941   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,944   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,948   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,951   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,990   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:19,995   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,031   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,044   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,096   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,132   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,162   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,164   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,195   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,198   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,200   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,230   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,261   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,263   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,266   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,269   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,275   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,277   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,291   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,371   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,404   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,407   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,409   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,412   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,414   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,416   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,418   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,421   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,423   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,426   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,428   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,431   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,433   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,437   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,440   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,443   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,446   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,448   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,450   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,487   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,490   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,492   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,495   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,498   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,501   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,504   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,506   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,509   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,512   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,515   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,519   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,521   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,524   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,526   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,529   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,531   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,534   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,537   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,540   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,543   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,547   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,551   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,554   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,558   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,561   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,564   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,567   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,570   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,573   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,576   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,580   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,582   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,586   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,590   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,593   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,596   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,598   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,601   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,604   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,607   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,610   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,612   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,616   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,619   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,622   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,625   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,628   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,632   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,635   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,637   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,640   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,643   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,646   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,648   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,652   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,655   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,660   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,663   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,666   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,670   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,672   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,675   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,678   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,681   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,684   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,687   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,690   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,693   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,695   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,698   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,701   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,704   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,706   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,709   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,738   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,741   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,775   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,817   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,822   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,860   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,864   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,867   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,869   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,907   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,911   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,914   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,917   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,954   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,957   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:20,997   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,001   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,004   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,007   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,009   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,011   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,013   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,015   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,018   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,020   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,022   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,024   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,026   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,028   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,030   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,034   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,036   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,038   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,040   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,042   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,044   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,046   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,048   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,050   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,053   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,055   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,058   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,060   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,096   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,100   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,134   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,138   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,151   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,192   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,205   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,252   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,283   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,285   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,288   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,291   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,294   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,296   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,299   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,301   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,304   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,307   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,309   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,312   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,314   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,316   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,318   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,320   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,322   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,325   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,327   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,329   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,331   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,333   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,335   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,337   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,339   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,341   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,343   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,356   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,402   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,431   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,443   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,493   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,522   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,524   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,527   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,530   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,532   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:16:21,541   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75651  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,068   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /5.77151  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,310   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.74987  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,332   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75601  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,341   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75602  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,391   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75608  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,399   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75609  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,768   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.18971  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,795   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.19008  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,859   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75636  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,871   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75637  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:45,878   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75639  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,203   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.75650  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,238   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77283  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,251   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,321   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,339   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,381   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,393   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,424   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,439   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,468   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,487   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,530   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,547   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,609   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,675   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75876  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,695   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,736   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,752   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,796   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,810   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,842   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,854   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77278  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,887   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /0.77264  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:26:46,898   [WARN] org.eclipse.birt.report.engine.api.impl.ReportEngine - Page Break Intervel for listing element /1.75651  is -1. Reset it to -1 to prevent OOM
+2015-04-14 13:35:40,349   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:35:41,063   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:35:52,621   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:35:52,901   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:36:38,667   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:36:40,671   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:07,394   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:07,761   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:20,254   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:20,452   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:48,620   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:49,912   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:51,345   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:52,719   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:54,173   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:54:55,579   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:55:44,673   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:55:57,864   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:56:14,952   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:56:15,145   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.AttrBLLImpl] and method [public java.util.List com.fortify.manager.BLL.impl.AttrBLLImpl.batchCreateUpdateAndAssignCustomTags(java.lang.Long,java.lang.String,java.util.List)]
+com.fortify.manager.exception.FMUserInputException: The specified custom tag is being used as a primary tag and cannot be hidden.
+	at com.fortify.manager.BLL.impl.AttrBLLImpl.updateCustomTag(AttrBLLImpl.java:98)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl.batchCreateUpdateAndAssignCustomTags(AttrBLLImpl.java:148)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl$$FastClassByCGLIB$$31266e1a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl$$EnhancerByCGLIB$$75a50dba.batchCreateUpdateAndAssignCustomTags(<generated>)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$5.respond(TagEndpoint.java:93)
+	at com.fortify.manager.WSEndpoint.EndpointAction.execute(EndpointAction.java:49)
+	at com.fortify.manager.WSEndpoint.TagEndpoint.batchCreateUpdateAndAssignCustomTags(TagEndpoint.java:99)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$$FastClassByCGLIB$$faa4f8fd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$$EnhancerByCGLIB$$59c02ef2.batchCreateUpdateAndAssignCustomTags(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.ws.server.endpoint.MethodEndpoint.invoke(MethodEndpoint.java:132)
+	at org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.invokeInternal(MarshallingMethodEndpointAdapter.java:140)
+	at org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(AbstractMethodEndpointAdapter.java:53)
+	at org.springframework.ws.server.MessageDispatcher.dispatch(MessageDispatcher.java:233)
+	at org.springframework.ws.server.MessageDispatcher.receive(MessageDispatcher.java:173)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:88)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$623c8439.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-14 13:56:15,154   [ERROR] com.fortify.manager.WSEndpoint.EndpointAction - Updating response
+com.fortify.manager.exception.FMUserInputException: The specified custom tag is being used as a primary tag and cannot be hidden.
+	at com.fortify.manager.BLL.impl.AttrBLLImpl.updateCustomTag(AttrBLLImpl.java:98)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl.batchCreateUpdateAndAssignCustomTags(AttrBLLImpl.java:148)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl$$FastClassByCGLIB$$31266e1a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor225.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.AttrBLLImpl$$EnhancerByCGLIB$$75a50dba.batchCreateUpdateAndAssignCustomTags(<generated>)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$5.respond(TagEndpoint.java:93)
+	at com.fortify.manager.WSEndpoint.EndpointAction.execute(EndpointAction.java:49)
+	at com.fortify.manager.WSEndpoint.TagEndpoint.batchCreateUpdateAndAssignCustomTags(TagEndpoint.java:99)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$$FastClassByCGLIB$$faa4f8fd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.TagEndpoint$$EnhancerByCGLIB$$59c02ef2.batchCreateUpdateAndAssignCustomTags(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.ws.server.endpoint.MethodEndpoint.invoke(MethodEndpoint.java:132)
+	at org.springframework.ws.server.endpoint.adapter.MarshallingMethodEndpointAdapter.invokeInternal(MarshallingMethodEndpointAdapter.java:140)
+	at org.springframework.ws.server.endpoint.adapter.AbstractMethodEndpointAdapter.invoke(AbstractMethodEndpointAdapter.java:53)
+	at org.springframework.ws.server.MessageDispatcher.dispatch(MessageDispatcher.java:233)
+	at org.springframework.ws.server.MessageDispatcher.receive(MessageDispatcher.java:173)
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:88)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter.handle(AttachAwareWSMessageReceiveHandlerAdapter.java:21)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$FastClassByCGLIB$$65e23424.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.WSEndpoint.AttachAwareWSMessageReceiveHandlerAdapter$$EnhancerByCGLIB$$623c8439.handle(<generated>)
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:221)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-14 13:59:03,511   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:03,906   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:14,121   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:14,345   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:42,710   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:43,954   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:45,296   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:46,639   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:47,996   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 13:59:49,275   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:01:32,206   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:01:36,853   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:01:38,471   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:02:07,194   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:02:08,646   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:03:15,188   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:03:15,547   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:03:20,436   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:03:20,646   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:04:33,386   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:04:33,577   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:26,140   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:27,508   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:28,871   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:30,273   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:31,698   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:33,014   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:47,436   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:51,388   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-14 14:05:53,082   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-15 09:48:16,376   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-04-15 09:48:16,392   [WARN] org.springframework.security.config.http.MatcherType - 'path-type' is deprecated. Please use 'request-matcher' instead.
+2015-04-15 09:48:20,048   [WARN] com.fortify.systemspec - ========================== Fortify Context Startup =============================
+2015-04-15 09:48:20,204   [DEBUG] com.fortify.systemspec - 
+Version:4.20.0098
+------------------------- Runtime Information -------------------------------
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=${win32.LocalAppdata}/Fortify/config/tools
+com.fortify.Core=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core
+com.fortify.InstallationUserName=HPSSC$
+com.fortify.SCAExecutablePath=
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=${win32.LocalAppdata}/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+catalina.base=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.home=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+catalina.useNaming=true
+com.fortify.DisableDescriptionXMLEscaping=true
+com.fortify.DisableJNI=true
+com.fortify.InstallRoot=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF
+com.fortify.LicenseFile=C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\classes\fortify.license
+com.fortify.LoadFPropsFromCP=true
+com.fortify.StoreOriginalDescriptions=true
+com.fortify.model.DisableProgramInfo=true
+com.fortify.model.DisableSnippets=true
+common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\Apache Software Foundation\Tomcat 7.0\endorsed
+java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.home=C:\Program Files\Java\jre7
+java.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 7.0\temp
+java.library.path=C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.20\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;;.
+java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory
+java.naming.factory.url.pkgs=org.apache.naming
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_76-b13
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 7.0\conf\logging.properties
+java.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_76
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.76-b04
+line.separator=
+
+org.apache.catalina.startup.ContextConfig.jarsToSkip=
+org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar
+os.arch=amd64
+os.name=Windows Server 2012
+os.version=6.2
+package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat.
+package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat.
+path.separator=;
+server.loader=
+shared.loader=
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes
+sun.boot.library.path=C:\Program Files\Java\jre7\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+tomcat.util.buf.StringCache.byte.enabled=true
+tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar
+user.country=US
+user.dir=C:\Program Files\Apache Software Foundation\Tomcat 7.0
+user.home=C:\
+user.language=en
+user.name=HPSSC$
+user.script=
+user.timezone=America/New_York
+user.variant=
+
+VM Info
+OperatingSystemMXBean: Windows Server 2012
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 6133886976
+  FreePhysicalMemorySize: 8152850432
+  FreeSwapSpaceSize: 6465740800
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 60343750000
+  SystemCpuLoad: 0.499593269409376
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 12876103680
+  TotalSwapSpaceSize: 14822260736
+  Version: 6.2
+RuntimeMXBean: 652@HPSSC
+  BootClassPath: C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin\tomcat-juli.jar
+  LibraryPath: C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.20\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1429105659314
+  Uptime: 40890
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.76-b04
+-----------------------------------------------------------------------------
+2015-04-15 09:48:31,626   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as JKS: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-04-15 09:48:31,626   [WARN] com.fortify.manager.service.EmailServiceImpl - Exception loading certificates keystore as PKCS12: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\ssc\WEB-INF\Core\config\certificates\keystore (The system cannot find the path specified)
+2015-04-15 09:48:31,626   [WARN] com.fortify.manager.service.EmailServiceImpl - S/MIME messages cannot be sent from this server
+2015-04-15 09:49:07,680   [INFO] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Initializing runtime event handlers: [10234]
+2015-04-15 09:49:07,680   [WARN] com.fortify.manager.service.runtime.RuntimeControllerConnectionConfiguration - Runtime integration disabled
+2015-04-15 09:49:36,721   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-04-15 09:49:36,740   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-04-15 09:51:35,790   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-15 09:51:35,791   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: smillar
+2015-04-16 09:35:08,153   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 09:35:10,184   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 09:35:49,731   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 09:58:15,768   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 09:58:15,768   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: smillar
+2015-04-16 10:33:47,733   [WARN] com.fortify.manager.logging.EscalatingLog4jReceiver - LocalExecutorService is using 1 of 4 possible threads for processing.
+2015-04-16 10:55:00,047   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 10:55:00,048   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: smillar
+2015-04-16 11:04:44,859   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:04:46,124   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:04:54,030   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:04:54,499   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:06:43,405   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:06:45,499   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:07:21,831   [WARN] org.springframework.security.authentication.event.LoggerListener - Authentication event AuthenticationSuccessEvent: smillar
+2015-04-16 11:07:38,218   [WARN] com.fortify.manager.service.SourceArchiveManagerImpl - Cross reference data have not been found in the processed FPR. Uploading raw source file data.
+2015-04-16 11:10:48,823   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.IssueModelBLLImpl] and method [public java.util.Map com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(java.lang.Long,com.fortify.manager.DAO.batchbugsubmission.BatchBugStrategy)]
+com.fortify.manager.exception.FMUserInputException: Error parsing search string, Unknown Modifier: analysis
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getSearchQueries(IssueBLLImpl.java:210)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getIssueModel(IssueBLLImpl.java:311)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$FastClassByCGLIB$$87b85a00.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$EnhancerByCGLIB$$2ffd208d.getIssueModel(<generated>)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getIssueModel(IssueModelBLLImpl.java:257)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatch(IssueModelBLLImpl.java:81)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(IssueModelBLLImpl.java:89)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$FastClassByCGLIB$$d22c1a9b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$EnhancerByCGLIB$$7f15e0c8.getBugSubmissionBatchCounts(<generated>)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint.getBugSubmissionBatchCounts(BugTrackerBlazeEndpoint.java:354)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$FastClassByCGLIB$$4010e8f1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:91)
+	at com.fortify.manager.web.BlazeDsAdvisor.advise(BlazeDsAdvisor.java:70)
+	at sun.reflect.GeneratedMethodAccessor321.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$EnhancerByCGLIB$$3b2119fc.getBugSubmissionBatchCounts(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at flex.messaging.services.remoting.adapters.JavaAdapter.invoke(JavaAdapter.java:418)
+	at flex.messaging.services.RemotingService.serviceMessage(RemotingService.java:183)
+	at flex.messaging.MessageBroker.routeMessageToService(MessageBroker.java:1400)
+	at flex.messaging.endpoints.AbstractEndpoint.serviceMessage(AbstractEndpoint.java:1011)
+	at flex.messaging.endpoints.AbstractEndpoint$$FastClassByCGLIB$$1a3ef066.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.flex.core.MessageInterceptionAdvice.invoke(MessageInterceptionAdvice.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor.invoke(ThrowsAdviceInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$FixedChainStaticTargetInterceptor.intercept(CglibAopProxy.java:582)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.serviceMessage(<generated>)
+	at flex.messaging.endpoints.amf.MessageBrokerFilter.invoke(MessageBrokerFilter.java:103)
+	at flex.messaging.endpoints.amf.LegacyFilter.invoke(LegacyFilter.java:158)
+	at flex.messaging.endpoints.amf.SessionFilter.invoke(SessionFilter.java:44)
+	at flex.messaging.endpoints.amf.BatchProcessFilter.invoke(BatchProcessFilter.java:67)
+	at flex.messaging.endpoints.amf.SerializationFilter.invoke(SerializationFilter.java:166)
+	at flex.messaging.endpoints.BaseHTTPEndpoint.service(BaseHTTPEndpoint.java:291)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.service(<generated>)
+	at org.springframework.flex.servlet.MessageBrokerHandlerAdapter.handle(MessageBrokerHandlerAdapter.java:101)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.auth.FmWebUiAuthenticationMethodSettingFilter.doFilter(FmWebUiAuthenticationMethodSettingFilter.java:19)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.filters.ChangePasswordFilter.doFilterInternal(ChangePasswordFilter.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.sso.SsoFilter.doFilter(SsoFilter.java:72)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:125)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-16 11:10:59,403   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.IssueModelBLLImpl] and method [public java.util.Map com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(java.lang.Long,com.fortify.manager.DAO.batchbugsubmission.BatchBugStrategy)]
+com.fortify.manager.exception.FMUserInputException: Error parsing search string, Unknown Modifier: analysis
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getSearchQueries(IssueBLLImpl.java:210)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getIssueModel(IssueBLLImpl.java:311)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$FastClassByCGLIB$$87b85a00.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$EnhancerByCGLIB$$2ffd208d.getIssueModel(<generated>)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getIssueModel(IssueModelBLLImpl.java:257)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatch(IssueModelBLLImpl.java:81)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(IssueModelBLLImpl.java:89)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$FastClassByCGLIB$$d22c1a9b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$EnhancerByCGLIB$$7f15e0c8.getBugSubmissionBatchCounts(<generated>)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint.getBugSubmissionBatchCounts(BugTrackerBlazeEndpoint.java:354)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$FastClassByCGLIB$$4010e8f1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:91)
+	at com.fortify.manager.web.BlazeDsAdvisor.advise(BlazeDsAdvisor.java:70)
+	at sun.reflect.GeneratedMethodAccessor321.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$EnhancerByCGLIB$$3b2119fc.getBugSubmissionBatchCounts(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at flex.messaging.services.remoting.adapters.JavaAdapter.invoke(JavaAdapter.java:418)
+	at flex.messaging.services.RemotingService.serviceMessage(RemotingService.java:183)
+	at flex.messaging.MessageBroker.routeMessageToService(MessageBroker.java:1400)
+	at flex.messaging.endpoints.AbstractEndpoint.serviceMessage(AbstractEndpoint.java:1011)
+	at flex.messaging.endpoints.AbstractEndpoint$$FastClassByCGLIB$$1a3ef066.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.flex.core.MessageInterceptionAdvice.invoke(MessageInterceptionAdvice.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor.invoke(ThrowsAdviceInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$FixedChainStaticTargetInterceptor.intercept(CglibAopProxy.java:582)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.serviceMessage(<generated>)
+	at flex.messaging.endpoints.amf.MessageBrokerFilter.invoke(MessageBrokerFilter.java:103)
+	at flex.messaging.endpoints.amf.LegacyFilter.invoke(LegacyFilter.java:158)
+	at flex.messaging.endpoints.amf.SessionFilter.invoke(SessionFilter.java:44)
+	at flex.messaging.endpoints.amf.BatchProcessFilter.invoke(BatchProcessFilter.java:67)
+	at flex.messaging.endpoints.amf.SerializationFilter.invoke(SerializationFilter.java:166)
+	at flex.messaging.endpoints.BaseHTTPEndpoint.service(BaseHTTPEndpoint.java:291)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.service(<generated>)
+	at org.springframework.flex.servlet.MessageBrokerHandlerAdapter.handle(MessageBrokerHandlerAdapter.java:101)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.auth.FmWebUiAuthenticationMethodSettingFilter.doFilter(FmWebUiAuthenticationMethodSettingFilter.java:19)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.filters.ChangePasswordFilter.doFilterInternal(ChangePasswordFilter.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.sso.SsoFilter.doFilter(SsoFilter.java:72)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:125)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-16 11:13:51,027   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.IssueModelBLLImpl] and method [public java.util.Map com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(java.lang.Long,com.fortify.manager.DAO.batchbugsubmission.BatchBugStrategy)]
+com.fortify.manager.exception.FMUserInputException: Error parsing search string, Unknown Modifier: analysis
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getSearchQueries(IssueBLLImpl.java:210)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl.getIssueModel(IssueBLLImpl.java:311)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$FastClassByCGLIB$$87b85a00.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueBLLImpl$$EnhancerByCGLIB$$2ffd208d.getIssueModel(<generated>)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getIssueModel(IssueModelBLLImpl.java:257)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatch(IssueModelBLLImpl.java:81)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl.getBugSubmissionBatchCounts(IssueModelBLLImpl.java:89)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$FastClassByCGLIB$$d22c1a9b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:49)
+	at sun.reflect.GeneratedMethodAccessor209.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:64)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:96)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:260)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:94)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BLL.impl.IssueModelBLLImpl$$EnhancerByCGLIB$$7f15e0c8.getBugSubmissionBatchCounts(<generated>)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint.getBugSubmissionBatchCounts(BugTrackerBlazeEndpoint.java:354)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$FastClassByCGLIB$$4010e8f1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:91)
+	at com.fortify.manager.web.BlazeDsAdvisor.advise(BlazeDsAdvisor.java:70)
+	at sun.reflect.GeneratedMethodAccessor321.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:631)
+	at com.fortify.manager.BlazeEndpoint.BugTrackerBlazeEndpoint$$EnhancerByCGLIB$$3b2119fc.getBugSubmissionBatchCounts(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at flex.messaging.services.remoting.adapters.JavaAdapter.invoke(JavaAdapter.java:418)
+	at flex.messaging.services.RemotingService.serviceMessage(RemotingService.java:183)
+	at flex.messaging.MessageBroker.routeMessageToService(MessageBroker.java:1400)
+	at flex.messaging.endpoints.AbstractEndpoint.serviceMessage(AbstractEndpoint.java:1011)
+	at flex.messaging.endpoints.AbstractEndpoint$$FastClassByCGLIB$$1a3ef066.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:698)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.flex.core.MessageInterceptionAdvice.invoke(MessageInterceptionAdvice.java:66)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.adapter.ThrowsAdviceInterceptor.invoke(ThrowsAdviceInterceptor.java:124)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.CglibAopProxy$FixedChainStaticTargetInterceptor.intercept(CglibAopProxy.java:582)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.serviceMessage(<generated>)
+	at flex.messaging.endpoints.amf.MessageBrokerFilter.invoke(MessageBrokerFilter.java:103)
+	at flex.messaging.endpoints.amf.LegacyFilter.invoke(LegacyFilter.java:158)
+	at flex.messaging.endpoints.amf.SessionFilter.invoke(SessionFilter.java:44)
+	at flex.messaging.endpoints.amf.BatchProcessFilter.invoke(BatchProcessFilter.java:67)
+	at flex.messaging.endpoints.amf.SerializationFilter.invoke(SerializationFilter.java:166)
+	at flex.messaging.endpoints.BaseHTTPEndpoint.service(BaseHTTPEndpoint.java:291)
+	at flex.messaging.endpoints.AMFEndpoint$$EnhancerByCGLIB$$df6ffb57.service(<generated>)
+	at org.springframework.flex.servlet.MessageBrokerHandlerAdapter.handle(MessageBrokerHandlerAdapter.java:101)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:856)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:936)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:838)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:812)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:118)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:113)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:183)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.auth.FmWebUiAuthenticationMethodSettingFilter.doFilter(FmWebUiAuthenticationMethodSettingFilter.java:19)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.filters.ChangePasswordFilter.doFilterInternal(ChangePasswordFilter.java:129)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at com.fortify.manager.web.security.sso.SsoFilter.doFilter(SsoFilter.java:72)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.session.ConcurrentSessionFilter.doFilter(ConcurrentSessionFilter.java:125)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2015-04-16 11:48:18,751   [WARN] com.fortify.birtReport - the logger can't be the child of org.eclipse.birt

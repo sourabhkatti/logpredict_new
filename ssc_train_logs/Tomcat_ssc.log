@@ -1,0 +1,937 @@
+2015-05-01 00:00:00,710   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,070   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,148   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,210   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,320   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,429   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,491   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,554   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,616   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-01 00:00:01,663   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,054   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,121   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,194   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,255   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,339   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,419   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,493   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,589   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,663   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-02 00:00:01,805   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:00,817   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,005   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,223   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,286   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,333   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,411   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,489   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,551   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,614   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-03 00:00:01,676   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,235   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,329   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,392   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,454   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,517   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,595   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,642   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,688   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,751   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-04 00:00:01,798   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,012   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,119   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,325   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,509   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,698   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,814   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,868   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:01,927   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:02,017   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-05 00:00:02,094   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:00,934   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,137   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,262   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,340   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,434   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,512   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,637   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,762   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,840   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-06 00:00:01,902   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:00,573   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:00,705   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:00,807   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:00,949   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,054   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,121   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,204   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,276   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,394   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-07 00:00:01,453   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:00,597   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:00,952   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,024   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,091   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,156   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,276   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,326   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,402   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,483   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-08 00:00:01,558   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:00,658   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,300   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,418   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,547   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,658   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,853   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:01,911   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:02,027   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:02,134   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-09 00:00:02,206   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:00,978   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,064   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,171   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,374   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,485   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,622   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,718   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,786   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,846   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-10 00:00:01,907   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:00,972   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,140   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,506   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,597   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,667   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,739   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,838   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:01,911   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:02,002   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 00:00:02,058   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-11 15:26:24,460   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationFailureBadCredentialsEvent: admin; exception: User admin not found in directory.
+2015-05-11 15:26:52,136   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-11 15:26:52,216   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-05-11 15:29:05,275   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-11 15:29:05,313   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-05-11 15:44:24,553   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-11 15:44:24,576   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-05-11 15:45:17,231   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-11 15:45:17,233   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
+2015-05-11 15:46:14,792   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-11 15:46:14,795   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
+2015-05-11 15:46:54,715   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.manager.exception.FMUserInputException] thrown by target class [com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl] and method [public com.fortify.manager.io.DisposableFileStreamProvider com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl.getCurrentStateFprInputStream(java.lang.Long,java.lang.String)]
+com.fortify.manager.exception.FMUserInputException: This project version does not have any analysis results uploaded.
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl.getCurrentStateFprInputStream(ProjectVersionLiteBLLImpl.java:1314)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl.getCurrentStateFprInputStream(ProjectVersionLiteBLLImpl.java:1305)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl$$FastClassByCGLIB$$2eea03fe.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl$$EnhancerByCGLIB$$380880f4.getCurrentStateFprInputStream(<generated>)
+	at com.fortify.manager.controller.CurrentStateFprDownload.handleRequestInternal(CurrentStateFprDownload.java:56)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-11 15:46:54,722   [ERROR] org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/ssc].[controller] - Servlet.service() for servlet controller threw exception
+com.fortify.manager.exception.FMUserInputException: This project version does not have any analysis results uploaded.
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl.getCurrentStateFprInputStream(ProjectVersionLiteBLLImpl.java:1314)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl.getCurrentStateFprInputStream(ProjectVersionLiteBLLImpl.java:1305)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl$$FastClassByCGLIB$$2eea03fe.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.ProjectVersionLiteBLLImpl$$EnhancerByCGLIB$$380880f4.getCurrentStateFprInputStream(<generated>)
+	at com.fortify.manager.controller.CurrentStateFprDownload.handleRequestInternal(CurrentStateFprDownload.java:56)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-12 00:00:00,992   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,077   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,147   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,212   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,287   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,364   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,443   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,503   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,590   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-12 00:00:01,670   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:01,390   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:01,525   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:01,669   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:01,805   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:01,968   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:02,038   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:02,100   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:02,182   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:02,257   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-13 00:00:02,322   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:00,699   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,064   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,138   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,202   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,308   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,396   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,484   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,557   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,633   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-14 00:00:01,697   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:00,931   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,017   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,082   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,142   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,220   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,301   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,386   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,460   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,536   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-15 00:00:01,596   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:00,648   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:00,765   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,063   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,128   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,196   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,268   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,338   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,408   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,480   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-16 00:00:01,552   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:00,858   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:00,931   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,009   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,073   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,144   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,227   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,315   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,390   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,475   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-17 00:00:01,539   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,315   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,391   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,462   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,523   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,586   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,660   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,746   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,831   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,915   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-18 00:00:01,975   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:00,606   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:00,954   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,268   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,401   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,469   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,593   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,730   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,810   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,906   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-19 00:00:01,963   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,153   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,231   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,293   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,356   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,434   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,528   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,606   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,684   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,778   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-20 00:00:01,825   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,110   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,188   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,282   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,438   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,673   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,767   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,845   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,923   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:01,985   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-21 00:00:02,048   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:00,573   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:00,776   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,160   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,228   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,308   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,369   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,443   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,508   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,599   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-22 00:00:01,671   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:00,757   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,116   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,179   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,241   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,335   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,413   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,491   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,554   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,616   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-23 00:00:01,679   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:00,714   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,183   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,277   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,324   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,386   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,496   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,558   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,636   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,699   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-24 00:00:01,761   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,178   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,303   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,365   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,443   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,615   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,693   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,756   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,834   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,881   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-25 00:00:01,943   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:01,572   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:01,676   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:01,811   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:01,895   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:01,976   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:02,056   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:02,142   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:02,248   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:02,356   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-26 00:00:02,435   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,051   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,132   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,231   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,300   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,429   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,522   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,677   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,808   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:02,917   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-27 00:00:03,069   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:00,689   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:00,905   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,282   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,356   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,422   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,490   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,574   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,682   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,764   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 00:00:01,824   [ERROR] com.fortify.manager.security.util.AuthenticationUtils - user details not instance of fm user details
+2015-05-28 10:06:23,841   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 10:06:23,986   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-05-28 10:11:47,145   [WARN] com.fortify.manager.BLL.impl.FPRBLLImpl - Artifact requires authorization: com.fortify.manager.service.parser.checker.ScanProcessAuthorizationException
+Processing Messages:
+  REQUIRE_AUTHORIZATION: The number of files in the new scan differs by more than 10% (1,487 files in old scan, 1,134 files in new scan). This could be due to major code changes, or this Analysis Result may be from a different codebase.
+  REQUIRE_AUTHORIZATION: The executable lines of code in the new scan differs by more than 10% (164,077 lines in old scan, 47,842 lines in new scan).  This could be due to major code changes, or this Analysis Result may be from a different codebase.
+2015-05-28 15:33:34,344   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 15:33:34,390   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event InteractiveAuthenticationSuccessEvent: admin
+2015-05-28 16:21:12,863   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationFailureBadCredentialsEvent: admin; exception: User admin not found in directory.
+2015-05-28 16:21:12,885   [WARN] com.fortify.manager.web.security.ws.AuthenticationInterceptor - Could not validate request: The security token could not be authenticated or authorized; nested exception is: 
+	org.apache.ws.security.WSSecurityException: The security token could not be authenticated or authorized; nested exception is org.apache.ws.security.WSSecurityException: The security token could not be authenticated or authorized; nested exception is: 
+	org.apache.ws.security.WSSecurityException: The security token could not be authenticated or authorized
+2015-05-28 16:23:13,014   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:23:14,092   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:23:23,923   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:23:24,783   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-28 16:23:24,787   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
+2015-05-28 16:30:08,941   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:30:09,462   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:30:22,973   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:30:23,563   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-28 16:30:23,567   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
+2015-05-28 16:39:51,780   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:39:52,010   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:40:04,660   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:40:05,046   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-28 16:40:05,048   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
+2015-05-28 16:42:24,123   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:42:24,516   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:42:30,183   [WARN] org.springframework.security.event.authentication.LoggerListener - Authentication event AuthenticationSuccessEvent: admin
+2015-05-28 16:42:30,543   [ERROR] com.fortify.manager.logging.ExceptionInterceptor - Intercepted exception of type [com.fortify.ui.model.util.exception.LoadFailedException] thrown by target class [com.fortify.manager.BLL.impl.FPRBLLImpl] and method [public com.fortify.manager.DTO.FortifyJob com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(java.lang.Long,java.io.InputStream,java.lang.String,java.lang.String)]
+com.fortify.ui.model.util.exception.LoadFailedException: The fvdl file in this project is version 1.12, but only versions up to 1.11 are supported.
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1304)
+	at com.fortify.ui.model.ProjectLoader.checkFVDLVersion(ProjectLoader.java:1262)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.validateFPR(FPRBLLImpl.java:992)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:923)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:878)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl.uploadAnalysisResult(FPRBLLImpl.java:524)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$FastClassByCGLIB$$686a4cd1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.fortify.manager.logging.ExceptionInterceptor.aroundBll(ExceptionInterceptor.java:46)
+	at sun.reflect.GeneratedMethodAccessor217.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.security.intercept.method.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:66)
+	at com.fortify.manager.security.FmMethodSecurityInteceptor.invoke(FmMethodSecurityInteceptor.java:29)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.fortify.manager.BLL.impl.FPRBLLImpl$$EnhancerByCGLIB$$a88f1305.uploadAnalysisResult(<generated>)
+	at com.fortify.manager.controller.ResultFileUpload.handleRequestInternal(ResultFileUpload.java:62)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:153)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:790)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at com.fortify.manager.web.security.auth.ParameterBasedTokenAuthorizationFilter.doFilterHttp(ParameterBasedTokenAuthorizationFilter.java:62)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.WebRequestFilter.doFilter(WebRequestFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:83)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.fortify.manager.web.filters.SessionTimeoutFilter.doFilterInternal(SessionTimeoutFilter.java:59)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+2015-05-28 16:42:30,546   [ERROR] com.fortify.manager.controller.ResultFileUpload - com.fortify.manager.exception.FMInternalException: unexpected error
