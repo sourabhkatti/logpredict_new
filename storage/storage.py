@@ -1,5 +1,4 @@
 import pymssql
-import datetime
 import numpy as np
 
 
@@ -107,9 +106,55 @@ class db_store:
                 CREATE TABLE dictionary_words(
                     id INT IDENTITY(1,1),
                     keyword VARCHAR(2000),
-                    count INT NOT NULL,
-                    term_frequency float NOT NULL,
                     PRIMARY KEY(keyword),
+            )
+            """
+        lf_features = """
+            IF OBJECT_ID('lf_features', 'U') IS NULL
+                CREATE TABLE lf_features(
+                    id INT IDENTITY(1,1),
+                    log_id int not NULL,
+                    f0 int NOT NULL,
+                    f1 int NOT NULL,
+                    f2 int NOT NULL,
+                    f3 int NOT NULL,
+                    f4 int NOT NULL,
+                    f5 int NOT NULL,
+                    f6 int NOT NULL,
+                    f7 int NOT NULL,
+                    f8 int NOT NULL,
+                    f9 int NOT NULL,
+                    f10 int NOT NULL,
+                    f11 int NOT NULL,
+                    f12 int NOT NULL,
+                    f13 int NOT NULL,
+                    f14 int NOT NULL,
+                    f15 int NOT NULL,
+                    f16 int NOT NULL,
+                    f17 int NOT NULL,
+                    f18 int NOT NULL,
+                    f19 int NOT NULL,
+                    f20 int NOT NULL,
+                    f21 int NOT NULL,
+                    f22 int NOT NULL,
+                    f23 int NOT NULL,
+                    f24 int NOT NULL,
+                    f25 int NOT NULL,
+                    f26 int NOT NULL,
+                    f27 int NOT NULL,
+                    f28 int NOT NULL,
+                    f29 int NOT NULL,
+                    f30 int NOT NULL,
+                    f31 int NOT NULL,
+                    f32 int NOT NULL,
+                    f33 int NOT NULL,
+                    f34 int NOT NULL,
+                    f35 int NOT NULL,
+                    f36 int NOT NULL,
+                    f37 int NOT NULL,
+                    f38 int NOT NULL,
+                    f39 int NOT NULL,
+                    PRIMARY KEY(log_id),
             )
             """
 
@@ -124,8 +169,10 @@ class db_store:
         cs.execute(seed_words)
         cs.execute(seed_categories)
         cs.execute(dictionary_words)
+        cs.execute(lf_features)
         self.connection.commit()
         self.closeconnection()
+        print("Schema created")
 
     def seedkeywords(self):
         categories_dict = {}
@@ -252,14 +299,14 @@ class db_store:
         self.closeconnection()
         return lf_id
 
-    def write_execution(self, execution, lf_id):
-        self.startconnection()
-        execcursor = self.connection.cursor()
+    def write_execution(self, execution, lf_id, execcursor=False):
+        if execcursor is False:
+            self.startconnection()
+            execcursor = self.connection.cursor()
         execcursor.execute("INSERT INTO executions VALUES(%d, %d, %d, %s, %s)", (
             lf_id, execution.startline, execution.endline, str(execution.starttime), str(execution.endtime)))
         exec_id = execcursor.lastrowid
         self.connection.commit()
-        self.closeconnection()
         return exec_id
 
     def write_logitem(self, logitem, exec_id, licursor=False):
@@ -314,8 +361,66 @@ class db_store:
         self.closeconnection()
         return li_id
 
+    def getdictionarykeywordsbyid(self, keywords):
+        self.startconnection()
+        csk = self.connection.cursor()
+        kwids = []
+        for keyword in keywords:
+            selecctt = "select id from dictionary_words where keyword='%s'" % keyword
+            csk.execute(selecctt)
+            kwid = csk.fetchone()
+            try:
+                kwids.append(kwid[0])
+            except:
+                kwids.append(-1)
+        self.closeconnection()
+        return kwids
+
+    def writeLFfeatures(self, kwids, lfid):
+        self.startconnection()
+        kwc = self.connection.cursor()
+        try:
+            kwc.execute(
+                "INSERT INTO lf_features VALUES(%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d,"
+                " %d, %d)",
+                (lfid, kwids[0], kwids[1], kwids[2], kwids[3], kwids[4], kwids[5], kwids[6], kwids[7], kwids[8],
+                 kwids[9], kwids[10], kwids[11], kwids[12], kwids[13], kwids[14], kwids[15], kwids[16], kwids[17],
+                 kwids[18], kwids[19], kwids[20], kwids[21], kwids[22], kwids[23], kwids[24], kwids[25], kwids[26],
+                 kwids[27], kwids[28], kwids[29], kwids[30], kwids[31], kwids[32], kwids[33], kwids[34], kwids[35],
+                 kwids[36], kwids[37], kwids[38], kwids[39]))
+            self.connection.commit()
+            self.closeconnection()
+        except:
+            self.closeconnection()
+
+    def getLFfeatures(self):
+        self.startconnection()
+        ctx = self.connection.cursor()
+
+        selectstf = "SELECT * FROM lf_features INNER JOIN logfiles ON lf_features.log_id=logfiles.id"
+        ctx.execute(selectstf)
+        data = np.asarray(ctx.fetchall())
+
+        # Logfile features
+        features = np.asarray(data[:, 2:42]).astype(dtype=int)
+
+        # Target outputs
+        logtypes_raw = data[:, 43]
+        logtypes_target = []
+        for ltr in logtypes_raw:
+            if ltr == 'dsca':
+                logtypes_target.append(1)
+            elif ltr == 'sca':
+                logtypes_target.append(2)
+            elif ltr == 'ssc':
+                logtypes_target.append(3)
+            else:
+                print("No targets exist")
+
+        return features, logtypes_target
+
     def test(self):
-        selectst = 'SELECT * from logfiles'
+        selectst = 'SELECT * from logfiles where id=250'
 
         self.startconnection()
 

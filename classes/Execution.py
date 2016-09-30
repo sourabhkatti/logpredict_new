@@ -1,15 +1,15 @@
 __author__ = 'Sourabh'
 import datetime
 
-class Execution:
 
+class Execution:
     def __init__(self):
-        self.id=1
+        self.id = 1
         self.logitems = []
-        self.startline=int
-        self.endline=int
-        self.starttime=datetime
-        self.endtime=datetime
+        self.startline = int
+        self.endline = int
+        self.starttime = datetime
+        self.endtime = datetime
         self.properties = []
 
     def addlogitem(self, logitem):
@@ -31,5 +31,7 @@ class Execution:
         return self.id
 
     def hasProperties(self):
-        if (self.properties.__len__())>0: return True
-        else: return False
+        if (self.properties.__len__()) > 0:
+            return True
+        else:
+            return False

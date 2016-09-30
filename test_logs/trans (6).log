@@ -1,0 +1,1213 @@
+[2016-07-12 17:53:46.696 Thread-13 Master FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+WinForms.ExtractEventHandlers=true
+WinForms.TransformChangeNotificationPattern=true
+WinForms.TransformDataBindings=true
+WinForms.TransformMessageLoops=true
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=myapp
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.BytecodePreview=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,rb,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,settings,properties,dll,exe,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.DisplayProgress=true
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IldasmPath=C:\Program Files (x86)<\Microsoft SDKs\Windows\v7.0A\Bin\ildasm.exe>
+com.fortify.sca.IndirectCallGraphBuilders=WinFormsAdHocFunctionBuilder,VirtualCGBuilder,J2EEIndirectCGBuilder,JNICGBuilder,StoredProcedureResolver,JavaWSCGBuilder,StrutsCGBuilder,DotNetWSCGBuilder,SqlServerSPResolver,ASPCGBuilder,ScriptedCGBuilder,NewJspCustomTagCGBuilder,DotNetCABCGBuilder,StateInjectionCGBuilder,SqlServerSPResolver2,PHPLambdaResolver,JavaWebCGBuilder
+com.fortify.sca.JavaNewBeta=true
+com.fortify.sca.JdkVersion=1.5
+com.fortify.sca.LogFile=D:\trans.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.Phase0HigherOrder.Languages=python,ruby
+com.fortify.sca.Phase0HigherOrder.Level=1
+com.fortify.sca.Phase0HigherOrder.Limiter.Values=16
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=TSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.ThreadCount.PreTransform=1
+com.fortify.sca.TypeInferenceFunctionTimeout=60
+com.fortify.sca.TypeInferenceLanguages=javascript,python,ruby
+com.fortify.sca.TypeInferencePhase0Timeout=300
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.UniversalBlacklist=.*yyparse.*
+com.fortify.sca.WorkaroundJavaSlashProblem=true
+com.fortify.sca.WrapperHeuristic=moderate
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.c89=com.fortify.sca.util.compilers.C89Compiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.cl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.devenv=com.fortify.sca.util.compilers.DevenvNetAdapter
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.link=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.msbuild=com.fortify.sca.util.compilers.MSBuildAdapter
+com.fortify.sca.compilers.msdev=com.fortify.sca.util.compilers.DevenvAdapter
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.nmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xilink=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.cpfe.441.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe441.rfct
+com.fortify.sca.cpfe.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe48.exe
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cs=CSHARP
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.dll=MSIL
+com.fortify.sca.fileextensions.erb=RUBY_ERB
+com.fortify.sca.fileextensions.exe=MSIL
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mdl=MSIL
+com.fortify.sca.fileextensions.mod=MSIL
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.rb=RUBY
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.vb=VB
+com.fortify.sca.fileextensions.vbs=VBSCRIPT
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=C:\Users\prapatil\AppData\Local/Fortify/config/tools
+com.fortify.Core=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core
+com.fortify.InstallationUserName=prapatil
+com.fortify.SCAExecutablePath=C:Program FilesHP_FortifyHP_Fortify_SCA_and_Apps_4.31binsourceanalyzer.exe
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+com.fortify.InstallRoot=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31
+com.fortify.TotalPhysicalMemory=17071960064
+com.fortify.sca.JVMArgs=-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss16M -Xmx1800M -Xms16M -server
+com.fortify.sca.PID=6112
+com.fortify.sca.ProjectRoot=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin
+com.sun.management.jmxremote=true
+dotnet.install.dir=C:\Windows\Microsoft.NET\Framework64
+dotnet.v30.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\endorsed
+java.ext.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\ext;C:\windows\Sun\Java\lib\ext
+java.home=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre
+java.io.tmpdir=C:\Users\prapatil\AppData\Local\Temp\
+java.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin;.
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_45-b18
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_45
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.45-b08
+line.separator=
+
+os.arch=amd64
+os.name=Windows 8
+os.version=6.2
+path.separator=;
+stderr.isatty=true
+stdout.isatty=true
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+sun.boot.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar -b myapp -debug -logfile D:\trans.log C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com D:\CommerceCSVS\CommerceCSVS.sln /Rebuild Debug
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+user.country=IN
+user.dir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin
+user.home=C:\Users\prapatil
+user.language=en
+user.name=prapatil
+user.script=
+user.timezone=Asia/Calcutta
+user.variant=
+vs.140.dotnet.clr.version=v4.0.30319
+win32.LocalAppdata=C:\Users\prapatil\AppData\Local
+
+VM Info
+OperatingSystemMXBean: Windows 8
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 145051648
+  FreePhysicalMemorySize: 9461170176
+  FreeSwapSpaceSize: 9216339968
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 1140625000
+  SystemCpuLoad: 0.5000047999539204
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 17071960064
+  TotalSwapSpaceSize: 18145701888
+  Version: 6.2
+RuntimeMXBean: 3872@Prapatil
+  BootClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+  LibraryPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1468326226007
+  Uptime: 689
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.45-b08
+-----------------------------------------------------------------------------
+[2016-07-12 17:53:46.711 Thread-13 Master FINE]
+Compiler: C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com
+[2016-07-12 17:53:46.774 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.31.0012
+[2016-07-12 17:53:46.789 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Args:
+["-b", "myapp", "-debug", "-logfile", "D:\\trans.log", "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\devenv.com", "D:\\CommerceCSVS\\CommerceCSVS.sln", "/Rebuild", "Debug"]
+[2016-07-12 17:53:46.789 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss16M -Xmx1800M -Xms16M -server"
+[2016-07-12 17:53:46.836 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Data binding
+[2016-07-12 17:53:46.852 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Event loops
+[2016-07-12 17:53:46.852 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling change notification transformer.
+[2016-07-12 17:53:47.039 com.fortify.sca.util.compilers.DevenvNetAdapter.runCompiler() Thread-13 Master FINE]
+Running compiler command: cmd /S /C ""C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com" D:\CommerceCSVS\CommerceCSVS.sln /Rebuild Debug /SCAScan"
+[2016-07-12 17:54:12.174 Thread-13 Master FINE]
+------------------------- Runtime Information -------------------------------
+SCA Runtime Properties
+WinForms.CollectionMutationMonitor.Label=WinFormsDataSource
+WinForms.ExtractEventHandlers=true
+WinForms.TransformChangeNotificationPattern=true
+WinForms.TransformDataBindings=true
+WinForms.TransformMessageLoops=true
+com.fortify.sca.AddImpliedMethods=true
+com.fortify.sca.AntCompilerClass=com.fortify.dev.ant.SCACompiler
+com.fortify.sca.BuildID=myapp
+com.fortify.sca.BundleControlflowIssues=true
+com.fortify.sca.BytecodePreview=true
+com.fortify.sca.CollectPerformanceData=true
+com.fortify.sca.CustomRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\customrules
+com.fortify.sca.DaemonCompilers=com.fortify.sca.util.compilers.GppCompiler,com.fortify.sca.util.compilers.GccCompiler,com.fortify.sca.util.compilers.AppleGppCompiler,com.fortify.sca.util.compilers.AppleGccCompiler,com.fortify.sca.util.compilers.MicrosoftCompiler,com.fortify.sca.util.compilers.MicrosoftLinker,com.fortify.sca.util.compilers.LdCompiler,com.fortify.sca.util.compilers.ArUtil,com.fortify.sca.util.compilers.SunCCompiler,com.fortify.sca.util.compilers.SunCppCompiler,com.fortify.sca.util.compilers.IntelCompiler,com.fortify.sca.util.compilers.ExternalCppAdapter,com.fortify.sca.util.compilers.ClangCompiler
+com.fortify.sca.DeadCodeFilter=true
+com.fortify.sca.DeadCodeIgnoreTrivialPredicates=true
+com.fortify.sca.Debug=
+com.fortify.sca.DefaultAnalyzers=semantic:dataflow:controlflow:nullptr:configuration:content:structural:buffer
+com.fortify.sca.DefaultFileTypes=java,rb,jsp,jspx,tag,tagx,tld,sql,cfm,php,phtml,ctp,pks,pkh,pkb,xml,config,settings,properties,dll,exe,inc,asp,vbscript,js,ini,bas,cls,vbs,frm,ctl,html,htm,xsd,wsdd,xmi,py,cfml,cfc,abap,xhtml,cpx,xcfg,jsff,as,mxml,cbl,cscfg,csdef,wadcfg,appxmanifest,wsdl,plist
+com.fortify.sca.DefaultJarsDirs=default_jars
+com.fortify.sca.DefaultRulesDir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\config\rules
+com.fortify.sca.DisableDeadCodeElimination=false
+com.fortify.sca.DisableFunctionPointers=false
+com.fortify.sca.DisableGlobals=false
+com.fortify.sca.DisableInferredConstants=false
+com.fortify.sca.DisplayProgress=true
+com.fortify.sca.DotnetLibdirs=c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5;d:\commercecsvs\bin;D:\CommerceCSVS\AntiXssLibrary.dll;D:\CommerceCSVS\bin\AntiXssLibrary.dll;D:\CommerceCSVS\bin\Mvp.Xml.dll;D:\CommerceCSVS\bin\NativeComponentInC.dll;D:\CommerceCSVS\NativeComponentInC.dll
+com.fortify.sca.DotnetWebRoot=D:\CommerceCSVS
+com.fortify.sca.EnableInterproceduralConstantResolution=true
+com.fortify.sca.EnableNestedWrappers=true
+com.fortify.sca.EnableStructuralMatchCache=true
+com.fortify.sca.EnableWrapperDetection=true
+com.fortify.sca.FVDLDisableDescriptions=false
+com.fortify.sca.FVDLDisableProgramData=false
+com.fortify.sca.FVDLDisableSnippets=false
+com.fortify.sca.FVDLStylesheet=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/resources/sca/fvdl2html.xsl
+com.fortify.sca.IldasmPath=C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\ildasm.exe
+com.fortify.sca.IndirectCallGraphBuilders=WinFormsAdHocFunctionBuilder,VirtualCGBuilder,J2EEIndirectCGBuilder,JNICGBuilder,StoredProcedureResolver,JavaWSCGBuilder,StrutsCGBuilder,DotNetWSCGBuilder,SqlServerSPResolver,ASPCGBuilder,ScriptedCGBuilder,NewJspCustomTagCGBuilder,DotNetCABCGBuilder,StateInjectionCGBuilder,SqlServerSPResolver2,PHPLambdaResolver,JavaWebCGBuilder
+com.fortify.sca.JavaNewBeta=true
+com.fortify.sca.JdkVersion=1.5
+com.fortify.sca.LogFile=D:\trans.log
+com.fortify.sca.LowSeverityCutoff=1.0
+com.fortify.sca.NoNestedOutTagOutput=org.apache.taglibs.standard.tag.rt.core.RemoveTag,org.apache.taglibs.standard.tag.rt.core.SetTag
+com.fortify.sca.Phase0HigherOrder.Languages=python,ruby
+com.fortify.sca.Phase0HigherOrder.Level=1
+com.fortify.sca.Phase0HigherOrder.Limiter.Values=16
+com.fortify.sca.PrintPerformanceDataAfterScan=false
+com.fortify.sca.ProjectRoot=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.sca.RequireMapKeys=classrule
+com.fortify.sca.SolverTimeout=15
+com.fortify.sca.SqlLanguage=TSQL
+com.fortify.sca.SuppressLowSeverity=true
+com.fortify.sca.ThreadCount.NameTableLoading=1
+com.fortify.sca.ThreadCount.PreTransform=1
+com.fortify.sca.TypeInferenceFunctionTimeout=60
+com.fortify.sca.TypeInferenceLanguages=javascript,python,ruby
+com.fortify.sca.TypeInferencePhase0Timeout=300
+com.fortify.sca.UnicodeInputFile=true
+com.fortify.sca.UniversalBlacklist=.*yyparse.*
+com.fortify.sca.VsVersion=12.0
+com.fortify.sca.WorkaroundJavaSlashProblem=true
+com.fortify.sca.WrapperHeuristic=moderate
+com.fortify.sca.analyzer.controlflow.EnableLivenessOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableMachineFiltering=false
+com.fortify.sca.analyzer.controlflow.EnableRefRuleOptimization=false
+com.fortify.sca.analyzer.controlflow.EnableTimeOut=true
+com.fortify.sca.compilers.ant=com.fortify.sca.util.compilers.AntAdapter
+com.fortify.sca.compilers.ar=com.fortify.sca.util.compilers.ArUtil
+com.fortify.sca.compilers.armcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.armcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.c++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.c89=com.fortify.sca.util.compilers.C89Compiler
+com.fortify.sca.compilers.cc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.cl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.clearmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.devenv=com.fortify.sca.util.compilers.DevenvNetAdapter
+com.fortify.sca.compilers.fortify=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.g++=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++-*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++2*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++3*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.g++4*=com.fortify.sca.util.compilers.GppCompiler
+com.fortify.sca.compilers.gcc=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc-*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc2*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc3*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gcc4*=com.fortify.sca.util.compilers.GccCompiler
+com.fortify.sca.compilers.gmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.icc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.icl=com.fortify.sca.util.compilers.MicrosoftCompiler
+com.fortify.sca.compilers.icpc=com.fortify.sca.util.compilers.IntelCompiler
+com.fortify.sca.compilers.jam=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.javac=com.fortify.sca.util.compilers.JavacCompiler
+com.fortify.sca.compilers.ld=com.fortify.sca.util.compilers.LdCompiler
+com.fortify.sca.compilers.link=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.compilers.make=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.msbuild=com.fortify.sca.util.compilers.MSBuildAdapter
+com.fortify.sca.compilers.msdev=com.fortify.sca.util.compilers.DevenvAdapter
+com.fortify.sca.compilers.mvn=com.fortify.sca.util.compilers.MavenAdapter
+com.fortify.sca.compilers.nmake=com.fortify.sca.util.compilers.TouchlessCompiler
+com.fortify.sca.compilers.tcc=com.fortify.sca.util.compilers.ArmCcCompiler
+com.fortify.sca.compilers.tcpp=com.fortify.sca.util.compilers.ArmCppCompiler
+com.fortify.sca.compilers.touchless=com.fortify.sca.util.compilers.FortifyCompiler
+com.fortify.sca.compilers.xilink=com.fortify.sca.util.compilers.MicrosoftLinker
+com.fortify.sca.cpfe.441.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe441.rfct
+com.fortify.sca.cpfe.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core/private-bin/sca/cpfe48.exe
+com.fortify.sca.cpfe.file.option=--gen_c_file_name
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.exclude=C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\output\myapp\nglbztxr.cvn\**\*.vshost.exe;C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\output\myapp\nglbztxr.cvn\**\*XmlSerializers.dll;C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\output\myapp\nglbztxr.cvn\**\Properties.Resources.Designer*dll;C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\output\myapp\nglbztxr.cvn\**\antixsslibrary.dll;d:\commercecsvs\bin\antixsslibrary.dll;C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\output\myapp\nglbztxr.cvn\**\mvp.xml.dll;d:\commercecsvs\bin\mvp.xml.dll
+com.fortify.sca.fileextensions.ABAP=ABAP
+com.fortify.sca.fileextensions.abap=ABAP
+com.fortify.sca.fileextensions.appxmanifest=XML
+com.fortify.sca.fileextensions.as=ACTIONSCRIPT
+com.fortify.sca.fileextensions.asp=ASP
+com.fortify.sca.fileextensions.bas=VB6
+com.fortify.sca.fileextensions.cfc=CFML
+com.fortify.sca.fileextensions.cfm=CFML
+com.fortify.sca.fileextensions.cfml=CFML
+com.fortify.sca.fileextensions.cls=VB6
+com.fortify.sca.fileextensions.config=XML
+com.fortify.sca.fileextensions.cpx=XML
+com.fortify.sca.fileextensions.cs=CSHARP
+com.fortify.sca.fileextensions.cscfg=XML
+com.fortify.sca.fileextensions.csdef=XML
+com.fortify.sca.fileextensions.ctl=VB6
+com.fortify.sca.fileextensions.ctp=PHP
+com.fortify.sca.fileextensions.dll=MSIL
+com.fortify.sca.fileextensions.erb=RUBY_ERB
+com.fortify.sca.fileextensions.exe=MSIL
+com.fortify.sca.fileextensions.faces=JSPX
+com.fortify.sca.fileextensions.frm=VB6
+com.fortify.sca.fileextensions.htm=HTML
+com.fortify.sca.fileextensions.html=HTML
+com.fortify.sca.fileextensions.ini=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.java=JAVA
+com.fortify.sca.fileextensions.js=JAVASCRIPT
+com.fortify.sca.fileextensions.jsff=JSPX
+com.fortify.sca.fileextensions.jsp=JSP
+com.fortify.sca.fileextensions.jspx=JSPX
+com.fortify.sca.fileextensions.mdl=MSIL
+com.fortify.sca.fileextensions.mod=MSIL
+com.fortify.sca.fileextensions.mxml=MXML
+com.fortify.sca.fileextensions.php=PHP
+com.fortify.sca.fileextensions.phtml=PHP
+com.fortify.sca.fileextensions.pkb=PLSQL
+com.fortify.sca.fileextensions.pkh=PLSQL
+com.fortify.sca.fileextensions.pks=PLSQL
+com.fortify.sca.fileextensions.plist=XML
+com.fortify.sca.fileextensions.properties=JAVA_PROPERTIES
+com.fortify.sca.fileextensions.py=PYTHON
+com.fortify.sca.fileextensions.rb=RUBY
+com.fortify.sca.fileextensions.settings=XML
+com.fortify.sca.fileextensions.sql=SQL
+com.fortify.sca.fileextensions.tag=JSP
+com.fortify.sca.fileextensions.tagx=JSP
+com.fortify.sca.fileextensions.tld=TLD
+com.fortify.sca.fileextensions.vb=VB
+com.fortify.sca.fileextensions.vbs=VBSCRIPT
+com.fortify.sca.fileextensions.vbscript=VBSCRIPT
+com.fortify.sca.fileextensions.wadcfg=XML
+com.fortify.sca.fileextensions.wsdd=XML
+com.fortify.sca.fileextensions.wsdl=XML
+com.fortify.sca.fileextensions.xcfg=XML
+com.fortify.sca.fileextensions.xhtml=JSPX
+com.fortify.sca.fileextensions.xmi=XML
+com.fortify.sca.fileextensions.xml=XML
+com.fortify.sca.fileextensions.xsd=XML
+com.fortify.sca.jsp.UseNativeParser=true
+com.fortify.sca.parser.python.ignore.module.1=test.badsyntax_future3
+com.fortify.sca.parser.python.ignore.module.2=test.badsyntax_future4
+com.fortify.sca.parser.python.ignore.module.3=test.badsyntax_future5
+com.fortify.sca.parser.python.ignore.module.4=test.badsyntax_future6
+com.fortify.sca.parser.python.ignore.module.5=test.badsyntax_future7
+com.fortify.sca.parser.python.ignore.module.6=test.badsyntax_future8
+com.fortify.sca.parser.python.ignore.module.7=test.badsyntax_future9
+com.fortify.sca.parser.python.ignore.module.8=test.badsyntax_nocaret
+
+Fortify Runtime Properties
+com.fortify.AuthenticationKey=C:\Users\prapatil\AppData\Local/Fortify/config/tools
+com.fortify.Core=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core
+com.fortify.InstallationUserName=prapatil
+com.fortify.SCAExecutablePath=C:Program FilesHP_FortifyHP_Fortify_SCA_and_Apps_4.31binsourceanalyzer.exe
+com.fortify.VS.DefaultFramework.10.0=DotNetFrameworkv40
+com.fortify.VS.DefaultFramework.11.0=DotNetFrameworkv45
+com.fortify.VS.DefaultFramework.12.0=DotNetFrameworkv451
+com.fortify.VS.DefaultFramework.14.0=DotNetFrameworkv451
+com.fortify.VS.Frameworks.DotNetFrameworkv11.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv1.1","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv11.VSProjectVersionCode=1;
+com.fortify.VS.Frameworks.DotNetFrameworkv20.SDKRegistry="SOFTWARE\Microsoft\.NETFramework","sdkInstallRootv2.0","\bin"
+com.fortify.VS.Frameworks.DotNetFrameworkv20.VSProjectVersionCode=131072
+com.fortify.VS.Frameworks.DotNetFrameworkv30.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv30.VSProjectVersionCode=196608
+com.fortify.VS.Frameworks.DotNetFrameworkv35.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.0A","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv35.VSProjectVersionCode=196613
+com.fortify.VS.Frameworks.DotNetFrameworkv40.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv40.VSProjectVersionCode=262144
+com.fortify.VS.Frameworks.DotNetFrameworkv45.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKPaths="Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0A\bin\";"Microsoft SDKs\Windows\v8.0\bin\NETFX 4.0 Tools\";"Microsoft SDKs\Windows\v8.0\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv45.VSProjectVersionCode=262149
+com.fortify.VS.Frameworks.DotNetFrameworkv451.DotNetFolder="v4.0.30319"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKPaths="Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1A\bin\";"Microsoft SDKs\Windows\v8.1\bin\NETFX 4.5.1 Tools\";"Microsoft SDKs\Windows\v8.1\bin\"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.1A\WinSDK-NetFx40Tools-x86","InstallationFolder"
+com.fortify.VS.Frameworks.DotNetFrameworkv451.VSProjectVersionCode=451
+com.fortify.VS.Frameworks.default.SDKRegistry="SOFTWARE\Microsoft\Microsoft SDKs\Windows\v8.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v7.0A\WinSDK-NetFx35Tools-x86","InstallationFolder";"SOFTWARE\Microsoft\Microsoft SDKs\Windows\v6.1","InstallationFolder","\bin"
+com.fortify.VS.Frameworks.default.VSProjectVersionCode=-1
+com.fortify.VS.RequireASPPrecompilation=true
+com.fortify.WorkingDirectory=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.locale=en
+com.fortify.search.defaultSyntaxVer=2
+max.file.path.length=255
+
+System Runtime Properties
+awt.toolkit=sun.awt.windows.WToolkit
+com.fortify.InstallRoot=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31
+com.fortify.TotalPhysicalMemory=17071960064
+com.fortify.sca.JVMArgs=-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss16M -Xmx1800M -Xms16M -server -Xmx1024M
+com.fortify.sca.PID=17064
+com.fortify.sca.ProjectRoot=C:\Users\prapatil\AppData\Local/Fortify
+com.fortify.sca.cpfe.options=--remove_unneeded_entities --suppress_vtbl -tused
+com.fortify.sca.env.exesearchpath=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin
+com.sun.management.jmxremote=true
+dotnet.install.dir=C:\Windows\Microsoft.NET\Framework64
+dotnet.v30.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+dotnet.v35.referenceAssemblies=C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+file.encoding=Cp1252
+file.encoding.pkg=sun.io
+file.separator=\
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+java.class.version=51.0
+java.endorsed.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\endorsed
+java.ext.dirs=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\ext;C:\windows\Sun\Java\lib\ext
+java.home=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre
+java.io.tmpdir=C:\Users\prapatil\AppData\Local\Temp\
+java.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin;.
+java.rmi.server.randomIDs=true
+java.runtime.name=Java(TM) SE Runtime Environment
+java.runtime.version=1.7.0_45-b18
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Oracle Corporation
+java.specification.version=1.7
+java.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+java.version=1.7.0_45
+java.vm.info=mixed mode
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.7
+java.vm.vendor=Oracle Corporation
+java.vm.version=24.45-b08
+line.separator=
+
+os.arch=amd64
+os.name=Windows 8
+os.version=6.2
+path.separator=;
+stderr.isatty=false
+stdout.isatty=false
+sun.arch.data.model=64
+sun.boot.class.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+sun.boot.library.path=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin
+sun.cpu.endian=little
+sun.cpu.isalist=amd64
+sun.desktop=windows
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar -vsversion 12.0 @C:\Users\prapatil\AppData\Local\Fortify\VS-14.0-4.31\CommerceCSVS\Build.txt
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=Cp1252
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=
+user.country=IN
+user.dir=C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin
+user.home=C:\Users\prapatil
+user.language=en
+user.name=prapatil
+user.script=
+user.timezone=Asia/Calcutta
+user.variant=
+vs.140.dotnet.clr.version=v4.0.30319
+win32.LocalAppdata=C:\Users\prapatil\AppData\Local
+
+VM Info
+OperatingSystemMXBean: Windows 8
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 118870016
+  FreePhysicalMemorySize: 9212153856
+  FreeSwapSpaceSize: 8940949504
+  ProcessCpuLoad: -1.0
+  ProcessCpuTime: 1656250000
+  SystemCpuLoad: 0.2500071999308806
+  SystemLoadAverage: -1.0
+  TotalPhysicalMemorySize: 17071960064
+  TotalSwapSpaceSize: 18145701888
+  Version: 6.2
+RuntimeMXBean: 19300@Prapatil
+  BootClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\resources.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\rt.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\sunrsasign.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jsse.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jce.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\charsets.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\lib\jfr.jar;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\classes
+  BootClassPathSupported: true
+  ClassPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\Core\lib\exe\sca-exe.jar
+  LibraryPath: C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\HP_Fortify\HP_Fortify_SCA_and_Apps_4.31\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\prapatil\.dnx\bin;.
+  ManagementSpecVersion: 1.2
+  SpecName: Java Virtual Machine Specification
+  SpecVendor: Oracle Corporation
+  SpecVersion: 1.7
+  StartTime: 1468326251190
+  Uptime: 984
+  VmName: Java HotSpot(TM) 64-Bit Server VM
+  VmVendor: Oracle Corporation
+  VmVersion: 24.45-b08
+-----------------------------------------------------------------------------
+[2016-07-12 17:54:12.252 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Fortify Static Code Analyzer 6.31.0012
+[2016-07-12 17:54:12.252 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+Args:
+["-vsversion", "12.0", "-b", "myapp", "D:\\CommerceCSVS\\1.html", "D:\\CommerceCSVS\\App_Data\\Commerce.sql", "D:\\CommerceCSVS\\login_db.asp", "D:\\CommerceCSVS\\StyleSheet\\account.htm", "D:\\CommerceCSVS\\StyleSheet\\communications.htm", "D:\\CommerceCSVS\\StyleSheet\\contact.htm", "D:\\CommerceCSVS\\StyleSheet\\deception.htm", "D:\\CommerceCSVS\\StyleSheet\\details.htm", "D:\\CommerceCSVS\\StyleSheet\\general.htm", "D:\\CommerceCSVS\\StyleSheet\\general_glasses.htm", "D:\\CommerceCSVS\\StyleSheet\\history.htm", "D:\\CommerceCSVS\\StyleSheet\\index.html", "D:\\CommerceCSVS\\StyleSheet\\Large\\account.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\communications.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\contact.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\deception.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\details.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\general.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\general_glasses.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\history.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\index.html", "D:\\CommerceCSVS\\StyleSheet\\Large\\locations.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\review.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\shop.htm", "D:\\CommerceCSVS\\StyleSheet\\Large\\signin.htm", "D:\\CommerceCSVS\\StyleSheet\\locations.htm", "D:\\CommerceCSVS\\StyleSheet\\review.htm", "D:\\CommerceCSVS\\StyleSheet\\shop.htm", "D:\\CommerceCSVS\\StyleSheet\\signin.htm", "D:\\CommerceCSVS\\UpgradeLog.htm", "D:\\CommerceCSVS\\UpgradeLog.XML", "D:\\CommerceCSVS\\Web.config", "D:\\CommerceCSVS\\XML\\CCard.xml", "D:\\CommerceCSVS\\XML\\CCardBackup.xml", "-Dcom.fortify.sca.IldasmPath=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v7.0A\\bin\\ildasm.exe", "-exclude", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\*.vshost.exe", "-exclude", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\*XmlSerializers.dll", "-exclude", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\Properties.Resources.Designer*dll", "-exclude", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\antixsslibrary.dll", "-exclude", "d:\\commercecsvs\\bin\\antixsslibrary.dll", "-exclude", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\mvp.xml.dll", "-exclude", "d:\\commercecsvs\\bin\\mvp.xml.dll", "-libdirs", "c:\\program files (x86)\\reference assemblies\\microsoft\\framework\\.netframework\\v4.5;d:\\commercecsvs\\bin;D:\\CommerceCSVS\\AntiXssLibrary.dll;D:\\CommerceCSVS\\bin\\AntiXssLibrary.dll;D:\\CommerceCSVS\\bin\\Mvp.Xml.dll;D:\\CommerceCSVS\\bin\\NativeComponentInC.dll;D:\\CommerceCSVS\\NativeComponentInC.dll", "C:\\Users\\prapatil\\AppData\\Local\\Fortify\\VS-14.0-4.31\\output\\myapp\\nglbztxr.cvn\\**\\*.dll", "-dotnetwebroot", "D:\\CommerceCSVS", "-debug", "-logfile", "D:\\trans.log"]
+[2016-07-12 17:54:12.252 com.fortify.sca.Main$Sourceanalyzer.runSourceanalyzer() Thread-13 Master INFO]
+VM Args:
+"-Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Djava.awt.headless=true -Dcom.sun.management.jmxremote=true -XX:SoftRefLRUPolicyMSPerMB=3000 -Xss16M -Xmx1800M -Xms16M -server -Xmx1024M"
+[2016-07-12 17:54:12.284 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Data binding
+[2016-07-12 17:54:12.299 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling code generation: Event loops
+[2016-07-12 17:54:12.315 com.fortify.sca.cmd.BaseSCAConfiguration.initialize() Thread-13 Master FINE]
+Enabling change notification transformer.
+[2016-07-12 17:54:12.502 com.fortify.sca.frontend.TSQLFrontEnd.runTranslator() Thread-13 Master INFO]
+Translating 1 T-SQL files
+[2016-07-12 17:54:12.502 com.fortify.sca.frontend.FrontEnd.runParseTranslate() Thread-13 Master INFO 1450]
+Processing D:/CommerceCSVS/App_Data/Commerce.sql
+[2016-07-12 17:54:12.502 com.fortify.sca.frontend.FrontEnd.runParseTranslate() Thread-13 Master FINE]
+Parsing Commerce.sql
+[2016-07-12 17:54:13.440 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 1.1
+[2016-07-12 17:54:13.471 com.fortify.sca.frontend.FrontEnd.resolve() Thread-13 Master FINE]
+Resolution stage 2.1
+[2016-07-12 17:54:13.471 com.fortify.sca.frontend.TSQLFrontEnd.runTranslator() Thread-13 Master INFO 1450]
+Processing D:/CommerceCSVS/App_Data/Commerce.sql
+[2016-07-12 17:54:13.487 com.fortify.frontend.nst.writer.STWriter.write() Thread-13 Master FINE]
+Starting to write nst for: [D:\CommerceCSVS\App_Data\Commerce.sql:0] STCompilationUnit
+[2016-07-12 17:54:13.846 com.fortify.frontend.translator.dotnet.DotNetRegistryEntries.<clinit>() Thread-13 Master FINE]
+Visual Studio install: null
+CLR version: null
+[2016-07-12 17:54:13.846 com.fortify.sca.frontend.DotnetFrontEnd.runTranslator() Thread-13 Master INFO]
+Translating 25 MSIL files
+[2016-07-12 17:54:13.909 com.fortify.frontend.translator.dotnet.DotNetTranslator.findIldasmBinary() Thread-13 Master FINE]
+ildasm location: C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin
+[2016-07-12 17:54:14.034 com.fortify.frontend.translator.dotnet.CliParser.parseIlFile() Thread-13 Master FINE]
+Parsing: App_Web_ibuyspy.master.cdcab7d2.dll with il file: App_Web_ibuyspy_master_cdcab7d2_dll.il
+[2016-07-12 17:54:14.065 com.fortify.frontend.translator.dotnet.DotnetSourceParser.buildLineNumberMap() Thread-13 Master FINE]
+Building line numbers from source for: D:/CommerceCSVS/IBuySpy.master.cs
+[2016-07-12 17:54:14.315 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started class: IBuySpy
+[2016-07-12 17:54:14.315 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: init^
+[2016-07-12 17:54:14.331 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: btnSearch_Click
+[2016-07-12 17:54:14.331 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: Page_Load
+[2016-07-12 17:54:14.331 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Temp var: __FFY_tmpIL_007d; possible values: [__FFY_tmpIL_007d]; at label: IL_007d; node: 288
+[2016-07-12 17:54:14.331 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Temp var: __FFY_tmpIL_01f8; possible values: [__FFY_tmpIL_01f8]; at label: IL_01f8; node: 288
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_ApplicationInstance
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_ApplicationInstance; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_ApplicationInstance; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_Profile
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Profile; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Profile; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: Head1; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.346 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: lnkprofile; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.362 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: profileId; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.362 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: lnkSignout; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: signoutId; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: lnksignin; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: signinId; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: txtSearch; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: rfvSearch; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: btnSearch; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: valSummary; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: Form1; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_Profile
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Profile; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_ApplicationInstance
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_ApplicationInstance; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: IBuySpy
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: Page_Load
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: btnSearch_Click
+[2016-07-12 17:54:14.377 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: init^
+[2016-07-12 17:54:14.409 com.fortify.sca.frontend.DotnetFrontEnd$ClassGeneratingVisitor.visit() Thread-13 Master FINE]
+Setting loc for: IBuySpy.nst to: 133
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: clinit^
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: clinit^; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.409 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: clinit^; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: FrameworkInitialize
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForMember() Thread-13 Master FINE]
+CSharp Parser: No line number for: FrameworkInitialize; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForMember() Thread-13 Master FINE]
+CSharp Parser: No line number for: FrameworkInitialize; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlTree
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control21
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control21; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.424 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control21; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlForm1
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control20
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control20; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control20; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlbodyPlaceHolder
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control19
+[2016-07-12 17:54:14.440 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control19; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control19; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control18
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control18; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control18; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlvalSummary
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control17
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control17; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control17; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlbtnSearch
+[2016-07-12 17:54:14.456 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control16
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control16; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control16; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlrfvSearch
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control15
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control15; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control15; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControltxtSearch
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control14
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control14; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control14; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control13
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control13; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control13; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.471 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlsigninId
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnksignin
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control12
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control12; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control12; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control11
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control11; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control11; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlsignoutId
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnkSignout
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control10
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control10; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control10; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control9
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control9; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control9; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlprofileId
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnkprofile
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control8
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control8; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.487 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control8; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control7
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control7; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control7; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlHead1
+[2016-07-12 17:54:14.502 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control6
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control4
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control5
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control5; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control5; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control3
+[2016-07-12 17:54:14.596 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __PageInspector_SetTraceData
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_SetTraceData; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_SetTraceData; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __PageInspector_LoadHelper
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_LoadHelper; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_LoadHelper; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control2
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control2; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control2; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: set_Template_bodyPlaceHolder
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: set_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: set_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_Template_bodyPlaceHolder
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: init^
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_SetTraceDataMethod; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __initialized; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: init^
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: get_Template_bodyPlaceHolder
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: get_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: set_Template_bodyPlaceHolder
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: set_Template_bodyPlaceHolder; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control2
+[2016-07-12 17:54:14.612 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control2; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __PageInspector_LoadHelper
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_LoadHelper; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __PageInspector_SetTraceData
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __PageInspector_SetTraceData; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control3
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control5
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control5; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control4
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control6
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlHead1
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control7
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control7; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control8
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control8; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnkprofile
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlprofileId
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control9
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control9; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control10
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control10; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnkSignout
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlsignoutId
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control11
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control11; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control12
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control12; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControllnksignin
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlsigninId
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control13
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control13; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control14
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control14; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControltxtSearch
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control15
+[2016-07-12 17:54:14.627 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control15; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlrfvSearch
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control16
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control16; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlbtnSearch
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control17
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control17; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlvalSummary
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control18
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control18; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control19
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control19; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlbodyPlaceHolder
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control20
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control20; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlForm1
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControl__control21
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.getLineNumberForField() Thread-13 Master FINE]
+CSharp Parser: No line number for: __BuildControl__control21; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: __BuildControlTree
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: FrameworkInitialize
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForMember() Thread-13 Master FINE]
+CSharp Parser: No line number for: FrameworkInitialize; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.DotnetSourceParser.locateLineNumberForClass() Thread-13 Master FINE]
+CSharp Parser: No line number for class: ASP.ibuyspy_master; in file: D:\CommerceCSVS\IBuySpy.master.cs in class: ASP.ibuyspy_master
+[2016-07-12 17:54:14.643 com.fortify.frontend.translator.dotnet.NstVisitor.visit() Thread-13 Master FINE]
+Started parse: clinit^

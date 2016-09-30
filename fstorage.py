@@ -130,7 +130,8 @@ class featurestorage:
             exec_db_index = self.dbwriter.write_execution(execution, lf_db_index)
             li_db_indices = self.dbwriter.write_logitems(execution.getlogitems(), exec_db_index)
 
-
+    def getdictionarywordsbykeyword(self, keywords):
+        self.dbwriter.getdictionarykeywordsbyid(keywords)
 
 
     def add_logitems(self, features):

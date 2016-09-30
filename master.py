@@ -113,17 +113,17 @@ while repeatepoch:
                         filetoopen = (dir_category + '/' + file)
                         parsedlog = logtoparse.parseFile(filetoopen)
 
-                        # Get logfile features
-                        feature3 = nn3.parse(filetoopen, product)
-                        fs.add_logfile(feature3, file)
-
-                        # Get execution features
-                        feature2 = nn2.extractFeatures(parsedlog, category, file)
-                        fs.add_executions(feature2)
-
-                        # Get logitem features
-                        feature1 = nn1.extractTrainingFeatures(parsedlog)
-                        fs.add_logitems(feature1)
+                        # # Get logfile features
+                        # feature3 = nn3.parse(filetoopen, product)
+                        # fs.add_logfile(feature3, file)
+                        #
+                        # # Get execution features
+                        # feature2 = nn2.extractFeatures(parsedlog, category, file)
+                        # fs.add_executions(feature2)
+                        #
+                        # # Get logitem features
+                        # feature1 = nn1.extractTrainingFeatures(parsedlog)
+                        # fs.add_logitems(feature1)
 
                         # fs.commit(parsedlog)
                         fs.commit_db(parsedlog)

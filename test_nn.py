@@ -208,7 +208,7 @@ class NN11:
 
         return self.log_train_features
 
-    def setupTestingModel(self, path):
+    def setupTestingModel(self, path, testlog=None):
         self.headersWritten = False
 
         #Setup testing data from testlogs_path folder
@@ -244,7 +244,7 @@ class NN11:
 
 
             ps = neural(d, Orange.classification.Classifier.GetProbabilities)
-            print "There is a %s chance that this is a %s log file" % (ps[c], logclass)
+            print("There is a %s chance that this is a %s log file" % (ps[c], logclass))
             self.logResults(logclass, ps[c])
 
             #with open('trainresults.txt', 'ab') as f: f.write(logclass + " " + str(ps[c]) + '\n')

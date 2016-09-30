@@ -38,8 +38,6 @@ class parser:
     def __init__(self):
         print("Parsing logfile features")
 
-
-
     def convertToWords(self, ssclog):
         log_as_string = []
         for executionn in ssclog.executions:

@@ -1,6 +1,7 @@
 __author__ = 'Sourabh'
 from classes import Parser
 
+
 class Logfile:
     def __init__(self):
         self.scantype = type
@@ -16,7 +17,7 @@ class Logfile:
     def getlogitemsize(self):
         count = 0
         for execution in self.executions:
-            count+=execution.getlogitemlength()
+            count += execution.getlogitemlength()
         return count
 
     def setLineCount(self, linecount):
@@ -26,6 +27,6 @@ class Logfile:
         return self.totallines
 
     def parseFile(self, file):
-        ssclog = Logfile()
-        ssclog.scantype='ssc'
-        return Parser.parselog(file, ssclog)
+        logfile = Logfile()
+        return Parser.parse(file, logfile)
+
