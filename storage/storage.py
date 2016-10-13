@@ -23,9 +23,12 @@ class db_store:
     def closeconnection(self):
         self.connection.close()
 
-    def getcursor(self):
+    def getcursor(self, asdict=False):
         try:
-            return self.connection.cursor()
+            if not asdict:
+                return self.connection.cursor()
+            else:
+                return self.connection.cursor(as_dict=True)
         except:
             print("No database connection opened")
 
@@ -106,6 +109,7 @@ class db_store:
                 CREATE TABLE dictionary_words(
                     id INT IDENTITY(1,1),
                     keyword VARCHAR(2000),
+                    count INT NOT NULL,
                     PRIMARY KEY(keyword),
             )
             """
@@ -114,46 +118,86 @@ class db_store:
                 CREATE TABLE lf_features(
                     id INT IDENTITY(1,1),
                     log_id int not NULL,
-                    f0 int NOT NULL,
-                    f1 int NOT NULL,
-                    f2 int NOT NULL,
-                    f3 int NOT NULL,
-                    f4 int NOT NULL,
-                    f5 int NOT NULL,
-                    f6 int NOT NULL,
-                    f7 int NOT NULL,
-                    f8 int NOT NULL,
-                    f9 int NOT NULL,
-                    f10 int NOT NULL,
-                    f11 int NOT NULL,
-                    f12 int NOT NULL,
-                    f13 int NOT NULL,
-                    f14 int NOT NULL,
-                    f15 int NOT NULL,
-                    f16 int NOT NULL,
-                    f17 int NOT NULL,
-                    f18 int NOT NULL,
-                    f19 int NOT NULL,
-                    f20 int NOT NULL,
-                    f21 int NOT NULL,
-                    f22 int NOT NULL,
-                    f23 int NOT NULL,
-                    f24 int NOT NULL,
-                    f25 int NOT NULL,
-                    f26 int NOT NULL,
-                    f27 int NOT NULL,
-                    f28 int NOT NULL,
-                    f29 int NOT NULL,
-                    f30 int NOT NULL,
-                    f31 int NOT NULL,
-                    f32 int NOT NULL,
-                    f33 int NOT NULL,
-                    f34 int NOT NULL,
-                    f35 int NOT NULL,
-                    f36 int NOT NULL,
-                    f37 int NOT NULL,
-                    f38 int NOT NULL,
-                    f39 int NOT NULL,
+                    f0 float NOT NULL,
+                    f1 float NOT NULL,
+                    f2 float NOT NULL,
+                    f3 float NOT NULL,
+                    f4 float NOT NULL,
+                    f5 float NOT NULL,
+                    f6 float NOT NULL,
+                    f7 float NOT NULL,
+                    f8 float NOT NULL,
+                    f9 float NOT NULL,
+                    f10 float NOT NULL,
+                    f11 float NOT NULL,
+                    f12 float NOT NULL,
+                    f13 float NOT NULL,
+                    f14 float NOT NULL,
+                    f15 float NOT NULL,
+                    f16 float NOT NULL,
+                    f17 float NOT NULL,
+                    f18 float NOT NULL,
+                    f19 float NOT NULL,
+                    f20 float NOT NULL,
+                    f21 float NOT NULL,
+                    f22 float NOT NULL,
+                    f23 float NOT NULL,
+                    f24 float NOT NULL,
+                    f25 float NOT NULL,
+                    f26 float NOT NULL,
+                    f27 float NOT NULL,
+                    f28 float NOT NULL,
+                    f29 float NOT NULL,
+                    f30 float NOT NULL,
+                    f31 float NOT NULL,
+                    f32 float NOT NULL,
+                    f33 float NOT NULL,
+                    f34 float NOT NULL,
+                    f35 float NOT NULL,
+                    f36 float NOT NULL,
+                    f37 float NOT NULL,
+                    f38 float NOT NULL,
+                    f39 float NOT NULL,
+                    tf0 float NOT NULL,
+                    tf1 float NOT NULL,
+                    tf2 float NOT NULL,
+                    tf3 float NOT NULL,
+                    tf4 float NOT NULL,
+                    tf5 float NOT NULL,
+                    tf6 float NOT NULL,
+                    tf7 float NOT NULL,
+                    tf8 float NOT NULL,
+                    tf9 float NOT NULL,
+                    tf10 float NOT NULL,
+                    tf11 float NOT NULL,
+                    tf12 float NOT NULL,
+                    tf13 float NOT NULL,
+                    tf14 float NOT NULL,
+                    tf15 float NOT NULL,
+                    tf16 float NOT NULL,
+                    tf17 float NOT NULL,
+                    tf18 float NOT NULL,
+                    tf19 float NOT NULL,
+                    tf20 float NOT NULL,
+                    tf21 float NOT NULL,
+                    tf22 float NOT NULL,
+                    tf23 float NOT NULL,
+                    tf24 float NOT NULL,
+                    tf25 float NOT NULL,
+                    tf26 float NOT NULL,
+                    tf27 float NOT NULL,
+                    tf28 float NOT NULL,
+                    tf29 float NOT NULL,
+                    tf30 float NOT NULL,
+                    tf31 float NOT NULL,
+                    tf32 float NOT NULL,
+                    tf33 float NOT NULL,
+                    tf34 float NOT NULL,
+                    tf35 float NOT NULL,
+                    tf36 float NOT NULL,
+                    tf37 float NOT NULL,
+                    tf38 float NOT NULL,
+                    tf39 float NOT NULL,
                     PRIMARY KEY(log_id),
             )
             """
@@ -361,36 +405,57 @@ class db_store:
         self.closeconnection()
         return li_id
 
-    def getdictionarykeywordsbyid(self, keywords):
+    def getdictionarykeywordsbyid(self, keywords, num_features):
         self.startconnection()
         csk = self.connection.cursor()
         kwids = []
+        tfids = []
         for keyword in keywords:
-            selecctt = "select id from dictionary_words where keyword='%s'" % keyword
+            selecctt = "select * from dictionary_words where keyword='%s'" % keyword
             csk.execute(selecctt)
             kwid = csk.fetchone()
             try:
                 kwids.append(kwid[0])
+                tfids.append(kwid[2])
             except:
-                kwids.append(-1)
+                kwids.append(0)
+                tfids.append(0)
         self.closeconnection()
-        return kwids
 
-    def writeLFfeatures(self, kwids, lfid):
+        i = kwids.__len__()
+        while i < num_features * 4:
+            kwids.append(0)
+            i += 1
+
+        i = tfids.__len__()
+        while i < num_features:
+            tfids.append(0)
+            i += 1
+
+        return kwids, tfids
+
+    def writeLFfeatures(self, kwids, tfids, lfid):
         self.startconnection()
         kwc = self.connection.cursor()
         try:
             kwc.execute(
                 "INSERT INTO lf_features VALUES(%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d,"
-                " %d, %d)",
+                " %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d,"
+                " %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d)",
                 (lfid, kwids[0], kwids[1], kwids[2], kwids[3], kwids[4], kwids[5], kwids[6], kwids[7], kwids[8],
                  kwids[9], kwids[10], kwids[11], kwids[12], kwids[13], kwids[14], kwids[15], kwids[16], kwids[17],
                  kwids[18], kwids[19], kwids[20], kwids[21], kwids[22], kwids[23], kwids[24], kwids[25], kwids[26],
                  kwids[27], kwids[28], kwids[29], kwids[30], kwids[31], kwids[32], kwids[33], kwids[34], kwids[35],
-                 kwids[36], kwids[37], kwids[38], kwids[39]))
+                 kwids[36], kwids[37], kwids[38], kwids[39], tfids[0], tfids[1], tfids[2], tfids[3], tfids[4], tfids[5],
+                 tfids[6], tfids[7], tfids[8],
+                 tfids[9], tfids[10], tfids[11], tfids[12], tfids[13], tfids[14], tfids[15], tfids[16], tfids[17],
+                 tfids[18], tfids[19], tfids[20], tfids[21], tfids[22], tfids[23], tfids[24], tfids[25], tfids[26],
+                 tfids[27], tfids[28], tfids[29], tfids[30], tfids[31], tfids[32], tfids[33], tfids[34], tfids[35],
+                 tfids[36], tfids[37], tfids[38], tfids[39]))
             self.connection.commit()
             self.closeconnection()
-        except:
+        except Exception as e:
+            print(e)
             self.closeconnection()
 
     def getLFfeatures(self):
@@ -402,10 +467,10 @@ class db_store:
         data = np.asarray(ctx.fetchall())
 
         # Logfile features
-        features = np.asarray(data[:, 2:42]).astype(dtype=int)
+        features = np.asarray(data[:, 2:82]).astype(dtype=float)
 
         # Target outputs
-        logtypes_raw = data[:, 43]
+        logtypes_raw = data[:, 83]
         logtypes_target = []
         for ltr in logtypes_raw:
             if ltr == 'dsca':
@@ -420,22 +485,20 @@ class db_store:
         return features, logtypes_target
 
     def test(self):
-        selectst = 'SELECT * from logfiles where id=250'
+        selectst = "select MAX(log_id) from lf_features"
+
+        listt = ['CacheAdminException', 'cacheCollection', 'CacheConnection', 'CacheController', 'CacheData',
+                 'CachedBundleyt']
 
         self.startconnection()
 
         c2 = self.connection.cursor()
-        c2.execute(selectst)
+        # c2.executemany(selectst, listt)
+        c2.execute("select MAX(log_id) from lf_features")
+        results = c2.fetchone()
+        maxid = results[0] - 10
+
+        c2.execute("select * from lf_features where log_id>%d" % maxid)
         results = c2.fetchall()
-
-        selectexec = 'SELECT * from exec_seed'
-        c2.execute(selectexec)
-        executions_keywords = np.asarray(c2.fetchall())
-        num_results = executions_keywords.__len__()
-        print("\nFrom exec_seed keywords: %d words" % num_results)
-        words = executions_keywords[:, 1]
-        for exece in words:
-            print(exece)
-
-# dbwriter = db_store()
-# dbwriter.test()
+        for row in results:
+            print(row)

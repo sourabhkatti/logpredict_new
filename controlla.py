@@ -2,6 +2,54 @@ from classes import Logfile
 import fstorage
 import os
 from db_trainer import db_trainer
+import threading
+import numpy as np
+import time
+
+
+class ThreadedTask_parser(threading.Thread):
+    def __init__(self, queue, flag):
+        threading.Thread.__init__(self, args=flag)
+        self.flag = flag
+        self.queue = queue
+        self.controlla = controlla()
+
+    def run(self):
+        controlla.parselogs(self.controlla, queue=self.queue, flag=self.flag)
+
+
+class ThreadedTask_trainer(threading.Thread):
+    def __init__(self, queue, flag):
+        threading.Thread.__init__(self, args=flag)
+        self.flag = flag
+        self.queue = queue
+        self.controlla = controlla()
+
+    def run(self):
+        controlla.setupdictionary(self.controlla, queue=self.queue)
+
+
+class ThreadedTask_tester(threading.Thread):
+    def __init__(self, queue, flag):
+        threading.Thread.__init__(self, args=flag)
+        self.flag = flag
+        self.queue = queue
+        self.controlla = controlla()
+
+    def run(self):
+        controlla.testLFfeaturesmodels(self.controlla, queue=self.queue)
+
+
+class ThreadedTask_predictor_single_file(threading.Thread):
+    def __init__(self, queue, path):
+        threading.Thread.__init__(self)
+        self.path = path
+        self.queue = queue
+        self.controlla = controlla()
+
+    def run(self):
+        predictions = controlla.testnew_singlelog(self.controlla, path=self.path, queue=self.queue)
+        self.queue.put(predictions)
 
 
 class controlla:
@@ -9,32 +57,59 @@ class controlla:
     dbt = db_trainer()
 
     def __init__(self):
-        pass
+        # Get the path of the current working directory
+        os.chdir(os.path.dirname(os.path.abspath(__file__)))
+        self.project_root = os.path.abspath(os.curdir)
 
-    def parselogs(self, logroot="C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/training_logs/",
-                  logfilestoadd=100):
+    def parselogs(self, flag, queue, logfilestoadd=1000):
+        logroot = self.project_root + '/training_logs/'
         logtoparse = Logfile.Logfile()
         fs = fstorage.featurestorage()
         products = os.listdir(logroot)
-        logfilenum = 0
         breakcount = 0
+
         while breakcount < logfilestoadd:
+            try:
+                if queue.queue[-1].find('Stopped') is not -1:
+                    queue.put("Stopped Thread - master loop")
+                    break
+            except Exception as e:
+                pass
+
             for product in products:
+                try:
+                    if queue.queue[-1].find('Stopped') is not -1:
+                        queue.put("Stopped Thread - product loop")
+                        break
+                except Exception as e:
+                    pass
                 print("\n\nParsing %s logs" % product)
                 product_path = (logroot + '/' + product)
                 files = os.listdir(product_path)
-
                 if 'category' in files:
                     dir_path = product_path + '/' + 'category'
                     categories = os.listdir(dir_path)
                     for category in categories:
                         if breakcount == logfilestoadd:
                             break
+                        try:
+                            if queue.queue[-1].find('Stopped') is not -1:
+                                queue.put("Stopped Thread - category loop")
+                                break
+                        except Exception as e:
+                            pass
                         print("\n\tFrom category %s..." % category)
                         dir_category = dir_path + '/' + category
                         files = os.listdir(dir_category)
 
                         for file in files:
+                            try:
+                                if queue.queue[-1].find('Stopped') is not -1:
+                                    queue.put("Stopped Thread - file category loop")
+                                    break
+                            except Exception as e:
+                                pass
+
                             print("\t\tLogs left to parse: ", logfilestoadd - breakcount)
                             print('\t\t{0:2}. {1:50}'.format(breakcount + 1, file), end='....... ')
                             filetoopen = (dir_category + '/' + file)
@@ -52,6 +127,12 @@ class controlla:
                 else:
                     print("No categories set, parsing the following files at LOGFILE level ONLY")
                     for file in files:
+                        try:
+                            if queue.queue[-1].find('Stopped') is not -1:
+                                queue.put("Stopped Thread - Logfile level loop")
+                                break
+                        except:
+                            continue
                         print('\t\t{0:2}. {1:50}'.format(breakcount + 1, file), end='....... ')
                         filetoopen = (product_path + '/' + file)
                         parsedlog = logtoparse.parseFile(filetoopen)
@@ -59,50 +140,75 @@ class controlla:
                         self.fs.commit_db(parsedlog)
                         print("Success")
                         breakcount += 1
-                        # self.dbt.featurizeLF(parsedlog)
+                        if breakcount == logfilestoadd:
+                            break
 
-                        # execs = parsedlog.getExecutions()
-                        # for execa in execs:
-                        #     print("\t\t\tExecution")
-                        #     lii = execa.getlogitems()
-                        #     print("\t\t\t\t%d logitems" % lii.__len__())
+    def setupdictionary(self, queue):
+        self.dbt.generatedictionary(queue)
 
-    def setupdictionary(self):
-        self.dbt.generatedictionary()
+        try:
+            if queue.queue[-1].find('trainstop') is -1:
+                self.dbt.trainLFfeatures()
+        except Exception as e:
+            print("breaking", e)
+            pass
 
-    def trainLF(self):
-        classifier = self.dbt.trainLFfeatures()
-        self.dbt.testLFfeatures(classifier)
+        try:
+            if queue.queue[-1].find('trainstop') is -1:
+                self.dbt.trainLFfeatures_BRBM()
+        except Exception as e:
+            print("breaking", e)
+            pass
+
+    def testLFfeaturesmodels(self, queue):
+        self.dbt.testLFfeatures(queue)
+
+    # Start training on the logfiles in the database
+    def trainLF(self, threadstop):
+        # classifier = self.dbt.trainLFfeatures()
+        self.dbt.trainLFfeatures()
+        self.dbt.trainLFfeatures_BRBM()
+        self.dbt.testLFfeatures()
 
     def test(self):
         self.dbt.test()
 
+    # Test trained models on new logs
     def testnewlogs(self):
         logtoparse = Logfile.Logfile()
-        path_to_test = 'C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/test_logs/'
+        path_to_test = self.project_root + '/test_logs/'
         files = os.listdir(path_to_test)
-        nbc = self.dbt.loadclassifier("C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/nb_models/nb1")
 
         for file in files:
             path_to_file = path_to_test + file
             parsedlog = logtoparse.parseFile(path_to_file)
-            testfeatures = self.dbt.setupLFtestdictionar(parsedlog)
-            prediction = nbc.predict(testfeatures)
+            self.dbt.testnewlogfiles(parsedlog, file)
 
-            print('\n')
-            if prediction == 1:
-                print(file, 'Debug SCA log')
-            elif prediction == 2:
-                print(file, 'SCA log')
-            elif prediction == 3:
-                print(file, 'SSC log')
+    def testnew_singlelog(self, path, queue):
+        logtoparse = Logfile.Logfile()
+        parsedlog = logtoparse.parseFile(path)
+        predictions = self.dbt.testnewlogfiles(parsedlog, path)
+        return predictions
 
-    def run(self):
+    # Start program
+    def run(self, threadstop):
         # self.parselogs()
-        self.setupdictionary()
-        self.trainLF()
+        self.setupdictionary(threadstop)
+        self.trainLF(threadstop)
 
+    def testthread(self, threadstop):
+        t1 = threading.Thread(target=self.testthread1(threadstop))
+        t1.start()
+        return 1
 
-ct = controlla()
-ct.run()
-ct.testnewlogs()
+    def testthread1(self, threadstop):
+        while not threadstop.is_set():
+            print("Still not stopped")
+            threadstop.wait(1)
+
+#
+#
+# ct = controlla()
+# # ct.test()
+# ct.run()
+# ct.testnewlogs()
