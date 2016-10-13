@@ -272,7 +272,7 @@ class db_trainer:
             if featurize:
                 self.featurizeLF_db(w2v_model, lf_id)
 
-                    # self.initializemodel(w2v_dictionary)
+                # self.initializemodel(w2v_dictionary)
 
     def getfeatures(self, parsedlog):
         score_sum = 0.0
@@ -558,8 +558,8 @@ class db_trainer:
 
         lf_kmeans = KMeans(n_clusters=3, n_init=1000)
 
-        lf_nn = MLPClassifier(hidden_layer_sizes=(1000, 1000), activation='relu', solver='adam', batch_size=3,
-                              learning_rate='adaptive', max_iter=500)
+        lf_nn = MLPClassifier(hidden_layer_sizes=(1000, 1000), activation='relu', solver='sgd', batch_size=3,
+                              learning_rate='adaptive', max_iter=500, verbose=True, shuffle=True)
 
         print("\n======== Starting LogFile classification training ========")
         features, targetoutputs = self.dbwriter.getLFfeatures()
@@ -598,11 +598,10 @@ class db_trainer:
         features, targetoutputs = self.dbwriter.getLFfeatures()
         # features[:, 0:40] = normalize(features[:, 0:40], axis=0)
 
-        rbm = BernoulliRBM(verbose=True, batch_size=3, learning_rate=0.5, n_iter=500, n_components=1000)
+        rbm = BernoulliRBM(verbose=True, batch_size=3, learning_rate=1.1, n_iter=1000, n_components=2000)
         lr = LinearRegression()
-        lf_nb_predictor = GaussianNB()
 
-        classifier = Pipeline([("rbm", rbm), ("lr", lr)])
+        classifier = Pipeline([("lr", lr), ("rbm", rbm)])
 
         print("\tTraining Bernoulli RBM network")
         classifier.fit(features, targetoutputs)
@@ -676,26 +675,27 @@ class db_trainer:
             model = self.loadclassifier(modelpath)
             # print("\tUsing %s" % str(type(model)))
             try:
-                prediction = model.predict_proba(testfeatures)
+                prediction = model.predict_log_proba(testfeatures)
                 arg = np.argmax(prediction)
-                #
-                # print('\t', prediction),
-                # if arg == 0:
-                #     print('\t', file, 'Debug SCA log')
-                # elif arg == 1:
-                #     print('\t', file, 'SCA log')
-                # elif arg == 2:
-                #     print('\t', file, 'SSC log')
+
+                print('\t', prediction),
+                if arg == 0:
+                    print('\t', file, 'Debug SCA log')
+                elif arg == 1:
+                    print('\t', file, 'SCA log')
+                elif arg == 2:
+                    print('\t', file, 'SSC log')
             except:
                 prediction = model.predict(testfeatures)
-                #
-                # print('\t', prediction),
-                # if prediction.any() < 1:
-                #     print('\t', file, 'Debug SCA log')
-                # elif prediction.any() < 2:
-                #     print('\t', file, 'SCA log')
-                # elif prediction.any() < 3:
-                #     print('\t', file, 'SSC log')
-            predictions[str(type(model))] = prediction
 
+                print('\t', prediction),
+                if prediction.any() < 1:
+                    print('\t', file, 'Debug SCA log')
+                elif prediction.any() < 2:
+                    print('\t', file, 'SCA log')
+                elif prediction.any() < 3:
+                    print('\t', file, 'SSC log')
+            predictions[str(type(model))] = prediction
+        for i, p in predictions.items():
+            print(i, p)
         return predictions

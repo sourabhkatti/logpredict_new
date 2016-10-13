@@ -126,7 +126,6 @@ class application(Frame):
         self.queue.put("TesterStarted")
 
         ct1 = controlla.ThreadedTask_tester(self.queue, flag=self.ttrainstop)
-        print("CT1 is ", ct1.is_alive())
         if not ct1.is_alive():
             ct1.start()
 
@@ -172,7 +171,7 @@ class application(Frame):
 
     def open_predict_logfile(self):
         testpath = tkfd.askopenfile(mode='r')
-        message = "\n\nRunning model on %s\n" % testpath.name
+        message = "Running model on %s\n" % testpath.name
         self.updateconsole(message)
         controlla.ThreadedTask_predictor_single_file(self.queue, path=testpath.name)
         preds = controlla.controlla.testnew_singlelog(self.ct, path=testpath.name, queue=self.queue)
@@ -191,6 +190,7 @@ class application(Frame):
             except:
                 message = model + " predicted a value of " + str(prediction) + "\n"
                 self.updateconsole(message)
+        self.updateconsole("\n\n")
 
 
 root = Tk()

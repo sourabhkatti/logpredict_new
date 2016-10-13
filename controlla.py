@@ -206,9 +206,9 @@ class controlla:
             print("Still not stopped")
             threadstop.wait(1)
 
-#
-#
+# #
+# #
 # ct = controlla()
-# # ct.test()
-# ct.run()
+# # # ct.test()
+# # ct.run()
 # ct.testnewlogs()
