@@ -8,5 +8,5 @@ setup(
     license='',
     author='Sourabh Katti',
     author_email='',
-    description=''
+    description='', requires=['sklearn', 'numpy', 'gensim']
 )

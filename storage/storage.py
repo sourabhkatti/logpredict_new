@@ -4,7 +4,7 @@ import numpy as np
 
 # noinspection PyBroadException
 class db_store:
-    servername = 'localhost'
+    servername = 'SOURABH\sourabh'
     databasename = 'parsedlogs'
     connection = ''
 

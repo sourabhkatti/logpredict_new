@@ -14,6 +14,7 @@ from sklearn.preprocessing import normalize
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import pickle
+from sknn.mlp import Classifier, Layer
 
 
 class db_trainer:
@@ -610,6 +611,25 @@ class db_trainer:
                             classifier=classifier)
 
         return classifier
+
+    def trainSKNN(self):
+        features, targetoutputs = self.dbwriter.getLFfeatures()
+        features = np.asarray(features)
+        targetoutputs = np.asarray(targetoutputs)
+
+        nn = Classifier(
+            layers=[
+                Layer("Rectifier", units=100),
+                Layer("Softmax")
+            ],
+            learning_rate=0.01,
+            n_iter=10,
+            debug=True)
+
+        nn.fit(features, targetoutputs)
+        self.saveclassifier(nn, 'C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/nb_models/sknn')
+
+        nn.predict(features)
 
     def saveclassifier(self, path, classifier):
         with open(path, 'wb') as pf:

@@ -148,6 +148,13 @@ class controlla:
 
         try:
             if queue.queue[-1].find('trainstop') is -1:
+                self.dbt.trainSKNN()
+        except Exception as e:
+            print("breaking", e)
+            pass
+
+        try:
+            if queue.queue[-1].find('trainstop') is -1:
                 self.dbt.trainLFfeatures()
         except Exception as e:
             print("breaking", e)
@@ -166,9 +173,10 @@ class controlla:
     # Start training on the logfiles in the database
     def trainLF(self, threadstop):
         # classifier = self.dbt.trainLFfeatures()
-        self.dbt.trainLFfeatures()
-        self.dbt.trainLFfeatures_BRBM()
-        self.dbt.testLFfeatures()
+        self.dbt.trainSKNN()
+        # self.dbt.trainLFfeatures()
+        # self.dbt.trainLFfeatures_BRBM()
+        # self.dbt.testLFfeatures()
 
     def test(self):
         self.dbt.test()
