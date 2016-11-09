@@ -3,28 +3,71 @@ import re
 from time import time
 import numpy as np
 from storage import storage
-from gensim import corpora
 from gensim.models import Word2Vec, Doc2Vec, Phrases
 import os
-from sklearn.neural_network import BernoulliRBM
-from sklearn.neural_network import MLPClassifier
+from sklearn.neural_network import BernoulliRBM, MLPClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import cross_val_predict
+from sklearn.cluster import KMeans
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import normalize
+from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
-from sklearn import tree
-from matplotlib.colors import ListedColormap
 import pickle
+from sknn.mlp import Classifier, Layer
+from sklearn.metrics import accuracy_score, precision_score
 
 
 class db_trainer:
     dbwriter = storage.db_store()
 
     def __init__(self):
-        # nltk.download()
-        pass
+        os.chdir(os.path.dirname(os.path.abspath(__file__)))
+        self.project_root = os.path.abspath(os.curdir)
 
-    def getlogs(self):
-        selectst = "SELECT * from logfiles"
+    def getlogs(self, startfromlast=True):
+
+        if startfromlast:
+            try:
+                # Get the id of the last logfile feature to be written
+                lastid = "SELECT max(log_id) from lf_features"
+                self.dbwriter.startconnection()
+                cursor = self.dbwriter.getcursor()
+                cursor.execute(lastid)
+                lastlogfile = np.squeeze(np.asarray(cursor.fetchone()).astype(int))
+
+                # Get all logfiles greater than the id
+                selectst = ("SELECT * from logfiles where id>%d" % lastlogfile)
+                cursor.execute(selectst)
+                logfiles = cursor.fetchall()
+                return logfiles
+
+            except:
+                selectst = "SELECT * from logfiles"
+
+                self.dbwriter.startconnection()
+                cursor = self.dbwriter.getcursor()
+                cursor.execute(selectst)
+
+                logfiles = cursor.fetchall()
+
+                self.dbwriter.closeconnection()
+
+        else:
+            selectst = "SELECT * from logfiles"
+
+            self.dbwriter.startconnection()
+            cursor = self.dbwriter.getcursor()
+            cursor.execute(selectst)
+
+            logfiles = cursor.fetchall()
+
+            self.dbwriter.closeconnection()
+
+        return logfiles
+
+    def getLFfeatures(self):
+        selectst = "SELECT * from lf_features"
 
         self.dbwriter.startconnection()
         cursor = self.dbwriter.getcursor()
@@ -72,70 +115,67 @@ class db_trainer:
         self.dbwriter.closeconnection()
         return np.asarray(lf_keywords)
 
-    def sanitizelogfile(self, logfile):
+    def sanitizelogfile_db(self, logfile):
         sanitized_lf = []  # Used to store the sanitized logfile, stripped of special characters and spaces
         continuous_lf = []
-        tm = Word2Vec(iter=1,
-                      min_count=1)  # Used to create the Word2Vec model. Contains a list of logitem as strings, rather than tuples
+
+        # Used to create the Word2Vec model. Contains a list of logitem as strings, rather than tuples
+        tm = Word2Vec(iter=1, min_count=1, size=20)
+
         for execution in logfile:
             sanitized_exec = []
-            continuous_exec = []
             for logitem_db in execution[0]:
                 li_raw = str(logitem_db[1]) + " " + str(logitem_db[2]) + " " + str(logitem_db[3])
-                liiraw = ''
                 li_temp = re.split('[\s\=\:\.\\\[\]\(\)\-\_\/\\\\\'\;\{\}\+\=\<\>\@\,\*\"\^\%\$\#\!\&\~\`\|\?]+',
                                    li_raw)
-                sanitized_li = [x for x in li_temp if x]
-                sanitized_num_li = [x for x in sanitized_li if re.match(r'\D+', x)]
+                sanitized_li = [x for x in li_temp if (x and re.match(r'\D+', x))]
+                # sanitized_num_li = [x for x in sanitized_li if re.match(r'\D+', x)]
 
-                # for term in sanitized_li:
-                #     liiraw = liiraw + " " + term
-                sanitized_exec.append(sanitized_num_li)
-                continuous_lf.append(sanitized_num_li)
+                sanitized_exec.append(sanitized_li)
+                continuous_lf.append(sanitized_li)
             sanitized_lf.append(sanitized_exec)
-            # continuous_lf.append(continuous_exec)
         tm.build_vocab(continuous_lf)
         return sanitized_lf, tm, continuous_lf
 
-    def sanitizetestlogfile(self, logfile):
+    def sanitizelogfile_object(self, logfile):
         sanitized_lf = []  # Used to store the sanitized logfile, stripped of special characters and spaces
         continuous_lf = []
-        tm = Word2Vec(iter=1, min_count=1)  # Used to create the Word2Vec model. Contains a list of logitem as strings, rather than tuples
+
+        # Used to create the Word2Vec model. Contains a list of logitem as strings, rather than tuples
+        tm = Word2Vec(iter=1, min_count=1, size=20)
+
         for execution in logfile.getExecutions():
             sanitized_exec = []
-            continuous_exec = []
             for logitem in execution.getlogitems():
                 li_raw = str(logitem.methodname) + " " + str(logitem.logmessage) + " " + str(logitem.logmessage)
-                liiraw = ''
                 li_temp = re.split('[\s\=\:\.\\\[\]\(\)\-\_\/\\\\\'\;\{\}\+\=\<\>\@\,\*\"\^\%\$\#\!\&\~\`\|\?]+',
                                    li_raw)
-                sanitized_li = [x for x in li_temp if x]
-                sanitized_num_li = [x for x in sanitized_li if re.match(r'\D+', x)]
+                sanitized_li = [x for x in li_temp if (x or re.match(r'\D+', x))]
+                # sanitized_num_li = [x for x in sanitized_li if re.match(r'\D+', x)]
 
-                # for term in sanitized_li:
-                #     liiraw = liiraw + " " + term
-                sanitized_exec.append(sanitized_num_li)
-                continuous_lf.append(sanitized_num_li)
+                sanitized_exec.append(sanitized_li)
+                continuous_lf.append(sanitized_li)
             sanitized_lf.append(sanitized_exec)
-            # continuous_lf.append(continuous_exec)
         tm.build_vocab(continuous_lf)
         return sanitized_lf, tm, continuous_lf
 
-    def addLFwordstodictionary(self, logfile):
+    def addLFwordstodictionary(self, w2v_model):
 
         self.dbwriter.startconnection()
-        cursor = self.dbwriter.getcursor()
+        cursor = self.dbwriter.getcursor(asdict=True)
 
-        for executt in logfile:
-            for logitem in executt:
-                for term in logitem:
-                    try:
-                        cursor.execute("Select * from dictionary_words where keyword='%s'" % term)
-                        results = cursor.fetchall()
-                        if not results:
-                            cursor.execute('INSERT into dictionary_words VALUES(%s)', term)
-                    except Exception as e:
-                        pass
+        for term, values in w2v_model.vocab.items():
+            count = values.count
+            try:
+                cursor.execute("Select * from dictionary_words where keyword='%s'" % term)
+                results = cursor.fetchall()
+                if not results:
+                    cursor.execute('INSERT into dictionary_words VALUES(%s, %d)', (term, count))
+                else:
+                    count += results[0]['count']
+                    cursor.execute('UPDATE dictionary_words set count=%d where keyword=%s', (count, term))
+            except Exception as e:
+                pass
 
         self.dbwriter.connection.commit()
 
@@ -164,27 +204,18 @@ class db_trainer:
         loaded_model = Word2Vec.load(loadfolder)
         return loaded_model
 
-    def updatedictionarytf(self):
-        selectst_tf = "SELECT * from dictionary_words"
+    def count_to_tf(self, counts):
         sumst = "SELECT sum(count) from dictionary_words"
-        print("Updating term frequency for dictionary words")
 
         self.dbwriter.startconnection()
         cursortf = self.dbwriter.getcursor()
-        cursortf.execute(selectst_tf)
-        dict_raw = cursortf.fetchall()
 
         cursortf.execute(sumst)
         total_count = cursortf.fetchone()
 
-        for word in dict_raw:
-            word_tf = float(word[2]) / float(total_count[0])
-            updatest_tf = "UPDATE dictionary_words set term_frequency=%f where keyword='%s'" % (word_tf, word[1])
-            cursortf.execute(updatest_tf)
-            self.dbwriter.connection.commit()
-        self.dbwriter.closeconnection()
+        return np.divide(counts, total_count)
 
-    def generatedictionary(self, loglimit=None):
+    def generatedictionary(self, queue, loglimit=None, featurize=True):
         lflist = self.getlogs()
         print("There are %d logfiles in the database" % lflist.__len__())
 
@@ -195,33 +226,58 @@ class db_trainer:
             loglimit = lflist.__len__()
 
         all_lf = []
-        w2v_dictionary = {}
-
         while i < loglimit:
+            try:
+                if queue.queue[-1].find('trainstop') is not -1:
+                    queue.put("trainstop - logfile loop")
+                    break
+            except Exception as e:
+                print("breaking", e)
+                pass
             lf = lflist[i]
             lf_id = lf[0]
             print("\tRunning for log# %d" % lf_id)
             lft = []
             executionlist = self.getexecutions(lf_id)
-            for ex in executionlist:
-                execa = []
-                exec_id = ex[0]
-                logitemlist = self.getlogitems(exec_id)
-                execa.append(logitemlist)
-                lft.append(execa)
+            if executionlist.__len__() > 1:
+                for ex in executionlist:
+                    try:
+                        if queue.queue[-1].find('trainstop') is not -1:
+                            queue.put("trainstop - execution loop")
+                            break
+                    except Exception as e:
+                        pass
+                    execa = []
+                    exec_id = ex[0]
+                    logitemlist = self.getlogitems(exec_id)
+                    execa.append(logitemlist)
+                    lft.append(execa)
+            else:
+                try:
+                    exec_id = executionlist[0][0]
+                    execa = []
+                    logitemlist = self.getlogitems(exec_id)
+                    execa.append(logitemlist)
+                    lft.append(execa)
+                except:
+                    i += 1
+                    continue
 
             all_lf.append(lft)
-            stlf, w2v_model, ctlf = self.sanitizelogfile(lft)
+            stlf, w2v_model, ctlf = self.sanitizelogfile_db(lft)
 
-            self.addLFwordstodictionary(stlf)
-            w2v_dictionary[lf_id] = w2v_model
+            # Write all unique words to dictionary_words table
+            self.addLFwordstodictionary(w2v_model)
             for line in ctlf:
                 limasterlist.append(line)
             i += 1
-        self.featurizeLF_db(w2v_dictionary)
-        # self.initializemodel(w2v_dictionary)
 
-    def getfeatures(self, logfile):
+            if featurize:
+                self.featurizeLF_db(w2v_model, lf_id)
+
+                # self.initializemodel(w2v_dictionary)
+
+    def getfeatures(self, parsedlog):
         score_sum = 0.0
         le_score_avg = 0.0
         previous_score = 0.0
@@ -234,15 +290,11 @@ class db_trainer:
         scorechangerate = 0.0
         scorechangerate_avg = 0.0
 
-        lews = wordstore()
-        li_method_ws = wordstore()
-        li_loglevel_ws = wordstore()
-        stws = wordstore()
         lihs1 = []
         lihs2 = []
         lihs3 = []
 
-        for execution in parsedlog.executions:
+        for execution in parsedlog:
             high_score = 0.0
             li_words = self.getWords(execution)
 
@@ -394,110 +446,313 @@ class db_trainer:
 
         return featurez
 
-    def initializedictionary(self):
-        selectst = 'SELECT keyword from dictionary_words'
-        dictwords = []
-        self.dbwriter.startconnection()
-        dcursor = self.dbwriter.getcursor()
-        dcursor.execute(selectst)
-        dictwords_db = dcursor.fetchall()
-        self.dbwriter.closeconnection()
-        wrodz = ''
-        for word in dictwords_db:
-            print(word[0])
-            wrodz += " " + word[0]
-            dictwords.append(word[0])
+    def getMessageFeatures(self, logmessage):
+        li_vectorizer = self.vectorizeLogItem(logmessage.split(" "))
+        li_tfidf = self.getTF()
 
-        model = Doc2Vec(dictwords)
-        return model
+        wordscore = 0.0
 
-    ## Generate features for each log file in the database. Take the index of the 20 most frequent words.
-    def featurizeLF_db(self, w2v_dictionary):
-        features_to_write = 40
+        message_score = 0.0
+        avg_message_score = 0.0
 
-        print(w2v_dictionary.keys().__len__())
-        print("\n======== Initiliazing models ========")
-        print("\nThere are %d models" % w2v_dictionary.__len__())
-        for i in w2v_dictionary.keys():
-            model = w2v_dictionary[i]
-            print("\nModel #%d" % i)
-            print("\tThere are %d words in this model" % model.vocab.__len__())
+        critical_word_weight = 1500.0
+        database_word_weight = 350.0
+        ldap_word_weight = 20.0
+        ssl_word_weight = 750.0
+
+        critical_words = ['Error', 'unable', 'fail', 'exception', 'failed', 'invalid', 'error', 'Intercepted',
+                          'nested exception', 'thrown']
+        database_words = ['transaction', 'Hibernate', 'column', 'SQL', 'Communications link', 'artifact', 'SQLState']
+        ldap_words = ['LDAP', 'com.fortify.manager.DAO.UsernameAndEmail', 'LDAP object']
+        ssl_words = ['PKIX', 'valid certification', 'sun.security.provider.certpath.SunCertPathBuilderException:',
+                     'simple bind', 'javax.net.ssl.SSLHandshakeException', ]
+
+        search_words = (critical_words, database_words, ldap_words, ssl_words)
+        word_weights = (critical_word_weight, database_word_weight, ldap_word_weight, ssl_word_weight)
+
+        for category, weight in zip(search_words, word_weights):
+            category_score = 0.0
+            for word in category:
+                wordscore = 0.0
+                index = li_vectorizer.vocabulary_.get(word)
+                if index != None:
+                    b = li_tfidf[:, index]
+                    a = sum(b.data)
+                else:
+                    a = 0.0
+                # wordscore += (weight * float(a))
+                category_score += (weight * float(a))
+            message_score += category_score / float(category.__len__())
+
+        return message_score
+
+    ## Generate features for each log file in the database. Take the index of the 40 most frequent words.
+    def featurizeLF_db(self, w2v_dictionary, logid):
+        words_to_write = 4
+        kwsparse = []
+        tfids = []
+
+        model = w2v_dictionary
+        print("\tThere are %d words in this model" % model.vocab.__len__())
+        # if model.vocab.__len__() == 0:
+        #     print('this model')
+        try:
+            most_frequent_words = model.index2word[0:words_to_write]
+        except:
+            most_frequent_words = model.index2word[0:model.vocab.__len__()]
+        # print(most_frequent_words)
+
+        for word in most_frequent_words:
+            a = model[word]
+            kwsparse.extend(a)
+            b = model.most_similar(word)
+            c = model[b[0][0]]
+            tfids.extend(c)
+
+        kwids, countids = self.dbwriter.getdictionarykeywordsbyid(most_frequent_words, words_to_write)
+        # tfids.extend(self.count_to_tf(countids))
+
+        kwsparse = np.asarray(kwsparse).astype(float).tolist()
+        tfids = np.asarray(tfids).astype(float).tolist()
+
+        self.dbwriter.writeLFfeatures(kwsparse, tfids, logid)
+
+    def featurizeLF_testing(self, w2v_dictionary, words_to_write=4):
+        features = []
+
+        model = w2v_dictionary
+        try:
+            most_frequent_words = model.index2word[0:words_to_write]
+        except:
+            most_frequent_words = model.index2word[0:model.vocab.__len__()]
+
+        for word in most_frequent_words:
+            a = model[word]
+            features.extend(a)
+            b = model.most_similar(word)
+            c = model[b[0][0]]
+            features.extend(c)
+
+        kwids, countids = self.dbwriter.getdictionarykeywordsbyid(most_frequent_words, words_to_write)
+        # features.extend(self.count_to_tf(countids))
+
+        features = np.asarray(features).astype(float)
+        return features[0:80]
+
+    def featurizeLI_db(self, w2v_dictionary, logid):
+        features_to_write = 100
+
+        model = w2v_dictionary
+        print("\tThere are %d words in this model" % model.vocab.__len__())
+        # if model.vocab.__len__() == 0:
+        #     print('this model')
+        try:
             most_frequent_words = model.index2word[0:features_to_write]
-            # print(most_frequent_words)
-            kwids = self.dbwriter.getdictionarykeywordsbyid(most_frequent_words)
-            self.dbwriter.writeLFfeatures(kwids, i)
-            # print(kwids)
+        except:
+            most_frequent_words = model.index2word[0:model.vocab.__len__()]
+        # print(most_frequent_words)
+        kwids, tfids = self.dbwriter.getdictionarykeywordsbyid(most_frequent_words)
+        self.dbwriter.writeLFfeatures(kwids, logid)
 
-    def trainLFfeatures(self):
+    def trainLFfeatures(self, queue=None, option=None):
         # Use a Naive Bayes classifier
         lf_nb_predictor = GaussianNB()
 
-        lf_nn = MLPClassifier(hidden_layer_sizes=(1000, 100), activation='relu', solver='adam', batch_size=3,
-                              learning_rate='invscaling', learning_rate_init=1.0, verbose=True)
+        lf_kmeans = KMeans(n_clusters=3, n_init=100)
 
-        print("\n======== Starting LogFile classification training ========")
+        lf_mlp = MLPClassifier(hidden_layer_sizes=(10, 100, 1000, 100), activation='tanh', solver='sgd', batch_size=3,
+                               learning_rate='adaptive', learning_rate_init=0.1, max_iter=5000, verbose=True,
+                               shuffle=True)
+
         features, targetoutputs = self.dbwriter.getLFfeatures()
+        # features[:, 0:40] = normalize(features[:, 0:40], axis=0)
 
-        lf_nb_predictor.fit(features, targetoutputs)
-        lf_nn.fit(features, targetoutputs)
+        # lf_nb_predictor.fit(features, targetoutputs)
+        # lf_kmeans.fit(features, targetoutputs)
+        # lf_mlp.fit(features, targetoutputs)
+        #
+        # print("\tTraining Naive Bayes")
+        # lf_nb_predictor.partial_fit(features, targetoutputs, classes=[1, 2, 3])
+        # print("\tTraining K Means")
+        # lf_kmeans.fit(features, targetoutputs)
+        # print("\tTraining MLP Classifier")
+        # lf_mlp.partial_fit(features, targetoutputs, classes=[1, 2, 3])
 
-        # Save the trained classifier for future predictions
-        path_to_save = 'C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/nb_models/nb1'
-        path_to_save_nn = 'C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/nb_models/nn'
-        self.saveclassifier(path_to_save, lf_nb_predictor)
-        self.saveclassifier(path_to_save_nn, lf_nn)
+        if option is 1:
+            msg = "\tTraining Naive Bayes"
+            if queue is not None:
+                queue.put(msg)
+            else:
+                print(msg)
+            lf_nb_predictor.fit(features, targetoutputs)
+            path_to_save = self.project_root + '/nb_models/nb'
+            self.saveclassifier(path_to_save, lf_nb_predictor)
+
+        if option is 2:
+            msg = "\tTraining K Means"
+            if queue is not None:
+                queue.put(msg)
+            else:
+                print(msg)
+            lf_kmeans.fit(features, targetoutputs)
+            path_to_save_kmeans = self.project_root + '/nb_models/km'
+            self.saveclassifier(path_to_save_kmeans, lf_kmeans)
+
+        if option is 3:
+            msg = "\tTraining MLP Classifier"
+            if queue is not None:
+                queue.put(msg)
+            else:
+                print(msg)
+            lf_mlp.fit(features, targetoutputs)
+            path_to_save_nn = self.project_root + '/nb_models/mlp'
+            self.saveclassifier(path_to_save_nn, lf_mlp)
 
         return lf_nb_predictor
+
+    def trainLFfeatures_BRBM(self):
+        features, targetoutputs = self.dbwriter.getLFfeatures()
+        # features[:, 0:40] = normalize(features[:, 0:40], axis=0)
+
+        rbm = BernoulliRBM(verbose=True, batch_size=3, learning_rate=0.1, n_iter=10000, n_components=100)
+        lf_mlp = MLPClassifier(hidden_layer_sizes=(80, 100, 100), activation='tanh', solver='sgd', batch_size=3,
+                               learning_rate='adaptive', learning_rate_init=0.1, max_iter=5000, verbose=True,
+                               shuffle=True)
+
+        brbm_classifier = Pipeline([('rbm', rbm), ('mlp', lf_mlp)])
+
+        print("\tTraining Bernoulli RBM network")
+
+        brbm_classifier.fit(features, targetoutputs)
+        pathtosave = self.project_root + '/nb_models/rbm'
+
+        self.saveclassifier(path=pathtosave,
+                            classifier=brbm_classifier)
+
+        return brbm_classifier
+
+    def randomize_data(self, x, y):
+        random_indices = np.arange(y.__len__())
+        np.random.shuffle(random_indices)
+
+        randx = []
+        randy = []
+
+        for index in random_indices:
+            randx.append(x[index])
+            randy.append(y[index])
+
+        return np.asarray(randx), np.asarray(randy)
+
+    def trainSKNN(self):
+        features, targetoutputs = self.dbwriter.getLFfeatures()
+        features = np.asarray(features)
+        targetoutputs = np.asarray(targetoutputs).reshape(-1, 1)
+
+        randx, randy = self.randomize_data(features, targetoutputs)
+
+        nn = Classifier(
+            layers=[
+                Layer("Rectifier", units=80),
+                Layer("Sigmoid", units=20),
+                Layer("Softmax", units=3)
+            ],
+            learning_rate=0.01,
+            n_iter=100000,
+            debug=True,
+            verbose=True,
+            batch_size=10)
+
+        nn.partial_fit(randx, randy)
+
+        pathtosave = self.project_root + '/nb_models/sknn'
+
+        self.saveclassifier(pathtosave, nn)
 
     def saveclassifier(self, path, classifier):
         with open(path, 'wb') as pf:
             pickle.dump(classifier, pf)
+        print("** Saved model to", path)
 
     def loadclassifier(self, path):
         with open(path, 'rb') as pf:
             cls = pickle.load(pf)
         return cls
 
-    def testLFfeatures(self, classifier):
+    def testLFfeatures(self, queue):
+        print("\nTesting trained models")
+        path_to_saved_models = 'C:/logpredict_new-logpredict/nb_models/'
+        models = os.listdir(path_to_saved_models)
         features, targetoutputs = self.dbwriter.getLFfeatures()
-        predictions = np.asarray(classifier.predict(features)).astype(int)
-        print("\n************Naive Bayes RESULTS*************")
-        for to, tp in zip(targetoutputs, predictions):
-            value = 'false'
-            if to == tp:
-                value = ''
-            print(to, tp, '%s' % value)
+        targetoutputs = np.asarray(targetoutputs)
 
-        path_to_load = 'C:/Users/Sourabh/Documents/logpredict/logpredict/logpredict/nb_models/nn'
-        cls = self.loadclassifier(path_to_load)
-        predictions_clf = np.asarray(cls.predict(features)).astype(int)
-        print("\n************Testing with pickled model MLP RESULTS*************")
-        for to, tp in zip(targetoutputs, predictions_clf):
-            value = 'false'
-            if to == tp:
-                value = ''
-            print(to, tp, '%s' % value)
+        # norm_features = normalize(features, axis=0)
+        for model in models:
+            try:
+                if queue.queue[-1].find('teststop') is not -1:
+                    queue.put("teststop")
+                    break
+            except Exception as e:
+                # print("breaking", e)
+                pass
+            modelpath = path_to_saved_models + '/' + model
+            model = self.loadclassifier(modelpath)
+            a = ("\tTesting %s" % str(type(model)))
+            queue.put(a)
+            predicted = cross_val_predict(model, features, targetoutputs)
+            print(a)
+            print('\t\tAccuracy: ', accuracy_score(targetoutputs, predicted))
+            print('\t\tPrecision: ', precision_score(targetoutputs, predicted, average='weighted'))
+            queue.put(predicted)
+            # fig, ax = plt.subplots()
+            # ax.scatter(targetoutputs, predicted)
+            # ax.plot([0, 3], [0, 3], 'k--', lw=1)
+            # ax.set_xlabel('Measured')
+            # ax.set_ylabel('Predicted')
+            # plt.title(str(type(model)))
+            # plt.show()
 
     def test(self):
         self.dbwriter.test()
 
-    def setupLFtestdictionar(self, parsedlog):
-        num_features = 20
-        stf, tm, clf = self.sanitizetestlogfile(parsedlog)
-        most_frequent_words = tm.index2word[0:num_features]
+    def setupLFtestdictionary(self, parsedlog):
+        num_features = 4
+        stf, tm, clf = self.sanitizelogfile_object(parsedlog)
 
-        kwids = self.dbwriter.getdictionarykeywordsbyid(most_frequent_words)
-        mfw = kwids.__len__()
-        while mfw < num_features:
-            kwids.append(-1)
-            mfw += 1
+        testids = self.featurizeLF_testing(tm, num_features)
+        return testids
 
-        return kwids
+    def testnewlogfiles(self, parsedlog, file):
+        testfeatures = self.setupLFtestdictionary(parsedlog)
+        predictions = {}
+        print("Testing %s" % file)
+        # model_to_load = self.project_root + '/nb_models/nn'
+        # nbc = self.loadclassifier(model_to_load)
 
+        path_to_saved_models = self.project_root + '/nb_models/'
+        models = os.listdir(path_to_saved_models)
 
-# dbt = db_trainer()
-# mod = dbt.loadmodel()
-# print(mod.most_similar(positive=["Unable", "to", "start", "job", "scheduler"], negative=["INFO"]))
-# dbt.generatedictionary()
-# dbt.updatedictionarytf()
-# dictionary = dbt.initializedictionary()
+        testfeatures = np.asarray(testfeatures).reshape(1, -1)
+
+        # norm_features = normalize(features, axis=0)
+        for model in models:
+            modelpath = path_to_saved_models + '/' + model
+            model = self.loadclassifier(modelpath)
+            # print("\tUsing %s" % str(type(model)))
+            try:
+                # For BernoulliRBM model
+                prediction = model.score_samples(testfeatures)
+            except:
+                prediction = model.predict(testfeatures)
+                #
+                # print('\t', prediction),
+                # if prediction.any() < 1:
+                #     print('\t', file, 'Debug SCA log')
+                # elif prediction.any() < 2:
+                #     print('\t', file, 'SCA log')
+                # elif prediction.any() < 3:
+                #     print('\t', file, 'SSC log')
+            predictions[str(type(model))] = prediction
+        for i, p in predictions.items():
+            print(i, p)
+        return predictions
